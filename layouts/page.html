@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <div class="post-meta">
+      {{ with .Params.categories }}<span class="badge">{{ index . 0 }}</span>{{ end }}
+      {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 1월 2일" }}</time>{{ end }}
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="post-desc">{{ . }}</p>{{ end }}
+  </header>
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+  {{ with .Params.tags }}
+  <div class="post-tags">
+    {{ range . }}<a class="tag" href="{{ "/tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>{{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

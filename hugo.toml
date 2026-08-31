@@ -1,0 +1,33 @@
+baseURL = "https://energynote-kr.github.io/"
+locale = "ko-KR"
+title = "에너지노트"
+timeZone = "Asia/Seoul"
+enableEmoji = true
+summaryLength = 40
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = "방사선 전문가가 쉽게 풀어주는 생활 속 방사선 안전과 원자력·에너지 이야기"
+author = "에너지노트"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[outputs]
+home = ["html", "rss", "sitemap"]
+section = ["html", "rss"]
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
