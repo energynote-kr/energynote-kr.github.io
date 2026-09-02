@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+    .accent { fill: #0b6e4f; }
+  </style>
+  <text x="20" y="30" class="title">가이거 계수기의 작동 원리</text>
+
+  <!-- 튜브 몸체 -->
+  <rect x="80" y="70" width="480" height="150" rx="20" fill="#f0efe9" stroke="#5a6472" stroke-width="3"/>
+  <text x="90" y="245" class="small">금속 튜브 (음극, − 전극) · 내부는 가스</text>
+
+  <!-- 중심 전선 -->
+  <line x1="100" y1="145" x2="540" y2="145" stroke="#f5a623" stroke-width="4"/>
+  <circle cx="540" cy="145" r="5" fill="#f5a623"/>
+  <text x="330" y="95" class="small">중심 전선 (양극, + 전극, 수백 V)</text>
+  <line x1="400" y1="100" x2="410" y2="140" stroke="#c9c6bd" stroke-width="1"/>
+
+  <!-- 입사 방사선 -->
+  <line x1="20" y1="90" x2="130" y2="130" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="130,130 118,124 122,134" fill="#c0392b"/>
+  <text x="14" y="80" class="label" fill="#c0392b">① 방사선 입자 진입</text>
+
+  <!-- 이온쌍 -->
+  <circle cx="150" cy="140" r="4" class="accent"/>
+  <circle cx="165" cy="158" r="4" class="accent"/>
+  <circle cx="180" cy="132" r="4" class="accent"/>
+
+  <!-- 눈사태 -->
+  <g fill="#0b6e4f" opacity="0.75">
+    <circle cx="230" cy="150" r="3"/><circle cx="245" cy="140" r="3"/><circle cx="255" cy="158" r="3"/>
+    <circle cx="270" cy="147" r="3"/><circle cx="282" cy="136" r="3"/><circle cx="292" cy="156" r="3"/>
+    <circle cx="305" cy="143" r="3"/><circle cx="318" cy="152" r="3"/><circle cx="330" cy="138" r="3"/>
+    <circle cx="342" cy="150" r="3"/><circle cx="355" cy="142" r="3"/><circle cx="368" cy="155" r="3"/>
+    <circle cx="380" cy="145" r="3"/><circle cx="393" cy="137" r="3"/><circle cx="405" cy="151" r="3"/>
+  </g>
+
+  <!-- 자외선 전파 -->
+  <path d="M 420 145 q 20 -25 45 -8" stroke="#8e44ad" stroke-width="2" fill="none" stroke-dasharray="3 3"/>
+  <path d="M 430 150 q 25 22 50 6" stroke="#8e44ad" stroke-width="2" fill="none" stroke-dasharray="3 3"/>
+
+  <!-- 출력 -->
+  <line x1="560" y1="145" x2="620" y2="145" stroke="#1e2430" stroke-width="2"/>
+  <polyline points="620,145 630,145 636,115 646,175 652,145 700,145" stroke="#c0392b" stroke-width="2.5" fill="none"/>
+  <text x="600" y="105" class="label" fill="#c0392b">⑤ 전기 펄스</text>
+  <text x="606" y="185" class="small">= "틱" 한 번</text>
+  <text x="606" y="202" class="small">= 입자 1개 검출</text>
+
+  <!-- 단계 범례 (튜브 아래 한 줄) -->
+  <text x="80" y="268" class="small" fill="#0b6e4f">② 가스 이온화(이온쌍) → ③ 전기장 가속·연쇄 눈사태(약 10억 배 증폭) → <tspan fill="#8e44ad">④ 자외선이 방전을 튜브 전체로 확산</tspan></text>
+
+  <!-- 하단 요약 -->
+  <rect x="20" y="285" width="680" height="72" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="313" class="label" font-weight="700">핵심</text>
+  <text x="40" y="336" class="small" font-size="13">입자 1개가 만든 이온 몇 개를 눈사태로 수십억 배 증폭 → 증폭 회로 없이도 검출 가능한 큰 신호.</text>
+  <text x="40" y="352" class="small" font-size="13">단, 모든 펄스의 크기가 같아 "무슨 핵종인지"는 알 수 없습니다.</text>
+</svg>
