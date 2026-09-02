@@ -38,9 +38,9 @@
   <!-- 주석 -->
   <text x="90" y="110" class="label" font-weight="700">갓 제련한 납: 납-210 가득</text>
   <text x="90" y="127" class="small">차폐재 자체가 방사선을 냄 → 정밀 계측에 부적합</text>
-  <text x="400" y="185" class="label" font-weight="700" fill="#b07d10">2,000년 된 로마 납</text>
-  <text x="400" y="202" class="small">반감기 약 90회 경과 → 사실상 0</text>
-  <text x="400" y="217" class="small">지구상 가장 조용한 차폐재</text>
+  <text x="420" y="150" class="label" font-weight="700" fill="#b07d10">2,000년 된 로마 납</text>
+  <text x="420" y="167" class="small">반감기 약 90회 경과 → 사실상 0</text>
+  <text x="420" y="182" class="small">지구상 가장 조용한 차폐재</text>
 
   <rect x="20" y="288" width="680" height="40" fill="#e3f2ec" rx="10"/>
   <text x="40" y="306" class="small" font-size="12.5">납-210은 납의 동위원소라 화학적으로 분리할 수 없음 — 오직 시간(반감기 약 22년)만이 제거함</text>
