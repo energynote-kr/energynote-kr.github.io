@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .hero { font-size: 13.5px; font-weight: 800; fill: #1e2430; }
+    .lab { font-size: 12px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+    .score { font-size: 13px; font-weight: 800; fill: #ffffff; }
+  </style>
+  <text x="20" y="30" class="title">슈퍼히어로 방사선 성적표 — 그 방사선을 실제로 맞으면</text>
+
+  <!-- header -->
+  <text x="20" y="62" class="small" font-weight="700">히어로 · 설정</text>
+  <text x="330" y="62" class="small" font-weight="700">현실에서 벌어지는 일</text>
+  <text x="640" y="62" class="small" font-weight="700">과학 점수</text>
+  <line x1="20" y1="70" x2="700" y2="70" stroke="#e6e4de"/>
+
+  <!-- rows -->
+  <text x="20" y="95" class="hero">헐크</text>
+  <text x="20" y="111" class="small">감마 폭탄 실험 피폭</text>
+  <text x="330" y="103" class="lab">수십 Gy 급성 피폭 → 수일 내 사망 (변신 없음)</text>
+  <rect x="640" y="86" width="50" height="22" rx="6" fill="#c0392b"/>
+  <text x="652" y="102" class="score">0/10</text>
+
+  <text x="20" y="140" class="hero">스파이더맨</text>
+  <text x="20" y="156" class="small">방사능 거미에 물림</text>
+  <text x="330" y="148" class="lab">성체 변신 불가 — 단 '방사선 육종'은 실존</text>
+  <rect x="640" y="131" width="50" height="22" rx="6" fill="#e07b39"/>
+  <text x="652" y="147" class="score">2/10</text>
+
+  <text x="20" y="185" class="hero">판타스틱 4</text>
+  <text x="20" y="201" class="small">우주선 안 우주방사선 피폭</text>
+  <text x="330" y="193" class="lab">우주비행사의 실제 피폭 (ISS 반년 약 80mSv)</text>
+  <rect x="640" y="176" width="50" height="22" rx="6" fill="#d9a441"/>
+  <text x="652" y="192" class="score">3/10</text>
+
+  <text x="20" y="230" class="hero">데어데블</text>
+  <text x="20" y="246" class="small">방사성물질이 눈에 튐 → 실명+초감각</text>
+  <text x="330" y="238" class="lab">눈 손상·백내장은 실제 방사선 영향 — 초감각은 없음</text>
+  <rect x="640" y="221" width="50" height="22" rx="6" fill="#d9a441"/>
+  <text x="652" y="237" class="score">3/10</text>
+
+  <text x="20" y="275" class="hero">닥터 맨해튼</text>
+  <text x="20" y="291" class="small">원자 단위로 분해됐다 재구성</text>
+  <text x="330" y="283" class="lab">근거 없음 — 단 '푸른 빛'은 체렌코프 효과로 실존</text>
+  <rect x="640" y="266" width="50" height="22" rx="6" fill="#c0392b"/>
+  <text x="652" y="282" class="score">1/10</text>
+
+  <text x="20" y="320" class="hero">원더풀스 (넷플릭스)</text>
+  <text x="20" y="336" class="small">뜻밖의 사건으로 초능력</text>
+  <text x="330" y="328" class="lab">코믹 설정 — '개체 변신' 자체가 불가</text>
+  <rect x="640" y="311" width="50" height="22" rx="6" fill="#e07b39"/>
+  <text x="652" y="327" class="score">2/10</text>
+
+  <rect x="20" y="352" width="680" height="36" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="375" class="small" font-size="12.5">공통 결론: 방사선은 초능력의 원천이 아니라 관리 대상 — 단, 판타스틱 4의 우주방사선과 데어데블의 눈 손상은 진짜 과학</text>
+</svg>

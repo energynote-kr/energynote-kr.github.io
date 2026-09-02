@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .band { font-size: 13px; font-weight: 800; fill: #ffffff; }
+    .lab { font-size: 12px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+    .h { font-size: 13px; font-weight: 800; fill: #1e2430; }
+  </style>
+  <text x="20" y="30" class="title">자외선 3형제와 '방호 3원칙'</text>
+
+  <!-- UV bands -->
+  <rect x="20" y="55" width="220" height="70" rx="10" fill="#8e44ad"/>
+  <text x="34" y="80" class="band">UV-A (315~400nm)</text>
+  <text x="34" y="100" class="lab" fill="#ffffff">지표 도달 95% · 피부 깊이 침투</text>
+  <text x="34" y="116" class="lab" fill="#ffffff">노화·주름 · 유리창도 통과</text>
+
+  <rect x="250" y="55" width="220" height="70" rx="10" fill="#c0392b"/>
+  <text x="264" y="80" class="band">UV-B (280~315nm)</text>
+  <text x="264" y="100" class="lab" fill="#ffffff">지표 도달 5% · 일광화상·피부암</text>
+  <text x="264" y="116" class="lab" fill="#ffffff">비타민D 합성도 담당</text>
+
+  <rect x="480" y="55" width="220" height="70" rx="10" fill="#5a6472"/>
+  <text x="494" y="80" class="band">UV-C (100~280nm)</text>
+  <text x="494" y="100" class="lab" fill="#ffffff">오존층이 흡수, 지표 미도달</text>
+  <text x="494" y="116" class="lab" fill="#ffffff">살균램프에 인공 사용</text>
+
+  <text x="20" y="150" class="small">에너지 순서: UV-A &lt; UV-B &lt; UV-C — UV-C 끝자락이 전리 방사선(엑스선)과 맞닿는 경계</text>
+
+  <!-- 방호 3원칙 대응 -->
+  <text x="20" y="185" class="h">방사선 방호 3원칙, 자외선에 그대로 적용하면</text>
+  <rect x="20" y="198" width="215" height="90" rx="10" fill="#e3f2ec"/>
+  <text x="34" y="222" class="h" fill="#0b6e4f">⏱ 시간</text>
+  <text x="34" y="244" class="lab">자외선 최강 시간대</text>
+  <text x="34" y="260" class="lab">(오전 10시~오후 3시) 피하기</text>
+  <text x="34" y="278" class="small">= 방사선 작업 시간 최소화</text>
+
+  <rect x="252" y="198" width="215" height="90" rx="10" fill="#e3f2ec"/>
+  <text x="266" y="222" class="h" fill="#0b6e4f">📏 거리</text>
+  <text x="266" y="244" class="lab">그늘 이용 — 직사 대신</text>
+  <text x="266" y="260" class="lab">산란광만 받기</text>
+  <text x="266" y="278" class="small">= 선원에서 멀어지기</text>
+
+  <rect x="484" y="198" width="216" height="90" rx="10" fill="#e3f2ec"/>
+  <text x="498" y="222" class="h" fill="#0b6e4f">🛡 차폐</text>
+  <text x="498" y="244" class="lab">선크림(SPF·PA), 모자,</text>
+  <text x="498" y="260" class="lab">긴 옷, 선글라스</text>
+  <text x="498" y="278" class="small">= 납 앞치마·차폐벽</text>
+
+  <rect x="20" y="305" width="680" height="62" fill="#fff4de" rx="10"/>
+  <text x="40" y="327" class="h">SPF·PA 읽는 법</text>
+  <text x="40" y="346" class="small" font-size="12.5">SPF 30 ≈ UV-B 약 97% 차단, SPF 50 ≈ 약 98% — 숫자가 두 배라고 두 배 막는 게 아니다 · PA+++ 이상이 UV-A 차단 표시</text>
+  <text x="40" y="362" class="small" font-size="12.5">2시간마다 덧바르기가 SPF 숫자보다 중요 — 차폐재도 벗겨지면 소용없다</text>
+</svg>
