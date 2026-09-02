@@ -6,16 +6,16 @@
     .ev { font-size: 12.5px; fill: #1e2430; }
     .small { font-size: 11.5px; fill: #5a6472; }
   </style>
-  <text x="20" y="30" class="title">몸속 DNA 수리공의 하루 — 손상은 어디까지 걸러지나</text>
+  <text x="20" y="30" class="title">몸속 DNA 수리공의 하루 — 세포 하나당 손상은 어디까지 걸러지나</text>
 
   <!-- 깔때기 -->
   <polygon points="40,70 680,70 560,130 160,130" fill="#0b6e4f"/>
-  <text x="290" y="96" class="num">약 1억 건 / 일</text>
-  <text x="262" y="116" class="lab">자연 발생 DNA 손상 가능 사건 (대사·산소·음식)</text>
+  <text x="285" y="96" class="num">약 10억 건 / 일</text>
+  <text x="262" y="116" class="lab">활성산소 등의 공격 (세포 하나당, 방사선 무관)</text>
 
   <polygon points="160,140 560,140 480,200 240,200" fill="#2f8668"/>
   <text x="300" y="166" class="num">약 100만 건 / 일</text>
-  <text x="292" y="186" class="lab">실제 손상 → 즉시 복구 시작</text>
+  <text x="292" y="186" class="lab">DNA 변형 → 즉시 복구 시작</text>
 
   <polygon points="230,210 490,210 420,270 300,270" fill="#3f9274"/>
   <text x="318" y="236" class="num">약 100건 / 일</text>
@@ -23,9 +23,9 @@
 
   <polygon points="290,280 430,280 400,330 320,330" fill="#f5a623"/>
   <text x="326" y="304" class="num" fill="#1e2430">약 1건 / 일</text>
-  <text x="318" y="322" class="lab" fill="#1e2430">모든 방어 통과</text>
+  <text x="314" y="322" class="lab" fill="#1e2430">돌연변이로 남음</text>
 
   <!-- 방사선 비교 -->
-  <text x="20" y="360" class="ev" font-weight="700">연 1mSv 피폭이 더하는 손상: 자연 손상의 100만분의 1 이하 수준</text>
-  <text x="20" y="376" class="small">자료: 방사선생물학 문헌(Pollycove 등), UNSCEAR — 수치는 자릿수 감각용 근사치</text>
+  <text x="20" y="360" class="ev" font-weight="700">연 1mSv 피폭이 더하는 손상: 세포당 연 3~4건 — 자연 손상의 100만분의 1 이하</text>
+  <text x="20" y="376" class="small">자료: Pollycove &amp; Feinendegen (2003), Tubbs &amp; Nussenzweig (2017) — 수치는 자릿수 감각용 근사치</text>
 </svg>

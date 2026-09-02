@@ -19,7 +19,7 @@
 
   <rect x="40" y="154" width="110" height="34" rx="6" fill="#d9a441"/>
   <text x="52" y="177" class="dose">1</text>
-  <text x="165" y="177" class="ev">일부 오심·구토, 혈소판·적혈구 감소 · 사망 가능성 수 %</text>
+  <text x="165" y="177" class="ev">일부 오심·구토, 혈소판·적혈구 감소 · 사망은 2Gy 이상부터</text>
 
   <rect x="40" y="196" width="110" height="34" rx="6" fill="#e07b39"/>
   <text x="52" y="219" class="dose">2~3</text>
@@ -31,11 +31,11 @@
 
   <rect x="40" y="280" width="110" height="34" rx="6" fill="#b03a2e"/>
   <text x="52" y="303" class="dose">6~8</text>
-  <text x="165" y="303" class="ev">위장관 증후군 · 거의 전원 사망</text>
+  <text x="165" y="303" class="ev">위장관 증후군 · 절반 이상 사망, 8Gy 넘으면 사실상 전원</text>
 
   <rect x="40" y="322" width="110" height="34" rx="6" fill="#7b241c"/>
-  <text x="52" y="345" class="dose">15+</text>
-  <text x="165" y="345" class="ev">중추신경계 증후군 · 수일 내 사망</text>
+  <text x="52" y="345" class="dose">20+</text>
+  <text x="165" y="345" class="ev">중추신경계 증후군 · 수 시간~수일 내 사망</text>
 
   <rect x="20" y="372" width="680" height="40" fill="#e3f2ec" rx="10"/>
   <text x="40" y="390" class="ev" font-weight="700" font-size="13">비교</text>
