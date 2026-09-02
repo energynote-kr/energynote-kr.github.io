@@ -27,7 +27,7 @@ tag = "tags"
     endLevel = 3
 
 [outputs]
-home = ["html", "rss", "sitemap"]
+home = ["html", "rss"]
 section = ["html", "rss"]
 
 [sitemap]
