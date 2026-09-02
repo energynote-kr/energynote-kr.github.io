@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .year { font-size: 14px; font-weight: 800; fill: #0b6e4f; }
+    .ev { font-size: 12.5px; fill: #1e2430; font-weight: 700; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">필름과 방사선, 130년의 인연</text>
+
+  <line x1="50" y1="150" x2="690" y2="150" stroke="#c9c6bd" stroke-width="4"/>
+  <g fill="#0b6e4f">
+    <circle cx="80" cy="150" r="8"/><circle cx="260" cy="150" r="8"/><circle cx="440" cy="150" r="8"/>
+  </g>
+  <circle cx="640" cy="150" r="8" fill="#f5a623"/>
+
+  <text x="40" y="95" class="year">1896</text>
+  <text x="40" y="113" class="ev">베크렐, 방사능 발견</text>
+  <text x="40" y="129" class="small">우라늄 곁에 둔 사진 건판이</text>
+  <text x="40" y="143" class="small">빛 없이 감광 — 발견 도구가 '필름'</text>
+
+  <text x="220" y="185" class="year">1920년대~</text>
+  <text x="220" y="203" class="ev">필름 배지 선량계</text>
+  <text x="220" y="219" class="small">작업자 가슴의 필름이 검게 된 정도로</text>
+  <text x="220" y="233" class="small">피폭량을 읽음 — 이후 TLD·OSL로 진화</text>
+
+  <text x="400" y="95" class="year">지금</text>
+  <text x="400" y="113" class="ev">공항 검색대·항공 운송</text>
+  <text x="400" y="129" class="small">CT식 수하물 검색기는 필름을 손상,</text>
+  <text x="400" y="143" class="small">우주방사선은 장거리 운송 필름에 안개</text>
+
+  <text x="545" y="185" class="year">2026</text>
+  <text x="545" y="203" class="ev">오디세이, 전편 IMAX 필름</text>
+  <text x="545" y="219" class="small">디지털 시대에 필름 촬영 —</text>
+  <text x="545" y="233" class="small">필름 취급 노하우가 다시 화제</text>
+
+  <rect x="20" y="262" width="680" height="46" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="282" class="ev" font-size="13">핵심</text>
+  <text x="40" y="300" class="small" font-size="12.5">필름은 빛뿐 아니라 방사선에도 감광한다 — 그래서 방사능 발견의 도구였고, 선량계였고, 지금은 보호 대상이다</text>
+</svg>

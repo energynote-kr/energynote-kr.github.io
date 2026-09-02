@@ -3,6 +3,10 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["main"]
+  schedule:
+    # 예약 발행: 매일 09:05·18:05 KST(00:05·09:05 UTC)에 재빌드 → 그 시각 이전으로 예약된 글이 자동 공개됨
+    - cron: "5 0 * * *"
+    - cron: "5 9 * * *"
   workflow_dispatch:
 
 permissions:

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .dose { font-size: 14px; font-weight: 800; fill: #ffffff; }
+    .ev { font-size: 12.5px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">한 번에 온몸으로 받았을 때 — 급성 선량 사다리 (Gy)</text>
+  <text x="20" y="50" class="small">결정론적 영향의 대략적 문턱 · 자료: ICRP 103/118, 방사선방호 표준 문헌 · 치료 여부에 따라 달라짐</text>
+
+  <!-- 사다리 -->
+  <rect x="40" y="70" width="110" height="34" rx="6" fill="#4f9e80"/>
+  <text x="52" y="93" class="dose">0.1</text>
+  <text x="165" y="93" class="ev">염색체 변화 검출 가능 · 남성 일시 정자 감소 — 자각 증상 없음</text>
+
+  <rect x="40" y="112" width="110" height="34" rx="6" fill="#3f9274"/>
+  <text x="52" y="135" class="dose">0.5</text>
+  <text x="165" y="135" class="ev">백혈구 감소 · 백내장 문턱(ICRP 118에서 5→0.5로 하향) · 심혈관 영향 문턱</text>
+
+  <rect x="40" y="154" width="110" height="34" rx="6" fill="#d9a441"/>
+  <text x="52" y="177" class="dose">1</text>
+  <text x="165" y="177" class="ev">일부 오심·구토, 혈소판·적혈구 감소 · 사망 가능성 수 %</text>
+
+  <rect x="40" y="196" width="110" height="34" rx="6" fill="#e07b39"/>
+  <text x="52" y="219" class="dose">2~3</text>
+  <text x="165" y="219" class="ev">피부 홍반·일시 탈모 · 골수 기능 저하</text>
+
+  <rect x="40" y="238" width="110" height="34" rx="6" fill="#d9534f"/>
+  <text x="52" y="261" class="dose">3~5</text>
+  <text x="165" y="261" class="ev">치료 없으면 절반 사망(LD50) · 집중치료 시 생존 가능성 상승</text>
+
+  <rect x="40" y="280" width="110" height="34" rx="6" fill="#b03a2e"/>
+  <text x="52" y="303" class="dose">6~8</text>
+  <text x="165" y="303" class="ev">위장관 증후군 · 거의 전원 사망</text>
+
+  <rect x="40" y="322" width="110" height="34" rx="6" fill="#7b241c"/>
+  <text x="52" y="345" class="dose">15+</text>
+  <text x="165" y="345" class="ev">중추신경계 증후군 · 수일 내 사망</text>
+
+  <rect x="20" y="372" width="680" height="40" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="390" class="ev" font-weight="700" font-size="13">비교</text>
+  <text x="40" y="406" class="small" font-size="12.5">CT 1회 ≈ 0.007Gy · 연간 자연방사선 ≈ 0.003Gy — 이 사다리의 맨 아래 칸(0.1)의 수십 분의 1</text>
+</svg>
