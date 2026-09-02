@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+    .h { font-size: 13px; font-weight: 800; fill: #1e2430; }
+  </style>
+  <text x="20" y="30" class="title">내 전기는 어디서 오고, 발전원마다 얼마나 다를까</text>
+  <text x="20" y="50" class="small">2025년 발전량 비중(한국전력통계) · 정산단가는 전력거래소 「2025년 전력시장통계」 연간값(연료비 변동에 따라 해마다 달라짐)</text>
+
+  <!-- 비중 스택 바 (총 640px) -->
+  <text x="20" y="85" class="h">2025년 발전량 비중</text>
+  <rect x="20" y="95" width="198" height="30" fill="#0b6e4f"/>
+  <rect x="218" y="95" width="184" height="30" fill="#5a6472"/>
+  <rect x="402" y="95" width="175" height="30" fill="#8a8f98"/>
+  <rect x="577" y="95" width="73" height="30" fill="#f5a623"/>
+  <rect x="650" y="95" width="10" height="30" fill="#c9c6bd"/>
+  <text x="30" y="115" class="label" fill="#ffffff" font-weight="700">원자력 31%</text>
+  <text x="228" y="115" class="label" fill="#ffffff" font-weight="700">석탄 29%</text>
+  <text x="412" y="115" class="label" fill="#ffffff" font-weight="700">LNG 27%</text>
+  <text x="583" y="115" class="label" fill="#1e2430" font-weight="700" font-size="11.5">재생 11%</text>
+
+  <!-- 단가 비교 -->
+  <text x="20" y="165" class="h">발전원별 정산단가 (원/kWh, 2025년 연간)</text>
+  <text x="20" y="197" class="label">원자력</text>
+  <rect x="120" y="183" width="158" height="20" rx="4" fill="#0b6e4f"/>
+  <text x="286" y="198" class="value">약 79</text>
+
+  <text x="20" y="232" class="label">신재생</text>
+  <rect x="120" y="218" width="250" height="20" rx="4" fill="#f5a623"/>
+  <text x="378" y="233" class="value">약 125</text>
+
+  <text x="20" y="267" class="label">석탄</text>
+  <rect x="120" y="253" width="276" height="20" rx="4" fill="#5a6472"/>
+  <text x="404" y="268" class="value">약 138</text>
+
+  <text x="20" y="302" class="label">LNG</text>
+  <rect x="120" y="288" width="316" height="20" rx="4" fill="#8a8f98"/>
+  <text x="444" y="303" class="value">약 158 (2024년엔 175)</text>
+
+  <rect x="20" y="325" width="680" height="46" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="345" class="small" font-size="12.5">읽는 법: 원자력·석탄이 싸고 LNG가 비쌈 → LNG 발전·연료비가 오르면 한전 구입비 상승 → 요금 인상 압력</text>
+  <text x="40" y="362" class="small" font-size="12.5">단, 원전을 늘려도 요금이 '당장' 내려가지는 않음 — 건설 10년 이상, 요금은 정부 결정 사항</text>
+</svg>
