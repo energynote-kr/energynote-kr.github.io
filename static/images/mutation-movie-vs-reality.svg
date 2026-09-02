@@ -18,7 +18,7 @@
   <!-- 현실 -->
   <rect x="370" y="55" width="330" height="34" rx="10" fill="#0b6e4f"/>
   <text x="386" y="78" class="h">🔬 방사선생물학의 현실</text>
-  <text x="380" y="118" class="row">· 다 자란 개체는 변신 불가 — 손상은 복구되거나 세포 사멸</text>
+  <text x="380" y="118" class="row">· 다 자란 개체는 변신 불가 — 복구되거나 세포 사멸</text>
   <text x="380" y="142" class="row">· 돌연변이는 무작위, 대부분 중립이거나 해로움</text>
   <text x="380" y="166" class="row">· 새 형질은 자손 세대에서, 수천 개체 중 선별해야 얻음</text>
   <text x="380" y="190" class="row">· 방사선 = 무작위 '주사위', 초능력 아님</text>
