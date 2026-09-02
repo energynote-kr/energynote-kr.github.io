@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .year { font-size: 14px; font-weight: 800; fill: #0b6e4f; }
+    .ev { font-size: 12px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">고리 1호기 60년 타임라인 — 건설에서 해체까지</text>
+
+  <!-- 축 -->
+  <line x1="50" y1="150" x2="690" y2="150" stroke="#c9c6bd" stroke-width="4"/>
+  <!-- 운전 구간 -->
+  <rect x="70" y="142" width="300" height="16" rx="6" fill="#0b6e4f" opacity="0.35"/>
+  <text x="170" y="135" class="small" fill="#0b6e4f">운전 39년</text>
+  <!-- 해체 구간 -->
+  <rect x="520" y="142" width="150" height="16" rx="6" fill="#f5a623" opacity="0.5"/>
+  <text x="565" y="135" class="small" fill="#b07d10">해체 12년</text>
+
+  <!-- 마커 -->
+  <g fill="#0b6e4f">
+    <circle cx="70" cy="150" r="8"/><circle cx="370" cy="150" r="8"/>
+  </g>
+  <g fill="#f5a623">
+    <circle cx="460" cy="150" r="8"/><circle cx="560" cy="150" r="8"/><circle cx="670" cy="150" r="8"/>
+  </g>
+
+  <!-- 라벨 위 -->
+  <text x="40" y="95" class="year">1978.4</text>
+  <text x="40" y="112" class="ev">상업운전 시작</text>
+  <text x="40" y="126" class="small">국내 최초 원전, 587MW</text>
+
+  <text x="340" y="95" class="year">2017.6</text>
+  <text x="340" y="112" class="ev">영구정지</text>
+  <text x="340" y="126" class="small">국내 최초</text>
+
+  <text x="605" y="95" class="year">2037</text>
+  <text x="605" y="112" class="ev">해체 완료 목표</text>
+
+  <!-- 라벨 아래 -->
+  <text x="330" y="185" class="year">2021.5</text>
+  <text x="330" y="202" class="ev">해체승인 신청</text>
+
+  <text x="440" y="185" class="year">2025.6</text>
+  <text x="440" y="202" class="ev">원안위 해체 승인</text>
+  <text x="440" y="216" class="small">1조 713억 원</text>
+
+  <text x="575" y="185" class="year">2025.11</text>
+  <text x="575" y="202" class="ev">비관리구역 착공</text>
+  <text x="575" y="216" class="small">두산 컨소시엄</text>
+
+  <rect x="20" y="245" width="680" height="42" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="264" class="small" font-size="12.5">앞으로: ~2031 사용후핵연료 반출 → ~2035 관리구역 제염·철거 → 2037 부지 복원</text>
+  <text x="40" y="280" class="small" font-size="12.5">최대 변수: 부지 내 건식저장시설 확보 속도</text>
+</svg>

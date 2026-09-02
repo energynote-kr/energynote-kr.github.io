@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">이온화식 연기감지기의 원리</text>
+
+  <!-- 왼쪽 패널: 평상시 -->
+  <text x="60" y="65" class="label" font-weight="700">평상시</text>
+  <rect x="40" y="80" width="300" height="160" rx="16" fill="#f0efe9" stroke="#5a6472" stroke-width="2"/>
+  <rect x="60" y="110" width="14" height="100" fill="#5a6472"/>
+  <rect x="306" y="110" width="14" height="100" fill="#5a6472"/>
+  <text x="52" y="230" class="small">− 전극</text>
+  <text x="296" y="230" class="small">+ 전극</text>
+  <!-- Am-241 -->
+  <circle cx="110" cy="160" r="10" fill="#c0392b"/>
+  <text x="90" y="190" class="small" fill="#c0392b">Am-241 (알파선원)</text>
+  <!-- 알파선 -->
+  <g stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3">
+    <line x1="120" y1="150" x2="180" y2="125"/>
+    <line x1="120" y1="160" x2="185" y2="160"/>
+    <line x1="120" y1="170" x2="180" y2="195"/>
+  </g>
+  <!-- 이온 -->
+  <g fill="#0b6e4f">
+    <circle cx="200" cy="130" r="4"/><circle cx="225" cy="150" r="4"/><circle cx="250" cy="140" r="4"/>
+    <circle cx="210" cy="175" r="4"/><circle cx="240" cy="190" r="4"/><circle cx="270" cy="165" r="4"/>
+  </g>
+  <line x1="200" y1="105" x2="290" y2="105" stroke="#0b6e4f" stroke-width="2.5"/>
+  <polygon points="290,105 280,100 280,110" fill="#0b6e4f"/>
+  <text x="196" y="98" class="small" fill="#0b6e4f">이온 전류 흐름 (정상)</text>
+
+  <!-- 오른쪽 패널: 연기 유입 -->
+  <text x="400" y="65" class="label" font-weight="700">연기 유입 시</text>
+  <rect x="380" y="80" width="300" height="160" rx="16" fill="#f0efe9" stroke="#5a6472" stroke-width="2"/>
+  <rect x="400" y="110" width="14" height="100" fill="#5a6472"/>
+  <rect x="646" y="110" width="14" height="100" fill="#5a6472"/>
+  <circle cx="450" cy="160" r="10" fill="#c0392b"/>
+  <!-- 연기 입자 -->
+  <g fill="#8a8f98" opacity="0.8">
+    <circle cx="540" cy="130" r="9"/><circle cx="575" cy="165" r="11"/><circle cx="545" cy="195" r="8"/>
+    <circle cx="600" cy="125" r="7"/><circle cx="520" cy="165" r="7"/>
+  </g>
+  <!-- 이온이 연기에 붙음 -->
+  <g fill="#0b6e4f"><circle cx="540" cy="130" r="3"/><circle cx="575" cy="165" r="3"/><circle cx="545" cy="195" r="3"/></g>
+  <line x1="540" y1="105" x2="600" y2="105" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="520" y="98" class="small" fill="#c0392b">이온이 연기에 붙어 전류 급감</text>
+  <text x="560" y="230" class="label" font-weight="700" fill="#c0392b">→ 경보!</text>
+
+  <rect x="20" y="262" width="680" height="64" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="285" class="label" font-weight="700" font-size="13">핵심</text>
+  <text x="40" y="303" class="small" font-size="12.5">알파선은 감지기 케이스 밖으로 나오지 못해 정상 사용 시 피폭 우려가 없습니다.</text>
+  <text x="40" y="319" class="small" font-size="12.5">국내 가정용은 대부분 방사성물질이 없는 광전식 — 이 방식은 해외·구형 제품에서 볼 수 있습니다.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .box-title { font-size: 20px; font-weight: 800; fill: #ffffff; }
+    .box-sub { font-size: 12.5px; fill: #ffffff; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">단위 3형제의 역할 분담 — 스피커 비유</text>
+
+  <!-- Box 1 -->
+  <rect x="20" y="70" width="190" height="120" rx="14" fill="#0b6e4f"/>
+  <text x="40" y="100" class="box-title">베크렐 Bq</text>
+  <text x="40" y="125" class="box-sub">스피커가 내는 소리 세기</text>
+  <text x="40" y="145" class="box-sub">= 선원이 매초 몇 번</text>
+  <text x="40" y="163" class="box-sub">붕괴하는가</text>
+
+  <!-- Arrow 1 -->
+  <line x1="215" y1="130" x2="255" y2="130" stroke="#5a6472" stroke-width="2.5"/>
+  <polygon points="255,130 245,124 245,136" fill="#5a6472"/>
+  <text x="200" y="215" class="small">거리 · 시간 · 경로</text>
+  <text x="206" y="231" class="small">(멀수록·짧을수록 ↓)</text>
+
+  <!-- Box 2 -->
+  <rect x="265" y="70" width="190" height="120" rx="14" fill="#2a7f62"/>
+  <text x="285" y="100" class="box-title">그레이 Gy</text>
+  <text x="285" y="125" class="box-sub">귀에 실제 닿은 소리 에너지</text>
+  <text x="285" y="145" class="box-sub">= 몸 1kg이 흡수한</text>
+  <text x="285" y="163" class="box-sub">방사선 에너지</text>
+
+  <!-- Arrow 2 -->
+  <line x1="460" y1="130" x2="500" y2="130" stroke="#5a6472" stroke-width="2.5"/>
+  <polygon points="500,130 490,124 490,136" fill="#5a6472"/>
+  <text x="440" y="215" class="small">방사선 종류 · 맞은 부위</text>
+  <text x="452" y="231" class="small">(알파 ×20, 장기별 가중)</text>
+
+  <!-- Box 3 -->
+  <rect x="510" y="70" width="190" height="120" rx="14" fill="#f5a623"/>
+  <text x="530" y="100" class="box-title" fill="#1e2430">시버트 Sv</text>
+  <text x="530" y="125" class="box-sub" fill="#1e2430">내가 느끼는 시끄러움</text>
+  <text x="530" y="145" class="box-sub" fill="#1e2430">= 인체 영향으로</text>
+  <text x="530" y="163" class="box-sub" fill="#1e2430">보정한 최종값</text>
+
+  <rect x="20" y="250" width="680" height="36" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="273" class="small" font-size="13">베크렐이 크다고 곧 위험이 아닙니다 — 거리·시간·경로를 거쳐 시버트가 되어야 '몸의 이야기'입니다.</text>
+</svg>

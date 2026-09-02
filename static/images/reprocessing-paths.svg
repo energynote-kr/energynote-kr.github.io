@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .box { font-size: 14px; font-weight: 800; fill: #ffffff; }
+    .desc { font-size: 12px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">사용후핵연료의 두 갈래 길</text>
+
+  <!-- 시작 -->
+  <rect x="20" y="140" width="150" height="70" rx="12" fill="#5a6472"/>
+  <text x="36" y="170" class="box">사용후핵연료</text>
+  <text x="36" y="192" class="desc" fill="#ffffff">원전 부지 내 저장</text>
+
+  <!-- 분기 화살표 -->
+  <path d="M 170 165 C 200 165, 200 100, 240 100" stroke="#0b6e4f" stroke-width="2.5" fill="none"/>
+  <polygon points="240,100 230,94 230,106" fill="#0b6e4f"/>
+  <path d="M 170 185 C 200 185, 200 250, 240 250" stroke="#f5a623" stroke-width="2.5" fill="none"/>
+  <polygon points="240,250 230,244 230,256" fill="#f5a623"/>
+
+  <!-- 재처리 경로 -->
+  <rect x="245" y="70" width="150" height="60" rx="12" fill="#0b6e4f"/>
+  <text x="260" y="96" class="box">재처리</text>
+  <text x="260" y="116" class="desc" fill="#ffffff">우라늄·플루토늄 회수</text>
+  <line x1="395" y1="100" x2="430" y2="100" stroke="#0b6e4f" stroke-width="2.5"/>
+  <polygon points="430,100 420,94 420,106" fill="#0b6e4f"/>
+  <rect x="435" y="70" width="120" height="60" rx="12" fill="#2f8668"/>
+  <text x="447" y="96" class="box">새 연료로</text>
+  <text x="447" y="116" class="desc" fill="#ffffff">자원 재활용</text>
+  <line x1="555" y1="100" x2="590" y2="100" stroke="#0b6e4f" stroke-width="2.5"/>
+  <polygon points="590,100 580,94 580,106" fill="#0b6e4f"/>
+  <rect x="595" y="70" width="105" height="60" rx="12" fill="#3f9274"/>
+  <text x="607" y="96" class="box">유리고화</text>
+  <text x="607" y="116" class="desc" fill="#ffffff">→ 심층처분</text>
+  <text x="245" y="50" class="small" fill="#0b6e4f">프랑스·러시아·중국·일본·인도 — 비용↑, 핵비확산 이슈</text>
+
+  <!-- 직접처분 경로 -->
+  <rect x="245" y="220" width="150" height="60" rx="12" fill="#f5a623"/>
+  <text x="260" y="246" class="box" fill="#1e2430">직접처분</text>
+  <text x="260" y="266" class="desc">그대로 용기에 밀봉</text>
+  <line x1="395" y1="250" x2="430" y2="250" stroke="#f5a623" stroke-width="2.5"/>
+  <polygon points="430,250 420,244 420,256" fill="#f5a623"/>
+  <rect x="435" y="220" width="265" height="60" rx="12" fill="#e0a52a"/>
+  <text x="450" y="246" class="box" fill="#1e2430">심층 처분장 (지하 수백 m 암반)</text>
+  <text x="450" y="266" class="desc">핀란드 온칼로가 세계 최초로 가동 목전</text>
+  <text x="245" y="305" class="small" fill="#b07d10">핀란드·스웨덴·미국·캐나다·독일 — 단순·저비용, 처분장 부지가 관건</text>
+
+  <rect x="20" y="322" width="680" height="28" fill="#e3f2ec" rx="8"/>
+  <text x="40" y="341" class="small" font-size="12.5">한국은 '미결정' — 한미 원자력협정 제약 속에 파이로프로세싱 연구, 2025년 특별법으로 처분장 절차 시작</text>
+</svg>

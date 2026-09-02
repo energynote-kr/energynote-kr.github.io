@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13.5px; fill: #1e2430; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .note { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">비행과 우주방사선, 얼마나 되나 (mSv)</text>
+  <text x="20" y="50" class="note">막대 길이는 √값 비례 · 자료: ICRP 132, 생활주변방사선 안전관리법</text>
+
+  <text x="20" y="97" class="label">김포–제주 왕복</text>
+  <rect x="230" y="83" width="8" height="20" rx="3" fill="#0b6e4f"/>
+  <text x="246" y="98" class="value">0.01 미만</text>
+
+  <text x="20" y="142" class="label">흉부 엑스레이 1회</text>
+  <rect x="230" y="128" width="57" height="20" rx="4" fill="#0b6e4f"/>
+  <text x="295" y="143" class="value">약 0.1</text>
+
+  <text x="20" y="187" class="label">서울–뉴욕 왕복 1회</text>
+  <rect x="230" y="173" width="70" height="20" rx="4" fill="#0b6e4f"/>
+  <text x="308" y="188" class="value">약 0.1~0.2</text>
+
+  <text x="20" y="232" class="label">장거리 승무원 (연간)</text>
+  <rect x="230" y="218" width="312" height="20" rx="4" fill="#f5a623"/>
+  <text x="550" y="233" class="value">약 2~5 / 년</text>
+
+  <text x="20" y="277" class="label">국내 승무원 관리기준</text>
+  <rect x="230" y="263" width="440" height="20" rx="4" fill="#c0392b"/>
+  <text x="560" y="258" class="value" fill="#c0392b">6 / 년</text>
+
+  <line x1="230" y1="75" x2="230" y2="293" stroke="#e6e4de" stroke-width="1"/>
+
+  <rect x="20" y="308" width="680" height="34" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="330" class="note" font-size="13">여행자의 왕복 몇 번은 흉부 엑스레이 수준 — 매일 나는 승무원만 법으로 관리 대상입니다.</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13.5px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">투과력은 약할수록, 한 곳에 주는 피해는 크다</text>
+  <text x="20" y="50" class="note" font-size="11.5" fill="#5a6472">방사선 종류별 투과력과 ICRP 방사선 가중치</text>
+
+  <!-- 장벽: 종이, 알루미늄, 납 -->
+  <rect x="300" y="70" width="6" height="200" fill="#d9cfa3"/>
+  <text x="285" y="290" class="small">종이</text>
+  <rect x="430" y="70" width="14" height="200" fill="#b8bfc7"/>
+  <text x="408" y="290" class="small">알루미늄 판</text>
+  <rect x="570" y="70" width="40" height="200" fill="#6b7280"/>
+  <text x="555" y="290" class="small">납·콘크리트</text>
+
+  <!-- 알파 -->
+  <text x="20" y="105" class="label" font-weight="700">알파선 (α)</text>
+  <text x="20" y="122" class="small">가중치 20</text>
+  <line x1="130" y1="100" x2="296" y2="100" stroke="#c0392b" stroke-width="4"/>
+  <circle cx="296" cy="100" r="6" fill="#c0392b"/>
+  <text x="140" y="90" class="small" fill="#c0392b">종이 한 장에서 멈춤 — 에너지를 좁은 구간에 집중</text>
+
+  <!-- 베타 -->
+  <text x="20" y="170" class="label" font-weight="700">베타선 (β)</text>
+  <text x="20" y="187" class="small">가중치 1</text>
+  <line x1="130" y1="165" x2="300" y2="165" stroke="#0b6e4f" stroke-width="2.5"/>
+  <line x1="306" y1="165" x2="428" y2="165" stroke="#0b6e4f" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <circle cx="428" cy="165" r="5" fill="#0b6e4f"/>
+  <text x="140" y="155" class="small" fill="#0b6e4f">종이는 통과, 얇은 금속판에서 멈춤</text>
+
+  <!-- 감마 -->
+  <text x="20" y="235" class="label" font-weight="700">감마선 (γ)</text>
+  <text x="20" y="252" class="small">가중치 1</text>
+  <line x1="130" y1="230" x2="570" y2="230" stroke="#8e44ad" stroke-width="2"/>
+  <line x1="610" y1="230" x2="690" y2="230" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 5" opacity="0.5"/>
+  <text x="140" y="220" class="small" fill="#8e44ad">대부분 통과 — 두꺼운 납·콘크리트로 줄임 (에너지를 넓게 분산)</text>
+
+  <rect x="20" y="305" width="680" height="44" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="323" class="label" font-weight="700" font-size="13">핵심</text>
+  <text x="40" y="341" class="small" font-size="13">알파선은 몸 밖에서는 각질층도 못 뚫어 무해하지만, 몸 안에 들어오면 20배 가중치로 가장 위험합니다.</text>
+</svg>

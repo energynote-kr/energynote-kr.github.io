@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .h { font-size: 14px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 12.5px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">1,000MW 발전소가 1년에 남기는 것 (비례 아님)</text>
+
+  <!-- 원자력 -->
+  <text x="40" y="72" class="h">원자력</text>
+  <!-- 캔 아이콘 -->
+  <rect x="60" y="120" width="40" height="70" rx="6" fill="#0b6e4f"/>
+  <rect x="60" y="112" width="40" height="10" rx="3" fill="#2f8668"/>
+  <text x="115" y="150" class="label" font-weight="700">사용후핵연료 약 25~30톤</text>
+  <text x="115" y="168" class="label">부피로는 방 하나 수준</text>
+  <text x="115" y="186" class="small">(1인 평생 몫 = 음료수 캔 1개)</text>
+  <text x="40" y="225" class="small">방사능은 강하고 오래감 → 격리·처분이 과제</text>
+
+  <!-- 석탄 -->
+  <text x="390" y="72" class="h">석탄</text>
+  <rect x="390" y="90" width="300" height="130" rx="10" fill="#5a6472"/>
+  <text x="410" y="130" class="label" fill="#ffffff" font-weight="700" font-size="15">석탄재 약 30만 톤</text>
+  <text x="410" y="152" class="label" fill="#ffffff">+ 이산화탄소 수백만 톤</text>
+  <text x="410" y="178" style="font-size:12px; fill:#ffffff">석탄재에도 우라늄·토륨 포함 (TENORM)</text>
+  <text x="410" y="198" style="font-size:12px; fill:#ffffff">부피는 1만 배 이상 — 그러나 격리 기간은 짧음</text>
+  <text x="390" y="243" class="small">폐기물 없는 발전은 없다 — 성격이 다를 뿐</text>
+
+  <rect x="20" y="265" width="680" height="62" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="288" class="label" font-weight="700" font-size="13">핵심</text>
+  <text x="40" y="306" class="small" font-size="12.5">원자력 폐기물의 난제는 '양'이 아니라 '수만 년의 격리' — 부피가 작다는 사실과 처분장이 없다는 사실, 둘 다 참입니다.</text>
+  <text x="40" y="322" class="small" font-size="12.5">자료: 세계원자력협회(WNA), 미국 EPA</text>
+</svg>

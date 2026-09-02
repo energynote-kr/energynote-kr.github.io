@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">라돈은 어디서 와서 어떻게 쌓이나</text>
+
+  <!-- 하늘/실외 -->
+  <rect x="20" y="50" width="680" height="200" fill="#f4f6f8"/>
+  <!-- 토양 -->
+  <rect x="20" y="250" width="680" height="90" fill="#d9cfa3"/>
+  <text x="40" y="330" class="label" font-weight="700" fill="#7a6a3a">토양·암석 (우라늄 → 라듐 → 라돈 기체)</text>
+
+  <!-- 집 -->
+  <polygon points="200,120 380,60 560,120" fill="#c9c6bd"/>
+  <rect x="220" y="120" width="320" height="130" fill="#ffffff" stroke="#5a6472" stroke-width="2"/>
+  <!-- 창문 -->
+  <rect x="490" y="180" width="44" height="40" fill="#cfe8ff" stroke="#5a6472"/>
+  <!-- 바닥 균열 -->
+  <line x1="300" y1="250" x2="300" y2="236" stroke="#c0392b" stroke-width="3"/>
+  <line x1="420" y1="250" x2="420" y2="238" stroke="#c0392b" stroke-width="3"/>
+
+  <!-- 라돈 유입 화살표 -->
+  <g stroke="#c0392b" stroke-width="2.5" fill="none">
+    <path d="M 300 290 L 300 200"/>
+    <path d="M 420 290 L 420 205"/>
+    <path d="M 250 300 L 250 258"/>
+  </g>
+  <polygon points="300,200 294,212 306,212" fill="#c0392b"/>
+  <polygon points="420,205 414,217 426,217" fill="#c0392b"/>
+  <text x="228" y="185" class="small" fill="#c0392b">바닥·벽 틈새로 유입</text>
+
+  <!-- 실내 축적 -->
+  <text x="240" y="145" class="label" font-weight="700" fill="#c0392b">실내 축적 ↑</text>
+  <text x="240" y="163" class="small">겨울철·저층·환기 부족 시 농도 상승</text>
+
+  <!-- 환기 화살표 -->
+  <path d="M 512 200 L 610 200" stroke="#0b6e4f" stroke-width="3"/>
+  <polygon points="610,200 598,193 598,207" fill="#0b6e4f"/>
+  <text x="565" y="180" class="label" font-weight="700" fill="#0b6e4f">환기 = 가장 싼 해결책</text>
+
+  <!-- 기준 표기 -->
+  <rect x="20" y="350" width="680" height="24" fill="#e3f2ec" rx="8"/>
+  <text x="40" y="367" class="small" font-size="12.5">판단 기준선 148Bq/㎥ · 90일 이상 장기 측정이 공식 판단 기준 · 측정은 무료(환경공단·주민센터)</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .step { font-size: 14px; font-weight: 800; fill: #ffffff; }
+    .co { font-size: 11.5px; fill: #1e2430; }
+    .side { font-size: 12px; font-weight: 700; fill: #5a6472; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">원자력 밸류체인과 대표 상장사</text>
+
+  <!-- 5 steps -->
+  <g>
+    <rect x="20" y="120" width="120" height="50" rx="10" fill="#0b6e4f"/>
+    <text x="40" y="150" class="step">① 연료</text>
+    <rect x="160" y="120" width="120" height="50" rx="10" fill="#1f7a5c"/>
+    <text x="180" y="150" class="step">② 설계</text>
+    <rect x="300" y="120" width="120" height="50" rx="10" fill="#2f8668"/>
+    <text x="312" y="150" class="step">③ 주기기 제작</text>
+    <rect x="440" y="120" width="120" height="50" rx="10" fill="#3f9274"/>
+    <text x="460" y="150" class="step">④ 시공</text>
+    <rect x="580" y="120" width="120" height="50" rx="10" fill="#4f9e80"/>
+    <text x="592" y="150" class="step">⑤ 운영·정비</text>
+  </g>
+  <g stroke="#5a6472" stroke-width="2">
+    <line x1="140" y1="145" x2="158" y2="145"/><line x1="280" y1="145" x2="298" y2="145"/>
+    <line x1="420" y1="145" x2="438" y2="145"/><line x1="560" y1="145" x2="578" y2="145"/>
+  </g>
+
+  <!-- 미국 (위) -->
+  <text x="20" y="75" class="side">🇺🇸 미국</text>
+  <text x="24" y="95" class="co">카메코 CCJ</text>
+  <text x="24" y="110" class="co">센트러스 LEU</text>
+  <text x="164" y="95" class="co">뉴스케일 SMR</text>
+  <text x="164" y="110" class="co">오클로 OKLO</text>
+  <text x="304" y="95" class="co">BWXT</text>
+  <text x="444" y="95" class="co">(대형 EPC사)</text>
+  <text x="584" y="95" class="co">콘스텔레이션 CEG</text>
+
+  <!-- 한국 (아래) -->
+  <text x="20" y="200" class="side">🇰🇷 한국</text>
+  <text x="24" y="220" class="co">한전원자력연료</text>
+  <text x="24" y="235" class="co">(비상장)</text>
+  <text x="164" y="220" class="co">한전기술</text>
+  <text x="164" y="235" class="co">052690</text>
+  <text x="304" y="220" class="co">두산에너빌리티</text>
+  <text x="304" y="235" class="co">034020</text>
+  <text x="444" y="220" class="co">현대건설</text>
+  <text x="444" y="235" class="co">000720</text>
+  <text x="584" y="220" class="co">한국전력 015760</text>
+  <text x="584" y="235" class="co">한전KPS 051600</text>
+
+  <rect x="20" y="265" width="680" height="80" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="288" class="co" font-weight="700" font-size="13">읽는 법</text>
+  <text x="40" y="308" class="small" font-size="12.5">미장 SMR 개발사(②)는 매출이 거의 없는 기대주, 국장 기업(③~⑤)은 실적이 있는 기업 — 성격이 다릅니다.</text>
+  <text x="40" y="326" class="small" font-size="12.5">뉴스케일 SMR이 착공되면 주기기(③)를 만드는 두산에너빌리티로 연결되는 것이 미장→국장 고리입니다.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">비 오는 날 환경방사선 그래프의 전형적 모양</text>
+
+  <!-- 축 -->
+  <line x1="70" y1="250" x2="690" y2="250" stroke="#5a6472" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="250" stroke="#5a6472" stroke-width="1.5"/>
+  <text x="24" y="75" class="small">선량률</text>
+  <text x="24" y="90" class="small">(nSv/h)</text>
+  <text x="640" y="272" class="small">시간 →</text>
+
+  <!-- 강우 구간 -->
+  <rect x="250" y="70" width="120" height="180" fill="#cfe8ff" opacity="0.6"/>
+  <text x="262" y="90" class="small" fill="#2c6fb3">☂ 강우 구간</text>
+
+  <!-- 평시 기준선 -->
+  <line x1="70" y1="200" x2="690" y2="200" stroke="#0b6e4f" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="80" y="192" class="small" fill="#0b6e4f">평소 수준 (예: 100~150 nSv/h)</text>
+
+  <!-- 곡선 -->
+  <path d="M 70 200 L 250 200 C 270 195, 285 135, 320 125 C 345 120, 360 125, 370 135 C 420 175, 480 195, 560 200 L 690 200"
+        stroke="#c0392b" stroke-width="3" fill="none"/>
+
+  <!-- 주석 -->
+  <text x="330" y="112" class="label" font-weight="700" fill="#c0392b">상승: 수십 % 이내</text>
+  <text x="300" y="235" class="small">라돈 자손이 빗물에 씻겨 지표에 모임</text>
+  <text x="440" y="165" class="small">반감기 20~30분 → 몇 시간 내 복귀</text>
+
+  <rect x="20" y="285" width="680" height="44" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="305" class="label" font-weight="700" font-size="13">핵심</text>
+  <text x="40" y="322" class="small" font-size="12.5">사고 신호가 아니라 감시망이 예민하게 작동한다는 증거 · 상승 폭은 연간 선량으로 환산하면 무시할 수준</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 12.5px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">시간이 정제한다 — 납 속 납-210의 감쇠</text>
+
+  <!-- 축 -->
+  <line x1="70" y1="250" x2="690" y2="250" stroke="#5a6472" stroke-width="1.5"/>
+  <line x1="70" y1="70" x2="70" y2="250" stroke="#5a6472" stroke-width="1.5"/>
+  <text x="24" y="75" class="small">납-210</text>
+  <text x="24" y="90" class="small">잔량</text>
+
+  <!-- 눈금 -->
+  <g class="small">
+    <text x="62" y="272">0년</text>
+    <text x="165" y="272">22년</text>
+    <text x="270" y="272">44년</text>
+    <text x="375" y="272">66년</text>
+    <text x="480" y="272">88년</text>
+    <text x="600" y="272">… 2,000년</text>
+  </g>
+  <line x1="70" y1="80" x2="690" y2="80" stroke="#e6e4de" stroke-dasharray="4 4"/>
+  <text x="600" y="76" class="small">100%</text>
+
+  <!-- 감쇠 곡선: 반감기마다 절반 -->
+  <path d="M 70 80 C 110 80, 140 150, 180 165 C 220 180, 250 200, 290 208 C 330 216, 360 226, 400 230 C 440 234, 480 240, 520 243 C 580 247, 640 249, 690 250"
+        stroke="#0b6e4f" stroke-width="3" fill="none"/>
+  <g fill="#0b6e4f">
+    <circle cx="180" cy="165" r="5"/><circle cx="290" cy="208" r="5"/><circle cx="400" cy="230" r="5"/><circle cx="520" cy="243" r="5"/>
+  </g>
+  <text x="190" y="160" class="small" fill="#0b6e4f">1/2</text>
+  <text x="300" y="203" class="small" fill="#0b6e4f">1/4</text>
+  <text x="410" y="225" class="small" fill="#0b6e4f">1/8</text>
+  <text x="530" y="238" class="small" fill="#0b6e4f">1/16</text>
+
+  <!-- 주석 -->
+  <text x="90" y="110" class="label" font-weight="700">갓 제련한 납: 납-210 가득</text>
+  <text x="90" y="127" class="small">차폐재 자체가 방사선을 냄 → 정밀 계측에 부적합</text>
+  <text x="400" y="185" class="label" font-weight="700" fill="#b07d10">2,000년 된 로마 납</text>
+  <text x="400" y="202" class="small">반감기 약 90회 경과 → 사실상 0</text>
+  <text x="400" y="217" class="small">지구상 가장 조용한 차폐재</text>
+
+  <rect x="20" y="288" width="680" height="40" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="306" class="small" font-size="12.5">납-210은 납의 동위원소라 화학적으로 분리할 수 없음 — 오직 시간(반감기 약 22년)만이 제거함</text>
+  <text x="40" y="322" class="small" font-size="12.5">같은 논리로 1945년 이전 침몰선의 강철이 '저배경 강철'로 귀한 대접을 받았습니다</text>
+</svg>

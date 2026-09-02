@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .h { font-size: 15px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 12.5px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">대형 원전 vs SMR — 무엇이 다른가</text>
+
+  <!-- 대형 원전 -->
+  <text x="40" y="62" class="h">기존 대형 원전</text>
+  <rect x="40" y="100" width="220" height="135" rx="10" fill="#5a6472"/>
+  <ellipse cx="150" cy="100" rx="110" ry="16" fill="#6b7280"/>
+  <text x="80" y="178" class="label" fill="#ffffff" font-size="18" font-weight="800">1,000~1,400MW</text>
+  <text x="40" y="262" class="label">· 현장에서 처음부터 건설 (십수 년, 수조~수십조 원)</text>
+  <text x="40" y="282" class="label">· 바닷가 대형 부지 필요</text>
+  <text x="40" y="302" class="label">· 규모의 경제로 단위 전력당 비용 낮음</text>
+
+  <!-- 화살표 -->
+  <text x="300" y="165" class="h" fill="#0b6e4f">vs</text>
+
+  <!-- SMR 모듈들 -->
+  <text x="370" y="70" class="h">SMR (소형모듈원자로)</text>
+  <g fill="#0b6e4f">
+    <rect x="370" y="110" width="60" height="70" rx="8"/>
+    <rect x="440" y="110" width="60" height="70" rx="8"/>
+    <rect x="510" y="110" width="60" height="70" rx="8"/>
+    <rect x="580" y="110" width="60" height="70" rx="8" opacity="0.4"/>
+  </g>
+  <text x="378" y="150" class="label" fill="#ffffff" font-weight="700">모듈</text>
+  <text x="448" y="150" class="label" fill="#ffffff" font-weight="700">모듈</text>
+  <text x="518" y="150" class="label" fill="#ffffff" font-weight="700">모듈</text>
+  <text x="590" y="150" class="label" fill="#ffffff" font-weight="700">+…</text>
+  <text x="370" y="205" class="label" font-weight="700">모듈당 300MW 이하 · 여러 기 조합</text>
+  <text x="370" y="262" class="label">· 공장에서 모듈 제작 → 현장 조립 (공기 단축 기대)</text>
+  <text x="370" y="282" class="label">· 내륙·산업단지·데이터센터 옆 등 입지 유연</text>
+  <text x="370" y="302" class="label">· 피동안전 설계 유리 · 단, 상용 실적 아직 0기</text>
+
+  <rect x="20" y="322" width="680" height="28" fill="#e3f2ec" rx="8"/>
+  <text x="40" y="341" class="small" font-size="12.5">핵심: 크기를 줄여 '건설 리스크'를 낮추는 대신, '경제성'은 반복 생산으로 증명해야 하는 기술</text>
+</svg>
