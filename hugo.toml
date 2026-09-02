@@ -1,4 +1,4 @@
-baseURL = "https://energynote-kr.github.io/"
+baseURL = "https://energynote.kr/"
 locale = "ko-KR"
 title = "에너지노트"
 timeZone = "Asia/Seoul"
