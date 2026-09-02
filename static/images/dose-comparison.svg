@@ -32,9 +32,9 @@
   <text x="550" y="213" class="value">약 3 / 년</text>
 
   <!-- 복부·흉부 CT 6.5 -> 459px -->
-  <text x="20" y="252" class="label">복부·흉부 CT 1회</text>
+  <text x="20" y="252" class="label">흉부 CT 1회</text>
   <rect x="230" y="238" width="459" height="20" class="bar"/>
-  <text x="560" y="233" class="value">약 5~8</text>
+  <text x="565" y="233" class="value">약 7 (복부 CT 8~10)</text>
 
   <!-- 기준선 표시 -->
   <line x1="230" y1="70" x2="230" y2="270" stroke="#e6e4de" stroke-width="1"/>
@@ -42,6 +42,6 @@
   <!-- 하단 요약 -->
   <rect x="20" y="295" width="680" height="80" fill="#e3f2ec" rx="10"/>
   <text x="40" y="327" class="label" font-weight="700">읽는 법</text>
-  <text x="40" y="352" class="note" font-size="13">CT 한 번(5~8mSv)은 우리가 어차피 매년 받는 자연방사선(약 3mSv)의 2년치 수준입니다.</text>
+  <text x="40" y="352" class="note" font-size="13">CT 한 번(약 7~10mSv)은 우리가 어차피 매년 받는 자연방사선(약 3mSv)의 2~3년치 수준입니다.</text>
   <text x="40" y="370" class="note" font-size="13">뚜렷한 인체 영향이 확인되는 수준(한 번에 100mSv 이상)과는 10배 이상 차이가 납니다.</text>
 </svg>
