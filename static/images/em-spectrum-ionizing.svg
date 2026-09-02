@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .band { font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+    .lab { font-size: 12px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">전자파 스펙트럼 — 어디부터 '방사선'이라 부르나</text>
+  <text x="20" y="50" class="small">왼쪽으로 갈수록 에너지가 낮고, 오른쪽으로 갈수록 높다 (자릿수 감각용, 비례 아님)</text>
+
+  <!-- 비전리 구간 -->
+  <rect x="20" y="80" width="420" height="60" rx="8" fill="#0b6e4f"/>
+  <text x="34" y="105" class="band">비전리 방사선 — 분자를 떼어내지 못함</text>
+  <text x="34" y="127" class="band" font-weight="400" font-size="11">라디오 · 휴대전화 · 와이파이 · 전자레인지 · 적외선 · 빛 · 자외선 대부분</text>
+
+  <!-- 경계 -->
+  <line x1="445" y1="70" x2="445" y2="150" stroke="#c0392b" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="380" y="168" class="small" fill="#c0392b" font-weight="700">경계: 광자 1개 에너지 약 10eV (자외선 끝자락)</text>
+
+  <!-- 전리 구간 -->
+  <rect x="450" y="80" width="250" height="60" rx="8" fill="#c0392b"/>
+  <text x="464" y="105" class="band">전리 방사선</text>
+  <text x="464" y="127" class="band" font-weight="400" font-size="11.5">엑스선 · 감마선 (+알파·베타 입자)</text>
+
+  <!-- 에너지 비교 -->
+  <text x="20" y="205" class="lab" font-weight="700">광자 하나의 에너지 비교</text>
+  <text x="20" y="228" class="lab">휴대전화 전파(2GHz)  ≈ 0.00001 eV</text>
+  <text x="20" y="250" class="lab">가시광선(초록빛)  ≈ 2.5 eV</text>
+  <text x="20" y="272" class="lab">전리 문턱  ≈ 10 eV  ← 여기부터 DNA 결합을 끊을 수 있음</text>
+  <text x="20" y="294" class="lab">엑스선(CT)  ≈ 50,000~100,000 eV</text>
+  <text x="380" y="240" class="small">휴대전화 전파는 전리 문턱의</text>
+  <text x="380" y="256" class="small" font-weight="700" fill="#0b6e4f">약 100만분의 1 에너지</text>
+  <text x="380" y="272" class="small">→ 아무리 세게 쏴도 '뜨거워질' 뿐,</text>
+  <text x="380" y="288" class="small">DNA를 직접 끊는 방식의 손상은 불가능</text>
+
+  <rect x="20" y="315" width="680" height="34" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="337" class="small" font-size="12.5">핵심: 방사선 걱정과 전자파 걱정은 물리적으로 다른 질문이다 — 전자파는 '열', 방사선은 '전리'</text>
+</svg>

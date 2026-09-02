@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="'Pretendard Variable', Pretendard, 'Malgun Gothic', sans-serif">
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .label { font-size: 13px; fill: #1e2430; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #5a6472; }
+  </style>
+  <text x="20" y="30" class="title">일본 여행과 방사선 — 숫자로 보면</text>
+  <text x="20" y="50" class="small">공간 방사선량률(μSv/h)은 각국 감시망 공개값의 대략적 범위 · 지질(화강암) 차이로 서울이 나고야보다 높은 편</text>
+
+  <!-- 선량률 비교 막대 (선형, 0.15 = 400px) -->
+  <text x="20" y="97" class="label">나고야 (아이치현)</text>
+  <rect x="200" y="83" width="130" height="20" rx="4" fill="#0b6e4f"/>
+  <text x="338" y="98" class="value">약 0.04~0.06</text>
+
+  <text x="20" y="142" class="label">도쿄</text>
+  <rect x="200" y="128" width="110" height="20" rx="4" fill="#0b6e4f"/>
+  <text x="318" y="143" class="value">약 0.03~0.05</text>
+
+  <text x="20" y="187" class="label">서울</text>
+  <rect x="200" y="173" width="320" height="20" rx="4" fill="#f5a623"/>
+  <text x="528" y="188" class="value">약 0.10~0.15</text>
+
+  <text x="20" y="232" class="label">후쿠시마 출입제한구역</text>
+  <rect x="200" y="218" width="480" height="20" rx="4" fill="#c0392b" opacity="0.85"/>
+  <text x="212" y="233" style="font-size:13px; font-weight:700; fill:#ffffff">지점별로 훨씬 높음 — 출입 통제 (관광지 아님, 나고야에서 약 450km)</text>
+
+  <line x1="200" y1="75" x2="200" y2="248" stroke="#e6e4de" stroke-width="1"/>
+
+  <!-- 거리·처리수 -->
+  <rect x="20" y="262" width="680" height="86" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="284" class="label" font-weight="700" font-size="13">함께 알아둘 것</text>
+  <text x="40" y="304" class="small" font-size="12.5">· 나고야–후쿠시마 원전 직선거리 약 450km — 서울–부산(약 330km)보다 멀다</text>
+  <text x="40" y="322" class="small" font-size="12.5">· 처리수 배출 삼중수소 최근 차수 167~245Bq/L (배출 목표 1,500 미만, WHO 음용수 10,000) · 한국은 8개 현 수산물 수입금지 유지</text>
+  <text x="40" y="340" class="small" font-size="12.5">· 서울–나고야 왕복 비행의 우주방사선(약 0.01mSv)이 여행 중 받을 방사선의 사실상 전부</text>
+</svg>
