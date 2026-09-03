@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">인허가 단계 사다리(설계 심사 중부터 운전 중까지 6단계)에 세계 주요 SMR 프로젝트를 국가별 색으로 배치한 도해</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .stage { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .stage2 { font-size: 10.5px; fill: #6b7280; }
+    .chip { font-size: 11.5px; font-weight: 700; }
+    .leg { font-size: 11px; fill: #1f2937; }
+    .note { font-size: 11px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="560" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">SMR 인허가 사다리 — 2026년 9월, 누가 어느 가로대에 있나</text>
+  <text x="20" y="48" class="sub">위로 갈수록 전기 판매에 가깝다 · 설계 승인까지는 '종이 위의 원자로', 건설허가부터 콘크리트가 들어간다</text>
+
+  <!-- 범례 -->
+  <g class="leg">
+    <rect x="20" y="60" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="36" y="70">미국</text>
+    <rect x="72" y="60" width="12" height="12" rx="3" fill="#2563eb"/><text x="88" y="70">캐나다·영국</text>
+    <rect x="164" y="60" width="12" height="12" rx="3" fill="#6b7280"/><text x="180" y="70">중국·러시아</text>
+    <rect x="256" y="60" width="12" height="12" rx="3" fill="#f5a623"/><text x="272" y="70">한국</text>
+    <rect x="308" y="60" width="12" height="12" rx="3" fill="#c4c9d1"/><text x="324" y="70">기타</text>
+  </g>
+
+  <!-- 사다리 세로 기둥 -->
+  <line x1="196" y1="86" x2="196" y2="486" stroke="#0b6e4f" stroke-width="3" opacity="0.35"/>
+
+  <!-- 6단: 운전 중 (y 86~138) -->
+  <rect x="12" y="86" width="696" height="52" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="108" class="stage">⑥ 운전 중</text>
+  <text x="24" y="124" class="stage2">운영허가 취득·상업운전</text>
+  <rect x="210" y="98" width="200" height="28" rx="14" fill="#6b7280"/>
+  <text x="310" y="117" class="chip" text-anchor="middle" style="fill:#fff">로모노소프 KLT-40S (러, 2020)</text>
+  <rect x="420" y="98" width="196" height="28" rx="14" fill="#6b7280"/>
+  <text x="518" y="117" class="chip" text-anchor="middle" style="fill:#fff">HTR-PM 스둥완 (중, 2023)</text>
+
+  <!-- 5단: 시운전·막바지 (y 146~198) -->
+  <rect x="12" y="146" width="696" height="52" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="168" class="stage">⑤ 시운전·건설 막바지</text>
+  <text x="24" y="184" class="stage2">연료장전 전 시험 단계</text>
+  <rect x="210" y="158" width="238" height="28" rx="14" fill="#6b7280"/>
+  <text x="329" y="177" class="chip" text-anchor="middle" style="fill:#fff">링룽원 ACP100 (중, 8월 초 시운전 전)</text>
+  <rect x="458" y="158" width="210" height="28" rx="14" fill="#c4c9d1"/>
+  <text x="563" y="177" class="chip" text-anchor="middle" fill="#1f2937">CAREM-25 (아르헨, 85% 중단)</text>
+
+  <!-- 4단: 건설 중 (y 206~294, 두 줄) -->
+  <rect x="12" y="206" width="696" height="88" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="240" class="stage">④ 건설 중</text>
+  <text x="24" y="256" class="stage2">건설허가 취득·착공</text>
+  <rect x="210" y="216" width="176" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="298" y="235" class="chip" text-anchor="middle" style="fill:#fff">Natrium 케머러 (미)</text>
+  <rect x="394" y="216" width="176" height="28" rx="14" fill="#2563eb"/>
+  <text x="482" y="235" class="chip" text-anchor="middle" style="fill:#fff">BWRX-300 달링턴 (캐)</text>
+  <rect x="578" y="216" width="126" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="641" y="235" class="chip" text-anchor="middle" style="fill:#fff">Hermes 1·2 (미)</text>
+  <rect x="210" y="254" width="196" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="308" y="273" class="chip" text-anchor="middle" style="fill:#fff">오클로 Aurora (미, DOE 경로)</text>
+  <rect x="414" y="254" width="142" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="485" y="273" class="chip" text-anchor="middle" style="fill:#fff">Natura (미, CP 보유)</text>
+  <rect x="562" y="254" width="142" height="28" rx="14" fill="#6b7280"/>
+  <text x="633" y="273 class="chip" text-anchor="middle" style="fill:#fff">야쿠티아 (러, 부지 준비)</text>
+
+  <!-- 3단: 건설허가 심사 중 (y 302~354) -->
+  <rect x="12" y="302" width="696" height="52" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="324" class="stage">③ 건설허가 심사 중</text>
+  <text x="24" y="340" class="stage2">부지 확정·CP 신청 접수</text>
+  <rect x="210" y="314" width="186" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="303" y="333" class="chip" text-anchor="middle" style="fill:#fff">TVA 클린치리버 (미)</text>
+  <rect x="404" y="314" width="150" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="479" y="333" class="chip" text-anchor="middle" style="fill:#fff">X-energy 롱모트 (미)</text>
+  <rect x="562" y="314" width="142" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="633" y="333" class="chip" text-anchor="middle" style="fill:#fff">홀텍 팰리세이즈 (미)</text>
+
+  <!-- 2단: 설계 승인 보유 (y 362~414) -->
+  <rect x="12" y="362" width="696" height="52" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="384" class="stage">② 설계 승인 보유</text>
+  <text x="24" y="400" class="stage2">SDA·DC — 부지 허가는 별도</text>
+  <rect x="210" y="374" width="226" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="323" y="393" class="chip" text-anchor="middle" style="fill:#fff">뉴스케일 US460 (미, SDA 2025.5)</text>
+  <rect x="446" y="374" width="204" height="28" rx="14" fill="#f5a623"/>
+  <text x="548" y="393" class="chip" text-anchor="middle" fill="#1f2937">SMART100 (한, SDA 2024.9)</text>
+
+  <!-- 1단: 설계 심사 중 (y 422~474) -->
+  <rect x="12" y="422" width="696" height="52" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="444" class="stage">① 설계 심사·사전신청</text>
+  <text x="24" y="460" class="stage2">'종이 위의 원자로'</text>
+  <rect x="210" y="434" width="176" height="28" rx="14" fill="#f5a623"/>
+  <text x="298" y="453" class="chip" text-anchor="middle" fill="#1f2937">i-SMR (한, SDA 신청 2026.2)</text>
+  <rect x="394" y="434" width="176" height="28" rx="14" fill="#2563eb"/>
+  <text x="482" y="453" class="chip" text-anchor="middle" style="fill:#fff">롤스로이스 (영, GDA 3단계)</text>
+  <rect x="578" y="434" width="126" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="641" y="453" class="chip" text-anchor="middle" style="fill:#fff">AP300 (미, 사전신청)</text>
+
+  <!-- 읽는 법 -->
+  <rect x="12" y="484" width="696" height="40" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="501" class="note" font-weight="700">읽는 법</text>
+  <text x="80" y="501" class="note">운전 실적은 중·러, 서방 규제 통과는 미·캐(④), 한국은 ①. 오클로는 NRC가 아닌 DOE 시범 경로로 ④에 표시.</text>
+  <text x="80" y="517" class="sub">DOE 시범사업의 마이크로 시험로 4기(2026.7 임계)는 발전용 허가가 아니어서 사다리에서 제외.</text>
+
+  <text x="20" y="541" class="sub">자료: 미국 NRC·DOE, 캐나다 CNSC, 영국 ONR, 세계원자력뉴스(2026.8.3), 원자력안전위원회·KINS(2026.8)</text>
+  <text x="20" y="554" class="sub">2026년 9월 초 기준 · 각 사업자 발표 일정은 변경될 수 있음 · SDA = 표준설계인가(한국)/표준설계승인(미국), CP = 건설허가</text>
+</svg>
