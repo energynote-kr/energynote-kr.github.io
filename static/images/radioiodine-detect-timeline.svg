@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 472" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">핵의학 검사·치료 후 공항 방사선 감시기에 검출될 수 있는 기간(F-18 약 1일, Tc-99m 3~4일, I-131 소량 수 주, I-131 치료 최대 3개월)과 출국 전 준비물 3가지</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 10.5px; fill: #6b7280; }
+    .value { font-size: 12.5px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .tick { font-size: 11px; fill: #6b7280; text-anchor: middle; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .item { font-size: 12.5px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="472" fill="#f8faf9"/>
+
+  <text x="20" y="30" class="title">핵의학 검사·치료 후, 공항 감시기에 걸릴 수 있는 기간</text>
+  <text x="20" y="50" class="small">막대 길이 = 검출 가능 기간(일, 0~100일 선형 눈금) · 실제 기간은 투여량과 감시기 감도에 따라 달라짐</text>
+
+  <!-- 눈금선 (0일=200px, 1일=4.6px) -->
+  <line x1="200" y1="72" x2="200" y2="262" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="232" y1="72" x2="232" y2="262" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="338" y1="72" x2="338" y2="262" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="476" y1="72" x2="476" y2="262" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="614" y1="72" x2="614" y2="262" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- F-18 -->
+  <text x="20" y="94" class="label">F-18</text>
+  <text x="20" y="109" class="sub">PET · 반감기 약 110분</text>
+  <rect x="200" y="86" width="10" height="22" rx="3" fill="#0b6e4f"/>
+  <text x="218" y="101" class="value">약 1일 — 검사 다음 날이면 검출되지 않는 수준</text>
+
+  <!-- Tc-99m -->
+  <text x="20" y="139" class="label">Tc-99m</text>
+  <text x="20" y="154" class="sub">골스캔 등 · 반감기 약 6시간</text>
+  <rect x="200" y="131" width="18" height="22" rx="3" fill="#0b6e4f"/>
+  <text x="226" y="146" class="value">3~4일 — 이후엔 민감한 감시기에도 안 걸림</text>
+
+  <!-- I-131 소량 -->
+  <text x="20" y="184" class="label">I-131 소량</text>
+  <text x="20" y="199" class="sub">항진증 치료·진단 스캔</text>
+  <rect x="200" y="176" width="193" height="22" rx="3" fill="#f5a623" opacity="0.55"/>
+  <text x="401" y="191" class="value" fill="#b45309">수 주(대략) — 치료 6주 뒤 경보 사례 있음</text>
+
+  <!-- I-131 치료 -->
+  <text x="20" y="229" class="label">I-131 고용량</text>
+  <text x="20" y="244" class="sub">갑상선암 치료 · 반감기 약 8일</text>
+  <rect x="200" y="221" width="437" height="22" rx="3" fill="#f5a623"/>
+  <text x="212" y="236" style="font-size:12.5px; font-weight:700; fill:#fff">최대 3개월(문헌상 95일)까지 검출 가능 — SNMMI·BMJ·대한갑상선학회</text>
+
+  <!-- 축 -->
+  <line x1="200" y1="262" x2="660" y2="262" stroke="#6b7280" stroke-width="1"/>
+  <text x="200" y="278" class="tick">0일</text>
+  <text x="236" y="278" class="tick">1주</text>
+  <text x="338" y="278" class="tick">1개월</text>
+  <text x="476" y="278" class="tick">2개월</text>
+  <text x="614" y="278" class="tick">3개월</text>
+
+  <!-- 준비물 -->
+  <rect x="20" y="296" width="680" height="140" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="318" class="h">출국 전 준비물 3가지 — SNMMI·대한갑상선학회 권고 + 현장 팁</text>
+
+  <circle cx="48" cy="340" r="7" fill="#0b6e4f"/>
+  <text x="44" y="344" style="font-size:10px; font-weight:800; fill:#fff">1</text>
+  <text x="62" y="344" class="item"><tspan font-weight="700">영문 치료 확인서</tspan> — 이름·시술명·날짜·핵종과 반감기·투여량·병원 24시간 연락처</text>
+
+  <circle cx="48" cy="366" r="7" fill="#0b6e4f"/>
+  <text x="44" y="370" style="font-size:10px; font-weight:800; fill:#fff">2</text>
+  <text x="62" y="370" class="item"><tspan font-weight="700">경보가 울리면 바로 말하고 확인서 제시</tspan> — 항공사에 미리 문의해 두는 것도 방법(HPS)</text>
+
+  <circle cx="48" cy="392" r="7" fill="#0b6e4f"/>
+  <text x="44" y="396" style="font-size:10px; font-weight:800; fill:#fff">3</text>
+  <text x="62" y="396" class="item"><tspan font-weight="700">탑승 시점 조정</tspan> — 국내선 24시간, 국제선 5일 이상 경과 후<tspan x="62" dy="16">임산부·어린이와는 1주 이상 접촉 최소화</tspan></text>
+
+  <text x="40" y="428" class="small" style="font-size:11.5px">경보는 '오염'이 아니라 '치료 흔적' — 요원이 핵종분석기로 의료용 핵종임을 확인, 확인서가 있으면 설명이 빨라집니다</text>
+
+  <text x="20" y="448" class="small" font-size="10.5">출처: 미국 핵의학회(SNMMI) 환자 여행 안내(2006), 대한갑상선학회 방사성요오드 치료 후 관리 지침(2019), BMJ 사례 보고(2006)</text>
+  <text x="20" y="465" class="small" font-size="10.5">I-131 소량 막대는 대략치(투여량에 따라 다름) · 2026년 9월 기준</text>
+</svg>

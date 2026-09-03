@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">지역별 공간선량률 비교, 화강암에서 감마선이 나오는 원리, 세계 고자연방사선 지역과의 연간 선량 비교</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 13px; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .note { font-size: 12px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+  <text x="20" y="28" class="title">발밑의 돌이 정한다 — 화강암과 자연방사선</text>
+  <text x="20" y="48" class="small">서울이 나고야보다 높은 이유는 오염이 아니라 지질. 값은 대략적 범위이며 모두 평상시 범위(0.05~0.30μSv/h) 안</text>
+
+  <!-- ① 지역별 공간선량률 -->
+  <text x="20" y="78" class="h">① 공간선량률 비교 (μSv/h, 진한 부분 = 최소값, 연한 부분 = 최소~최대)</text>
+  <line x1="190" y1="86" x2="190" y2="224" stroke="#d1d5db" stroke-width="1"/>
+
+  <text x="20" y="104" class="label">나고야(아이치현)</text>
+  <rect x="190" y="90" width="95" height="18" rx="3" fill="#6b7280"/>
+  <rect x="285" y="90" width="48" height="18" rx="3" fill="#6b7280" opacity="0.4"/>
+  <text x="341" y="104" class="value" style="fill:#6b7280">0.04~0.06</text>
+
+  <text x="20" y="132" class="label">제주(현무암)</text>
+  <rect x="190" y="118" width="142" height="18" rx="3" fill="#0b6e4f"/>
+  <rect x="332" y="118" width="72" height="18" rx="3" fill="#0b6e4f" opacity="0.4"/>
+  <text x="412" y="132" class="value">0.06~0.09</text>
+
+  <text x="20" y="160" class="label">부산(퇴적암·화산암)</text>
+  <rect x="190" y="146" width="214" height="18" rx="3" fill="#0b6e4f"/>
+  <rect x="404" y="146" width="47" height="18" rx="3" fill="#0b6e4f" opacity="0.4"/>
+  <text x="459" y="160" class="value">0.09~0.11</text>
+
+  <text x="20" y="188" class="label">서울(화강암)</text>
+  <rect x="190" y="174" width="285" height="18" rx="3" fill="#f5a623"/>
+  <rect x="475" y="174" width="95" height="18" rx="3" fill="#f5a623" opacity="0.4"/>
+  <text x="578" y="188" class="value" style="fill:#b3701a">0.12~0.16</text>
+
+  <text x="20" y="216" class="label">강원 속초·양구(화강암대)</text>
+  <rect x="190" y="202" width="356" height="18" rx="3" fill="#f5a623"/>
+  <rect x="546" y="202" width="24" height="18" rx="3" fill="#f5a623" opacity="0.4"/>
+  <text x="578" y="216" class="value" style="fill:#b3701a">0.15~0.16</text>
+
+  <text x="20" y="240" class="small">국내: 원안위·KINS 국가환경방사선자동감시망 도심 지점 1시간 평균(2026-09-03 조회) · 나고야: 일본 원자력규제위 공개값 범위</text>
+
+  <!-- ② 화강암 단면 -->
+  <text x="20" y="270" class="h">② 화강암에서 감마선이 나오는 이유</text>
+  <text x="20" y="292" class="note">바위 위 8시간 산행의 추가 선량</text>
+  <text x="20" y="310" class="note" font-weight="700" fill="#0b6e4f">약 0.4~0.8μSv (흉부 엑스레이의 1/100 이하)</text>
+
+  <!-- 감마선 지그재그 -->
+  <path d="M255,326 l4,-7 -8,-7 8,-7 -8,-7 4,-7" fill="none" stroke="#0b6e4f" stroke-width="1.6"/>
+  <path d="M280,326 l4,-7 -8,-7 8,-7 -8,-7 4,-7" fill="none" stroke="#0b6e4f" stroke-width="1.6"/>
+  <text x="249" y="286" class="value" font-size="12">γ</text>
+  <text x="274" y="286" class="value" font-size="12">γ</text>
+
+  <!-- 등산객 -->
+  <circle cx="312" cy="296" r="6" fill="#1f2937"/>
+  <line x1="312" y1="302" x2="312" y2="318" stroke="#1f2937" stroke-width="2.5"/>
+  <line x1="312" y1="306" x2="303" y2="314" stroke="#1f2937" stroke-width="2"/>
+  <line x1="312" y1="306" x2="321" y2="313" stroke="#1f2937" stroke-width="2"/>
+  <line x1="312" y1="318" x2="305" y2="330" stroke="#1f2937" stroke-width="2"/>
+  <line x1="312" y1="318" x2="319" y2="330" stroke="#1f2937" stroke-width="2"/>
+  <line x1="323" y1="308" x2="326" y2="330" stroke="#6b7280" stroke-width="1.5"/>
+
+  <!-- 화강암 노두 -->
+  <path d="M20,336 L60,332 L110,336 L160,331 L220,335 L280,330 L340,334 L340,404 L20,404 Z" fill="#d9d4c7" stroke="#b8b2a3"/>
+  <g fill="#8f8776" opacity="0.7">
+    <circle cx="40" cy="345" r="1.6"/><circle cx="95" cy="350" r="1.4"/><circle cx="150" cy="343" r="1.8"/>
+    <circle cx="210" cy="348" r="1.5"/><circle cx="265" cy="342" r="1.6"/><circle cx="320" cy="350" r="1.4"/>
+    <circle cx="70" cy="395" r="1.5"/><circle cx="130" cy="398" r="1.7"/><circle cx="240" cy="396" r="1.5"/><circle cx="300" cy="392" r="1.6"/>
+  </g>
+  <text x="30" y="362" class="note">우라늄 수 ppm · 토륨 10~20ppm</text>
+  <text x="30" y="379" class="note">칼륨 3~4% (그중 0.012%가 칼륨-40)</text>
+  <text x="30" y="396" class="note">→ 붕괴 사슬의 감마선이 표면을 뚫고 올라옴</text>
+
+  <!-- ③ 세계 고자연방사선 지역 -->
+  <text x="370" y="270" class="h">③ 세계 고자연방사선 지역과 비교 (연 mSv, 외부)</text>
+
+  <text x="370" y="300" class="label">서울 야외 1년</text>
+  <rect x="520" y="287" width="27" height="18" rx="3" fill="#f5a623"/>
+  <text x="553" y="300" class="value" style="fill:#b3701a">약 1</text>
+
+  <text x="370" y="328" class="label">인도 케랄라 해안</text>
+  <rect x="520" y="315" width="97" height="18" rx="3" fill="#0b6e4f"/>
+  <text x="623" y="328" class="value">1~9</text>
+
+  <text x="370" y="356" class="label">브라질 과라파리 해변</text>
+  <rect x="520" y="343" width="103" height="18" rx="3" fill="#0b6e4f"/>
+  <text x="629" y="356" class="value">4~11*</text>
+
+  <text x="370" y="384" class="label">이란 람사르 최고 가옥</text>
+  <rect x="520" y="371" width="180" height="18" rx="3" fill="#6b7280"/>
+  <text x="528" y="384" class="value" style="fill:#fff">131</text>
+
+  <text x="370" y="404" class="small">* 과라파리: 해변에 하루 1시간 머문 경우 · 막대는 로그 눈금</text>
+
+  <!-- 읽는 법 -->
+  <rect x="20" y="420" width="680" height="66" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="442" class="note" font-size="12.5">읽는 법: 서울 &gt; 부산 &gt; 제주 = 화강암 &gt; 퇴적암 &gt; 현무암. 오염이 아니라 발밑 돌의 우라늄·토륨·칼륨-40 차이</text>
+  <text x="40" y="462" class="note" font-size="12.5">화강암 위 8시간 산행의 추가 선량은 1μSv 미만 · 세계 고자연방사선 지역과는 자릿수가 다름 · 실내 라돈은 별도 관리</text>
+  <text x="40" y="480" class="small">비교용: 흉부 엑스레이 약 0.1mSv · 서울–뉴욕 왕복 비행 0.1~0.2mSv · 한국인 연간 자연방사선 약 3mSv</text>
+
+  <text x="20" y="500" class="small">자료: 원안위·KINS 국가환경방사선자동감시망(2026-09-03 조회) · KINS 전국 차량조사(Sci. Rep. 2026) · 일본 원자력규제위 공개값</text>
+  <text x="20" y="514" class="small">Calegaro et al. 2024(과라파리) · PLOS One 2012(케랄라 차바라) · 람사르 고자연방사선 조사 2002 · 화강암 함량: HPS·WNA</text>
+</svg>
