@@ -58,7 +58,7 @@
   <rect x="414" y="254" width="142" height="28" rx="14" fill="#0b6e4f"/>
   <text x="485" y="273" class="chip" text-anchor="middle" style="fill:#fff">Natura (미, CP 보유)</text>
   <rect x="562" y="254" width="142" height="28" rx="14" fill="#6b7280"/>
-  <text x="633" y="273 class="chip" text-anchor="middle" style="fill:#fff">야쿠티아 (러, 부지 준비)</text>
+  <text x="633" y="273" class="chip" text-anchor="middle" style="fill:#fff">야쿠티아 (러, 부지 준비)</text>
 
   <!-- 3단: 건설허가 심사 중 (y 302~354) -->
   <rect x="12" y="302" width="696" height="52" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
