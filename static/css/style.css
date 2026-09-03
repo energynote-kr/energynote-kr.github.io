@@ -142,3 +142,7 @@ a:hover { text-decoration: underline; }
   .site-nav a { font-size: 0.85rem; }
   .hero { padding: 40px 0 28px; }
 }
+
+/* 수치 기준일 안내 (2026-09-03) */
+.data-asof { margin: 14px 0 0; padding: 10px 14px; border-left: 4px solid #f5a623; background: #fff8e8; border-radius: 6px; font-size: 0.9rem; color: #5b4a1f; line-height: 1.55; }
+.data-asof strong { color: #b45309; margin-right: 6px; }
