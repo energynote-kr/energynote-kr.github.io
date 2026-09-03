@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Timeline placing Korea's i-SMR and competing SMRs abroad on one 2023–2036 axis</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .name { font-size: 12.5px; font-weight: 700; fill: #1f2937; }
+    .name2 { font-size: 11px; fill: #6b7280; }
+    .lab { font-size: 11px; fill: #1f2937; }
+    .labg { font-size: 11px; fill: #6b7280; }
+    .yr { font-size: 12px; fill: #6b7280; }
+    .now { font-size: 11px; font-weight: 700; fill: #b45309; }
+  </style>
+  <rect x="0" y="0" width="720" height="470" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Where Korea's i-SMR stands — timeline vs. leading SMRs abroad</text>
+  <text x="20" y="49" class="sub">● done   ○ target / plan   dashed line = Sept 2026 · SDA standard design approval · CP construction permit · OL operating license</text>
+
+  <!-- Year axis: x = 140 + (year-2023)*43.1 -->
+  <line x1="140" y1="72" x2="700" y2="72" stroke="#d1d5db" stroke-width="1"/>
+  <g class="yr" text-anchor="middle">
+    <text x="140" y="66">2023</text>
+    <text x="226" y="66">2025</text>
+    <text x="312" y="66">2027</text>
+    <text x="398" y="66">2029</text>
+    <text x="485" y="66">2031</text>
+    <text x="571" y="66">2033</text>
+    <text x="657" y="66">2035</text>
+  </g>
+  <g stroke="#d1d5db" stroke-width="1">
+    <line x1="140" y1="69" x2="140" y2="75"/><line x1="183" y1="70" x2="183" y2="74"/>
+    <line x1="226" y1="69" x2="226" y2="75"/><line x1="269" y1="70" x2="269" y2="74"/>
+    <line x1="312" y1="69" x2="312" y2="75"/><line x1="355" y1="70" x2="355" y2="74"/>
+    <line x1="398" y1="69" x2="398" y2="75"/><line x1="442" y1="70" x2="442" y2="74"/>
+    <line x1="485" y1="69" x2="485" y2="75"/><line x1="528" y1="70" x2="528" y2="74"/>
+    <line x1="571" y1="69" x2="571" y2="75"/><line x1="614" y1="70" x2="614" y2="74"/>
+    <line x1="657" y1="69" x2="657" y2="75"/><line x1="700" y1="70" x2="700" y2="74"/>
+  </g>
+
+  <!-- "Now" line (September 2026 ≈ x 298) -->
+  <line x1="298" y1="94" x2="298" y2="362" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="298" y="90" class="now" text-anchor="middle">Sept 2026 (now)</text>
+
+  <!-- Row 1: i-SMR (highlight band) -->
+  <rect x="12" y="98" width="696" height="56" rx="8" fill="#e3f2ec"/>
+  <text x="20" y="122" class="name">i-SMR (Korea)</text>
+  <text x="20" y="138" class="name2">170 MWe × 4 modules</text>
+  <line x1="140" y1="126" x2="657" y2="126" stroke="#0b6e4f" stroke-width="2" opacity="0.35"/>
+  <circle cx="140" cy="126" r="5" fill="#0b6e4f"/>
+  <text x="140" y="113" class="lab" text-anchor="middle">Program start</text>
+  <circle cx="276" cy="126" r="5" fill="#0b6e4f"/>
+  <text x="290" y="146" class="lab" text-anchor="end">SDA filed Feb 2026</text>
+  <circle cx="355" cy="126" r="5" fill="#f8faf9" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="360" y="113" class="lab" text-anchor="middle">SDA target 2028</text>
+  <circle cx="442" cy="126" r="5" fill="#f8faf9" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="442" y="146" class="lab" text-anchor="middle">Construction start target</text>
+  <circle cx="657" cy="126" r="5" fill="#f8faf9" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="705" y="113" class="lab" text-anchor="end">Commercial operation target</text>
+
+  <!-- Row 2: NuScale -->
+  <text x="20" y="182" class="name">NuScale (US)</text>
+  <line x1="140" y1="178" x2="700" y2="178" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="243" cy="178" r="5" fill="#6b7280"/>
+  <text x="234" y="182" class="lab" text-anchor="end">NRC SDA May 2025</text>
+  <circle cx="442" cy="178" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="451" y="182" class="labg">First units ~2030 · 6 GW deal non-binding</text>
+
+  <!-- Row 3: TerraPower -->
+  <text x="20" y="222" class="name">TerraPower (US)</text>
+  <line x1="140" y1="218" x2="700" y2="218" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="280" cy="218" r="5" fill="#6b7280"/>
+  <text x="272" y="222" class="lab" text-anchor="end">CP + start Mar–Apr 2026</text>
+  <circle cx="442" cy="218" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="451" y="222" class="labg">Fuel load 2030 · commercial 2031 target</text>
+
+  <!-- Row 4: BWRX-300 -->
+  <text x="20" y="257" class="name">BWRX-300</text>
+  <text x="20" y="271" class="name2">Canada · GE Vernova</text>
+  <line x1="140" y1="258" x2="700" y2="258" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="241" cy="258" r="5" fill="#6b7280"/>
+  <text x="233" y="262" class="lab" text-anchor="end">Started May 2025</text>
+  <circle cx="276" cy="258" r="5" fill="#6b7280"/>
+  <text x="303" y="262" class="labg">OL application Mar 2026</text>
+  <circle cx="480" cy="258" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="489" y="262" class="labg">Grid connection target late 2030</text>
+
+  <!-- Row 5: Oklo -->
+  <text x="20" y="302" class="name">Oklo (US)</text>
+  <line x1="140" y1="298" x2="700" y2="298" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="258" cy="298" r="5" fill="#6b7280"/>
+  <text x="148" y="302" class="labg">Started Sept 2025</text>
+  <circle cx="355" cy="298" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="364" y="302" class="labg">Target 2028 · DOE pilot pathway, not yet filed with NRC</text>
+
+  <!-- Row 6: Linglong One -->
+  <text x="20" y="342" class="name">Linglong One</text>
+  <text x="20" y="356" class="name2">China</text>
+  <line x1="140" y1="338" x2="700" y2="338" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="148" y="342" class="labg">Started 2021</text>
+  <circle cx="287" cy="338" r="5" fill="#f8faf9" stroke="#f5a623" stroke-width="2"/>
+  <text x="310" y="342" class="lab">Target was H1 2026 → still pre-commissioning as of early Aug</text>
+
+  <!-- How to read -->
+  <rect x="12" y="372" width="696" height="52" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="28" y="393" class="lab" font-weight="700">How to read</text>
+  <text x="100" y="393" class="lab">Leaders abroad aim for first power around 2030; the first i-SMR unit targets 2035 — about five years behind.</text>
+  <text x="100" y="411" class="labg">Target dates usually slip; i-SMR seeks a repeatable standard design approval before any site license.</text>
+
+  <text x="20" y="448" class="sub">Sources: NSSC / KINS (Mar &amp; Aug 2026), KHNP site selection (June 2026), US NRC, Canada CNSC / OPG, IAEA PRIS</text>
+  <text x="20" y="462" class="sub">As of September 2026 · target years are the developers' own announcements and may change</text>
+</svg>

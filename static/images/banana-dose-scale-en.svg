@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 468" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Comparison ladder using one banana (0.1 μSv) as a ruler: a chest X-ray at 0.1 mSv is 1,000 bananas, annual natural background of about 3 mSv is 30,000 bananas and a chest CT at 7 mSv is 70,000 bananas, drawn as rows of banana icons. A note explains that the body keeps its total potassium constant, so the real added dose from a banana is close to zero.</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #6b7280; }
+    .note { font-size: 12.5px; fill: #1f2937; }
+  </style>
+  <defs>
+    <symbol id="b" viewBox="0 0 14 14">
+      <path d="M3.2 1.5 C0.8 5.5 2.5 10.5 7.5 12.3 C9.5 13 12.2 12.6 12.6 11.4 C7.8 11.2 4.6 7.6 4.4 1.9 Z" fill="#f5a623"/>
+      <path d="M3.2 1.5 L4.4 1.9 L4.2 3.2 L3 2.8 Z" fill="#8a6d1f"/>
+    </symbol>
+  </defs>
+  <rect x="0" y="0" width="780" height="468" fill="#f8faf9"/>
+
+  <text x="20" y="30" class="title">Dose on a banana ruler — the ticks are right, the name is a meme</text>
+  <text x="20" y="50" class="small">1 BED = ~15 Bq of potassium-40 converted to a calculated dose, ~0.1 μSv · X-ray, CT and background values are typical round figures</text>
+
+  <!-- Row 1: one banana -->
+  <text x="20" y="92" class="label">One banana</text>
+  <text x="20" y="110" class="value">0.1 μSv (calculated)</text>
+  <use href="#b" x="250" y="78" width="30" height="30"/>
+  <text x="292" y="98" class="small">1 icon = 1 banana</text>
+
+  <line x1="20" y1="128" x2="760" y2="128" stroke="#d1d5db" stroke-width="1"/>
+  <text x="250" y="146" class="small" font-weight="700">From here on, 1 icon = 1,000 bananas</text>
+
+  <!-- Row 2: chest X-ray -->
+  <text x="20" y="174" class="label">Chest X-ray, one exam</text>
+  <text x="20" y="192" class="value">0.1 mSv · 1,000 bananas</text>
+  <use href="#b" x="250" y="164" width="14" height="14"/>
+
+  <!-- Row 3: annual background, 30 icons -->
+  <text x="20" y="224" class="label">Annual background (Korea)</text>
+  <text x="20" y="242" class="value">~3 mSv · 30,000 bananas</text>
+  <g>
+    <use href="#b" x="250" y="214" width="14" height="14"/><use href="#b" x="264" y="214" width="14" height="14"/><use href="#b" x="278" y="214" width="14" height="14"/><use href="#b" x="292" y="214" width="14" height="14"/><use href="#b" x="306" y="214" width="14" height="14"/>
+    <use href="#b" x="320" y="214" width="14" height="14"/><use href="#b" x="334" y="214" width="14" height="14"/><use href="#b" x="348" y="214" width="14" height="14"/><use href="#b" x="362" y="214" width="14" height="14"/><use href="#b" x="376" y="214" width="14" height="14"/>
+    <use href="#b" x="390" y="214" width="14" height="14"/><use href="#b" x="404" y="214" width="14" height="14"/><use href="#b" x="418" y="214" width="14" height="14"/><use href="#b" x="432" y="214" width="14" height="14"/><use href="#b" x="446" y="214" width="14" height="14"/>
+    <use href="#b" x="460" y="214" width="14" height="14"/><use href="#b" x="474" y="214" width="14" height="14"/><use href="#b" x="488" y="214" width="14" height="14"/><use href="#b" x="502" y="214" width="14" height="14"/><use href="#b" x="516" y="214" width="14" height="14"/>
+    <use href="#b" x="530" y="214" width="14" height="14"/><use href="#b" x="544" y="214" width="14" height="14"/><use href="#b" x="558" y="214" width="14" height="14"/><use href="#b" x="572" y="214" width="14" height="14"/><use href="#b" x="586" y="214" width="14" height="14"/>
+    <use href="#b" x="600" y="214" width="14" height="14"/><use href="#b" x="614" y="214" width="14" height="14"/><use href="#b" x="628" y="214" width="14" height="14"/><use href="#b" x="642" y="214" width="14" height="14"/><use href="#b" x="656" y="214" width="14" height="14"/>
+  </g>
+
+  <!-- Row 4: chest CT, 70 icons (35 x 2) -->
+  <text x="20" y="276" class="label">Chest CT, one scan</text>
+  <text x="20" y="294" class="value">7 mSv · 70,000 bananas</text>
+  <g>
+    <use href="#b" x="250" y="262" width="14" height="14"/><use href="#b" x="264" y="262" width="14" height="14"/><use href="#b" x="278" y="262" width="14" height="14"/><use href="#b" x="292" y="262" width="14" height="14"/><use href="#b" x="306" y="262" width="14" height="14"/>
+    <use href="#b" x="320" y="262" width="14" height="14"/><use href="#b" x="334" y="262" width="14" height="14"/><use href="#b" x="348" y="262" width="14" height="14"/><use href="#b" x="362" y="262" width="14" height="14"/><use href="#b" x="376" y="262" width="14" height="14"/>
+    <use href="#b" x="390" y="262" width="14" height="14"/><use href="#b" x="404" y="262" width="14" height="14"/><use href="#b" x="418" y="262" width="14" height="14"/><use href="#b" x="432" y="262" width="14" height="14"/><use href="#b" x="446" y="262" width="14" height="14"/>
+    <use href="#b" x="460" y="262" width="14" height="14"/><use href="#b" x="474" y="262" width="14" height="14"/><use href="#b" x="488" y="262" width="14" height="14"/><use href="#b" x="502" y="262" width="14" height="14"/><use href="#b" x="516" y="262" width="14" height="14"/>
+    <use href="#b" x="530" y="262" width="14" height="14"/><use href="#b" x="544" y="262" width="14" height="14"/><use href="#b" x="558" y="262" width="14" height="14"/><use href="#b" x="572" y="262" width="14" height="14"/><use href="#b" x="586" y="262" width="14" height="14"/>
+    <use href="#b" x="600" y="262" width="14" height="14"/><use href="#b" x="614" y="262" width="14" height="14"/><use href="#b" x="628" y="262" width="14" height="14"/><use href="#b" x="642" y="262" width="14" height="14"/><use href="#b" x="656" y="262" width="14" height="14"/>
+    <use href="#b" x="670" y="262" width="14" height="14"/><use href="#b" x="684" y="262" width="14" height="14"/><use href="#b" x="698" y="262" width="14" height="14"/><use href="#b" x="712" y="262" width="14" height="14"/><use href="#b" x="726" y="262" width="14" height="14"/>
+    <use href="#b" x="250" y="280" width="14" height="14"/><use href="#b" x="264" y="280" width="14" height="14"/><use href="#b" x="278" y="280" width="14" height="14"/><use href="#b" x="292" y="280" width="14" height="14"/><use href="#b" x="306" y="280" width="14" height="14"/>
+    <use href="#b" x="320" y="280" width="14" height="14"/><use href="#b" x="334" y="280" width="14" height="14"/><use href="#b" x="348" y="280" width="14" height="14"/><use href="#b" x="362" y="280" width="14" height="14"/><use href="#b" x="376" y="280" width="14" height="14"/>
+    <use href="#b" x="390" y="280" width="14" height="14"/><use href="#b" x="404" y="280" width="14" height="14"/><use href="#b" x="418" y="280" width="14" height="14"/><use href="#b" x="432" y="280" width="14" height="14"/><use href="#b" x="446" y="280" width="14" height="14"/>
+    <use href="#b" x="460" y="280" width="14" height="14"/><use href="#b" x="474" y="280" width="14" height="14"/><use href="#b" x="488" y="280" width="14" height="14"/><use href="#b" x="502" y="280" width="14" height="14"/><use href="#b" x="516" y="280" width="14" height="14"/>
+    <use href="#b" x="530" y="280" width="14" height="14"/><use href="#b" x="544" y="280" width="14" height="14"/><use href="#b" x="558" y="280" width="14" height="14"/><use href="#b" x="572" y="280" width="14" height="14"/><use href="#b" x="586" y="280" width="14" height="14"/>
+    <use href="#b" x="600" y="280" width="14" height="14"/><use href="#b" x="614" y="280" width="14" height="14"/><use href="#b" x="628" y="280" width="14" height="14"/><use href="#b" x="642" y="280" width="14" height="14"/><use href="#b" x="656" y="280" width="14" height="14"/>
+    <use href="#b" x="670" y="280" width="14" height="14"/><use href="#b" x="684" y="280" width="14" height="14"/><use href="#b" x="698" y="280" width="14" height="14"/><use href="#b" x="712" y="280" width="14" height="14"/><use href="#b" x="726" y="280" width="14" height="14"/>
+  </g>
+
+  <!-- Note box -->
+  <rect x="20" y="322" width="740" height="96" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="346" class="label" style="fill:#0b6e4f">But — the body keeps its total potassium constant</text>
+  <text x="40" y="367" class="note">The kidneys excrete a banana's potassium within hours — as much goes out as came in (homeostasis).</text>
+  <text x="40" y="386" class="note">→ Body potassium-40 (~4,000–5,000 Bq) does not increase — the real added dose is close to zero.</text>
+  <text x="40" y="405" class="note">The ruler above converts 15 Bq to a calculated dose for size comparison — it is not the dose you get from eating.</text>
+
+  <text x="20" y="440" class="small" style="font-size:10.5px">Sources: Wikipedia "Banana equivalent dose" (quoting the 1995 RadSafe post) · xkcd Radiation Dose Chart (2011)</text>
+  <text x="20" y="455" class="small" style="font-size:10.5px">Chest X-ray, chest CT and Korean annual background (~3 mSv, NSSC/KINS estimate) are typical round values · As of September 2026</text>
+</svg>

@@ -1,16 +1,34 @@
 baseURL = "https://energynote.kr/"
-locale = "ko-KR"
 title = "에너지노트"
 timeZone = "Asia/Seoul"
 enableEmoji = true
 summaryLength = 40
 
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.ko]
+    languageName = "한국어"
+    languageCode = "ko-KR"
+    contentDir = "content"
+    weight = 1
+    title = "에너지노트"
+    [languages.ko.params]
+      description = "방사선 전문가가 쉽게 풀어주는 생활 속 방사선 안전과 원자력·에너지 이야기"
+      author = "에너지노트"
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    contentDir = "content_en"
+    weight = 2
+    title = "EnergyNote"
+    [languages.en.params]
+      description = "Nuclear energy, SMRs and radiation safety, explained by a Korean nuclear professional — with a view from inside Korea's nuclear industry."
+      author = "EnergyNote"
+
 [pagination]
 pagerSize = 10
-
-[params]
-description = "방사선 전문가가 쉽게 풀어주는 생활 속 방사선 안전과 원자력·에너지 이야기"
-author = "에너지노트"
 
 [taxonomies]
 category = "categories"

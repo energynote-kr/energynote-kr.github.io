@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 532" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Radon concentration multiplied by exposure time: dose comparison for a home, the Misasa spa and the Bad Gastein gallery</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .h { font-size: 13.5px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 12.5px; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .tick { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="532" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Radon: spas win on concentration, homes win on dose</text>
+  <text x="20" y="50" class="small">Radon in air (Bq/m³) and the dose (mSv) once exposure time is factored in · concentrations are rounded literature values</text>
+
+  <!-- 1. Concentration (log scale: 10 → 100,000, one decade = 105px, starting x=200) -->
+  <text x="20" y="82" class="h">① Radon in air (Bq/m³, log scale)</text>
+
+  <text x="20" y="111" class="label">Korea indoor guideline</text>
+  <rect x="200" y="97" width="123" height="22" rx="4" fill="#6b7280"/>
+  <text x="331" y="113" class="value">148</text>
+
+  <text x="20" y="145" class="label">Misasa spa</text>
+  <text x="20" y="160" class="label">inhalation-room air</text>
+  <rect x="200" y="137" width="244" height="22" rx="4" fill="#0b6e4f"/>
+  <text x="452" y="153" class="value">~2,100 (ordinary bath ~800)</text>
+
+  <text x="20" y="185" class="label">Bad Gastein</text>
+  <text x="20" y="200" class="label">healing-gallery air</text>
+  <rect x="200" y="177" width="382" height="22" rx="4" fill="#f5a623"/>
+  <text x="590" y="193" class="value">~44,000</text>
+
+  <line x1="200" y1="92" x2="200" y2="206" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="200" y1="206" x2="620" y2="206" stroke="#d1d5db" stroke-width="1"/>
+  <text x="200" y="220" class="tick" text-anchor="middle">10</text>
+  <text x="305" y="220" class="tick" text-anchor="middle">100</text>
+  <text x="410" y="220" class="tick" text-anchor="middle">1,000</text>
+  <text x="515" y="220" class="tick" text-anchor="middle">10,000</text>
+  <text x="620" y="220" class="tick" text-anchor="middle">100,000</text>
+
+  <!-- 2. Dose (linear: 8 mSv = 400px, starting x=200) -->
+  <text x="20" y="254" class="h">② Dose once exposure time is included (mSv, linear scale)</text>
+
+  <text x="20" y="282" class="label">Home, 148 Bq/m³</text>
+  <text x="20" y="297" class="label">× 8,000 h per year</text>
+  <rect x="200" y="269" width="400" height="22" rx="4" fill="#6b7280"/>
+  <text x="210" y="285" style="font-size:13px; font-weight:700; fill:#fff">~8 mSv per year (~4 with the UNSCEAR coefficient)</text>
+
+  <text x="20" y="322" class="label">Spa inhalation room</text>
+  <text x="20" y="337" class="label">2,100 × 1 hour</text>
+  <rect x="200" y="309" width="3" height="22" rx="1" fill="#0b6e4f"/>
+  <text x="211" y="325" class="value">~0.01 mSv — about one Seoul–Nagoya round-trip flight</text>
+
+  <text x="20" y="362" class="label">Gallery, 44,000</text>
+  <text x="20" y="377" class="label">× 12 h therapy course</text>
+  <rect x="200" y="349" width="180" height="22" rx="4" fill="#f5a623"/>
+  <text x="388" y="365" class="value">~3–4 mSv (facility literature: ~1.8)</text>
+
+  <line x1="200" y1="264" x2="200" y2="378" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- How to read -->
+  <rect x="20" y="392" width="680" height="84" rx="10" fill="#e3f2ec"/>
+  <text x="40" y="413" class="label" font-weight="700">How to read this</text>
+  <text x="40" y="432" class="small" font-size="11.5">· Gallery air is ~300× the home guideline, but a home gets ~8,000× the hours: one spa hour ≈ 1/1,000 of a home year</text>
+  <text x="40" y="450" class="small" font-size="11.5">· Dose = concentration × time × coefficient (ICRP 137, equilibrium factor 0.4, ~7×10⁻⁶ mSv per Bq·h/m³)</text>
+  <text x="40" y="468" class="small" font-size="11.5">· The figures are the alpha dose to the lung from radon progeny, not the radon gas itself</text>
+
+  <text x="20" y="494" class="small" style="font-size:10.5px">Sources: ICRP Publication 137 (2017) · Morinaga et al. (1984) and Mitsunobu et al. (2003), Misasa measurements</text>
+  <text x="20" y="509" class="small" style="font-size:10.5px">Brandmaier (2001), Bad Gastein gallery · Korea Indoor Air Quality Control Act (guideline 148 Bq/m³) · as of September 2026</text>
+  <text x="20" y="524" class="small" style="font-size:10.5px">Doses can differ by a factor of about 2 depending on the coefficient and equilibrium-factor assumptions</text>
+</svg>

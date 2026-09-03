@@ -146,3 +146,7 @@ a:hover { text-decoration: underline; }
 /* 수치 기준일 안내 (2026-09-03) */
 .data-asof { margin: 14px 0 0; padding: 10px 14px; border-left: 4px solid #f5a623; background: #fff8e8; border-radius: 6px; font-size: 0.9rem; color: #5b4a1f; line-height: 1.55; }
 .data-asof strong { color: #b45309; margin-right: 6px; }
+
+/* 언어 전환 링크 (2026-09-03) */
+.lang-link { margin-left: 10px; font-size: 0.85rem; color: #0b6e4f; text-decoration: none; border: 1px solid #cfe5db; border-radius: 999px; padding: 2px 10px; }
+.lang-link:hover { background: #e3f2ec; }

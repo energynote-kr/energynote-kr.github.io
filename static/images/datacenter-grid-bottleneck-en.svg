@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 456" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Power flow from power plants through the transmission grid to data centers, with the grid marked as the bottleneck, and IDC Korea's forecast of Korean data center power demand (4,461 MW in 2025, 6,175 MW in 2028)</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 12px; fill: #1f2937; }
+    .bold { font-size: 12px; font-weight: 700; fill: #1f2937; }
+    .num { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #6b7280; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="456" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Power to spare, but no wire to move it</text>
+  <text x="20" y="50" class="small">The bottleneck for AI data centers is not the power plant but transmission lines, substations and transformers</text>
+
+  <!-- Flow: power plants → grid (bottleneck) → data centers -->
+  <rect x="20" y="78" width="170" height="96" rx="10" fill="#0b6e4f"/>
+  <text x="105" y="102" text-anchor="middle" font-size="15" font-weight="800" style="fill:#fff">Power plants</text>
+  <text x="105" y="123" text-anchor="middle" font-size="11.5" style="fill:#fff">8 GW of east coast nuclear</text>
+  <text x="105" y="140" text-anchor="middle" font-size="11.5" style="fill:#fff">and coal; some plants run</text>
+  <text x="105" y="157" text-anchor="middle" font-size="11.5" style="fill:#fff">below 20% output (Jul 2026)</text>
+
+  <path d="M194 126 L232 126" stroke="#0b6e4f" stroke-width="6" fill="none"/>
+  <path d="M230 116 L244 126 L230 136 Z" fill="#0b6e4f"/>
+
+  <rect x="248" y="72" width="224" height="108" rx="10" fill="#ffffff" stroke="#f5a623" stroke-width="3" stroke-dasharray="8 5"/>
+  <rect x="314" y="60" width="92" height="22" rx="11" fill="#f5a623"/>
+  <text x="360" y="76" text-anchor="middle" font-size="12.5" font-weight="800" style="fill:#fff">Bottleneck</text>
+  <text x="360" y="106" text-anchor="middle" font-size="15" font-weight="800" fill="#1f2937">Transmission grid</text>
+  <text x="360" y="128" text-anchor="middle" font-size="12" fill="#1f2937">Lines · substations · transformers</text>
+  <text x="360" y="148" text-anchor="middle" font-size="12" fill="#6b7280">HVDC delays · transformer lead times</text>
+  <text x="360" y="166" text-anchor="middle" font-size="12" fill="#6b7280">Interconnection queue</text>
+
+  <path d="M476 126 L514 126" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+  <path d="M512 118 L526 126 L512 134 Z" fill="#6b7280"/>
+
+  <rect x="530" y="78" width="170" height="96" rx="10" fill="#6b7280"/>
+  <text x="615" y="100" text-anchor="middle" font-size="15" font-weight="800" style="fill:#fff">Data centers</text>
+  <text x="615" y="119" text-anchor="middle" font-size="11.5" style="fill:#fff">67% of applications target</text>
+  <text x="615" y="134" text-anchor="middle" font-size="11.5" style="fill:#fff">the Seoul area (290 filed,</text>
+  <text x="615" y="149" text-anchor="middle" font-size="11.5" style="fill:#fff">Aug 2024–Jun 2025)</text>
+  <text x="615" y="166" text-anchor="middle" font-size="11.5" font-weight="700" style="fill:#fff">Approval rate there: 1.9%</text>
+
+  <!-- Why it jams -->
+  <rect x="20" y="198" width="440" height="150" rx="10" fill="#e3f2ec"/>
+  <text x="36" y="222" class="h">Why it jams — three bottlenecks</text>
+  <text x="36" y="248" class="bold">① Lines</text>
+  <text x="140" y="248" class="label">East Coast–Seoul HVDC: due June 2026,</text>
+  <text x="140" y="266" class="label">now December 2027; converter station permit still pending</text>
+  <text x="36" y="292" class="bold">② Transformers</text>
+  <text x="140" y="292" class="label">US average lead time 128 weeks (about 2.5 years),</text>
+  <text x="140" y="310" class="label">price up 77% vs 2019 — a global bottleneck</text>
+  <text x="36" y="336" class="bold">③ Queue</text>
+  <text x="140" y="336" class="label">PJM average 40 months · Korea: 9.6 GW still waiting</text>
+
+  <!-- Demand forecast bars -->
+  <text x="478" y="216" class="h">Korea data center demand</text>
+  <text x="478" y="232" class="small">IDC Korea, MW · +11% a year</text>
+  <line x1="480" y1="348" x2="700" y2="348" stroke="#c9c6bd" stroke-width="1"/>
+  <rect x="504" y="285" width="64" height="63" rx="4" fill="#6b7280"/>
+  <text x="536" y="277" text-anchor="middle" class="num">4,461</text>
+  <text x="536" y="366" text-anchor="middle" class="label">2025</text>
+  <rect x="612" y="261" width="64" height="87" rx="4" fill="#0b6e4f"/>
+  <text x="644" y="253" text-anchor="middle" class="value">6,175</text>
+  <text x="644" y="366" text-anchor="middle" class="label">2028</text>
+  <text x="590" y="310" text-anchor="middle" font-size="12" font-weight="700" fill="#f5a623">×1.4</text>
+
+  <!-- How to read -->
+  <rect x="20" y="376" width="680" height="32" rx="8" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="36" y="397" font-size="12" fill="#1f2937">How to read: more power plants do not help without wires — a transmission line takes 10+ years, a transformer 2–3 years</text>
+
+  <text x="20" y="424" class="small" font-size="10">Sources: IDC Korea (Jun 2025), MOTIE · KEPCO data to the National Assembly (Jul 2025), CBRE Korea (Jul 2026; cumulative to Mar 2026),</text>
+  <text x="20" y="437" class="small" font-size="10">Ministry of Climate, Energy and Environment notice (Jul 2026), Wood Mackenzie (Q2 2025, via POWER · Data Center Knowledge),</text>
+  <text x="20" y="450" class="small" font-size="10">PJM (2026), Utility Dive (Aug 2026) · as of early September 2026</text>
+</svg>

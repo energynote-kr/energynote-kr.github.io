@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{- $en := eq .Language.Lang "en" -}}
 <section>
   <h1 class="section-title">{{ .Title }}</h1>
   {{ with .Content }}<div class="post-body">{{ . }}</div>{{ end }}
@@ -7,7 +8,7 @@
     <article class="post-card">
       <div class="post-meta">
         {{ with .Params.categories }}<span class="badge">{{ index . 0 }}</span>{{ end }}
-        {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 1월 2일" }}</time>{{ end }}
+        {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ if $en }}{{ .Date.Format "January 2, 2006" }}{{ else }}{{ .Date.Format "2006년 1월 2일" }}{{ end }}</time>{{ end }}
       </div>
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       <p>{{ .Summary | plainify | truncate 120 }}</p>

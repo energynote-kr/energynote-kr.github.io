@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="ko">
+{{- $en := eq .Language.Lang "en" -}}
+<html lang="{{ .Language.LanguageCode }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="CRGFxSPt8fIXX8DI1J2-blZbtrSYDIGqAhd5T12K5KA">
   <meta name="google-site-verification" content="aNFyNdPD03Ejtnkfg_ZMe6z22zv1p92FChN7bgI1WEM">
-  <title>{{ if .IsHome }}{{ site.Title }} — 생활 속 방사선과 에너지 이야기{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ site.Title }}{{ if $en }} — Nuclear energy and radiation, explained from Korea{{ else }} — 생활 속 방사선과 에너지 이야기{{ end }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 150 }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
   {{ if eq .Section "tags" }}<meta name="robots" content="noindex,follow">{{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
+  {{ if .IsTranslated }}{{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">{{ end }}
+  <link rel="alternate" hreflang="x-default" href="{{ (index (where .AllTranslations "Language.Lang" "ko") 0).Permalink }}">
+  {{ end }}
   <meta property="og:site_name" content="{{ site.Title }}">
   <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:locale" content="ko_KR">
+  <meta property="og:locale" content="{{ if $en }}en_US{{ else }}ko_KR{{ end }}">
   {{ with .OutputFormats.Get "rss" -}}
   <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">
   {{ end -}}
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
   {{ if hugo.IsProduction }}
   <!-- Google tag (gtag.js) — 실제 도메인에서만 실행 (로컬 미리보기·미러 주소 제외) -->
   <script>
@@ -43,6 +48,7 @@
     "headline": {{ .Title | jsonify }},
     "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
     "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+    "inLanguage": {{ .Language.LanguageCode | jsonify }},
     "author": { "@type": "Person", "name": {{ site.Params.author | jsonify }} },
     "url": {{ .Permalink | jsonify }}
   }
@@ -52,12 +58,22 @@
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
+      {{ if $en }}
+      <a class="site-logo" href="{{ "/" | relLangURL }}">⚡ Energy<span>Note</span></a>
+      <nav class="site-nav" aria-label="Main menu">
+        <a href="{{ "/" | relLangURL }}">Home</a>
+        <a href="{{ "/about/" | relLangURL }}">About</a>
+        <a href="{{ "/" | relURL }}" lang="ko">한국어</a>
+      </nav>
+      {{ else }}
       <a class="site-logo" href="{{ "/" | relURL }}">⚡ 에너지<span>노트</span></a>
       <nav class="site-nav" aria-label="주 메뉴">
         <a href="{{ "/categories/생활-방사선/" | relURL }}">생활 방사선</a>
         <a href="{{ "/categories/에너지-이슈/" | relURL }}">에너지 이슈</a>
         <a href="{{ "/about/" | relURL }}">소개</a>
+        <a href="{{ "/en/" | relURL }}" lang="en">English</a>
       </nav>
+      {{ end }}
     </div>
   </header>
 
@@ -67,13 +83,25 @@
 
   <footer class="site-footer">
     <div class="wrap">
+      {{ if $en }}
+      <p class="footer-links">
+        <a href="{{ "/about/" | relLangURL }}">About</a> ·
+        <a href="{{ "/privacy/" | relLangURL }}">Privacy Policy</a> ·
+        <a href="{{ "/contact/" | relLangURL }}">Contact</a> ·
+        <a href="{{ "/index.xml" | relLangURL }}">RSS</a> ·
+        <a href="{{ "/" | relURL }}" lang="ko">한국어 사이트</a>
+      </p>
+      <p class="footer-copy">© {{ now.Format "2006" }} EnergyNote. Content on this site is general information and does not replace medical diagnosis or treatment. Mentions of companies and industries are not investment advice; investment decisions and their consequences are your own.</p>
+      {{ else }}
       <p class="footer-links">
         <a href="{{ "/about/" | relURL }}">블로그 소개</a> ·
         <a href="{{ "/privacy/" | relURL }}">개인정보처리방침</a> ·
         <a href="{{ "/contact/" | relURL }}">문의하기</a> ·
-        <a href="{{ "/index.xml" | relURL }}">RSS</a>
+        <a href="{{ "/index.xml" | relURL }}">RSS</a> ·
+        <a href="{{ "/en/" | relURL }}" lang="en">English</a>
       </p>
       <p class="footer-copy">© {{ now.Format "2006" }} 에너지노트. 본 블로그의 정보는 일반적인 이해를 돕기 위한 것으로, 의학적 진단·치료를 대신하지 않습니다. 기업·산업 관련 내용은 투자 권유가 아니며, 투자의 판단과 책임은 본인에게 있습니다.</p>
+      {{ end }}
     </div>
   </footer>
 </body>

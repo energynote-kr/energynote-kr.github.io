@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 534" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Korea's new-reactor deliberation — four arguments for building more and four for caution on one scale, with a timeline from the September 2026 forums to completion in the late 2030s</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .h { font-size: 14px; font-weight: 800; }
+    .item { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 11.5px; fill: #6b7280; }
+    .tl { font-size: 12.5px; font-weight: 700; fill: #1f2937; }
+    .tls { font-size: 11.5px; fill: #6b7280; }
+  </style>
+  <rect width="720" height="534" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Should Korea build more reactors? Eight arguments on one scale</text>
+  <text x="20" y="48" class="small">The 11th Plan's 2 large units + 1 SMR are already settled (Yeongdeok, Gijang).</text>
+  <text x="20" y="61" class="small">The Sept–Oct deliberation asks whether the 12th Plan (to 2040) should add more.</text>
+
+  <!-- scale -->
+  <polygon points="360,70 346,100 374,100" fill="#6b7280"/>
+  <line x1="80" y1="70" x2="640" y2="70" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="185" y1="70" x2="185" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="535" y1="70" x2="535" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="360" y="110" text-anchor="middle" class="small" font-size="10.5" font-weight="700">Deliberation</text>
+
+  <!-- left pan: build more -->
+  <rect x="30" y="112" width="310" height="196" rx="10" fill="#fff" stroke="#0b6e4f" stroke-width="1.5"/>
+  <rect x="30" y="112" width="310" height="28" rx="10" fill="#0b6e4f"/>
+  <rect x="30" y="128" width="310" height="12" fill="#0b6e4f"/>
+  <text x="185" y="131" text-anchor="middle" class="h" style="fill:#fff">Build more</text>
+
+  <text x="44" y="162" class="item">1. Carbon-free baseload</text>
+  <text x="44" y="178" class="sub">Runs in any weather; 84.6% capacity factor in 2025</text>
+  <text x="44" y="202" class="item">2. 2040 demand re-forecast</text>
+  <text x="44" y="218" class="sub">Peak 158–165 GW, about 27 GW above April's forecast</text>
+  <text x="44" y="242" class="item">3. Existing fleet's settlement price</text>
+  <text x="44" y="258" class="sub">About KRW 79/kWh vs. KRW 158 for gas (2025)</text>
+  <text x="44" y="282" class="item">4. A supply chain still running</text>
+  <text x="44" y="298" class="sub">Shin-Hanul 3&amp;4 keep design, forging, EPC busy</text>
+
+  <!-- right pan: caution -->
+  <rect x="380" y="112" width="310" height="196" rx="10" fill="#fff" stroke="#f5a623" stroke-width="1.5"/>
+  <rect x="380" y="112" width="310" height="28" rx="10" fill="#f5a623"/>
+  <rect x="380" y="128" width="310" height="12" fill="#f5a623"/>
+  <text x="535" y="131" text-anchor="middle" class="h" style="fill:#fff">Go carefully</text>
+
+  <text x="394" y="162" class="item">1. New-build cost and schedule overruns</text>
+  <text x="394" y="178" class="sub">Vogtle >2× cost, 7 yrs late · Flamanville 4×, 12 yrs</text>
+  <text x="394" y="202" class="item">2. No spent-fuel repository</text>
+  <text x="394" y="218" class="sub">2025 act: interim storage by 2050, disposal by 2060</text>
+  <text x="394" y="242" class="item">3. Siting and local acceptance</text>
+  <text x="394" y="258" class="sub">62–70% yes nationally (Jan 2026) · ~50% "near me" (2025)</text>
+  <text x="394" y="282" class="item">4. Cheaper solar and storage, clogged grid</text>
+  <text x="394" y="298" class="sub">Solar bid cap down 5% · half of curtailment in Honam</text>
+
+  <!-- timeline -->
+  <text x="20" y="345" class="h" fill="#1f2937">Timeline — from decision to completion (as of September 2026)</text>
+  <line x1="60" y1="385" x2="660" y2="385" stroke="#6b7280" stroke-width="2"/>
+  <line x1="470" y1="385" x2="660" y2="385" stroke="#f8faf9" stroke-width="2"/>
+  <line x1="470" y1="385" x2="660" y2="385" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="660,379 672,385 660,391" fill="#6b7280"/>
+
+  <circle cx="80" cy="385" r="7" fill="#0b6e4f"/>
+  <text x="80" y="372" text-anchor="middle" class="tl">Sept–Oct</text>
+  <text x="80" y="408" text-anchor="middle" class="tls">Public forums on</text>
+  <text x="80" y="423" text-anchor="middle" class="tls">new reactors</text>
+
+  <circle cx="200" cy="385" r="7" fill="#0b6e4f"/>
+  <text x="200" y="372" text-anchor="middle" class="tl">October</text>
+  <text x="200" y="408" text-anchor="middle" class="tls">12th Basic Plan</text>
+  <text x="200" y="423" text-anchor="middle" class="tls">government draft</text>
+
+  <circle cx="320" cy="385" r="7" fill="#0b6e4f"/>
+  <text x="320" y="372" text-anchor="middle" class="tl">By December</text>
+  <text x="320" y="408" text-anchor="middle" class="tls">Committee and Assembly</text>
+  <text x="320" y="423" text-anchor="middle" class="tls">reports, then confirmed</text>
+
+  <circle cx="470" cy="385" r="7" fill="#f5a623"/>
+  <text x="470" y="372" text-anchor="middle" class="tl">2035–38</text>
+  <text x="470" y="408" text-anchor="middle" class="tls">11th Plan units online</text>
+  <text x="470" y="423" text-anchor="middle" class="tls">SMR, then 2 large units</text>
+
+  <circle cx="610" cy="385" r="7" fill="#fff" stroke="#f5a623" stroke-width="2.5"/>
+  <text x="610" y="372" text-anchor="middle" class="tl">Later</text>
+  <text x="610" y="408" text-anchor="middle" class="tls">12th Plan additions</text>
+  <text x="610" y="423" text-anchor="middle" class="tls">(about 12 yrs to build)</text>
+
+  <rect x="20" y="445" width="680" height="34" rx="8" fill="#e3f2ec"/>
+  <text x="360" y="467" text-anchor="middle" class="small" font-size="12.5" fill="#1f2937">2017 Shin-Kori 5&amp;6: three-month process, 471-citizen jury → resume 59.5%, stop 40.5%</text>
+
+  <text x="20" y="497" class="small" font-size="10.5">Sources: Ministry of Climate, Energy and Environment / 12th Plan committee forum (Aug 20, 2026); 11th Basic Plan (Feb 2025);</text>
+  <text x="20" y="511" class="small" font-size="10.5">Korea Power Exchange 2025 settlement prices; Shin-Kori 5&amp;6 deliberation commission (2017). Vogtle and Flamanville figures are rounded.</text>
+  <text x="20" y="525" class="small" font-size="10.5">Format of the deliberation from September (citizen jury or not) had not been officially announced as of early September 2026.</text>
+</svg>
