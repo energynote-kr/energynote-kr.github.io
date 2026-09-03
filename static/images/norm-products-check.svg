@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">음이온·게르마늄 건강 제품의 유형별 위험 요소 체크표와 2018년 라돈 침대 사태 이후 규제 타임라인</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 12.5px; fill: #1f2937; }
+    .cell { font-size: 12px; fill: #1f2937; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .date { font-size: 12px; font-weight: 800; fill: #0b6e4f; }
+    .ev { font-size: 11.5px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">'건강 제품' 속 천연방사성물질 — 무엇이 위험을 키우나</text>
+  <text x="20" y="49" class="small">모나자이트 등 방사성 원료를 쓴 '음이온' 제품 기준 · 위험은 방사능량 × 몸에 닿는 시간 × 라돈·토론을 들이마실 거리로 커진다</text>
+
+  <!-- 표 헤더 -->
+  <rect x="20" y="66" width="680" height="30" rx="6" fill="#0b6e4f"/>
+  <text x="32" y="86" style="font-size:12.5px; font-weight:800; fill:#fff">위험 요소</text>
+  <text x="170" y="86" style="font-size:12.5px; font-weight:800; fill:#fff">팔찌·목걸이·발찌</text>
+  <text x="305" y="86" style="font-size:12.5px; font-weight:800; fill:#fff">매트·침대·베개</text>
+  <text x="440" y="86" style="font-size:12.5px; font-weight:800; fill:#fff">마스크·안대</text>
+  <text x="575" y="86" style="font-size:12.5px; font-weight:800; fill:#fff">찜질기·깔창</text>
+
+  <!-- 행 배경 -->
+  <rect x="20" y="96" width="680" height="44" fill="#ffffff"/>
+  <rect x="20" y="140" width="680" height="44" fill="#eef4f1"/>
+  <rect x="20" y="184" width="680" height="44" fill="#ffffff"/>
+  <rect x="20" y="228" width="680" height="34" fill="#fff3dc"/>
+  <line x1="160" y1="66" x2="160" y2="262" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="295" y1="96" x2="295" y2="228" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="430" y1="96" x2="430" y2="228" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="565" y1="96" x2="565" y2="228" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- 행 1: 밀착 시간 -->
+  <text x="32" y="122" class="label" font-weight="700">밀착 시간</text>
+  <circle cx="176" cy="118" r="6" fill="#c0392b"/><text x="188" y="115" class="cell">하루 종일 착용</text><text x="188" y="130" class="small">손목·목에 상시</text>
+  <circle cx="311" cy="118" r="6" fill="#c0392b"/><text x="323" y="115" class="cell">매일 7~8시간</text><text x="323" y="130" class="small">넓은 면적이 닿음</text>
+  <circle cx="446" cy="118" r="6" fill="#f5a623"/><text x="458" y="115" class="cell">사용 시간은 짧음</text><text x="458" y="130" class="small">얼굴 피부에 직접</text>
+  <circle cx="581" cy="118" r="6" fill="#f5a623"/><text x="593" y="115" class="cell">짧지만 반복 사용</text><text x="593" y="130" class="small">부위를 바꿔 가며</text>
+
+  <!-- 행 2: 라돈·토론 흡입 -->
+  <text x="32" y="160" class="label" font-weight="700">라돈·토론 흡입</text>
+  <text x="32" y="176" class="small">(코와의 거리)</text>
+  <circle cx="176" cy="162" r="6" fill="#f5a623"/><text x="188" y="159" class="cell">양은 적은 편</text><text x="188" y="174" class="small">코에서 멀고 소량</text>
+  <circle cx="311" cy="162" r="6" fill="#c0392b"/><text x="323" y="159" class="cell">얼굴 바로 옆</text><text x="323" y="174" class="small">닫힌 침실에 쌓임</text>
+  <circle cx="446" cy="162" r="6" fill="#c0392b"/><text x="458" y="159" class="cell">코 앞에서 방출</text><text x="458" y="174" class="small">마스크 11mSv(2018)</text>
+  <circle cx="581" cy="162" r="6" fill="#f5a623"/><text x="593" y="159" class="cell">가열 시 늘 수도</text><text x="593" y="174" class="small">코에서 먼 부위</text>
+
+  <!-- 행 3: 피부선량 -->
+  <text x="32" y="204" class="label" font-weight="700">피부선량</text>
+  <text x="32" y="220" class="small">(알파·베타)</text>
+  <circle cx="176" cy="206" r="6" fill="#f5a623"/><text x="188" y="203" class="cell">접촉 부위 국소</text><text x="188" y="218" class="small">밀착 시간이 길다</text>
+  <circle cx="311" cy="206" r="6" fill="#f5a623"/><text x="323" y="203" class="cell">넓은 면적 접촉</text><text x="323" y="218" class="small">오래 누울수록 누적</text>
+  <circle cx="446" cy="206" r="6" fill="#c0392b"/><text x="458" y="203" class="cell">얼굴·눈 주변에</text><text x="458" y="218" class="small">차폐 없이 밀착</text>
+  <circle cx="581" cy="206" r="6" fill="#f5a623"/><text x="593" y="203" class="cell">국소 피부</text><text x="593" y="218" class="small">발바닥 각질 두꺼움</text>
+
+  <!-- 행 4: 법적 지위 -->
+  <text x="32" y="250" class="label" font-weight="700">2019년 7월 이후</text>
+  <text x="170" y="250" class="cell" font-weight="700" fill="#c0392b">네 유형 모두 방사성 원료 사용 시 제조·수입 금지 — 생활방사선법 제15조</text>
+
+  <!-- 범례 -->
+  <circle cx="26" cy="277" r="5" fill="#c0392b"/>
+  <text x="36" y="281" class="small">위험을 키우는 조건이 뚜렷함</text>
+  <circle cx="196" cy="277" r="5" fill="#f5a623"/>
+  <text x="206" y="281" class="small">조건이 약하거나 제품마다 다름</text>
+  <text x="380" y="281" class="small">· 어느 쪽이든 방사성 원료 자체를 쓰지 않는 것이 원칙</text>
+
+  <!-- 타임라인 -->
+  <text x="20" y="312" class="h">라돈 침대 사태에서 규제까지</text>
+  <line x1="50" y1="392" x2="670" y2="392" stroke="#0b6e4f" stroke-width="3"/>
+
+  <!-- 1 -->
+  <circle cx="50" cy="392" r="7" fill="#c0392b"/>
+  <text x="22" y="340" class="date">2018.5</text>
+  <text x="22" y="356" class="ev">라돈 침대 사태</text>
+  <text x="22" y="371" class="ev">모나자이트 매트리스 수거</text>
+
+  <!-- 2 -->
+  <circle cx="174" cy="392" r="7" fill="#c0392b"/>
+  <text x="150" y="418" class="date">2018.11</text>
+  <text x="150" y="434" class="ev">마스크·베개·매트리스</text>
+  <text x="150" y="449" class="ev">수거명령, 생활방사선</text>
+  <text x="150" y="464" class="ev">안전센터·콜센터 개설</text>
+
+  <!-- 3 -->
+  <circle cx="298" cy="392" r="7" fill="#0b6e4f"/>
+  <text x="270" y="340" class="date">2019.1 → 7</text>
+  <text x="270" y="356" class="ev">생활방사선법 개정 공포·시행</text>
+  <text x="270" y="371" class="ev">음이온 목적·밀착 제품 금지</text>
+
+  <!-- 4 -->
+  <circle cx="422" cy="392" r="7" fill="#0b6e4f"/>
+  <text x="398" y="418" class="date">2021.3</text>
+  <text x="398" y="434" class="ev">원안위·소비자원 음이온</text>
+  <text x="398" y="449" class="ev">부당광고 합동점검 착수</text>
+
+  <!-- 5 -->
+  <circle cx="546" cy="392" r="7" fill="#f5a623"/>
+  <text x="520" y="340" class="date">2021.11</text>
+  <text x="520" y="356" class="ev">수입 팔찌 12종</text>
+  <text x="520" y="371" class="ev">수거명령(밀착 금지 위반)</text>
+
+  <!-- 6 -->
+  <circle cx="670" cy="392" r="7" fill="#f5a623"/>
+  <text x="590" y="418" class="date">2026.3</text>
+  <text x="590" y="434" class="ev">2025년 실태조사 공개:</text>
+  <text x="590" y="449" class="ev">358종 중 52종 부적합</text>
+  <text x="590" y="464" class="ev">(팔찌 38·목걸이 7종)</text>
+
+  <text x="20" y="487" class="small">자료: 원자력안전위원회 보도자료(2018~2021), 생활주변방사선 안전관리법 제15조,</text>
+  <text x="20" y="501" class="small">원안위 「2025년도 생활주변방사선 안전관리 실태조사 및 분석 보고서」(2026년 3월 공개) · 2026년 9월 기준</text>
+</svg>

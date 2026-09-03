@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 468" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">바나나 1개 0.1μSv를 자로 삼아 흉부 엑스레이 0.1mSv(바나나 1,000개), 연간 자연방사선 3mSv(3만 개), 흉부 CT 7mSv(7만 개)를 바나나 아이콘 개수로 비교한 도해. 몸은 칼륨 총량을 유지하므로 실제 추가 선량은 0에 가깝다는 주석 포함.</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #6b7280; }
+    .note { font-size: 12.5px; fill: #1f2937; }
+  </style>
+  <defs>
+    <symbol id="b" viewBox="0 0 14 14">
+      <path d="M3.2 1.5 C0.8 5.5 2.5 10.5 7.5 12.3 C9.5 13 12.2 12.6 12.6 11.4 C7.8 11.2 4.6 7.6 4.4 1.9 Z" fill="#f5a623"/>
+      <path d="M3.2 1.5 L4.4 1.9 L4.2 3.2 L3 2.8 Z" fill="#8a6d1f"/>
+    </symbol>
+  </defs>
+  <rect x="0" y="0" width="720" height="468" fill="#f8faf9"/>
+
+  <text x="20" y="30" class="title">바나나 자로 재 본 방사선량 — 눈금은 맞고, 이름은 밈이다</text>
+  <text x="20" y="50" class="small">1 BED = 칼륨-40 약 15Bq을 계산상 선량으로 바꾼 값 약 0.1μSv · 엑스레이·CT·자연방사선은 대표적 대략값</text>
+
+  <!-- Row 1: 바나나 1개 -->
+  <text x="20" y="92" class="label">바나나 1개</text>
+  <text x="20" y="110" class="value">0.1μSv (계산상)</text>
+  <use href="#b" x="200" y="78" width="30" height="30"/>
+  <text x="242" y="98" class="small">아이콘 1개 = 바나나 1개</text>
+
+  <line x1="20" y1="128" x2="700" y2="128" stroke="#d1d5db" stroke-width="1"/>
+  <text x="200" y="146" class="small" font-weight="700">여기부터 아이콘 1개 = 바나나 1,000개</text>
+
+  <!-- Row 2: 흉부 엑스레이 -->
+  <text x="20" y="174" class="label">흉부 엑스레이 1회</text>
+  <text x="20" y="192" class="value">0.1mSv · 바나나 1,000개</text>
+  <use href="#b" x="200" y="164" width="14" height="14"/>
+
+  <!-- Row 3: 연간 자연방사선 30개 -->
+  <text x="20" y="224" class="label">연간 자연방사선(한국)</text>
+  <text x="20" y="242" class="value">3mSv · 바나나 30,000개</text>
+  <g>
+    <use href="#b" x="200" y="214" width="14" height="14"/><use href="#b" x="214" y="214" width="14" height="14"/><use href="#b" x="228" y="214" width="14" height="14"/><use href="#b" x="242" y="214" width="14" height="14"/><use href="#b" x="256" y="214" width="14" height="14"/>
+    <use href="#b" x="270" y="214" width="14" height="14"/><use href="#b" x="284" y="214" width="14" height="14"/><use href="#b" x="298" y="214" width="14" height="14"/><use href="#b" x="312" y="214" width="14" height="14"/><use href="#b" x="326" y="214" width="14" height="14"/>
+    <use href="#b" x="340" y="214" width="14" height="14"/><use href="#b" x="354" y="214" width="14" height="14"/><use href="#b" x="368" y="214" width="14" height="14"/><use href="#b" x="382" y="214" width="14" height="14"/><use href="#b" x="396" y="214" width="14" height="14"/>
+    <use href="#b" x="410" y="214" width="14" height="14"/><use href="#b" x="424" y="214" width="14" height="14"/><use href="#b" x="438" y="214" width="14" height="14"/><use href="#b" x="452" y="214" width="14" height="14"/><use href="#b" x="466" y="214" width="14" height="14"/>
+    <use href="#b" x="480" y="214" width="14" height="14"/><use href="#b" x="494" y="214" width="14" height="14"/><use href="#b" x="508" y="214" width="14" height="14"/><use href="#b" x="522" y="214" width="14" height="14"/><use href="#b" x="536" y="214" width="14" height="14"/>
+    <use href="#b" x="550" y="214" width="14" height="14"/><use href="#b" x="564" y="214" width="14" height="14"/><use href="#b" x="578" y="214" width="14" height="14"/><use href="#b" x="592" y="214" width="14" height="14"/><use href="#b" x="606" y="214" width="14" height="14"/>
+  </g>
+
+  <!-- Row 4: 흉부 CT 70개 (35 x 2) -->
+  <text x="20" y="276" class="label">흉부 CT 1회</text>
+  <text x="20" y="294" class="value">7mSv · 바나나 70,000개</text>
+  <g>
+    <use href="#b" x="200" y="262" width="14" height="14"/><use href="#b" x="214" y="262" width="14" height="14"/><use href="#b" x="228" y="262" width="14" height="14"/><use href="#b" x="242" y="262" width="14" height="14"/><use href="#b" x="256" y="262" width="14" height="14"/>
+    <use href="#b" x="270" y="262" width="14" height="14"/><use href="#b" x="284" y="262" width="14" height="14"/><use href="#b" x="298" y="262" width="14" height="14"/><use href="#b" x="312" y="262" width="14" height="14"/><use href="#b" x="326" y="262" width="14" height="14"/>
+    <use href="#b" x="340" y="262" width="14" height="14"/><use href="#b" x="354" y="262" width="14" height="14"/><use href="#b" x="368" y="262" width="14" height="14"/><use href="#b" x="382" y="262" width="14" height="14"/><use href="#b" x="396" y="262" width="14" height="14"/>
+    <use href="#b" x="410" y="262" width="14" height="14"/><use href="#b" x="424" y="262" width="14" height="14"/><use href="#b" x="438" y="262" width="14" height="14"/><use href="#b" x="452" y="262" width="14" height="14"/><use href="#b" x="466" y="262" width="14" height="14"/>
+    <use href="#b" x="480" y="262" width="14" height="14"/><use href="#b" x="494" y="262" width="14" height="14"/><use href="#b" x="508" y="262" width="14" height="14"/><use href="#b" x="522" y="262" width="14" height="14"/><use href="#b" x="536" y="262" width="14" height="14"/>
+    <use href="#b" x="550" y="262" width="14" height="14"/><use href="#b" x="564" y="262" width="14" height="14"/><use href="#b" x="578" y="262" width="14" height="14"/><use href="#b" x="592" y="262" width="14" height="14"/><use href="#b" x="606" y="262" width="14" height="14"/>
+    <use href="#b" x="620" y="262" width="14" height="14"/><use href="#b" x="634" y="262" width="14" height="14"/><use href="#b" x="648" y="262" width="14" height="14"/><use href="#b" x="662" y="262" width="14" height="14"/><use href="#b" x="676" y="262" width="14" height="14"/>
+    <use href="#b" x="200" y="280" width="14" height="14"/><use href="#b" x="214" y="280" width="14" height="14"/><use href="#b" x="228" y="280" width="14" height="14"/><use href="#b" x="242" y="280" width="14" height="14"/><use href="#b" x="256" y="280" width="14" height="14"/>
+    <use href="#b" x="270" y="280" width="14" height="14"/><use href="#b" x="284" y="280" width="14" height="14"/><use href="#b" x="298" y="280" width="14" height="14"/><use href="#b" x="312" y="280" width="14" height="14"/><use href="#b" x="326" y="280" width="14" height="14"/>
+    <use href="#b" x="340" y="280" width="14" height="14"/><use href="#b" x="354" y="280" width="14" height="14"/><use href="#b" x="368" y="280" width="14" height="14"/><use href="#b" x="382" y="280" width="14" height="14"/><use href="#b" x="396" y="280" width="14" height="14"/>
+    <use href="#b" x="410" y="280" width="14" height="14"/><use href="#b" x="424" y="280" width="14" height="14"/><use href="#b" x="438" y="280" width="14" height="14"/><use href="#b" x="452" y="280" width="14" height="14"/><use href="#b" x="466" y="280" width="14" height="14"/>
+    <use href="#b" x="480" y="280" width="14" height="14"/><use href="#b" x="494" y="280" width="14" height="14"/><use href="#b" x="508" y="280" width="14" height="14"/><use href="#b" x="522" y="280" width="14" height="14"/><use href="#b" x="536" y="280" width="14" height="14"/>
+    <use href="#b" x="550" y="280" width="14" height="14"/><use href="#b" x="564" y="280" width="14" height="14"/><use href="#b" x="578" y="280" width="14" height="14"/><use href="#b" x="592" y="280" width="14" height="14"/><use href="#b" x="606" y="280" width="14" height="14"/>
+    <use href="#b" x="620" y="280" width="14" height="14"/><use href="#b" x="634" y="280" width="14" height="14"/><use href="#b" x="648" y="280" width="14" height="14"/><use href="#b" x="662" y="280" width="14" height="14"/><use href="#b" x="676" y="280" width="14" height="14"/>
+  </g>
+
+  <!-- 주석 박스 -->
+  <rect x="20" y="322" width="680" height="96" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="346" class="label" style="fill:#0b6e4f">그런데 — 몸은 칼륨 총량을 유지한다</text>
+  <text x="40" y="367" class="note">바나나로 들어온 칼륨은 콩팥이 몇 시간 안에 같은 양을 내보낸다(항상성).</text>
+  <text x="40" y="386" class="note">→ 몸속 칼륨-40 총량(약 4,000~5,000Bq)은 늘지 않는다 — 실제 추가 선량은 0에 가깝다.</text>
+  <text x="40" y="405" class="note">위 눈금은 '먹어서 받는 선량'이 아니라 15Bq을 계산상 선량으로 바꾼, 크기 비교용 자다.</text>
+
+  <text x="20" y="440" class="small" style="font-size:10.5px">출처: Wikipedia 'Banana equivalent dose'(RadSafe 1995년 원문 인용) · xkcd Radiation Dose Chart(2011)</text>
+  <text x="20" y="455" class="small" style="font-size:10.5px">흉부 엑스레이·흉부 CT·한국인 연간 자연방사선(원안위·KINS 집계 약 3mSv)은 대표적 대략값 · 2026년 9월 기준</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">신규 원전 공론화 — 찬성 논거 4개와 신중론 논거 4개를 같은 저울에 올리고, 9월 공론화부터 2030년대 후반 준공까지의 일정을 그린 도해</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .h { font-size: 14px; font-weight: 800; }
+    .item { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .tl { font-size: 12.5px; font-weight: 700; fill: #1f2937; }
+    .tls { font-size: 11.5px; fill: #6b7280; }
+  </style>
+  <rect width="720" height="520" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">신규 원전, 더 지을 것인가 — 같은 저울에 올린 여덟 가지 논거</text>
+  <text x="20" y="50" class="small">11차 전기본의 대형 2기·SMR 1기는 이미 확정(영덕·기장) · 9~10월 공론화는 12차 전기본(~2040년) 추가 반영 여부를 묻는다</text>
+
+  <!-- 저울 -->
+  <polygon points="360,70 346,100 374,100" fill="#6b7280"/>
+  <line x1="80" y1="70" x2="640" y2="70" stroke="#6b7280" stroke-width="4" stroke-linecap="round"/>
+  <line x1="185" y1="70" x2="185" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="535" y1="70" x2="535" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="360" y="120" text-anchor="middle" class="small" font-weight="700">공론화</text>
+
+  <!-- 왼쪽 접시: 찬성 -->
+  <rect x="30" y="112" width="310" height="196" rx="10" fill="#fff" stroke="#0b6e4f" stroke-width="1.5"/>
+  <rect x="30" y="112" width="310" height="28" rx="10" fill="#0b6e4f"/>
+  <rect x="30" y="128" width="310" height="12" fill="#0b6e4f"/>
+  <text x="185" y="131" text-anchor="middle" class="h" style="fill:#fff">더 지어야 한다</text>
+
+  <text x="44" y="162" class="item">1. 무탄소 기저전원</text>
+  <text x="44" y="178" class="sub">날씨와 무관, 이용률 80%대(2025년 84.6%)</text>
+  <text x="44" y="202" class="item">2. 2040년 수요 재전망</text>
+  <text x="44" y="218" class="sub">최대전력 158~165GW, 4월 전망보다 약 27GW↑</text>
+  <text x="44" y="242" class="item">3. 기존 원전 정산단가</text>
+  <text x="44" y="258" class="sub">kWh당 약 79원 (LNG 158원, 2025년)</text>
+  <text x="44" y="282" class="item">4. 살아 있는 공급망</text>
+  <text x="44" y="298" class="sub">신한울 3·4호기 건설 중, 설계·주기기·시공 가동</text>
+
+  <!-- 오른쪽 접시: 신중 -->
+  <rect x="380" y="112" width="310" height="196" rx="10" fill="#fff" stroke="#f5a623" stroke-width="1.5"/>
+  <rect x="380" y="112" width="310" height="28" rx="10" fill="#f5a623"/>
+  <rect x="380" y="128" width="310" height="12" fill="#f5a623"/>
+  <text x="535" y="131" text-anchor="middle" class="h" style="fill:#fff">신중해야 한다</text>
+
+  <text x="394" y="162" class="item">1. 신규 건설비·공기 초과</text>
+  <text x="394" y="178" class="sub">보글 3·4호기 2배 이상↑·7년 지연, 플라망빌 4배↑·12년</text>
+  <text x="394" y="202" class="item">2. 사용후핵연료 처분장 부재</text>
+  <text x="394" y="218" class="sub">특별법 목표: 중간저장 2050년, 처분시설 2060년</text>
+  <text x="394" y="242" class="item">3. 입지·지역 수용성</text>
+  <text x="394" y="258" class="sub">전국 찬성 62~70%(2026.1) vs '내 거주지' 찬성 50% 안팎(2025)</text>
+  <text x="394" y="282" class="item">4. 재생·ESS 단가 하락, 송전망 병목</text>
+  <text x="394" y="298" class="sub">태양광 입찰 상한 5%↓ · 출력제어 절반이 호남</text>
+
+  <!-- 일정 타임라인 -->
+  <text x="20" y="345" class="h" fill="#1f2937">일정 — 결정에서 준공까지 (2026년 9월 기준)</text>
+  <line x1="60" y1="385" x2="660" y2="385" stroke="#6b7280" stroke-width="2"/>
+  <line x1="470" y1="385" x2="660" y2="385" stroke="#f8faf9" stroke-width="2" stroke-dasharray="0"/>
+  <line x1="470" y1="385" x2="660" y2="385" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="660,379 672,385 660,391" fill="#6b7280"/>
+
+  <circle cx="80" cy="385" r="7" fill="#0b6e4f"/>
+  <text x="80" y="372" text-anchor="middle" class="tl">9~10월</text>
+  <text x="80" y="408" text-anchor="middle" class="tls">신규 원전 연속</text>
+  <text x="80" y="423" text-anchor="middle" class="tls">토론회(공론화)</text>
+
+  <circle cx="200" cy="385" r="7" fill="#0b6e4f"/>
+  <text x="200" y="372" text-anchor="middle" class="tl">10월</text>
+  <text x="200" y="408" text-anchor="middle" class="tls">12차 전기본</text>
+  <text x="200" y="423" text-anchor="middle" class="tls">정부안</text>
+
+  <circle cx="320" cy="385" r="7" fill="#0b6e4f"/>
+  <text x="320" y="372" text-anchor="middle" class="tl">정기국회 내</text>
+  <text x="320" y="408" text-anchor="middle" class="tls">기후대응위·국회</text>
+  <text x="320" y="423" text-anchor="middle" class="tls">보고 후 확정</text>
+
+  <circle cx="470" cy="385" r="7" fill="#f5a623"/>
+  <text x="470" y="372" text-anchor="middle" class="tl">2035~38년</text>
+  <text x="470" y="408" text-anchor="middle" class="tls">11차 물량 준공 목표</text>
+  <text x="470" y="423" text-anchor="middle" class="tls">SMR 1기 → 대형 2기</text>
+
+  <circle cx="610" cy="385" r="7" fill="#fff" stroke="#f5a623" stroke-width="2.5"/>
+  <text x="610" y="372" text-anchor="middle" class="tl">그 이후</text>
+  <text x="610" y="408" text-anchor="middle" class="tls">12차 추가분 준공</text>
+  <text x="610" y="423" text-anchor="middle" class="tls">(결정~준공 12년 안팎)</text>
+
+  <rect x="20" y="445" width="680" height="34" rx="8" fill="#e3f2ec"/>
+  <text x="360" y="467" text-anchor="middle" class="small" font-size="12.5" fill="#1f2937">2017년 신고리 5·6호기 공론화: 시민참여단 471명 숙의 → 건설 재개 59.5% · 중단 40.5% (3개월)</text>
+
+  <text x="20" y="497" class="small" font-size="10.5">출처: 기후에너지환경부·12차 전기본 총괄위 토론회(2026.8.20), 11차 전기본(2025.2), 전력거래소 2025 정산단가, 신고리 공론화위(2017)</text>
+  <text x="20" y="511" class="small" font-size="10.5">보글·플라망빌은 사업자 발표 기준 대략값 · 9월 이후 공론화 세부 방식(시민참여단 여부 등)은 2026년 9월 초 기준 확정 발표 미확인</text>
+</svg>

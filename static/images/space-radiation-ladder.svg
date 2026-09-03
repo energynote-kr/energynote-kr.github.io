@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">지상 1년, 항공 승무원 1년, 달 왕복 열흘, ISS 6개월, 화성 왕복 이동의 방사선량을 로그 눈금 막대로 비교하고 종사자 5년 한도와 NASA 생애 한도를 표시한 도해</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11.5px; fill: #6b7280; }
+    .label { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .note { font-size: 11px; fill: #6b7280; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .tick { font-size: 11px; fill: #6b7280; }
+    .ref { font-size: 11px; font-weight: 700; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="470" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">우주방사선 사다리 — 지상에서 화성까지 (mSv)</text>
+  <text x="20" y="50" class="sub">막대는 로그 눈금: 한 칸 오를 때마다 10배. 값은 각 자료의 대략적 범위이며 태양 폭풍(SPE)이 없을 때 기준</text>
+
+  <!-- 기준선 라벨 -->
+  <text x="501" y="70" class="ref" text-anchor="end">종사자 5년 한도</text>
+  <text x="501" y="84" class="ref" text-anchor="end">100mSv</text>
+  <text x="712" y="70" text-anchor="end" class="ref">NASA 생애 한도</text>
+  <text x="712" y="84" text-anchor="end" class="ref">600mSv</text>
+  <line x1="507" y1="90" x2="507" y2="330" stroke="#6b7280" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="626" y1="90" x2="626" y2="330" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- 1 지상 -->
+  <text x="20" y="114" class="label">지상 1년</text>
+  <text x="20" y="128" class="note">한국 자연방사선 평균</text>
+  <rect x="200" y="104" width="73" height="24" rx="4" fill="#9ca3af"/>
+  <text x="281" y="121" class="value">약 3</text>
+
+  <!-- 2 항공 승무원 -->
+  <text x="20" y="162" class="label">항공 승무원 1년</text>
+  <text x="20" y="176" class="note">장거리 노선, 법정 한도 6</text>
+  <rect x="200" y="152" width="107" height="24" rx="4" fill="#0b6e4f" opacity="0.7"/>
+  <text x="315" y="169" class="value">2~5</text>
+
+  <!-- 3 달 왕복 -->
+  <text x="20" y="210" class="label">달 왕복 열흘</text>
+  <text x="20" y="224" class="note">아르테미스 2호(1호 실측 기반 추정)</text>
+  <rect x="200" y="200" width="199" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="407" y="217" class="value">대략 10~20</text>
+
+  <!-- 4 ISS -->
+  <text x="20" y="258" class="label">ISS 6개월</text>
+  <text x="20" y="272" class="note">태양 활동 따라 80~160</text>
+  <rect x="200" y="248" width="338" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="546" y="265" class="value">80~160</text>
+
+  <!-- 5 화성 -->
+  <text x="20" y="306" class="label">화성 왕복 이동(약 1년)</text>
+  <text x="20" y="320" class="note">큐리오시티 실측 · 표면 체류 제외</text>
+  <rect x="200" y="296" width="432" height="24" rx="4" fill="#f5a623"/>
+  <text x="640" y="313" class="value" style="fill:#b45309">약 660</text>
+
+  <!-- 축 -->
+  <line x1="200" y1="330" x2="668" y2="330" stroke="#6b7280" stroke-width="1"/>
+  <text x="200" y="346" class="tick" text-anchor="middle">1</text>
+  <text x="353" y="346" class="tick" text-anchor="middle">10</text>
+  <text x="507" y="346" class="tick" text-anchor="middle">100</text>
+  <text x="660" y="346" class="tick" text-anchor="middle">1,000</text>
+  <text x="20" y="346" class="tick">mSv (로그 눈금)</text>
+
+  <!-- 읽는 법 -->
+  <rect x="20" y="362" width="680" height="62" rx="10" fill="#e3f2ec"/>
+  <text x="40" y="384" class="note" font-size="12.5" fill="#1f2937">읽는 법: 달 왕복 열흘은 흉부 CT 1~3회 분량이고 종사자 5년 한도(100mSv)의 10~20%. ISS 6개월은 그 한도에 맞먹거나 넘지만</text>
+  <text x="40" y="403" class="note" font-size="12.5" fill="#1f2937">NASA 생애 한도(600mSv) 안에서 관리된다. 이동만으로 생애 한도를 넘기는 곳은 화성뿐 — '화성의 방사선 문제'의 산수.</text>
+  <text x="40" y="419" class="note" font-size="11" fill="#6b7280">태양 폭풍 시 임시 대피소 목표: 승무원 선량 150mSv 이하(NASA)</text>
+
+  <text x="20" y="446" class="note" font-size="10.5">자료: George 외 Nature(2024, 아르테미스 1호 실측) · NASA 아르테미스 2호 비행 전 예상치(2026.3) · Zeitlin 외 Science(2013)</text>
+  <text x="20" y="461" class="note" font-size="10.5">벨기에 왕립천문대 SIDC(ISS 6개월) · NASA-STD-3001(생애 한도) · 원자력안전법·생활주변방사선법(국내 한도) · 2026년 9월 기준</text>
+</svg>

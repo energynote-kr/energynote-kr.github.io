@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 456" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">발전소에서 송전망을 거쳐 데이터센터로 가는 전력 흐름에서 송전망이 병목이 되는 구조와 국내 데이터센터 전력수요 전망(2025년 4,461MW, 2028년 6,175MW)</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 13px; fill: #1f2937; }
+    .bold { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #6b7280; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="456" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">전기는 남는데, 보낼 '전선'이 없다</text>
+  <text x="20" y="50" class="small">AI 데이터센터 전력 공급의 병목은 발전소가 아니라 송전선·변전소·변압기</text>
+
+  <!-- 흐름도: 발전소 → 송전망(병목) → 데이터센터 -->
+  <rect x="20" y="78" width="180" height="96" rx="10" fill="#0b6e4f"/>
+  <text x="110" y="104" text-anchor="middle" font-size="15" font-weight="800" style="fill:#fff">발전소</text>
+  <text x="110" y="126" text-anchor="middle" font-size="12" style="fill:#fff">동해안 원전·석탄 8GW</text>
+  <text x="110" y="144" text-anchor="middle" font-size="12" style="fill:#fff">송전 제약으로 가동률</text>
+  <text x="110" y="161" text-anchor="middle" font-size="12" style="fill:#fff">20% 미만 (2026.7 보도)</text>
+
+  <path d="M204 126 L246 126" stroke="#0b6e4f" stroke-width="6" fill="none"/>
+  <path d="M244 116 L258 126 L244 136 Z" fill="#0b6e4f"/>
+
+  <rect x="262" y="72" width="196" height="108" rx="10" fill="#ffffff" stroke="#f5a623" stroke-width="3" stroke-dasharray="8 5"/>
+  <rect x="316" y="60" width="88" height="22" rx="11" fill="#f5a623"/>
+  <text x="360" y="76" text-anchor="middle" font-size="12.5" font-weight="800" style="fill:#fff">병목 구간</text>
+  <text x="360" y="106" text-anchor="middle" font-size="15" font-weight="800" fill="#1f2937">송전망</text>
+  <text x="360" y="128" text-anchor="middle" font-size="12" fill="#1f2937">송전선 · 변전소 · 변압기</text>
+  <text x="360" y="148" text-anchor="middle" font-size="12" fill="#6b7280">HVDC 지연 · 변압기 납기</text>
+  <text x="360" y="166" text-anchor="middle" font-size="12" fill="#6b7280">접속 심사 대기</text>
+
+  <path d="M462 126 L504 126" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4" fill="none"/>
+  <path d="M502 118 L516 126 L502 134 Z" fill="#6b7280"/>
+
+  <rect x="520" y="78" width="180" height="96" rx="10" fill="#6b7280"/>
+  <text x="610" y="104" text-anchor="middle" font-size="15" font-weight="800" style="fill:#fff">데이터센터</text>
+  <text x="610" y="126" text-anchor="middle" font-size="12" style="fill:#fff">신청의 67%가 수도권</text>
+  <text x="610" y="144" text-anchor="middle" font-size="12" style="fill:#fff">(2024.8~2025.6, 290건)</text>
+  <text x="610" y="161" text-anchor="middle" font-size="12" style="fill:#fff">수도권 승인률 1.9%</text>
+
+  <!-- 왜 막히나 -->
+  <rect x="20" y="198" width="420" height="150" rx="10" fill="#e3f2ec"/>
+  <text x="36" y="222" class="h">왜 막히나 — 세 가지 병목</text>
+  <text x="36" y="248" class="bold">① 송전선</text>
+  <text x="120" y="248" class="label">동해안–수도권 HVDC 목표 2026.6 →</text>
+  <text x="120" y="266" class="label">사업기간 2027.12로 연장, 변환소 인허가 미결</text>
+  <text x="36" y="292" class="bold">② 변압기</text>
+  <text x="120" y="292" class="label">미국 평균 납기 128주(약 2.5년), 2019년 대비</text>
+  <text x="120" y="310" class="label">가격 77%↑ — 세계 공통 병목</text>
+  <text x="36" y="336" class="bold">③ 접속 심사</text>
+  <text x="120" y="336" class="label">미국 PJM 평균 40개월 · 국내 미승인 약 9.6GW</text>
+
+  <!-- 수요 전망 막대 -->
+  <text x="460" y="216" class="h">국내 데이터센터 전력수요 전망</text>
+  <text x="460" y="232" class="small">한국IDC, 단위 MW · 연평균 +11%</text>
+  <line x1="470" y1="348" x2="700" y2="348" stroke="#c9c6bd" stroke-width="1"/>
+  <rect x="500" y="285" width="64" height="63" rx="4" fill="#6b7280"/>
+  <text x="532" y="277" text-anchor="middle" class="bold">4,461</text>
+  <text x="532" y="366" text-anchor="middle" class="label">2025년</text>
+  <rect x="612" y="261" width="64" height="87" rx="4" fill="#0b6e4f"/>
+  <text x="644" y="253" text-anchor="middle" class="value">6,175</text>
+  <text x="644" y="366" text-anchor="middle" class="label">2028년</text>
+  <text x="588" y="310" text-anchor="middle" font-size="12" font-weight="700" fill="#f5a623">×1.4</text>
+
+  <!-- 읽는 법 -->
+  <rect x="20" y="380" width="680" height="34" rx="8" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="36" y="402" class="small" font-size="12.5" fill="#1f2937">읽는 법: 발전소를 더 지어도 송전망이 없으면 전기는 못 간다 — 송전선 10년+, 변압기 2~3년</text>
+
+  <text x="20" y="432" class="small" font-size="10.5">출처: 한국IDC(2025.6), 산업부·한전 국회 제출자료(2025.7), CBRE코리아(2026.7, 2026.3 누적 기준), 기후에너지환경부 고시(2026.7)</text>
+  <text x="20" y="446" class="small" font-size="10.5">Wood Mackenzie(2025 2Q, POWER·Data Center Knowledge 인용), PJM(2026), Utility Dive(2026.8) · 2026년 9월 초 기준</text>
+</svg>
