@@ -83,9 +83,10 @@
   <!-- 행 5: 오클로 -->
   <text x="20" y="302" class="name">오클로 (미국)</text>
   <line x1="140" y1="298" x2="700" y2="298" stroke="#e5e7eb" stroke-width="1"/>
-  <text x="148" y="302" class="labg">DOE 시범사업 승인 경로 (NRC 인허가 신청 전)</text>
+  <circle cx="258" cy="298" r="5" fill="#6b7280"/>
+  <text x="148" y="302" class="labg">착공 2025.9</text>
   <circle cx="355" cy="298" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
-  <text x="364" y="302" class="labg">회사 목표 2028</text>
+  <text x="364" y="302" class="labg">회사 목표 2028 · DOE 시범사업 승인 경로(NRC 인허가 신청 전)</text>
 
   <!-- 행 6: 링룽원 -->
   <text x="20" y="342" class="name">링룽원 (중국)</text>
