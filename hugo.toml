@@ -33,3 +33,10 @@ section = ["html", "rss"]
 [sitemap]
 changefreq = "weekly"
 priority = 0.5
+
+# 태그 페이지(글 1개짜리가 대부분)는 사이트맵 제외 — 애드센스 '콘텐츠 부족 페이지' 방지
+[[cascade]]
+  [cascade.sitemap]
+    disable = true
+  [cascade.target]
+    path = "{/tags,/tags/**}"
