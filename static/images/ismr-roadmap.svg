@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">i-SMR과 해외 경쟁 SMR의 일정을 2023~2036년 한 축에 나란히 놓은 타임라인</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .name { font-size: 12.5px; font-weight: 700; fill: #1f2937; }
+    .name2 { font-size: 11px; fill: #6b7280; }
+    .lab { font-size: 11px; fill: #1f2937; }
+    .labg { font-size: 11px; fill: #6b7280; }
+    .yr { font-size: 12px; fill: #6b7280; }
+    .now { font-size: 11px; font-weight: 700; fill: #b45309; }
+  </style>
+  <rect x="0" y="0" width="720" height="470" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한국형 i-SMR은 어디쯤 왔나 — 해외 SMR과 시간표 비교</text>
+  <text x="20" y="49" class="sub">● 완료된 일   ○ 목표·계획   점선 = 2026년 9월 현재 · 연도 축은 2023~2036년</text>
+
+  <!-- 연도 축: x = 140 + (year-2023)*43.1 -->
+  <line x1="140" y1="72" x2="700" y2="72" stroke="#d1d5db" stroke-width="1"/>
+  <g class="yr" text-anchor="middle">
+    <text x="140" y="66">2023</text>
+    <text x="226" y="66">2025</text>
+    <text x="312" y="66">2027</text>
+    <text x="398" y="66">2029</text>
+    <text x="485" y="66">2031</text>
+    <text x="571" y="66">2033</text>
+    <text x="657" y="66">2035</text>
+  </g>
+  <g stroke="#d1d5db" stroke-width="1">
+    <line x1="140" y1="69" x2="140" y2="75"/><line x1="183" y1="70" x2="183" y2="74"/>
+    <line x1="226" y1="69" x2="226" y2="75"/><line x1="269" y1="70" x2="269" y2="74"/>
+    <line x1="312" y1="69" x2="312" y2="75"/><line x1="355" y1="70" x2="355" y2="74"/>
+    <line x1="398" y1="69" x2="398" y2="75"/><line x1="442" y1="70" x2="442" y2="74"/>
+    <line x1="485" y1="69" x2="485" y2="75"/><line x1="528" y1="70" x2="528" y2="74"/>
+    <line x1="571" y1="69" x2="571" y2="75"/><line x1="614" y1="70" x2="614" y2="74"/>
+    <line x1="657" y1="69" x2="657" y2="75"/><line x1="700" y1="70" x2="700" y2="74"/>
+  </g>
+
+  <!-- 현재 선 (2026년 9월 ≈ x 298) -->
+  <line x1="298" y1="94" x2="298" y2="362" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="298" y="90" class="now" text-anchor="middle">2026년 9월 현재</text>
+
+  <!-- 행 1: i-SMR (강조 밴드) -->
+  <rect x="12" y="98" width="696" height="56" rx="8" fill="#e3f2ec"/>
+  <text x="20" y="122" class="name">i-SMR (한국)</text>
+  <text x="20" y="138" class="name2">170MWe × 4기</text>
+  <line x1="140" y1="126" x2="657" y2="126" stroke="#0b6e4f" stroke-width="2" opacity="0.35"/>
+  <circle cx="140" cy="126" r="5" fill="#0b6e4f"/>
+  <text x="140" y="113" class="lab" text-anchor="middle">사업 착수</text>
+  <circle cx="276" cy="126" r="5" fill="#0b6e4f"/>
+  <text x="262" y="146" class="lab" text-anchor="middle">SDA 신청 (2월)</text>
+  <circle cx="355" cy="126" r="5" fill="#f8faf9" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="360" y="113" class="lab" text-anchor="middle">SDA 인가 목표</text>
+  <circle cx="442" cy="126" r="5" fill="#f8faf9" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="442" y="146" class="lab" text-anchor="middle">착공 목표</text>
+  <circle cx="657" cy="126" r="5" fill="#f8faf9" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="650" y="113" class="lab" text-anchor="middle">상업운전 목표</text>
+
+  <!-- 행 2: 뉴스케일 -->
+  <text x="20" y="182" class="name">뉴스케일 (미국)</text>
+  <line x1="140" y1="178" x2="700" y2="178" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="243" cy="178" r="5" fill="#6b7280"/>
+  <text x="252" y="182" class="lab">NRC 설계승인 2025.5</text>
+  <circle cx="442" cy="178" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="451" y="182" class="labg">첫 배치 목표 2030 (6GW 협약은 비구속)</text>
+
+  <!-- 행 3: 테라파워 -->
+  <text x="20" y="222" class="name">테라파워 (미국)</text>
+  <line x1="140" y1="218" x2="700" y2="218" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="280" cy="218" r="5" fill="#6b7280"/>
+  <text x="303" y="222" class="lab">건설허가·착공 2026.3~4</text>
+  <circle cx="442" cy="218" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="451" y="222" class="labg">연료장전 2030 · 상업운전 2031 목표</text>
+
+  <!-- 행 4: BWRX-300 -->
+  <text x="20" y="257" class="name">BWRX-300</text>
+  <text x="20" y="271" class="name2">캐나다 · GE버노바</text>
+  <line x1="140" y1="258" x2="700" y2="258" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="241" cy="258" r="5" fill="#6b7280"/>
+  <text x="250" y="262" class="lab">착공 2025.5 · 운영허가 신청 2026.3</text>
+  <circle cx="480" cy="258" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="489" y="262" class="labg">계통연결 목표 2030 말</text>
+
+  <!-- 행 5: 오클로 -->
+  <text x="20" y="302" class="name">오클로 (미국)</text>
+  <line x1="140" y1="298" x2="700" y2="298" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="148" y="302" class="labg">DOE 시범사업 승인 경로 (NRC 인허가 신청 전)</text>
+  <circle cx="355" cy="298" r="5" fill="#f8faf9" stroke="#6b7280" stroke-width="2"/>
+  <text x="364" y="302" class="labg">회사 목표 2028</text>
+
+  <!-- 행 6: 링룽원 -->
+  <text x="20" y="342" class="name">링룽원 (중국)</text>
+  <line x1="140" y1="338" x2="700" y2="338" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="148" y="342" class="labg">2021 착공</text>
+  <circle cx="287" cy="338" r="5" fill="#f8faf9" stroke="#f5a623" stroke-width="2"/>
+  <text x="310" y="342" class="lab">상업운전 목표 2026 상반기 → 8월 초 기준 시운전 전 단계</text>
+
+  <!-- 읽는 법 -->
+  <rect x="12" y="372" width="696" height="52" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="28" y="393" class="lab" font-weight="700">읽는 법</text>
+  <text x="90" y="393" class="lab">해외 선두 그룹은 2030년 전후 첫 가동, i-SMR 첫 호기는 2035년 목표 — 5년 안팎 뒤.</text>
+  <text x="90" y="411" class="labg">단, 원자력 프로젝트의 목표 연도는 대체로 늦춰지며 i-SMR은 반복 건설용 표준설계 인가를 먼저 노린다.</text>
+
+  <text x="20" y="448" class="sub">자료: 원자력안전위원회(2026.3·8), 한국수력원자력 부지선정 결과(2026.6), 미국 NRC, 캐나다 CNSC·OPG, IAEA PRIS</text>
+  <text x="20" y="462" class="sub">2026년 9월 기준 · 목표 연도는 각 사업자 발표값이며 변경될 수 있음 · SDA = 표준설계인가(Standard Design Approval)</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 514" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">라돈 농도와 노출 시간을 곱한 선량 비교 — 집·미사사 온천·바트가슈타인 갱도</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .h { font-size: 13.5px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 12.5px; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .tick { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="514" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">라돈 온천은 집보다 진하다 — 그런데 선량은 반대다</text>
+  <text x="20" y="50" class="small">공기 중 라돈 농도(Bq/㎥)와, 거기에 노출 시간을 곱한 선량(mSv) · 농도는 문헌 보고값의 대략적 수준</text>
+
+  <!-- ① 농도 (로그 눈금: 10 → 100,000, 한 자릿수 = 105px, x=200 시작) -->
+  <text x="20" y="82" class="h">① 공기 중 라돈 농도 (Bq/㎥, 로그 눈금)</text>
+
+  <text x="20" y="111" class="label">국내 실내 권고기준</text>
+  <rect x="200" y="97" width="123" height="22" rx="4" fill="#6b7280"/>
+  <text x="331" y="113" class="value">148</text>
+
+  <text x="20" y="145" class="label">미사사 온천</text>
+  <text x="20" y="160" class="label">열기욕실 공기</text>
+  <rect x="200" y="137" width="244" height="22" rx="4" fill="#0b6e4f"/>
+  <text x="452" y="153" class="value">약 2,100 (일반 욕실 약 800)</text>
+
+  <text x="20" y="185" class="label">바트가슈타인</text>
+  <text x="20" y="200" class="label">치유 갱도 공기</text>
+  <rect x="200" y="177" width="382" height="22" rx="4" fill="#f5a623"/>
+  <text x="590" y="193" class="value">약 44,000</text>
+
+  <line x1="200" y1="92" x2="200" y2="206" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="200" y1="206" x2="620" y2="206" stroke="#d1d5db" stroke-width="1"/>
+  <text x="200" y="220" class="tick" text-anchor="middle">10</text>
+  <text x="305" y="220" class="tick" text-anchor="middle">100</text>
+  <text x="410" y="220" class="tick" text-anchor="middle">1,000</text>
+  <text x="515" y="220" class="tick" text-anchor="middle">10,000</text>
+  <text x="620" y="220" class="tick" text-anchor="middle">100,000</text>
+
+  <!-- ② 선량 (선형: 8mSv = 400px, x=200 시작) -->
+  <text x="20" y="254" class="h">② 노출 시간을 곱한 선량 (mSv, 선형 눈금)</text>
+
+  <text x="20" y="282" class="label">집 148Bq/㎥</text>
+  <text x="20" y="297" class="label">× 연 8,000시간</text>
+  <rect x="200" y="269" width="400" height="22" rx="4" fill="#6b7280"/>
+  <text x="210" y="285" style="font-size:13px; font-weight:700; fill:#fff">약 8mSv / 년 (UNSCEAR 계수로는 약 4)</text>
+
+  <text x="20" y="322" class="label">온천 열기욕실 2,100</text>
+  <text x="20" y="337" class="label">× 1시간</text>
+  <rect x="200" y="309" width="3" height="22" rx="1" fill="#0b6e4f"/>
+  <text x="211" y="325" class="value">약 0.01mSv — 서울–나고야 왕복 비행의 우주방사선과 같은 크기</text>
+
+  <text x="20" y="362" class="label">갱도 44,000</text>
+  <text x="20" y="377" class="label">× 12시간 요양 코스</text>
+  <rect x="200" y="349" width="180" height="22" rx="4" fill="#f5a623"/>
+  <text x="388" y="365" class="value">약 3~4mSv (시설 문헌 기준 약 1.8)</text>
+
+  <line x1="200" y1="264" x2="200" y2="378" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- 읽는 법 -->
+  <rect x="20" y="392" width="680" height="66" rx="10" fill="#e3f2ec"/>
+  <text x="40" y="413" class="label" font-weight="700">읽는 법</text>
+  <text x="40" y="432" class="small" font-size="12">· 농도는 갱도가 집 기준의 300배지만, 시간은 집이 8,000배 → 온천욕 1시간의 선량은 집 1년의 1,000분의 1 안팎</text>
+  <text x="40" y="450" class="small" font-size="12">· 선량 = 농도 × 시간 × 계수 (ICRP 137, 평형인자 0.4, Bq·h/㎥당 약 7×10⁻⁶mSv) · 라돈 자손핵종의 알파선이 폐에 주는 선량</text>
+
+  <text x="20" y="476" class="small" style="font-size:10.5px">자료: ICRP Publication 137(2017) 라돈 선량계수 · Morinaga 외, Radiat Prot Dosim(1984) · Mitsunobu 외, J Radiat Res(2003) 미사사 측정</text>
+  <text x="20" y="491" class="small" style="font-size:10.5px">Brandmaier(2001) 바트가슈타인 갱도 · 실내공기질 관리법 시행규칙(권고기준 148Bq/㎥) · 2026년 9월 기준</text>
+  <text x="20" y="506" class="small" style="font-size:10.5px">선량은 계수·평형인자 가정에 따라 2배 안팎 달라질 수 있음</text>
+</svg>
