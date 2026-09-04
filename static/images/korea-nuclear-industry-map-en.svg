@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Korea's nuclear industry map: institutions and companies placed on a fuel-cycle band and a plant-lifecycle band, with mining, conversion and enrichment shown as dashed 'bought abroad' boxes and reprocessing marked as not done</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .band { font-size: 13px; font-weight: 800; fill: #0b6e4f; }
+    .stage { font-size: 12.5px; font-weight: 800; fill: #1f2937; }
+    .stageg { font-size: 12.5px; font-weight: 800; fill: #6b7280; }
+    .name { font-size: 10.5px; fill: #1f2937; }
+    .nameg { font-size: 10.5px; fill: #6b7280; }
+    .strip { font-size: 11px; fill: #1f2937; }
+    .leg { font-size: 11px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="780" height="520" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Korea's nuclear industry map — who sits on the fuel axis and the plant axis</text>
+  <text x="20" y="48" class="sub">Top band: fuel cycle (uranium → fuel → spent fuel) · Bottom band: plant lifecycle (design → decommissioning) · they meet at the reactor</text>
+
+  <!-- Policy, regulation, research -->
+  <rect x="12" y="60" width="756" height="30" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="72" class="strip" font-size="10.5"><tspan font-weight="700">Policy · regulation · research</tspan>  Ministry of Climate, Energy and Environment (policy) · Ministry of Trade, Industry and Resources (exports)</text>
+  <text x="24" y="85" class="strip" font-size="10.5">NSSC (regulator) · KINS · KINAC (regulatory support) · KAERI (research)</text>
+
+  <!-- Band 1: fuel cycle -->
+  <text x="20" y="112" class="band">① Fuel cycle</text>
+  <text x="118" y="112" class="sub">front end (making fuel) → reactor → back end (spent fuel)</text>
+
+  <!-- Mining (abroad) -->
+  <rect x="12" y="122" width="102" height="80" rx="8" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="5 3"/>
+  <text x="63" y="141" class="stageg" text-anchor="middle">Mining</text>
+  <text x="63" y="160" class="nameg" text-anchor="middle">Bought abroad</text>
+  <text x="63" y="176" class="nameg" text-anchor="middle">Canada project</text>
+  <text x="63" y="192" class="nameg" text-anchor="middle">KHNP 21.9% stake</text>
+
+  <!-- Conversion (abroad) -->
+  <rect x="121" y="122" width="102" height="80" rx="8" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="5 3"/>
+  <text x="172" y="141" class="stageg" text-anchor="middle">Conversion</text>
+  <text x="172" y="160" class="nameg" text-anchor="middle">Bought abroad</text>
+  <text x="172" y="176" class="nameg" text-anchor="middle">ConverDyn (US)</text>
+  <text x="172" y="192" class="nameg" text-anchor="middle">Orano MOU (FR)</text>
+
+  <!-- Enrichment (abroad) -->
+  <rect x="230" y="122" width="102" height="80" rx="8" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="5 3"/>
+  <text x="281" y="141" class="stageg" text-anchor="middle">Enrichment</text>
+  <text x="281" y="160" class="nameg" text-anchor="middle">Bought abroad</text>
+  <text x="281" y="176" class="nameg" text-anchor="middle">Centrus · Orano</text>
+  <text x="281" y="192" class="nameg" text-anchor="middle">Treaty consent</text>
+
+  <!-- Fabrication -->
+  <rect x="339" y="122" width="102" height="80" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="390" y="141" class="stage" text-anchor="middle">Fabrication</text>
+  <text x="390" y="160" class="name" text-anchor="middle">KNF (KEPCO NF)</text>
+  <text x="390" y="176" class="name" text-anchor="middle">PWR &amp; PHWR fuel</text>
+  <text x="390" y="192" class="name" text-anchor="middle">made in Korea</text>
+
+  <!-- Reactor -->
+  <rect x="448" y="122" width="102" height="80" rx="8" fill="#0b6e4f"/>
+  <text x="499" y="141" class="stage" text-anchor="middle" style="fill:#fff">Reactor</text>
+  <text x="499" y="160" class="name" text-anchor="middle" style="fill:#fff">KHNP operates</text>
+  <text x="499" y="176" class="name" text-anchor="middle" style="fill:#fff">26 operating</text>
+  <text x="499" y="192" class="name" text-anchor="middle" style="fill:#fff">4 being built</text>
+
+  <!-- Storage -->
+  <rect x="557" y="122" width="102" height="80" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="608" y="141" class="stage" text-anchor="middle">Storage</text>
+  <text x="608" y="160" class="name" text-anchor="middle">KHNP (on site)</text>
+  <text x="608" y="176" class="name" text-anchor="middle">Doosan Enerbility</text>
+  <text x="608" y="192" class="name" text-anchor="middle">SeAH (casks)</text>
+
+  <!-- Disposal -->
+  <rect x="666" y="122" width="102" height="80" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="717" y="141" class="stage" text-anchor="middle">Disposal</text>
+  <text x="717" y="160" class="name" text-anchor="middle">KORAD</text>
+  <text x="717" y="176" class="name" text-anchor="middle">HLW Commission</text>
+  <text x="717" y="192" class="nameg" text-anchor="middle">Reprocessing: not done</text>
+
+  <!-- Flow arrows (band 1) -->
+  <g stroke="#6b7280" stroke-width="1.5" fill="none">
+    <path d="M114 162 L121 162"/>
+    <path d="M223 162 L230 162"/>
+    <path d="M332 162 L339 162"/>
+    <path d="M441 162 L448 162"/>
+    <path d="M550 162 L557 162"/>
+    <path d="M659 162 L666 162"/>
+  </g>
+
+  <!-- Connector: reactor → band 2 -->
+  <path d="M499 202 L499 232" stroke="#0b6e4f" stroke-width="2.5" fill="none"/>
+  <path d="M493 226 L499 234 L505 226" stroke="#0b6e4f" stroke-width="2.5" fill="none"/>
+
+  <!-- Band 2: plant lifecycle -->
+  <text x="20" y="232" class="band">② Plant lifecycle</text>
+  <text x="150" y="232" class="sub">design &amp; licensing → build → operate → decommission</text>
+
+  <!-- Design & licensing -->
+  <rect x="12" y="244" width="144" height="112" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="84" y="264" class="stage" text-anchor="middle">Design &amp; licensing</text>
+  <text x="84" y="285" class="name" text-anchor="middle">KEPCO E&amp;C (design)</text>
+  <text x="84" y="301" class="name" text-anchor="middle">KHNP (applicant)</text>
+  <text x="84" y="317" class="name" text-anchor="middle">NSSC · KINS (licensing)</text>
+  <text x="84" y="333" class="name" text-anchor="middle">i-SMR agency · KAERI</text>
+
+  <!-- Manufacturing -->
+  <rect x="165" y="244" width="144" height="112" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="237" y="264" class="stage" text-anchor="middle">Manufacturing</text>
+  <text x="237" y="285" class="name" text-anchor="middle">Doosan Enerbility (main)</text>
+  <text x="237" y="301" class="name" text-anchor="middle">BHI (balance of plant)</text>
+  <text x="237" y="317" class="name" text-anchor="middle">Woojin (instruments)</text>
+  <text x="237" y="333" class="name" text-anchor="middle">Woori Technology (controls)</text>
+
+  <!-- Construction -->
+  <rect x="318" y="244" width="144" height="112" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="390" y="264" class="stage" text-anchor="middle">Construction</text>
+  <text x="390" y="285" class="name" text-anchor="middle">Hyundai E&amp;C (Shin-Hanul)</text>
+  <text x="390" y="301" class="name" text-anchor="middle">Samsung C&amp;T (Saeul 3·4)</text>
+  <text x="390" y="317" class="name" text-anchor="middle">Daewoo E&amp;C · DL E&amp;C</text>
+  <text x="390" y="333" class="name" text-anchor="middle">POSCO E&amp;C</text>
+
+  <!-- Operation & maintenance -->
+  <rect x="471" y="244" width="144" height="112" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="543" y="264" class="stage" text-anchor="middle">Operate &amp; maintain</text>
+  <text x="543" y="285" class="name" text-anchor="middle">KHNP (operator)</text>
+  <text x="543" y="301" class="name" text-anchor="middle">KEPCO KPS (maintenance)</text>
+  <text x="543" y="317" class="name" text-anchor="middle">Soosan Industries (maint.)</text>
+  <text x="543" y="333" class="name" text-anchor="middle">KEPCO (Barakah prime)</text>
+
+  <!-- Decommissioning -->
+  <rect x="624" y="244" width="144" height="112" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="696" y="264" class="stage" text-anchor="middle">Decommissioning</text>
+  <text x="696" y="285" class="name" text-anchor="middle">KHNP (licensee)</text>
+  <text x="696" y="301" class="name" text-anchor="middle">Doosan · HJ · KEPCO KPS</text>
+  <text x="696" y="317" class="name" text-anchor="middle">Orbitech (radiation)</text>
+  <text x="696" y="333" class="name" text-anchor="middle">Kori 1 approved Jun 2025</text>
+
+  <!-- Flow arrows (band 2) -->
+  <g stroke="#6b7280" stroke-width="1.5" fill="none">
+    <path d="M156 300 L165 300"/>
+    <path d="M309 300 L318 300"/>
+    <path d="M462 300 L471 300"/>
+    <path d="M615 300 L624 300"/>
+  </g>
+
+  <!-- Exports -->
+  <rect x="12" y="372" width="756" height="46" rx="8" fill="#fff7e6" stroke="#f5a623"/>
+  <text x="24" y="390" class="strip"><tspan font-weight="700">③ Exports as 'Team Korea'</tspan>  prime contractor (KEPCO or KHNP) + KEPCO E&amp;C · Doosan Enerbility · KEPCO KPS · KNF + builders</text>
+  <text x="24" y="408" class="sub">UAE Barakah 1–4 (prime KEPCO, all four operating) · Czech Dukovany 5·6 (prime KHNP, contract Jun 2025, construction start targeted 2029)</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="434" width="14" height="14" rx="3" fill="#e3f2ec" stroke="#0b6e4f"/>
+    <text x="40" y="445">Done by Korean bodies and companies</text>
+    <rect x="256" y="434" width="14" height="14" rx="3" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="4 2"/>
+    <text x="276" y="445">Not done in Korea · bought abroad</text>
+    <rect x="474" y="434" width="14" height="14" rx="3" fill="#0b6e4f"/>
+    <text x="494" y="445">Reactor, where the two bands meet (KHNP)</text>
+  </g>
+
+  <text x="20" y="462" class="sub">How to read: front end bought abroad · middle = KEPCO-group state firms + Doosan · back end = no HLW repository site yet (Special Act, Sep 2025).</text>
+  <text x="20" y="476" class="sub">Only companies whose roles are confirmed by official documents or press reports are shown; the actual supplier base is far larger.</text>
+  <text x="20" y="496" class="sub">As of September 2026; sources: NSSC, KHNP, KNF, KORAD, company releases</text>
+  <text x="20" y="510" class="sub">26 operating · 4 under construction · 2 permanently shut down: NSSC 2026 budget release</text>
+</svg>
