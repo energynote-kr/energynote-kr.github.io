@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">한국 원전 산업 지도: 핵연료주기 띠와 발전소 생애주기 띠에 단계별 기관·기업을 배치하고, 한국이 하지 않는 채굴·변환·농축은 점선 '해외 조달'로, 재처리는 '미실시'로 표시한 구조도</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .band { font-size: 13px; font-weight: 800; fill: #0b6e4f; }
+    .stage { font-size: 12.5px; font-weight: 800; fill: #1f2937; }
+    .stageg { font-size: 12.5px; font-weight: 800; fill: #6b7280; }
+    .name { font-size: 10.5px; fill: #1f2937; }
+    .nameg { font-size: 10.5px; fill: #6b7280; }
+    .strip { font-size: 11px; fill: #1f2937; }
+    .leg { font-size: 11px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한국 원전 산업 지도 — 연료의 축과 시설의 축에 누가 있나</text>
+  <text x="20" y="48" class="sub">위 띠: 핵연료주기(우라늄 → 연료 → 사용후핵연료) · 아래 띠: 발전소 생애주기(설계 → 해체) · 두 띠는 '원자로'에서 만난다</text>
+
+  <!-- 정책·규제·연구 -->
+  <rect x="12" y="60" width="696" height="30" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="79" class="strip"><tspan font-weight="700">정책·규제·연구</tspan>  기후에너지환경부(정책) · 산업통상부(수출) · 원안위 + KINS·KINAC(규제) · 원자력연구원(연구)</text>
+
+  <!-- 띠 1: 핵연료주기 -->
+  <text x="20" y="112" class="band">① 핵연료주기</text>
+  <text x="128" y="112" class="sub">선행(연료 만들기) → 원자로 → 후행(사용후핵연료)</text>
+
+  <!-- 채굴 (해외) -->
+  <rect x="12" y="122" width="94" height="80" rx="8" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="5 3"/>
+  <text x="59" y="141" class="stageg" text-anchor="middle">채굴·정련</text>
+  <text x="59" y="160" class="nameg" text-anchor="middle">해외 조달</text>
+  <text x="59" y="176" class="nameg" text-anchor="middle">캐나다 광구 등</text>
+  <text x="59" y="192" class="nameg" text-anchor="middle">한수원 지분 참여</text>
+
+  <!-- 변환 (해외) -->
+  <rect x="112" y="122" width="94" height="80" rx="8" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="5 3"/>
+  <text x="159" y="141" class="stageg" text-anchor="middle">변환</text>
+  <text x="159" y="160" class="nameg" text-anchor="middle">해외 조달</text>
+  <text x="159" y="176" class="nameg" text-anchor="middle">컨버다인(미)</text>
+  <text x="159" y="192" class="nameg" text-anchor="middle">컨버다인(미)·오라노</text>
+
+  <!-- 농축 (해외) -->
+  <rect x="212" y="122" width="94" height="80" rx="8" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="5 3"/>
+  <text x="259" y="141" class="stageg" text-anchor="middle">농축</text>
+  <text x="259" y="160" class="nameg" text-anchor="middle">해외 조달</text>
+  <text x="259" y="176" class="nameg" text-anchor="middle">센트루스·오라노</text>
+  <text x="259" y="192" class="nameg" text-anchor="middle">협정상 합의 필요</text>
+
+  <!-- 성형가공 -->
+  <rect x="312" y="122" width="94" height="80" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="359" y="141" class="stage" text-anchor="middle">성형가공</text>
+  <text x="359" y="160" class="name" text-anchor="middle">한전원자력연료</text>
+  <text x="359" y="176" class="name" text-anchor="middle">경수로·중수로</text>
+  <text x="359" y="192" class="name" text-anchor="middle">연료 제조</text>
+
+  <!-- 원자로 -->
+  <rect x="412" y="122" width="94" height="80" rx="8" fill="#0b6e4f"/>
+  <text x="459" y="141" class="stage" text-anchor="middle" style="fill:#fff">원자로</text>
+  <text x="459" y="160" class="name" text-anchor="middle" style="fill:#fff">한수원 운영</text>
+  <text x="459" y="176" class="name" text-anchor="middle" style="fill:#fff">가동 26기</text>
+  <text x="459" y="192" class="name" text-anchor="middle" style="fill:#fff">건설 4기</text>
+
+  <!-- 저장 -->
+  <rect x="512" y="122" width="94" height="80" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="559" y="141" class="stage" text-anchor="middle">저장</text>
+  <text x="559" y="160" class="name" text-anchor="middle">한수원(부지 내)</text>
+  <text x="559" y="176" class="name" text-anchor="middle">두산에너빌리티</text>
+  <text x="559" y="192" class="name" text-anchor="middle">세아베스틸(용기)</text>
+
+  <!-- 처분·재활용 -->
+  <rect x="612" y="122" width="94" height="80" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="659" y="141" class="stage" text-anchor="middle">처분</text>
+  <text x="659" y="160" class="name" text-anchor="middle">원자력환경공단</text>
+  <text x="659" y="176" class="name" text-anchor="middle">고준위관리위원회</text>
+  <text x="659" y="192" class="nameg" text-anchor="middle">재처리: 미실시</text>
+
+  <!-- 흐름 화살표 (띠 1) -->
+  <g stroke="#6b7280" stroke-width="1.5" fill="none">
+    <path d="M106 162 L112 162"/>
+    <path d="M206 162 L212 162"/>
+    <path d="M306 162 L312 162"/>
+    <path d="M406 162 L412 162"/>
+    <path d="M506 162 L512 162"/>
+    <path d="M606 162 L612 162"/>
+  </g>
+
+  <!-- 연결 화살표: 원자로 → 띠 2 -->
+  <path d="M459 202 L459 232" stroke="#0b6e4f" stroke-width="2.5" fill="none"/>
+  <path d="M453 226 L459 234 L465 226" stroke="#0b6e4f" stroke-width="2.5" fill="none"/>
+
+  <!-- 띠 2: 발전소 생애주기 -->
+  <text x="20" y="232" class="band">② 발전소 생애주기</text>
+  <text x="160" y="232" class="sub">설계·인허가 → 제작 → 시공 → 운영·정비 → 해체</text>
+
+  <!-- 설계·인허가 -->
+  <rect x="12" y="244" width="132" height="112" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="78" y="264" class="stage" text-anchor="middle">설계·인허가</text>
+  <text x="78" y="285" class="name" text-anchor="middle">한전기술(설계)</text>
+  <text x="78" y="301" class="name" text-anchor="middle">한수원(사업자·신청)</text>
+  <text x="78" y="317" class="name" text-anchor="middle">원안위·KINS(허가)</text>
+  <text x="78" y="333" class="name" text-anchor="middle">i-SMR 사업단·KAERI</text>
+
+  <!-- 제작 -->
+  <rect x="152" y="244" width="132" height="112" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="218" y="264" class="stage" text-anchor="middle">기기 제작</text>
+  <text x="218" y="285" class="name" text-anchor="middle">두산에너빌리티(주기기)</text>
+  <text x="218" y="301" class="name" text-anchor="middle">비에이치아이(보조기기)</text>
+  <text x="218" y="317" class="name" text-anchor="middle">우진(계측)</text>
+  <text x="218" y="333" class="name" text-anchor="middle">우리기술(제어)</text>
+
+  <!-- 시공 -->
+  <rect x="292" y="244" width="132" height="112" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="358" y="264" class="stage" text-anchor="middle">시공</text>
+  <text x="358" y="285" class="name" text-anchor="middle">현대건설(신한울 3·4)</text>
+  <text x="358" y="301" class="name" text-anchor="middle">삼성물산(새울 3·4)</text>
+  <text x="358" y="317" class="name" text-anchor="middle">대우건설·DL이앤씨</text>
+  <text x="358" y="333" class="name" text-anchor="middle">포스코이앤씨</text>
+
+  <!-- 운영·정비 -->
+  <rect x="432" y="244" width="132" height="112" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="498" y="264" class="stage" text-anchor="middle">운영·정비</text>
+  <text x="498" y="285" class="name" text-anchor="middle">한수원(운영)</text>
+  <text x="498" y="301" class="name" text-anchor="middle">한전KPS(정비)</text>
+  <text x="498" y="317" class="name" text-anchor="middle">수산인더스트리(정비)</text>
+  <text x="498" y="333" class="name" text-anchor="middle">한국전력(바라카)</text>
+
+  <!-- 해체 -->
+  <rect x="572" y="244" width="132" height="112" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="638" y="264" class="stage" text-anchor="middle">해체</text>
+  <text x="638" y="285" class="name" text-anchor="middle">한수원(사업자)</text>
+  <text x="638" y="301" class="name" text-anchor="middle">두산·HJ중공업·한전KPS</text>
+  <text x="638" y="317" class="name" text-anchor="middle">오르비텍(방사선 관리)</text>
+  <text x="638" y="333" class="name" text-anchor="middle">고리 1호기 2025.6 승인</text>
+
+  <!-- 흐름 화살표 (띠 2) -->
+  <g stroke="#6b7280" stroke-width="1.5" fill="none">
+    <path d="M144 300 L152 300"/>
+    <path d="M284 300 L292 300"/>
+    <path d="M424 300 L432 300"/>
+    <path d="M564 300 L572 300"/>
+  </g>
+
+  <!-- 수출 -->
+  <rect x="12" y="372" width="696" height="46" rx="8" fill="#fff7e6" stroke="#f5a623"/>
+  <text x="24" y="390" class="strip"><tspan font-weight="700">③ 수출 '팀코리아'</tspan>  주계약자(한전 또는 한수원) + 한전기술·두산에너빌리티·한전KPS·한전원자력연료 + 건설사</text>
+  <text x="24" y="408" class="sub">UAE 바라카 1~4호기(주계약 한전, 4기 운영 중) · 체코 두코바니 5·6호기(주계약 한수원, 2025.6 계약, 2029 착공 목표)</text>
+
+  <!-- 범례 -->
+  <g class="leg">
+    <rect x="20" y="434" width="14" height="14" rx="3" fill="#e3f2ec" stroke="#0b6e4f"/>
+    <text x="40" y="445">한국 기관·기업이 수행</text>
+    <rect x="176" y="434" width="14" height="14" rx="3" fill="#f1f3f4" stroke="#9ca3af" stroke-dasharray="4 2"/>
+    <text x="196" y="445">한국이 하지 않는 단계 · 해외 조달</text>
+    <rect x="404" y="434" width="14" height="14" rx="3" fill="#0b6e4f"/>
+    <text x="424" y="445">두 축이 만나는 원자로(한수원)</text>
+  </g>
+
+  <text x="20" y="462" class="sub">읽는 법: 연료 앞단은 해외 조달, 가운데는 한전 계열 공기업 + 두산, 뒷단은 고준위 처분장 부지 미정(특별법 2025.9 시행).</text>
+  <text x="20" y="476" class="sub">회사 이름은 공식 자료·보도로 역할을 확인한 곳만 표시했으며, 실제 협력사는 훨씬 많습니다.</text>
+  <text x="20" y="496" class="sub">2026년 9월 기준, 각 기관 공개자료(원자력안전위원회, 한수원, 한전원자력연료, 한국원자력환경공단, 각 사 보도자료)</text>
+  <text x="20" y="510" class="sub">가동 26기·건설 4기·영구정지 2기 = 원안위 2026년 예산 보도자료 기준</text>
+</svg>
