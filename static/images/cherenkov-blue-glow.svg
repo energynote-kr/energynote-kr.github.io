@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 492" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">물속에서 전자가 빛보다 빨라 원뿔형 파면을 만드는 체렌코프 원리와, 사용후핵연료 저장조에서 연료 위 물 깊이가 작업자를 차폐하는 단면 도해</title>
+  <defs>
+    <clipPath id="cone-clip"><rect x="20" y="62" width="330" height="278"/></clipPath>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="1" r="0.8">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="492" fill="#f8faf9"/>
+  <text x="20" y="30" font-size="18" font-weight="800" fill="#1f2937">원자로 속 푸른 빛 — 체렌코프 방사선은 어떻게 생기고, 왜 그 위에 설 수 있나</text>
+
+  <!-- ① 원뿔 파면 -->
+  <text x="20" y="54" font-size="13.5" font-weight="700" fill="#0b6e4f">① 물속 '소닉붐' — 빛보다 빠른 전자가 만드는 원뿔</text>
+  <rect x="20" y="62" width="330" height="330" fill="#fff" stroke="#e5e7eb" rx="8"/>
+  <g clip-path="url(#cone-clip)">
+    <circle cx="90" cy="232" r="150" fill="none" stroke="#93c5fd" stroke-width="1.5"/>
+    <circle cx="140" cy="232" r="112" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+    <circle cx="190" cy="232" r="75" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="240" cy="232" r="37" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="290" y1="232" x2="158" y2="82" stroke="#1d4ed8" stroke-width="2.5"/>
+    <line x1="290" y1="232" x2="158" y2="382" stroke="#1d4ed8" stroke-width="2.5"/>
+  </g>
+  <line x1="40" y1="232" x2="286" y2="232" stroke="#f5a623" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <circle cx="290" cy="232" r="6" fill="#f5a623"/>
+  <text x="300" y="237" font-size="12" font-weight="700" fill="#1f2937">전자</text>
+  <text x="40" y="222" font-size="11.5" fill="#6b7280">전자의 진행 방향 →</text>
+  <text x="235" y="104" font-size="12" font-weight="700" fill="#1d4ed8">원뿔형 파면</text>
+  <text x="235" y="120" font-size="11.5" fill="#1d4ed8">(체렌코프 빛)</text>
+  <text x="34" y="78" font-size="11.5" fill="#6b7280">동심원 = 각 지점에서 퍼져 나간 빛</text>
+  <text x="34" y="356" font-size="12" fill="#1f2937">물속 빛 속도 = 진공의 약 75%</text>
+  <text x="34" y="372" font-size="12" fill="#1f2937">전자가 이보다 빠르면 파면이 겹쳐 원뿔이 됨</text>
+  <text x="34" y="386" font-size="11" fill="#6b7280">소리보다 빠른 비행기의 충격파(소닉붐)와 같은 원리</text>
+
+  <!-- ② 저장조 단면 -->
+  <text x="380" y="54" font-size="13.5" font-weight="700" fill="#0b6e4f">② 사용후핵연료 저장조 단면 — 물이 차폐한다</text>
+  <rect x="380" y="62" width="320" height="330" fill="#fff" stroke="#e5e7eb" rx="8"/>
+  <!-- 콘크리트 벽 -->
+  <rect x="424" y="112" width="188" height="270" fill="#d1d5db"/>
+  <!-- 물 -->
+  <rect x="436" y="112" width="164" height="258" fill="url(#water)"/>
+  <!-- 연료 랙 -->
+  <rect x="448" y="290" width="140" height="80" fill="#374151"/>
+  <g fill="#6b7280">
+    <rect x="456" y="296" width="16" height="68"/><rect x="478" y="296" width="16" height="68"/>
+    <rect x="500" y="296" width="16" height="68"/><rect x="522" y="296" width="16" height="68"/>
+    <rect x="544" y="296" width="16" height="68"/><rect x="566" y="296" width="16" height="68"/>
+  </g>
+  <!-- 푸른 빛 -->
+  <rect x="436" y="170" width="164" height="122" fill="url(#glow)"/>
+  <!-- 바닥 -->
+  <rect x="424" y="370" width="188" height="12" fill="#9ca3af"/>
+  <!-- 작업대와 작업자 -->
+  <rect x="418" y="106" width="200" height="6" fill="#4b5563"/>
+  <g stroke="#1f2937" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <circle cx="518" cy="80" r="5" fill="#1f2937"/>
+    <line x1="518" y1="85" x2="518" y2="98"/>
+    <line x1="518" y1="90" x2="510" y2="97"/><line x1="518" y1="90" x2="527" y2="95"/>
+    <line x1="518" y1="98" x2="513" y2="106"/><line x1="518" y1="98" x2="523" y2="106"/>
+  </g>
+  <text x="534" y="84" font-size="11.5" font-weight="700" fill="#1f2937">작업자(수면 위)</text>
+  <!-- 치수 -->
+  <line x1="626" y1="112" x2="626" y2="290" stroke="#0b6e4f" stroke-width="1.5"/>
+  <line x1="621" y1="112" x2="631" y2="112" stroke="#0b6e4f" stroke-width="1.5"/>
+  <line x1="621" y1="290" x2="631" y2="290" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="634" y="196" font-size="11.5" font-weight="700" fill="#0b6e4f">연료 위 물</text>
+  <text x="634" y="211" font-size="11.5" font-weight="700" fill="#0b6e4f">6m 이상</text>
+  <line x1="410" y1="112" x2="410" y2="370" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="405" y1="112" x2="415" y2="112" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="405" y1="370" x2="415" y2="370" stroke="#6b7280" stroke-width="1.2"/>
+  <text x="396" y="241" font-size="11" fill="#6b7280" transform="rotate(-90 396 241)" text-anchor="middle">깊이 약 12m 이상</text>
+  <!-- 라벨 -->
+  <text x="518" y="336" font-size="11.5" font-weight="700" text-anchor="middle" style="fill:#fff">사용후핵연료(방사선원)</text>
+  <text x="518" y="160" font-size="11.5" font-weight="700" text-anchor="middle" fill="#1d4ed8">푸른 빛 = 눈에 보이는 가시광</text>
+  <text x="518" y="250" font-size="11" text-anchor="middle" fill="#1f2937">감마선은 물을 지나며 급격히 약해짐</text>
+  <text x="392" y="404" font-size="10.5" fill="#1f2937">보이는 건 빛, 막히는 건 방사선 — 작업자는 물이 차폐</text>
+
+  <text x="20" y="430" font-size="12" fill="#1f2937">· 원인은 하전입자(주로 전자) — 저장조에서는 연료의 감마선이 물속 전자를 튕겨 내고, 그 전자가 빛을 낸다</text>
+  <text x="20" y="448" font-size="12" fill="#1f2937">· 파장이 짧을수록 세기가 커서 파랑·보라 쪽이 진하게 보인다 (자외선 영역이 더 많지만 눈에 안 보임)</text>
+  <text x="20" y="470" font-size="10.5" fill="#6b7280">자료: IAEA 'What is Cherenkov Radiation?'(2026-07-28), 미 NRC 사용후핵연료 저장조 안내(연료 위 물 20ft 이상)</text>
+  <text x="20" y="484" font-size="10.5" fill="#6b7280">2026-09-06 기준 · 그림 축척은 개략</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">자포리자 원전 외부 송전선 수 변화와 외부전원 완전 상실 누적 횟수(2022~2026년)</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 12px; fill: #1f2937; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .val { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .axis { stroke: #9ca3af; stroke-width: 1; }
+    .grid { stroke: #e5e7eb; stroke-width: 1; }
+  </style>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">자포리자 원전: 송전선은 줄고, 외부전원 상실은 늘었다</text>
+  <text x="20" y="49" class="small">원자로 6기 모두 냉온정지 상태이지만 냉각·계측을 위해 외부 전기가 계속 필요함 · IAEA 집계 기준</text>
+
+  <!-- 상단: 외부 송전선 수 막대 -->
+  <text x="20" y="80" class="h">연결된 외부 송전선 수 (750kV 주 회선 + 330kV 예비 회선)</text>
+  <!-- 막대: 1개 = 28px, 기준선 y=200 -->
+  <line x1="20" y1="200" x2="700" y2="200" class="axis"/>
+
+  <!-- 전쟁 전 10 -->
+  <rect x="40" y="100" width="52" height="100" fill="#0b6e4f"/>
+  <text x="66" y="93" class="val" text-anchor="middle">10개</text>
+  <text x="66" y="218" class="label" text-anchor="middle">전쟁 전</text>
+  <text x="66" y="233" class="small" text-anchor="middle">~2022.2</text>
+
+  <!-- 2022.9 이후 2 -->
+  <rect x="150" y="180" width="52" height="20" fill="#6b7280"/>
+  <text x="176" y="173" class="val" text-anchor="middle">2개</text>
+  <text x="176" y="218" class="label" text-anchor="middle">점령 후(대체로)</text>
+  <text x="176" y="233" class="small" text-anchor="middle">2022년 말~</text>
+
+  <!-- 2025.5 이후 1 -->
+  <rect x="260" y="190" width="52" height="10" fill="#f5a623"/>
+  <text x="286" y="183" class="val" text-anchor="middle">1개</text>
+  <text x="286" y="218" class="label" text-anchor="middle">예비선 단선</text>
+  <text x="286" y="233" class="small" text-anchor="middle">2025.5.7~</text>
+
+  <!-- 2025.9.23~10.23 0 -->
+  <rect x="370" y="199" width="52" height="1" fill="#b91c1c"/>
+  <text x="396" y="183" class="val" text-anchor="middle" style="fill:#b91c1c">0개</text>
+  <text x="396" y="218" class="label" text-anchor="middle">30일 정전</text>
+  <text x="396" y="233" class="small" text-anchor="middle">2025.9.23~10.23</text>
+
+  <!-- 2026.3.24 이후 1 -->
+  <rect x="480" y="190" width="52" height="10" fill="#f5a623"/>
+  <text x="506" y="183" class="val" text-anchor="middle">1개</text>
+  <text x="506" y="218" class="label" text-anchor="middle">주 회선 단선</text>
+  <text x="506" y="233" class="small" text-anchor="middle">2026.3.24~</text>
+
+  <!-- 2026.8.20 이후 0 -->
+  <rect x="590" y="199" width="52" height="1" fill="#b91c1c"/>
+  <text x="616" y="183" class="val" text-anchor="middle" style="fill:#b91c1c">0개</text>
+  <text x="616" y="218" class="label" text-anchor="middle">디젤로 버팀</text>
+  <text x="616" y="233" class="small" text-anchor="middle">2026.8.20~</text>
+
+  <text x="20" y="257" class="small">※ 2025.11.8 이후 두 회선이 함께 연결됐으나 330kV는 12월·1.2·2.10 세 번 더 끊겼다 3.6 재연결. 하나라도 살아 있으면 완전 상실 아님.</text>
+
+  <!-- 하단: 누적 상실 횟수 -->
+  <text x="20" y="290" class="h">외부전원 완전 상실 누적 횟수 (비상디젤발전기로만 버틴 사건, 연말 기준)</text>
+  <!-- 차트 영역: x 70~660, y 305~455. y: 0회 = 455, 30회 = 305 (1회 = 5px) -->
+  <line x1="70" y1="455" x2="660" y2="455" class="axis"/>
+  <line x1="70" y1="305" x2="70" y2="455" class="axis"/>
+  <line x1="70" y1="405" x2="660" y2="405" class="grid"/>
+  <line x1="70" y1="355" x2="660" y2="355" class="grid"/>
+  <line x1="70" y1="305" x2="660" y2="305" class="grid"/>
+  <text x="62" y="459" class="small" text-anchor="end">0</text>
+  <text x="62" y="409" class="small" text-anchor="end">10</text>
+  <text x="62" y="359" class="small" text-anchor="end">20</text>
+  <text x="62" y="309" class="small" text-anchor="end">30</text>
+
+  <!-- 데이터: 2022 5회(y=430), 2023 8회(415), 2024 8회(415), 2025 12회(395), 2026.8 26회(325) -->
+  <!-- x: 2022=130, 2023=250, 2024=370, 2025=490, 2026=610 -->
+  <polyline points="130,430 250,415 370,415 490,395 610,325" fill="none" stroke="#0b6e4f" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="130" cy="430" r="5" fill="#0b6e4f"/>
+  <circle cx="250" cy="415" r="5" fill="#0b6e4f"/>
+  <circle cx="370" cy="415" r="5" fill="#0b6e4f"/>
+  <circle cx="490" cy="395" r="5" fill="#0b6e4f"/>
+  <circle cx="610" cy="325" r="6" fill="#f5a623" stroke="#0b6e4f" stroke-width="2"/>
+
+  <text x="130" y="420" class="val" text-anchor="middle">5회</text>
+  <text x="250" y="405" class="val" text-anchor="middle">8회</text>
+  <text x="370" y="405" class="val" text-anchor="middle">8회</text>
+  <text x="490" y="385" class="val" text-anchor="middle">12회</text>
+  <text x="610" y="315" class="val" text-anchor="middle">26회</text>
+
+  <text x="130" y="473" class="label" text-anchor="middle">2022</text>
+  <text x="250" y="473" class="label" text-anchor="middle">2023</text>
+  <text x="370" y="473" class="label" text-anchor="middle">2024</text>
+  <text x="490" y="473" class="label" text-anchor="middle">2025</text>
+  <text x="610" y="473" class="label" text-anchor="middle">2026</text>
+  <text x="610" y="487" class="small" text-anchor="middle">(8.20 사건까지)</text>
+  <text x="370" y="487" class="small" text-anchor="middle">(2024년은 0건)</text>
+  <text x="490" y="487" class="small" text-anchor="middle">(30일 정전 포함)</text>
+
+  <text x="20" y="508" class="small">출처: IAEA 사무총장 우크라이나 상황 업데이트(2022~2026), OECD/NEA·BASE 현황 페이지 · 2026년 9월 6일 기준 · energynote.kr</text>
+</svg>
