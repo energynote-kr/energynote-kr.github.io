@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Korea's 2025 generation shares (nuclear 31%, coal 29%, LNG 27%, renewables 11%) and 2025 wholesale settlement prices by source, from nuclear at about KRW 79 per kWh to LNG at about KRW 158</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 13px; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .small { font-size: 11.5px; fill: #6b7280; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="720" height="452" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Where Korea's electricity comes from, and what each source costs</text>
+  <text x="20" y="49" class="small">Generation shares: KEPCO statistics, 2025 · Settlement prices: KPX 2025 Power Market Statistics, annual figures</text>
+  <text x="20" y="64" class="small">(settlement price = what KEPCO pays generators per kWh; it moves each year with fuel costs)</text>
+
+  <!-- Generation share stacked bar (640 px = 100%) -->
+  <text x="20" y="96" class="h">2025 generation shares</text>
+  <rect x="20" y="106" width="198" height="30" fill="#0b6e4f"/>
+  <rect x="218" y="106" width="184" height="30" fill="#6b7280"/>
+  <rect x="402" y="106" width="175" height="30" fill="#8a8f98"/>
+  <rect x="577" y="106" width="73" height="30" fill="#f5a623"/>
+  <rect x="650" y="106" width="10" height="30" fill="#c9c6bd"/>
+  <text x="30" y="126" class="label" font-weight="700" style="fill:#fff">Nuclear 31%</text>
+  <text x="228" y="126" class="label" font-weight="700" style="fill:#fff">Coal 29%</text>
+  <text x="412" y="126" class="label" font-weight="700" style="fill:#fff">LNG 27%</text>
+  <text x="577" y="152" class="small" font-weight="700" fill="#1f2937">Renewables 11%</text>
+
+  <!-- Settlement price comparison -->
+  <text x="20" y="188" class="h">Settlement price by source (KRW per kWh, 2025 annual)</text>
+  <text x="20" y="220" class="label">Nuclear</text>
+  <rect x="120" y="206" width="158" height="20" rx="4" fill="#0b6e4f"/>
+  <text x="286" y="221" class="value">about 79</text>
+
+  <text x="20" y="255" class="label">Renewables</text>
+  <rect x="120" y="241" width="250" height="20" rx="4" fill="#f5a623"/>
+  <text x="378" y="256" class="value">about 125</text>
+
+  <text x="20" y="290" class="label">Coal</text>
+  <rect x="120" y="276" width="276" height="20" rx="4" fill="#6b7280"/>
+  <text x="404" y="291" class="value">about 138</text>
+
+  <text x="20" y="325" class="label">LNG</text>
+  <rect x="120" y="311" width="316" height="20" rx="4" fill="#8a8f98"/>
+  <text x="444" y="326" class="value">about 158 (175 in 2024)</text>
+
+  <!-- How to read -->
+  <rect x="20" y="348" width="680" height="64" fill="#e3f2ec" rx="10"/>
+  <text x="40" y="368" font-size="12" fill="#1f2937">How to read: nuclear and coal are cheap, LNG is expensive. More LNG output or dearer fuel raises</text>
+  <text x="40" y="385" font-size="12" fill="#1f2937">KEPCO's purchase cost, and with it the pressure on retail tariffs.</text>
+  <text x="40" y="402" font-size="12" fill="#1f2937">But more reactors do not cut bills right away: a build takes 10+ years, and the government sets the tariff.</text>
+
+  <text x="20" y="428" class="small" font-size="10">Sources: KEPCO statistics (2025 generation by source), KPX, 2025 Power Market Statistics (settlement prices)</text>
+  <text x="20" y="441" class="small" font-size="10">As of September 2026</text>
+</svg>

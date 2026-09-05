@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Radiation mutation, movie versus reality: the movie's radioactive-spider premise (one bite transforms a person in days, only useful traits appear, powers last a lifetime, radiation is the source of superpowers) set against radiobiology (a grown body is not remodeled, mutations are random and mostly neutral or harmful, new traits come in offspring selected from thousands, radiation is a random dice roll). A twist box notes that mutation breeding has produced about 3,400 registered crop varieties worldwide, Korean rice 'Wonpyeong' and rose of Sharon 'Kkoma' among them, without inserting foreign genes.</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1e2430; }
+    .h { font-size: 15px; font-weight: 800; }
+    .row { font-size: 12.5px; fill: #1e2430; }
+    .small { font-size: 11.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="780" height="430" fill="#f8faf9"/>
+
+  <text x="20" y="30" class="title">Radiation mutation — the movie vs. reality</text>
+
+  <!-- Movie -->
+  <rect x="20" y="55" width="360" height="34" rx="10" fill="#c0392b"/>
+  <text x="36" y="78" class="h" style="fill:#fff">🎬 What the movie says</text>
+  <text x="30" y="118" class="row">· One radioactive spider bite → transformed in days</text>
+  <text x="30" y="142" class="row">· Only useful traits appear — strength, senses, webs</text>
+  <text x="30" y="166" class="row">· Powers last a lifetime; the body stays healthy</text>
+  <text x="30" y="190" class="row">· Radiation = the source of superpowers</text>
+
+  <!-- Reality -->
+  <rect x="400" y="55" width="360" height="34" rx="10" fill="#0b6e4f"/>
+  <text x="416" y="78" class="h" style="fill:#fff">🔬 What radiobiology says</text>
+  <text x="410" y="118" class="row">· A grown body is not remodeled — repair or cell death</text>
+  <text x="410" y="142" class="row">· Mutations are random; most are neutral or harmful</text>
+  <text x="410" y="166" class="row">· New traits come in offspring, picked from thousands</text>
+  <text x="410" y="190" class="row">· Radiation = a random "dice roll", not a power source</text>
+
+  <!-- Twist -->
+  <rect x="20" y="220" width="740" height="34" rx="10" fill="#f5a623"/>
+  <text x="36" y="243" class="h" style="fill:#1e2430">But "super varieties" made with radiation do exist</text>
+  <text x="30" y="282" class="row">· Seeds get gamma rays or neutrons → random mutations → useful traits picked from thousands of plants and fixed</text>
+  <text x="30" y="306" class="row">· ~3,400 varieties registered (IAEA/FAO; 70+ countries, ~200 crops): rice, wheat, barley, soybean, flowers</text>
+  <text x="30" y="330" class="row">· Korea too: rice 'Wonpyeong', rose of Sharon 'Kkoma' and others — unlike a GMO, no foreign gene is inserted</text>
+
+  <rect x="20" y="348" width="740" height="44" fill="#e3f2ec" rx="8"/>
+  <text x="40" y="366" class="small" style="font-size:12px;fill:#1e2430;font-weight:700">Bottom line: radiation does not change one body — it adds variation to the next generation,</text>
+  <text x="40" y="383" class="small" style="font-size:12px;fill:#1e2430;font-weight:700">and picking the useful variants out of thousands is the science.</text>
+
+  <text x="20" y="416" class="small" style="font-size:10.5px">As of September 2026 · Sources: IAEA/FAO Mutant Variety Database; KAERI Advanced Radiation Technology Institute, Radiation Breeding Research Center</text>
+</svg>

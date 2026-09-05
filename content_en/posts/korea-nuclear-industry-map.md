@@ -181,10 +181,6 @@ Beneath the single main-component maker, companies each hold one box: instrument
 
 Barakah and Dukovany use the same reactor family (APR1400) and the same companies, but different prime contractors. Which company leads the team and which builder takes construction change from project to project, so when reading export news it is more accurate to check the reactor type, the prime contractor and the participants separately.
 
-> **Key points**
-> - Korea's nuclear industry can be summarized as "front end imported, middle a vertical stack of KEPCO-group state companies, back end without a repository site."
-> - The roles divide into NSSC and KINS (regulation), the Ministry of Climate, Energy and Environment (policy), KHNP (operator), and KEPCO E&C, Doosan, the builders and KEPCO KPS (design, manufacturing, construction, maintenance).
-> - As of September 2026 there are 26 reactors operating, 4 under construction and 2 permanently shut down, and the high-level waste Special Act (in force since September 2025) has started the back-end process.
 
 This article does not read the map from a stock-market angle. For the licensing position of Korea's i-SMR see [our SMR licensing map](/en/posts/smr-global-status-2026/), for the decommissioning stage see [the Kori 1 tracker](/en/posts/kori1-decommissioning/), and for the back end see [repositories around the world](/en/posts/world-repositories/) and [reprocessing versus disposal](/en/posts/reprocessing-vs-disposal/).
 
