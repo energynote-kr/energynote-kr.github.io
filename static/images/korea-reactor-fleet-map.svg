@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">한국 원전 32기를 고리·새울·월성·한빛·한울 다섯 부지 열로 배치하고, 호기 상자를 운영 중·정지 중(계속운전 심의 대기)·시운전 중·건설 중·영구정지 상태별 색으로 구분한 지도</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .site { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .site2 { font-size: 10px; fill: #6b7280; }
+    .u { font-size: 10.5px; font-weight: 700; }
+    .u2 { font-size: 9.5px; }
+    .leg { font-size: 10.5px; fill: #1f2937; }
+    .tot { font-size: 11px; fill: #1f2937; }
+    .totn { font-size: 15px; font-weight: 800; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="760" height="560" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한국 원전 호기 지도, 부지별 — 2026년 9월</text>
+  <text x="20" y="48" class="sub">해안 5개 부지 32기 · 정격출력 MW · WH2/WH3 = 웨스팅하우스 2·3루프, CP1 = 프라마톰, OPR = OPR1000, APR = APR1400</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="60" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="36" y="70">운영 중</text>
+    <rect x="98" y="60" width="12" height="12" rx="3" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="3 2"/><text x="114" y="70">정지 중 · 계속운전 심의 대기</text>
+    <rect x="300" y="60" width="12" height="12" rx="3" fill="#ffffff" stroke="#0b6e4f" stroke-width="2"/><text x="316" y="70">시운전 중</text>
+    <rect x="404" y="60" width="12" height="12" rx="3" fill="#f5a623"/><text x="420" y="70">건설 중</text>
+    <rect x="530" y="60" width="12" height="12" rx="3" fill="#6b7280"/><text x="546" y="70">영구정지</text>
+  </g>
+
+  <!-- Column backgrounds: x = 12 + i*148, width 140 -->
+  <rect x="12" y="82" width="140" height="376" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="160" y="82" width="140" height="376" rx="8" fill="#e3f2ec"/>
+  <rect x="308" y="82" width="140" height="376" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="456" y="82" width="140" height="376" rx="8" fill="#e3f2ec"/>
+  <rect x="604" y="82" width="140" height="376" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <!-- Site headers -->
+  <text x="82" y="100" class="site" text-anchor="middle">고리</text>
+  <text x="82" y="113" class="site2" text-anchor="middle">부산 기장 · 6기</text>
+  <text x="230" y="100" class="site" text-anchor="middle">새울</text>
+  <text x="230" y="113" class="site2" text-anchor="middle">울산 울주 · 4기</text>
+  <text x="378" y="100" class="site" text-anchor="middle">월성</text>
+  <text x="378" y="113" class="site2" text-anchor="middle">경북 경주 · 6기</text>
+  <text x="526" y="100" class="site" text-anchor="middle">한빛</text>
+  <text x="526" y="113" class="site2" text-anchor="middle">전남 영광 · 6기</text>
+  <text x="674" y="100" class="site" text-anchor="middle">한울</text>
+  <text x="674" y="113" class="site2" text-anchor="middle">경북 울진 · 10기</text>
+
+  <!-- Unit boxes: width 128, height 28, pitch 32, first y=122; text baselines y+12 and y+23 -->
+  <!-- 고리 (x 18) -->
+  <g>
+    <rect x="18" y="122" width="128" height="28" rx="5" fill="#6b7280"/>
+    <text x="82" y="134" class="u" text-anchor="middle" style="fill:#fff">고리 1호기</text>
+    <text x="82" y="145" class="u2" text-anchor="middle" style="fill:#fff">WH2 · 587 · 영구정지 2017</text>
+    <rect x="18" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="82" y="166" class="u" text-anchor="middle" style="fill:#fff">고리 2호기</text>
+    <text x="82" y="177" class="u2" text-anchor="middle" style="fill:#fff">WH2 · 650 · 2033.4까지</text>
+    <rect x="18" y="186" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="82" y="198" class="u" text-anchor="middle" style="fill:#fff">고리 3호기</text>
+    <text x="82" y="209" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · 2026 하반기</text>
+    <rect x="18" y="218" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="82" y="230" class="u" text-anchor="middle" style="fill:#fff">고리 4호기</text>
+    <text x="82" y="241" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · 2026 하반기</text>
+    <rect x="18" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="82" y="262" class="u" text-anchor="middle" style="fill:#fff">신고리 1호기</text>
+    <text x="82" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2011</text>
+    <rect x="18" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="82" y="294" class="u" text-anchor="middle" style="fill:#fff">신고리 2호기</text>
+    <text x="82" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2012</text>
+  </g>
+
+  <!-- 새울 (x 166) -->
+  <g>
+    <rect x="166" y="122" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="230" y="134" class="u" text-anchor="middle" style="fill:#fff">새울 1호기</text>
+    <text x="230" y="145" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2016</text>
+    <rect x="166" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="230" y="166" class="u" text-anchor="middle" style="fill:#fff">새울 2호기</text>
+    <text x="230" y="177" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2019</text>
+    <rect x="166" y="186" width="128" height="28" rx="5" fill="#ffffff" stroke="#0b6e4f" stroke-width="2"/>
+    <text x="230" y="198" class="u" text-anchor="middle" fill="#0b6e4f">새울 3호기</text>
+    <text x="230" y="209" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · 10월 목표</text>
+    <rect x="166" y="218" width="128" height="28" rx="5" fill="#f5a623"/>
+    <text x="230" y="230" class="u" text-anchor="middle" fill="#1f2937">새울 4호기</text>
+    <text x="230" y="241" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · 허가 2027.1</text>
+  </g>
+
+  <!-- 월성 (x 314) -->
+  <g>
+    <rect x="314" y="122" width="128" height="28" rx="5" fill="#6b7280"/>
+    <text x="378" y="134" class="u" text-anchor="middle" style="fill:#fff">월성 1호기</text>
+    <text x="378" y="145" class="u2" text-anchor="middle" style="fill:#fff">CANDU·679·영구정지 2019</text>
+    <rect x="314" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="166" class="u" text-anchor="middle" style="fill:#fff">월성 2호기</text>
+    <text x="378" y="177" class="u2" text-anchor="middle" style="fill:#fff">CANDU·700 · 만료 2026.11</text>
+    <rect x="314" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="198" class="u" text-anchor="middle" style="fill:#fff">월성 3호기</text>
+    <text x="378" y="209" class="u2" text-anchor="middle" style="fill:#fff">CANDU·700 · 만료 2027.12</text>
+    <rect x="314" y="218" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="230" class="u" text-anchor="middle" style="fill:#fff">월성 4호기</text>
+    <text x="378" y="241" class="u2" text-anchor="middle" style="fill:#fff">CANDU·700 · 만료 2029.2</text>
+    <rect x="314" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="262" class="u" text-anchor="middle" style="fill:#fff">신월성 1호기</text>
+    <text x="378" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2012</text>
+    <rect x="314" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="294" class="u" text-anchor="middle" style="fill:#fff">신월성 2호기</text>
+    <text x="378" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2015</text>
+  </g>
+
+  <!-- 한빛 (x 462) -->
+  <g>
+    <rect x="462" y="122" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="526" y="134" class="u" text-anchor="middle" style="fill:#fff">한빛 1호기</text>
+    <text x="526" y="145" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · 2027 상반기</text>
+    <rect x="462" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="166" class="u" text-anchor="middle" style="fill:#fff">한빛 2호기</text>
+    <text x="526" y="177" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · 9월 11일 만료</text>
+    <rect x="462" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="198" class="u" text-anchor="middle" style="fill:#fff">한빛 3호기</text>
+    <text x="526" y="209" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1995</text>
+    <rect x="462" y="218" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="230" class="u" text-anchor="middle" style="fill:#fff">한빛 4호기</text>
+    <text x="526" y="241" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1996</text>
+    <rect x="462" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="262" class="u" text-anchor="middle" style="fill:#fff">한빛 5호기</text>
+    <text x="526" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2002</text>
+    <rect x="462" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="294" class="u" text-anchor="middle" style="fill:#fff">한빛 6호기</text>
+    <text x="526" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2002</text>
+  </g>
+
+  <!-- 한울 (x 610) -->
+  <g>
+    <rect x="610" y="122" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="134" class="u" text-anchor="middle" style="fill:#fff">한울 1호기</text>
+    <text x="674" y="145" class="u2" text-anchor="middle" style="fill:#fff">CP1 · 950 · 만료 2027.12</text>
+    <rect x="610" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="166" class="u" text-anchor="middle" style="fill:#fff">한울 2호기</text>
+    <text x="674" y="177" class="u2" text-anchor="middle" style="fill:#fff">CP1 · 950 · 만료 2028.12</text>
+    <rect x="610" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="198" class="u" text-anchor="middle" style="fill:#fff">한울 3호기</text>
+    <text x="674" y="209" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1998</text>
+    <rect x="610" y="218" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="230" class="u" text-anchor="middle" style="fill:#fff">한울 4호기</text>
+    <text x="674" y="241" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1999</text>
+    <rect x="610" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="262" class="u" text-anchor="middle" style="fill:#fff">한울 5호기</text>
+    <text x="674" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2004</text>
+    <rect x="610" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="294" class="u" text-anchor="middle" style="fill:#fff">한울 6호기</text>
+    <text x="674" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2005</text>
+    <rect x="610" y="314" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="326" class="u" text-anchor="middle" style="fill:#fff">신한울 1호기</text>
+    <text x="674" y="337" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2022</text>
+    <rect x="610" y="346" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="358" class="u" text-anchor="middle" style="fill:#fff">신한울 2호기</text>
+    <text x="674" y="369" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2024</text>
+    <rect x="610" y="378" width="128" height="28" rx="5" fill="#f5a623"/>
+    <text x="674" y="390" class="u" text-anchor="middle" fill="#1f2937">신한울 3호기</text>
+    <text x="674" y="401" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · 2032 목표</text>
+    <rect x="610" y="410" width="128" height="28" rx="5" fill="#f5a623"/>
+    <text x="674" y="422" class="u" text-anchor="middle" fill="#1f2937">신한울 4호기</text>
+    <text x="674" y="433" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · 2033 목표</text>
+  </g>
+
+  <!-- Site capacity lines (operating, licensed) -->
+  <text x="82" y="451" class="site2" text-anchor="middle">운영허가 4,550MW</text>
+  <text x="230" y="451" class="site2" text-anchor="middle">2,800MW · 건설 2기</text>
+  <text x="378" y="451" class="site2" text-anchor="middle">운영허가 4,100MW</text>
+  <text x="526" y="451" class="site2" text-anchor="middle">운영허가 5,900MW</text>
+  <text x="674" y="451" class="site2" text-anchor="middle">8,700MW · 건설 2기</text>
+
+  <!-- Totals band -->
+  <rect x="12" y="464" width="732" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="80" y="486" class="totn" text-anchor="middle">26기</text>
+  <text x="80" y="503" class="tot" text-anchor="middle">운영허가 · 26,050MW</text>
+  <text x="240" y="486" class="totn" text-anchor="middle">26기 중 3기</text>
+  <text x="240" y="503" class="tot" text-anchor="middle">정지 중 · 계속운전 심의 대기</text>
+  <text x="400" y="486" class="totn" text-anchor="middle">4기</text>
+  <text x="400" y="503" class="tot" text-anchor="middle">건설 중 · 5,600MW</text>
+  <text x="556" y="486" class="totn" text-anchor="middle">2기</text>
+  <text x="556" y="503" class="tot" text-anchor="middle">영구정지 · 1,266MW</text>
+  <text x="682" y="486" class="totn" text-anchor="middle">약 31%</text>
+  <text x="682" y="503" class="tot" text-anchor="middle">2025년 발전 비중</text>
+
+  <text x="20" y="537" class="sub">새울 3호기는 운영허가(2025.12.30)를 받았지만 상업운전 전까지는 '건설 중'으로 집계됩니다.</text>
+  <text x="20" y="551" class="sub">2026년 9월 기준 · 출처: 원안위 원자력안전정보공개센터, 한수원, WNA</text>
+</svg>

@@ -148,7 +148,7 @@ Four APR1400s supply 5,600 MW, 21 percent of licensed capacity; with the four un
 
 ### What is already decided beyond this list
 
-The 11th Basic Plan for Electricity Supply and Demand adds two large reactors, 2.8 GW for 2037–38, and one SMR of 0.7 GW for 2035–36. On June 17, 2026, KHNP's site committee named Yeongdeok County, on the east coast, for the large units and Gijang County, beside Kori, for the SMR; whether the 12th Plan adds more is the subject of [the September 2026 public deliberation](/en/posts/new-reactor-public-debate/). The SMR, the i-SMR, is still in design review ([status report](/en/posts/korean-smr-ismr-status/)), and the APR1400 in the tables is the unit Korea exported to the UAE and contracted in Czechia ([export tracker](/en/posts/korea-nuclear-exports/)).
+The 11th Basic Plan for Electricity Supply and Demand adds two large reactors, 2.8 GW for 2037–38, and one SMR of 0.7 GW for 2035–36. On June 17, 2026, KHNP's site committee named Yeongdeok County, on the east coast, for the large units and Gijang County, beside Kori, for the SMR; whether the 12th Plan adds more is the subject of [the September 2026 public deliberation](/en/posts/new-reactor-public-debate/). The SMR, the i-SMR, is still in design review ([status report](/en/posts/korean-smr-ismr-status/)), and the APR1400 in the tables is the unit Korea exported to the UAE and contracted in Czechia in its APR1000 derivative form ([export tracker](/en/posts/korea-nuclear-exports/)).
 
 ### How to read "unit X shut down"
 

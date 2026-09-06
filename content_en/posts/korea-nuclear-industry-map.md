@@ -179,7 +179,7 @@ Beneath the single main-component maker, companies each hold one box: instrument
 
 ### Feature 4: exports are a matter of combination
 
-Barakah and Dukovany use the same reactor family (APR1400) and the same companies, but different prime contractors. Which company leads the team and which builder takes construction change from project to project, so when reading export news it is more accurate to check the reactor type, the prime contractor and the participants separately.
+Barakah and Dukovany use the same reactor family (APR1400 and its APR1000 derivative) and the same companies, but different prime contractors. Which company leads the team and which builder takes construction change from project to project, so when reading export news it is more accurate to check the reactor type, the prime contractor and the participants separately.
 
 
 This article does not read the map from a stock-market angle. For the licensing position of Korea's i-SMR see [our SMR licensing map](/en/posts/smr-global-status-2026/), for the decommissioning stage see [the Kori 1 tracker](/en/posts/kori1-decommissioning/), and for the back end see [repositories around the world](/en/posts/world-repositories/) and [reprocessing versus disposal](/en/posts/reprocessing-vs-disposal/).
