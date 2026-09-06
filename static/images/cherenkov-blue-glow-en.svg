@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 492" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Two-panel diagram: on the left, an electron moving faster than light does in water leaves a cone-shaped Cherenkov wavefront; on the right, a spent fuel pool in cross-section, where 6 m or more of water above the fuel shields a worker standing at the surface.</title>
+  <defs>
+    <clipPath id="cone-clip"><rect x="20" y="62" width="330" height="278"/></clipPath>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="1" r="0.8">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="492" fill="#f8faf9"/>
+  <text x="20" y="30" font-size="18" font-weight="800" fill="#1f2937">Why a reactor glows blue — and why people can stand above it</text>
+
+  <!-- 1. Cone wavefront -->
+  <text x="20" y="54" font-size="13.5" font-weight="700" fill="#0b6e4f">1. A sonic boom of light in water</text>
+  <rect x="20" y="62" width="330" height="330" fill="#fff" stroke="#e5e7eb" rx="8"/>
+  <g clip-path="url(#cone-clip)">
+    <circle cx="90" cy="232" r="150" fill="none" stroke="#93c5fd" stroke-width="1.5"/>
+    <circle cx="140" cy="232" r="112" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+    <circle cx="190" cy="232" r="75" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="240" cy="232" r="37" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+    <line x1="290" y1="232" x2="158" y2="82" stroke="#1d4ed8" stroke-width="2.5"/>
+    <line x1="290" y1="232" x2="158" y2="382" stroke="#1d4ed8" stroke-width="2.5"/>
+  </g>
+  <line x1="40" y1="232" x2="286" y2="232" stroke="#f5a623" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <circle cx="290" cy="232" r="6" fill="#f5a623"/>
+  <text x="299" y="237" font-size="11" font-weight="700" fill="#1f2937">Electron</text>
+  <text x="40" y="222" font-size="11.5" fill="#6b7280">Electron's direction of travel →</text>
+  <text x="228" y="104" font-size="12" font-weight="700" fill="#1d4ed8">Cone wavefront</text>
+  <text x="228" y="120" font-size="11.5" fill="#1d4ed8">(Cherenkov light)</text>
+  <text x="34" y="78" font-size="11.5" fill="#6b7280">Circles = light spreading from each point</text>
+  <text x="34" y="356" font-size="12" fill="#1f2937">Light in water: ~75% of its speed in vacuum</text>
+  <text x="34" y="372" font-size="12" fill="#1f2937">A faster electron's wavefronts pile into a cone</text>
+  <text x="34" y="386" font-size="11" fill="#6b7280">Same principle as a supersonic jet's shock wave</text>
+
+  <!-- 2. Pool cross-section -->
+  <text x="380" y="54" font-size="13.5" font-weight="700" fill="#0b6e4f">2. Spent fuel pool: the water is the shield</text>
+  <rect x="380" y="62" width="360" height="330" fill="#fff" stroke="#e5e7eb" rx="8"/>
+  <!-- concrete wall -->
+  <rect x="424" y="112" width="188" height="270" fill="#d1d5db"/>
+  <!-- water -->
+  <rect x="436" y="112" width="164" height="258" fill="url(#water)"/>
+  <!-- fuel rack -->
+  <rect x="448" y="290" width="140" height="80" fill="#374151"/>
+  <g fill="#6b7280">
+    <rect x="456" y="296" width="16" height="68"/><rect x="478" y="296" width="16" height="68"/>
+    <rect x="500" y="296" width="16" height="68"/><rect x="522" y="296" width="16" height="68"/>
+    <rect x="544" y="296" width="16" height="68"/><rect x="566" y="296" width="16" height="68"/>
+  </g>
+  <!-- blue glow -->
+  <rect x="436" y="170" width="164" height="122" fill="url(#glow)"/>
+  <!-- floor -->
+  <rect x="424" y="370" width="188" height="12" fill="#9ca3af"/>
+  <!-- platform and worker -->
+  <rect x="418" y="106" width="200" height="6" fill="#4b5563"/>
+  <g stroke="#1f2937" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <circle cx="518" cy="80" r="5" fill="#1f2937"/>
+    <line x1="518" y1="85" x2="518" y2="98"/>
+    <line x1="518" y1="90" x2="510" y2="97"/><line x1="518" y1="90" x2="527" y2="95"/>
+    <line x1="518" y1="98" x2="513" y2="106"/><line x1="518" y1="98" x2="523" y2="106"/>
+  </g>
+  <text x="534" y="84" font-size="11.5" font-weight="700" fill="#1f2937">Worker (above the surface)</text>
+  <!-- dimensions -->
+  <line x1="626" y1="112" x2="626" y2="290" stroke="#0b6e4f" stroke-width="1.5"/>
+  <line x1="621" y1="112" x2="631" y2="112" stroke="#0b6e4f" stroke-width="1.5"/>
+  <line x1="621" y1="290" x2="631" y2="290" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="634" y="196" font-size="11.5" font-weight="700" fill="#0b6e4f">≥ 6 m of water</text>
+  <text x="634" y="211" font-size="11.5" font-weight="700" fill="#0b6e4f">above the fuel</text>
+  <line x1="410" y1="112" x2="410" y2="370" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="405" y1="112" x2="415" y2="112" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="405" y1="370" x2="415" y2="370" stroke="#6b7280" stroke-width="1.2"/>
+  <text x="396" y="241" font-size="11" fill="#6b7280" transform="rotate(-90 396 241)" text-anchor="middle">Depth ≥ 12 m</text>
+  <!-- labels -->
+  <text x="518" y="326" font-size="11.5" font-weight="700" text-anchor="middle" style="fill:#fff">Spent fuel</text>
+  <text x="518" y="342" font-size="11" font-weight="700" text-anchor="middle" style="fill:#fff">(the radiation source)</text>
+  <text x="518" y="160" font-size="11" font-weight="700" text-anchor="middle" fill="#1d4ed8">Blue glow = visible light</text>
+  <text x="518" y="244" font-size="11" text-anchor="middle" fill="#1f2937">Gamma rays fade fast</text>
+  <text x="518" y="258" font-size="11" text-anchor="middle" fill="#1f2937">as they cross the water</text>
+  <text x="392" y="404" font-size="10.5" fill="#1f2937">You see the light; the water stops the radiation</text>
+
+  <text x="20" y="430" font-size="12" fill="#1f2937">· The emitter is a fast charged particle, usually an electron: in a pool, gamma rays from the fuel knock electrons loose in the water</text>
+  <text x="20" y="448" font-size="12" fill="#1f2937">· Shorter wavelengths shine brighter, so blue and violet dominate; most of the output is invisible ultraviolet</text>
+  <text x="20" y="470" font-size="10.5" fill="#6b7280">Diagram not to scale · IAEA "What is Cherenkov Radiation?" (July 28, 2026) · US NRC "Spent Fuel Pools" (≥ 20 ft of water above fuel) </text>
+  <text x="20" y="484" font-size="10.5" fill="#6b7280">As of September 2026 · Sources: IAEA, US NRC</text>
+</svg>

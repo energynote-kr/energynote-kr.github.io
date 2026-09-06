@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 516" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">한국 원전 수출 사업을 협의·입찰·계약·건설·운영 5단계 트랙에 놓은 그림(2026년 9월 기준): 바라카는 운영, 두코바니는 계약, 사우디는 입찰, 베트남·튀르키예·필리핀은 협의 단계이고, 5개 사업은 철수 또는 탈락으로 표시</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .col { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .row { font-size: 12px; font-weight: 700; fill: #1f2937; }
+    .row2 { font-size: 10px; fill: #6b7280; }
+    .chip { font-size: 10px; font-weight: 700; }
+    .leg { font-size: 11px; fill: #1f2937; }
+    .note { font-size: 11px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="760" height="516" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한국 원전 수출, 단계별 현재 위치 — 2026년 9월</text>
+  <text x="20" y="48" class="sub">각 사업은 실제로 도달한 마지막 단계에 놓았습니다 · 양해각서는 '협의', 서명된 EPC 계약은 '계약'</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="60" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="36" y="70">지난 단계</text>
+    <rect x="98" y="60" width="12" height="12" rx="3" fill="#f5a623"/><text x="114" y="70">현재 단계</text>
+    <rect x="176" y="60" width="12" height="12" rx="3" fill="#6b7280"/><text x="192" y="70">철수·탈락</text>
+    <rect x="256" y="60" width="12" height="12" rx="3" fill="#ffffff" stroke="#c4c9d1"/><text x="272" y="70">미도달</text>
+  </g>
+
+  <!-- Column headers: label column x 12-256; five stage columns of 96 from x=256; centers 304, 400, 496, 592, 688 -->
+  <g class="col" text-anchor="middle">
+    <text x="304" y="96">① 협의</text>
+    <text x="400" y="96">② 입찰</text>
+    <text x="496" y="96">③ 계약</text>
+    <text x="592" y="96">④ 건설</text>
+    <text x="688" y="96">⑤ 운영</text>
+  </g>
+  <line x1="256" y1="102" x2="736" y2="102" stroke="#c4c9d1" stroke-width="1"/>
+
+  <!-- Row 1: Barakah (y=108) -->
+  <rect x="12" y="108" width="724" height="30" rx="6" fill="#e3f2ec"/>
+  <text x="20" y="121" class="row">UAE · 바라카 1~4호기</text>
+  <text x="20" y="133" class="row2">APR1400 4기 · 한전 주계약 · 2021~24년 운영 시작</text>
+  <rect x="262" y="112" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="358" y="112" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="454" y="112" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="550" y="112" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="646" y="112" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="688" y="127" class="chip" text-anchor="middle" fill="#1f2937">4기 모두 운영</text>
+
+  <!-- Row 2: Dukovany (y=142) -->
+  <rect x="12" y="142" width="724" height="30" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="20" y="155" class="row">체코 · 두코바니 5·6호기</text>
+  <text x="20" y="167" class="row2">APR1000 2기 · 한수원 주계약 · EU 예비검토 통과</text>
+  <rect x="262" y="146" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="358" y="146" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="454" y="146" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="496" y="161" class="chip" text-anchor="middle" fill="#1f2937">2025.6 서명</text>
+  <rect x="550" y="146" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <text x="592" y="161" class="chip" text-anchor="middle" fill="#6b7280">목표 2029</text>
+  <rect x="646" y="146" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <text x="688" y="161" class="chip" text-anchor="middle" fill="#6b7280">목표 2036</text>
+
+  <!-- Row 3: Temelín option (y=176) -->
+  <rect x="12" y="176" width="724" height="30" rx="6" fill="#e3f2ec"/>
+  <text x="20" y="189" class="row">체코 · 테멜린 옵션</text>
+  <text x="20" y="201" class="row2">APR1000 2기 옵션 · 미행사</text>
+  <rect x="262" y="180" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="304" y="195" class="chip" text-anchor="middle" fill="#1f2937">옵션 유효</text>
+  <rect x="358" y="180" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="454" y="180" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="550" y="180" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="646" y="180" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+
+  <!-- Row 4: Saudi Duwaiheen (y=210) -->
+  <rect x="12" y="210" width="724" height="30" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="20" y="223" class="row">사우디 · 두와이힌</text>
+  <text x="20" y="235" class="row2">약 1.4GW 2기 · 한전 등 입찰 승인 4곳 · 낙찰 없음</text>
+  <rect x="262" y="214" width="84" height="22" rx="11" fill="#0b6e4f"/>
+  <rect x="358" y="214" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="400" y="229" class="chip" text-anchor="middle" fill="#1f2937">낙찰 없음</text>
+  <rect x="454" y="214" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="550" y="214" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="646" y="214" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+
+  <!-- Row 5: Vietnam (y=244) -->
+  <rect x="12" y="244" width="724" height="30" rx="6" fill="#e3f2ec"/>
+  <text x="20" y="257" class="row">베트남 · 닌투언 2</text>
+  <text x="20" y="269" class="row2">한전-페트로베트남 MOU · 3분기 파트너 선정 예고</text>
+  <rect x="262" y="248" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="304" y="263" class="chip" text-anchor="middle" fill="#1f2937">MOU 2025~26</text>
+  <rect x="358" y="248" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="454" y="248" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="550" y="248" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="646" y="248" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+
+  <!-- Row 6: Turkey (y=278) -->
+  <rect x="12" y="278" width="724" height="30" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="20" y="291" class="row">튀르키예 · 시노프</text>
+  <text x="20" y="303" class="row2">APR1400 4기 제안(2023) · 한전-TUNAS MOU</text>
+  <rect x="262" y="282" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="304" y="297" class="chip" text-anchor="middle" fill="#1f2937">MOU 2025.11</text>
+  <rect x="358" y="282" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="454" y="282" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="550" y="282" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="646" y="282" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+
+  <!-- Row 7: Philippines (y=312) -->
+  <rect x="12" y="312" width="724" height="30" rx="6" fill="#e3f2ec"/>
+  <text x="20" y="325" class="row">필리핀</text>
+  <text x="20" y="337" class="row2">메랄코-한수원-수출입은행 MOU · 노형 미정</text>
+  <rect x="262" y="316" width="84" height="22" rx="11" fill="#f5a623"/>
+  <text x="304" y="331" class="chip" text-anchor="middle" fill="#1f2937">MOU 2026.3</text>
+  <rect x="358" y="316" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="454" y="316" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="550" y="316" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+  <rect x="646" y="316" width="84" height="22" rx="11" fill="#ffffff" stroke="#c4c9d1"/>
+
+  <!-- Divider -->
+  <line x1="12" y1="350" x2="736" y2="350" stroke="#c4c9d1" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="20" y="366" class="col">철수·탈락 (2024년 말 ~ 2025년)</text>
+
+  <!-- Exited rows -->
+  <g class="chip">
+    <rect x="20" y="374" width="230" height="22" rx="11" fill="#6b7280"/>
+    <text x="135" y="389" text-anchor="middle" style="fill:#fff">폴란드 · 퐁트누프 — 2025.8 한수원 철수</text>
+    <rect x="258" y="374" width="230" height="22" rx="11" fill="#6b7280"/>
+    <text x="373" y="389" text-anchor="middle" style="fill:#fff">카자흐스탄 — 2025.6 로사톰 선정</text>
+    <rect x="496" y="374" width="240" height="22" rx="11" fill="#6b7280"/>
+    <text x="616" y="389" text-anchor="middle" style="fill:#fff">네덜란드 · 보르셀러 — 2025.3 철수</text>
+    <rect x="20" y="404" width="230" height="22" rx="11" fill="#6b7280"/>
+    <text x="135" y="419" text-anchor="middle" style="fill:#fff">슬로베니아 · JEK2 — 2025.1 철수</text>
+    <rect x="258" y="404" width="230" height="22" rx="11" fill="#6b7280"/>
+    <text x="373" y="419" text-anchor="middle" style="fill:#fff">스웨덴 · 링할스 — 2024년 말 철수</text>
+  </g>
+
+  <!-- How to read -->
+  <rect x="12" y="432" width="724" height="58" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="449" class="note" font-weight="700">읽는 법</text>
+  <text x="80" y="449" class="note">완공 1건(바라카), 계약 1건(두코바니). 나머지는 입찰 또는 양해각서 단계입니다.</text>
+  <text x="24" y="465" class="note">보도된 웨스팅하우스 합의 조건(양사 미확인)은 북미·영국·일본과 체코를 뺀 EU를 제외합니다.</text>
+  <text x="24" y="481" class="note">유럽 4건 철수는 2025년 1월 합의 전후(2024년 말~2025.8), 카자흐스탄은 입찰 탈락. SMR 양해각서는 표시하지 않았습니다.</text>
+
+  <text x="20" y="506" class="sub">2026년 9월 기준 · 출처: ENEC, 한수원, 웨스팅하우스, 체코 산업부, EC, WNA · EPC = 설계·조달·시공</text>
+</svg>

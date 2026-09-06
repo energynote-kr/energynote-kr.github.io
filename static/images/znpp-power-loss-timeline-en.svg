@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Zaporizhzhia nuclear plant: number of connected off-site power lines and cumulative count of complete off-site power losses, 2022 to 2026</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .h { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .label { font-size: 12px; fill: #1f2937; }
+    .small { font-size: 11px; fill: #6b7280; }
+    .val { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .axis { stroke: #9ca3af; stroke-width: 1; }
+    .grid { stroke: #e5e7eb; stroke-width: 1; }
+  </style>
+  <rect x="0" y="0" width="760" height="540" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Zaporizhzhia: fewer power lines, more off-site power losses</text>
+  <text x="20" y="49" class="small">All six reactors are in cold shutdown, but cooling and instrumentation still need off-site electricity · IAEA count</text>
+
+  <!-- Top: connected off-site power lines -->
+  <text x="20" y="74" class="h">Connected off-site power lines (750 kV main line + 330 kV backup line)</text>
+  <!-- bars: 1 line = 10 px, baseline y=200 -->
+  <line x1="20" y1="200" x2="740" y2="200" class="axis"/>
+
+  <!-- Pre-war: 10 -->
+  <rect x="40" y="100" width="52" height="100" fill="#0b6e4f"/>
+  <text x="66" y="93" class="val" text-anchor="middle">10 lines</text>
+  <text x="66" y="218" class="label" text-anchor="middle">Pre-war</text>
+  <text x="66" y="233" class="small" text-anchor="middle">to Feb 2022</text>
+
+  <!-- After seizure: 2 -->
+  <rect x="160" y="180" width="52" height="20" fill="#6b7280"/>
+  <text x="186" y="173" class="val" text-anchor="middle">2 lines</text>
+  <text x="186" y="218" class="label" text-anchor="middle">After seizure (mostly)</text>
+  <text x="186" y="233" class="small" text-anchor="middle">late 2022 onward</text>
+
+  <!-- May 2025: 1 -->
+  <rect x="280" y="190" width="52" height="10" fill="#f5a623"/>
+  <text x="306" y="183" class="val" text-anchor="middle">1 line</text>
+  <text x="306" y="218" class="label" text-anchor="middle">Backup line cut</text>
+  <text x="306" y="233" class="small" text-anchor="middle">May 7, 2025 onward</text>
+
+  <!-- Sep 23 to Oct 23, 2025: 0 -->
+  <rect x="400" y="199" width="52" height="1" fill="#b91c1c"/>
+  <text x="426" y="183" class="val" text-anchor="middle" style="fill:#b91c1c">0 lines</text>
+  <text x="426" y="218" class="label" text-anchor="middle">30-day blackout</text>
+  <text x="426" y="233" class="small" text-anchor="middle">Sep 23–Oct 23, 2025</text>
+
+  <!-- Mar 24, 2026: 1 -->
+  <rect x="520" y="190" width="52" height="10" fill="#f5a623"/>
+  <text x="546" y="183" class="val" text-anchor="middle">1 line</text>
+  <text x="546" y="218" class="label" text-anchor="middle">Main line cut</text>
+  <text x="546" y="233" class="small" text-anchor="middle">Mar 24, 2026 onward</text>
+
+  <!-- Aug 20, 2026: 0 -->
+  <rect x="640" y="199" width="52" height="1" fill="#b91c1c"/>
+  <text x="666" y="183" class="val" text-anchor="middle" style="fill:#b91c1c">0 lines</text>
+  <text x="666" y="218" class="label" text-anchor="middle">On diesel</text>
+  <text x="666" y="233" class="small" text-anchor="middle">Aug 20, 2026 onward</text>
+
+  <text x="20" y="257" class="small">Note: both lines reconnected from Nov 8, 2025, but the 330 kV line was cut three more times (Dec, Jan 2, Feb 10) and restored Mar 6.</text>
+  <text x="20" y="272" class="small">A loss counts as "complete" only when no line at all is connected.</text>
+
+  <!-- Bottom: cumulative complete losses -->
+  <text x="20" y="303" class="h">Cumulative complete off-site power losses (plant on emergency diesel only, year-end count)</text>
+  <!-- chart area: x 70-720, y 318-468. y: 0 = 468, 30 = 318 (1 event = 5 px) -->
+  <line x1="70" y1="468" x2="720" y2="468" class="axis"/>
+  <line x1="70" y1="318" x2="70" y2="468" class="axis"/>
+  <line x1="70" y1="418" x2="720" y2="418" class="grid"/>
+  <line x1="70" y1="368" x2="720" y2="368" class="grid"/>
+  <line x1="70" y1="318" x2="720" y2="318" class="grid"/>
+  <text x="62" y="472" class="small" text-anchor="end">0</text>
+  <text x="62" y="422" class="small" text-anchor="end">10</text>
+  <text x="62" y="372" class="small" text-anchor="end">20</text>
+  <text x="62" y="322" class="small" text-anchor="end">30</text>
+
+  <!-- data: 2022 5 (y=443), 2023 8 (428), 2024 8 (428), 2025 12 (408), Aug 2026 26 (338) -->
+  <!-- x: 2022=140, 2023=270, 2024=400, 2025=530, 2026=660 -->
+  <polyline points="140,443 270,428 400,428 530,408 660,338" fill="none" stroke="#0b6e4f" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="140" cy="443" r="5" fill="#0b6e4f"/>
+  <circle cx="270" cy="428" r="5" fill="#0b6e4f"/>
+  <circle cx="400" cy="428" r="5" fill="#0b6e4f"/>
+  <circle cx="530" cy="408" r="5" fill="#0b6e4f"/>
+  <circle cx="660" cy="338" r="6" fill="#f5a623" stroke="#0b6e4f" stroke-width="2"/>
+
+  <text x="140" y="433" class="val" text-anchor="middle">5</text>
+  <text x="270" y="418" class="val" text-anchor="middle">8</text>
+  <text x="400" y="418" class="val" text-anchor="middle">8</text>
+  <text x="530" y="398" class="val" text-anchor="middle">12</text>
+  <text x="660" y="328" class="val" text-anchor="middle">26</text>
+
+  <text x="140" y="486" class="label" text-anchor="middle">2022</text>
+  <text x="270" y="486" class="label" text-anchor="middle">2023</text>
+  <text x="400" y="486" class="label" text-anchor="middle">2024</text>
+  <text x="530" y="486" class="label" text-anchor="middle">2025</text>
+  <text x="660" y="486" class="label" text-anchor="middle">2026</text>
+  <text x="400" y="503" class="small" text-anchor="middle">(none in 2024)</text>
+  <text x="530" y="503" class="small" text-anchor="middle">(incl. 30-day blackout)</text>
+  <text x="660" y="503" class="small" text-anchor="middle">(through Aug 20 event)</text>
+
+  <text x="20" y="524" class="small">As of September 6, 2026 · Sources: IAEA Director General updates, OECD NEA, BASE · energynote.kr</text>
+</svg>
