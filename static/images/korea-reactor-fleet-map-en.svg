@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Korea's 32 reactor units in five site columns, Kori, Saeul, Wolsong, Hanbit and Hanul, each unit box colored by status: operating, off line pending license renewal, commissioning, under construction or permanently shut</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .site { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .site2 { font-size: 10px; fill: #6b7280; }
+    .u { font-size: 10.5px; font-weight: 700; }
+    .u2 { font-size: 9.5px; }
+    .leg { font-size: 10.5px; fill: #1f2937; }
+    .tot { font-size: 11px; fill: #1f2937; }
+    .totn { font-size: 15px; font-weight: 800; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="760" height="560" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Korea's reactor fleet, site by site — September 2026</text>
+  <text x="20" y="48" class="sub">32 units on five coastal sites · rated capacity in MW · WH2/WH3 = Westinghouse 2-/3-loop, CP1 = Framatome, OPR = OPR1000, APR = APR1400</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="60" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="36" y="70">Operating</text>
+    <rect x="98" y="60" width="12" height="12" rx="3" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="3 2"/><text x="114" y="70">Off line, license renewal pending</text>
+    <rect x="300" y="60" width="12" height="12" rx="3" fill="#ffffff" stroke="#0b6e4f" stroke-width="2"/><text x="316" y="70">Commissioning</text>
+    <rect x="404" y="60" width="12" height="12" rx="3" fill="#f5a623"/><text x="420" y="70">Under construction</text>
+    <rect x="530" y="60" width="12" height="12" rx="3" fill="#6b7280"/><text x="546" y="70">Permanently shut</text>
+  </g>
+
+  <!-- Column backgrounds: x = 12 + i*148, width 140 -->
+  <rect x="12" y="82" width="140" height="376" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="160" y="82" width="140" height="376" rx="8" fill="#e3f2ec"/>
+  <rect x="308" y="82" width="140" height="376" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="456" y="82" width="140" height="376" rx="8" fill="#e3f2ec"/>
+  <rect x="604" y="82" width="140" height="376" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <!-- Site headers -->
+  <text x="82" y="100" class="site" text-anchor="middle">Kori</text>
+  <text x="82" y="113" class="site2" text-anchor="middle">Busan · 6 units</text>
+  <text x="230" y="100" class="site" text-anchor="middle">Saeul</text>
+  <text x="230" y="113" class="site2" text-anchor="middle">Ulsan · 4 units</text>
+  <text x="378" y="100" class="site" text-anchor="middle">Wolsong</text>
+  <text x="378" y="113" class="site2" text-anchor="middle">Gyeongju · 6 units</text>
+  <text x="526" y="100" class="site" text-anchor="middle">Hanbit</text>
+  <text x="526" y="113" class="site2" text-anchor="middle">Yeonggwang · 6 units</text>
+  <text x="674" y="100" class="site" text-anchor="middle">Hanul</text>
+  <text x="674" y="113" class="site2" text-anchor="middle">Uljin · 10 units</text>
+
+  <!-- Unit boxes: width 128, height 28, pitch 32, first y=122; text baselines y+12 and y+23 -->
+  <!-- Kori (x 18) -->
+  <g>
+    <rect x="18" y="122" width="128" height="28" rx="5" fill="#6b7280"/>
+    <text x="82" y="134" class="u" text-anchor="middle" style="fill:#fff">Kori 1</text>
+    <text x="82" y="145" class="u2" text-anchor="middle" style="fill:#fff">WH2 · 587 · shut June 2017</text>
+    <rect x="18" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="82" y="166" class="u" text-anchor="middle" style="fill:#fff">Kori 2</text>
+    <text x="82" y="177" class="u2" text-anchor="middle" style="fill:#fff">WH2 · 650 · to Apr 2033</text>
+    <rect x="18" y="186" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="82" y="198" class="u" text-anchor="middle" style="fill:#fff">Kori 3</text>
+    <text x="82" y="209" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · vote H2 2026</text>
+    <rect x="18" y="218" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="82" y="230" class="u" text-anchor="middle" style="fill:#fff">Kori 4</text>
+    <text x="82" y="241" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · vote H2 2026</text>
+    <rect x="18" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="82" y="262" class="u" text-anchor="middle" style="fill:#fff">Shin-Kori 1</text>
+    <text x="82" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2011</text>
+    <rect x="18" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="82" y="294" class="u" text-anchor="middle" style="fill:#fff">Shin-Kori 2</text>
+    <text x="82" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2012</text>
+  </g>
+
+  <!-- Saeul (x 166) -->
+  <g>
+    <rect x="166" y="122" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="230" y="134" class="u" text-anchor="middle" style="fill:#fff">Saeul 1</text>
+    <text x="230" y="145" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2016</text>
+    <rect x="166" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="230" y="166" class="u" text-anchor="middle" style="fill:#fff">Saeul 2</text>
+    <text x="230" y="177" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2019</text>
+    <rect x="166" y="186" width="128" height="28" rx="5" fill="#ffffff" stroke="#0b6e4f" stroke-width="2"/>
+    <text x="230" y="198" class="u" text-anchor="middle" fill="#0b6e4f">Saeul 3</text>
+    <text x="230" y="209" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · target Oct 2026</text>
+    <rect x="166" y="218" width="128" height="28" rx="5" fill="#f5a623"/>
+    <text x="230" y="230" class="u" text-anchor="middle" fill="#1f2937">Saeul 4</text>
+    <text x="230" y="241" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · OL Jan 2027</text>
+  </g>
+
+  <!-- Wolsong (x 314) -->
+  <g>
+    <rect x="314" y="122" width="128" height="28" rx="5" fill="#6b7280"/>
+    <text x="378" y="134" class="u" text-anchor="middle" style="fill:#fff">Wolsong 1</text>
+    <text x="378" y="145" class="u2" text-anchor="middle" style="fill:#fff">CANDU · 679 · shut Dec 2019</text>
+    <rect x="314" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="166" class="u" text-anchor="middle" style="fill:#fff">Wolsong 2</text>
+    <text x="378" y="177" class="u2" text-anchor="middle" style="fill:#fff">CANDU · 700 · exp. Nov 2026</text>
+    <rect x="314" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="198" class="u" text-anchor="middle" style="fill:#fff">Wolsong 3</text>
+    <text x="378" y="209" class="u2" text-anchor="middle" style="fill:#fff">CANDU · 700 · exp. Dec 2027</text>
+    <rect x="314" y="218" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="230" class="u" text-anchor="middle" style="fill:#fff">Wolsong 4</text>
+    <text x="378" y="241" class="u2" text-anchor="middle" style="fill:#fff">CANDU · 700 · exp. Feb 2029</text>
+    <rect x="314" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="262" class="u" text-anchor="middle" style="fill:#fff">Shin-Wolsong 1</text>
+    <text x="378" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2012</text>
+    <rect x="314" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="378" y="294" class="u" text-anchor="middle" style="fill:#fff">Shin-Wolsong 2</text>
+    <text x="378" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2015</text>
+  </g>
+
+  <!-- Hanbit (x 462) -->
+  <g>
+    <rect x="462" y="122" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
+    <text x="526" y="134" class="u" text-anchor="middle" style="fill:#fff">Hanbit 1</text>
+    <text x="526" y="145" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · vote H1 2027</text>
+    <rect x="462" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="166" class="u" text-anchor="middle" style="fill:#fff">Hanbit 2</text>
+    <text x="526" y="177" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · stops Sep 11</text>
+    <rect x="462" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="198" class="u" text-anchor="middle" style="fill:#fff">Hanbit 3</text>
+    <text x="526" y="209" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1995</text>
+    <rect x="462" y="218" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="230" class="u" text-anchor="middle" style="fill:#fff">Hanbit 4</text>
+    <text x="526" y="241" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1996</text>
+    <rect x="462" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="262" class="u" text-anchor="middle" style="fill:#fff">Hanbit 5</text>
+    <text x="526" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2002</text>
+    <rect x="462" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="526" y="294" class="u" text-anchor="middle" style="fill:#fff">Hanbit 6</text>
+    <text x="526" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2002</text>
+  </g>
+
+  <!-- Hanul (x 610) -->
+  <g>
+    <rect x="610" y="122" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="134" class="u" text-anchor="middle" style="fill:#fff">Hanul 1</text>
+    <text x="674" y="145" class="u2" text-anchor="middle" style="fill:#fff">CP1 · 950 · exp. Dec 2027</text>
+    <rect x="610" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="166" class="u" text-anchor="middle" style="fill:#fff">Hanul 2</text>
+    <text x="674" y="177" class="u2" text-anchor="middle" style="fill:#fff">CP1 · 950 · exp. Dec 2028</text>
+    <rect x="610" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="198" class="u" text-anchor="middle" style="fill:#fff">Hanul 3</text>
+    <text x="674" y="209" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1998</text>
+    <rect x="610" y="218" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="230" class="u" text-anchor="middle" style="fill:#fff">Hanul 4</text>
+    <text x="674" y="241" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1999</text>
+    <rect x="610" y="250" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="262" class="u" text-anchor="middle" style="fill:#fff">Hanul 5</text>
+    <text x="674" y="273" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2004</text>
+    <rect x="610" y="282" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="294" class="u" text-anchor="middle" style="fill:#fff">Hanul 6</text>
+    <text x="674" y="305" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 2005</text>
+    <rect x="610" y="314" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="326" class="u" text-anchor="middle" style="fill:#fff">Shin-Hanul 1</text>
+    <text x="674" y="337" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2022</text>
+    <rect x="610" y="346" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <text x="674" y="358" class="u" text-anchor="middle" style="fill:#fff">Shin-Hanul 2</text>
+    <text x="674" y="369" class="u2" text-anchor="middle" style="fill:#fff">APR · 1,400 · 2024</text>
+    <rect x="610" y="378" width="128" height="28" rx="5" fill="#f5a623"/>
+    <text x="674" y="390" class="u" text-anchor="middle" fill="#1f2937">Shin-Hanul 3</text>
+    <text x="674" y="401" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · target 2032</text>
+    <rect x="610" y="410" width="128" height="28" rx="5" fill="#f5a623"/>
+    <text x="674" y="422" class="u" text-anchor="middle" fill="#1f2937">Shin-Hanul 4</text>
+    <text x="674" y="433" class="u2" text-anchor="middle" fill="#1f2937">APR · 1,400 · target 2033</text>
+  </g>
+
+  <!-- Site capacity lines (operating, licensed) -->
+  <text x="82" y="451" class="site2" text-anchor="middle">4,550 MW licensed</text>
+  <text x="230" y="451" class="site2" text-anchor="middle">2,800 MW · 2 building</text>
+  <text x="378" y="451" class="site2" text-anchor="middle">4,100 MW licensed</text>
+  <text x="526" y="451" class="site2" text-anchor="middle">5,900 MW licensed</text>
+  <text x="674" y="451" class="site2" text-anchor="middle">8,700 MW · 2 building</text>
+
+  <!-- Totals band -->
+  <rect x="12" y="464" width="732" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="80" y="486" class="totn" text-anchor="middle">26</text>
+  <text x="80" y="503" class="tot" text-anchor="middle">operating · 26,050 MW</text>
+  <text x="240" y="486" class="totn" text-anchor="middle">3 of 26</text>
+  <text x="240" y="503" class="tot" text-anchor="middle">off line, renewal pending</text>
+  <text x="400" y="486" class="totn" text-anchor="middle">4</text>
+  <text x="400" y="503" class="tot" text-anchor="middle">under construction · 5,600 MW</text>
+  <text x="556" y="486" class="totn" text-anchor="middle">2</text>
+  <text x="556" y="503" class="tot" text-anchor="middle">permanently shut · 1,266 MW</text>
+  <text x="682" y="486" class="totn" text-anchor="middle">~31%</text>
+  <text x="682" y="503" class="tot" text-anchor="middle">of electricity, 2025</text>
+
+  <text x="20" y="537" class="sub">Saeul 3 holds an operating license (Dec 30, 2025) but is counted as under construction until commercial operation.</text>
+  <text x="20" y="551" class="sub">As of September 2026 · Sources: NSSC, KHNP, World Nuclear Association</text>
+</svg>
