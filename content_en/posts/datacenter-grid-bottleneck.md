@@ -1,10 +1,10 @@
 ---
-title: "The real bottleneck for AI data centers is the wire, not the power plant — Korea's 1.9% approval rate and the US interconnection queue"
+title: "South Korea's data center power shortage: why only 1.9% of grid applications get approved, and what the US queue shows"
 date: 2026-09-03T12:30:00+09:00
 dataAsOf: "2026-09-03"
 categories: ["Nuclear & Energy"]
 tags: ["data centers", "transmission", "HVDC", "transformers", "interconnection queue"]
-description: "Only 1.9% of Seoul-area data center power applications are approved. Korea's HVDC delays, 2–3-year transformer lead times and PJM's 40-month queue explained."
+description: "South Korea approves only 1.9% of Seoul-area data center power applications. The real bottleneck is the grid: HVDC delays, 2–3-year transformer lead times, and PJM's 40-month queue."
 ---
 
 1.9 percent. Through March 2026, developers had filed 522 grid impact assessments for data centers in the Seoul metropolitan area, asking for a combined 33,592 MW. Ten of them had received a final "supply available" decision, according to a July 2026 tally by CBRE Korea, the real estate services firm.
