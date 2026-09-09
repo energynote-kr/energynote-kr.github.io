@@ -1,7 +1,7 @@
 ---
 title: "Korea is asking whether to build more reactors — what the September 2026 public deliberation is really about"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-09-03"
+dataAsOf: "2026-09-09"
 categories: ["Nuclear & Energy"]
 tags: ["Korea", "new nuclear", "public deliberation", "12th Basic Plan", "spent fuel"]
 description: "Korea's two new large reactors and one SMR are already decided. The September–October 2026 deliberation asks whether to add more for 2040 — here are both sides."
@@ -14,7 +14,7 @@ Holding that number, the Ministry of Climate, Energy and Environment starts a se
 > **Key takeaways**
 > - The two large reactors and one small modular reactor (SMR) in Korea's 11th Basic Plan are already decided, with candidate sites chosen in June 2026. The September–October deliberation asks whether the 12th Basic Plan, which runs to 2040, should add more nuclear on top of them.
 > - The case for building more rests on carbon-free baseload, the 2040 demand re-forecast, the low cost of the existing fleet and a supply chain that is still running. The case for caution rests on new-build cost overruns abroad, the absence of a spent-fuel repository, local acceptance and the falling price of solar and storage.
-> - Korea's 2017 deliberation on two half-built reactors used a 471-citizen jury and took three months. The January 2026 process took two forums and a phone poll. As of early September, the format of the new round had not been announced.
+> - Korea's 2017 deliberation on two half-built reactors used a 471-citizen jury and took three months. The January 2026 process took two forums and a phone poll. As of September 9, the format of the new round had not been announced.
 
 ## 1. The plan behind the question
 
@@ -80,7 +80,7 @@ The January 2026 process, by contrast, was two forums and a telephone and automa
 | Duration | About three months | Under a month | Sept–Oct |
 | Result | Resume 59.5% / stop 40.5% | 62–70% in favor; proceed | Ahead |
 
-Whether the new round uses a citizen jury or repeats the forum-plus-poll formula had not been officially announced as of early September 2026, when this was written. Either way, the credibility of the result will rest on whether the participants read the eight arguments above **from the same set of materials**.
+Whether the new round uses a citizen jury or repeats the forum-plus-poll formula had not been officially announced as of September 9, 2026; August press reports said a policy forum on new reactors was planned for September. Either way, the credibility of the result will rest on whether the participants read the eight arguments above **from the same set of materials**.
 
 ## 6. The author's scale
 
