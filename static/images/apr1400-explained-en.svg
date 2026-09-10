@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 510" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Spec card of the APR1400 (1,400 MWe class, two loops, 60-year design life, 0.3 g seismic design, 241 fuel assemblies, four safety-injection trains) beside a timeline from development in 1992 to the Dukovany contract in 2025</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .hd { font-size: 12px; font-weight: 800; fill: #1f2937; }
+    .big { font-size: 22px; font-weight: 800; fill: #0b6e4f; }
+    .lab { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .lab2 { font-size: 10px; fill: #6b7280; }
+    .yr { font-size: 12px; font-weight: 800; }
+    .ev { font-size: 11.5px; font-weight: 700; fill: #1f2937; }
+    .ev2 { font-size: 10px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="510" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">The APR1400 at a glance — Korea's 1,400 MW-class export reactor</text>
+  <text x="20" y="48" class="sub">Left: reference design as certified by the US NRC (2019) · Right: how the design got here, 1992–2025</text>
+
+  <!-- Spec card -->
+  <rect x="20" y="66" width="290" height="400" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="66" width="290" height="26" rx="10" fill="#0b6e4f"/>
+  <rect x="20" y="80" width="290" height="12" fill="#0b6e4f"/>
+  <text x="34" y="84" class="hd" style="fill:#fff">Key numbers</text>
+
+  <g>
+    <text x="34" y="124" class="big">1,400 MWe</text>
+    <text x="34" y="140" class="lab">class · two-loop PWR, 4,000 MWt</text>
+    <text x="34" y="153" class="lab2">1,455 MWe gross (Korea); about 1,345–1,400 MWe net</text>
+    <line x1="34" y1="162" x2="296" y2="162" stroke="#e5e7eb"/>
+
+    <text x="34" y="190" class="big">60 years</text>
+    <text x="34" y="206" class="lab">design life of the main components</text>
+    <text x="34" y="219" class="lab2">Korean licenses run 40 years, then 10-year renewals</text>
+    <line x1="34" y1="228" x2="296" y2="228" stroke="#e5e7eb"/>
+
+    <text x="34" y="256" class="big">0.3 g</text>
+    <text x="34" y="272" class="lab">safe shutdown earthquake</text>
+    <text x="34" y="285" class="lab2">Rock and soil sites; Barakah designed to the same 0.3 g</text>
+    <line x1="34" y1="294" x2="296" y2="294" stroke="#e5e7eb"/>
+
+    <text x="34" y="322" class="big">241</text>
+    <text x="34" y="338" class="lab">fuel assemblies · 18-month cycle</text>
+    <text x="34" y="351" class="lab2">Roughly a third of the core replaced each refueling</text>
+    <line x1="34" y1="360" x2="296" y2="360" stroke="#e5e7eb"/>
+
+    <text x="34" y="388" class="big">4 trains</text>
+    <text x="34" y="404" class="lab">safety injection, direct to the vessel</text>
+    <text x="34" y="417" class="lab2">Active design; no core catcher (EU-APR variant adds one)</text>
+    <line x1="34" y1="426" x2="296" y2="426" stroke="#e5e7eb"/>
+
+    <text x="34" y="449" class="lab"><tspan style="fill:#f5a623">8 units</tspan> in commercial operation, Sept. 2026</text>
+    <text x="34" y="461" class="lab2">4 in Korea, 4 at Barakah · 1 commissioning · 3 building</text>
+  </g>
+
+  <!-- Timeline -->
+  <rect x="330" y="66" width="410" height="400" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="330" y="66" width="410" height="26" rx="10" fill="#6b7280"/>
+  <rect x="330" y="80" width="410" height="12" fill="#6b7280"/>
+  <text x="344" y="84" class="hd" style="fill:#fff">Lineage and milestones</text>
+
+  <line x1="392" y1="104" x2="392" y2="452" stroke="#0b6e4f" stroke-width="3" opacity="0.35"/>
+
+  <!-- 1992 -->
+  <circle cx="392" cy="118" r="6" fill="#6b7280"/>
+  <text x="344" y="122" class="yr" fill="#6b7280">1992</text>
+  <text x="408" y="116" class="ev">Development starts</text>
+  <text x="408" y="129" class="ev2">"Korean Next-Generation Reactor," built on CE's System 80+</text>
+
+  <!-- 2002 -->
+  <circle cx="392" cy="162" r="6" fill="#6b7280"/>
+  <text x="344" y="166" class="yr" fill="#6b7280">2002</text>
+  <text x="408" y="160" class="ev">Korean standard design approval</text>
+  <text x="408" y="173" class="ev2">May 2002; basic design finished 1999, named APR1400 in 2001</text>
+
+  <!-- 2008 -->
+  <circle cx="392" cy="206" r="6" fill="#0b6e4f"/>
+  <text x="344" y="210" class="yr" fill="#0b6e4f">2008</text>
+  <text x="408" y="204" class="ev">First concrete, Shin-Kori 3</text>
+  <text x="408" y="217" class="ev2">October 2008; Barakah 1 follows in July 2012</text>
+
+  <!-- 2016 -->
+  <circle cx="392" cy="250" r="6" fill="#0b6e4f"/>
+  <text x="344" y="254" class="yr" fill="#0b6e4f">2016</text>
+  <text x="408" y="248" class="ev">First unit in commercial operation</text>
+  <text x="408" y="261" class="ev2">Shin-Kori 3 (now Saeul 1), December 20, 2016, three years late</text>
+
+  <!-- 2017 -->
+  <circle cx="392" cy="294" r="6" fill="#f5a623"/>
+  <text x="344" y="298" class="yr" fill="#b45309">2017</text>
+  <text x="408" y="292" class="ev">EU-APR certified by EUR</text>
+  <text x="408" y="305" class="ev2">October 2017; the European variant adds a core catcher</text>
+
+  <!-- 2018/2019 -->
+  <circle cx="392" cy="338" r="6" fill="#f5a623"/>
+  <text x="340" y="342" class="yr" fill="#b45309">2018–19</text>
+  <text x="408" y="336" class="ev">US NRC approval and certification</text>
+  <text x="408" y="349" class="ev2">SDA Sept. 28, 2018; rule effective Sept. 19, 2019 (term now 40 years)</text>
+
+  <!-- 2024 -->
+  <circle cx="392" cy="382" r="6" fill="#0b6e4f"/>
+  <text x="344" y="386" class="yr" fill="#0b6e4f">2024</text>
+  <text x="408" y="380" class="ev">Barakah complete: four units in service</text>
+  <text x="408" y="393" class="ev2">Unit 4 commercial Sept. 5, 2024; APR1000 certified by EUR Mar. 2023</text>
+
+  <!-- 2025 -->
+  <circle cx="392" cy="426" r="6" fill="#f5a623"/>
+  <text x="344" y="430" class="yr" fill="#b45309">2025</text>
+  <text x="408" y="424" class="ev">Dukovany contract, 2 × APR1000</text>
+  <text x="408" y="437" class="ev2">Signed June 4, 2025; Westinghouse settled Jan. 2025; concrete 2029</text>
+
+  <!-- Legend -->
+  <g font-size="10" fill="#6b7280">
+    <circle cx="349" cy="456" r="4" fill="#6b7280"/><text x="357" y="459">Design</text>
+    <circle cx="404" cy="456" r="4" fill="#0b6e4f"/><text x="412" y="459">Build and operate</text>
+    <circle cx="510" cy="456" r="4" fill="#f5a623"/><text x="518" y="459">Certification and contract</text>
+  </g>
+
+  <text x="20" y="486" class="sub">As of September 2026 · Sources: KHNP, US NRC, IAEA ARIS, WNA</text>
+  <text x="20" y="500" class="sub">Net output varies by site and cooling water · SDA = standard design approval · EUR = European Utility Requirements</text>
+</svg>

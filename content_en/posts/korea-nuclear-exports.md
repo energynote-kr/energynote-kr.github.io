@@ -24,7 +24,7 @@ The prime contractor has changed from project to project. At Barakah it was KEPC
 
 The product is the **APR1400**, a 1,400 MW-class pressurized water reactor, and its 1,000 MW-class derivative for European grids, the **APR1000**.
 
-- **US NRC.** The APR1400 received a standard design approval on September 28, 2018 and a design certification whose final rule took effect on September 19, 2019, valid for 15 years. A US site license would still be separate.
+- **US NRC.** The APR1400 received a standard design approval on September 28, 2018 and a design certification whose final rule took effect on September 19, 2019, originally valid for 15 years and extended to 40 years (to 2059) by an NRC rule change in 2025. A US site license would still be separate.
 - **European Utility Requirements (EUR).** The European version, the EU-APR, was certified as EUR-compliant in October 2017 (World Nuclear News, October 9, 2017); the APR1000 followed in March 2023 (announced March 2). EUR is a utility-side specification, not a license.
 
 ## 2. Barakah 1–4: the reference plant
