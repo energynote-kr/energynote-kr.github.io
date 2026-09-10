@@ -74,7 +74,7 @@ The **Gyeongju repository** on the southeast coast has been operating since 2015
 
 ### High-level waste: a law, targets, and no site
 
-For spent fuel Korea has **no repository and no chosen site**. The **High-Level Radioactive Waste Special Act**, passed in February 2025 and in force since October 2025, created the legal framework for site selection for the first time, including the procedure for finding a volunteer community. The act's targets are an **interim storage facility by 2050 and a disposal facility by 2060**.
+For spent fuel Korea has **no repository and no chosen site**. The **High-Level Radioactive Waste Special Act**, passed in February 2025 and in force since September 26, 2025, created the legal framework for site selection for the first time, including the procedure for finding a volunteer community. The act's targets are an **interim storage facility by 2050 and a disposal facility by 2060**.
 
 That leaves a gap of roughly **30 to 40 years behind Onkalo**, and through that period spent fuel stays in pools and dry casks inside the reactor sites. The at-reactor storage problem, and the argument over whether Korea should reprocess instead, is the subject of [our reprocessing-versus-disposal piece](/en/posts/reprocessing-vs-disposal/); what happens to a Korean reactor at the other end of its life is in [our Kori-1 decommissioning tracker](/en/posts/kori1-decommissioning/).
 

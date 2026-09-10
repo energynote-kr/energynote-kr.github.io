@@ -128,7 +128,7 @@ KEPCO, the state-owned national utility, occupies two positions on the map. It i
 
 ## 8. Back end, waste and decommissioning: the clean-up
 
-The back end is the emptiest part of the Korean map. Spent fuel is stored on each plant site; Wolsong already operates a dry storage facility (spent fuel kept outside the pool in metal or concrete casks), and Kori is seeking licenses for a dry storage facility targeted to operate in 2030. Only low- and intermediate-level waste is being disposed of, at Gyeongju, and site selection for a high-level repository has only just begun.
+The back end is the emptiest part of the Korean map. Spent fuel is stored on each plant site; Wolsong already operates a dry storage facility (spent fuel kept outside the pool in metal or concrete casks), and Kori is preparing a license application for a dry storage facility, with operation now targeted for 2031 (per the NSSC's September 2026 audit report). Only low- and intermediate-level waste is being disposed of, at Gyeongju, and site selection for a high-level repository has only just begun.
 
 We cover [how other countries' repositories are progressing](/en/posts/world-repositories/) separately.
 
