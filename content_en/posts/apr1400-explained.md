@@ -135,7 +135,7 @@ Every APR1400 cost figure in circulation comes from a different year, currency, 
 
 Read as cost per kilowatt, the Korean budgets work out to roughly $2,300 to $3,100 per kW (each divided by 2,800 MW at about 1,350 won to the dollar; WNA's 2016-rate conversion gives $2,700 for Saeul 3 and 4). Barakah's contract value is about $3,600 per kW gross and Dukovany's about $8,900; Vogtle's total, which includes years of interest, is about $16,000 per kW, and Hinkley's midpoint about £10,000 at 2015 prices.
 
-Three caveats stop this from becoming a league table. The Korean figures are owner's estimates in a system where utility, designer and builders sit in one state group and labor and financing costs differ from the US and UK; Barakah's is a 2009 contract price, not an outturn; Vogtle's is an audited total after a first-of-a-kind build, while Hinkley's is a forecast. That the APR1400 has cost less per kilowatt in Korea and the UAE than the AP1000 in Georgia or the EPR in Somerset is well supported; a single ratio is not.
+Three caveats stop this from becoming a league table. The Korean figures are owner's estimates in a system where the utility and designer belong to the same state group, the builders have worked as one repeat team, and labor and financing costs differ from the US and UK; Barakah's is a 2009 contract price, not an outturn; Vogtle's is an audited total after a first-of-a-kind build, while Hinkley's is a forecast. That the APR1400 has cost less per kilowatt in Korea and the UAE than the AP1000 in Georgia or the EPR in Somerset is well supported; a single ratio is not.
 
 ## 7. Open questions
 

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">APR1400 사양 카드(1,400MWe급, 2루프, 설계수명 60년, 내진 0.3g, 연료집합체 241다발, 4계열 안전주입)와 1992년 개발 시작부터 2025년 두코바니 계약까지의 연표를 나란히 놓은 그림</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .hd { font-size: 12px; font-weight: 800; fill: #1f2937; }
+    .big { font-size: 22px; font-weight: 800; fill: #0b6e4f; }
+    .lab { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .lab2 { font-size: 10px; fill: #6b7280; }
+    .yr { font-size: 12px; font-weight: 800; }
+    .ev { font-size: 11.5px; font-weight: 700; fill: #1f2937; }
+    .ev2 { font-size: 10px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="510" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">APR1400 한눈에 보기: 한국의 1,400MW급 수출 원자로</text>
+  <text x="20" y="48" class="sub">왼쪽: 미국 NRC 인증(2019년) 기준 설계 · 오른쪽: 설계가 여기까지 온 길, 1992~2025년</text>
+
+  <!-- 사양 카드 -->
+  <rect x="20" y="66" width="290" height="400" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="66" width="290" height="26" rx="10" fill="#0b6e4f"/>
+  <rect x="20" y="80" width="290" height="12" fill="#0b6e4f"/>
+  <text x="34" y="84" class="hd" style="fill:#fff">핵심 숫자</text>
+
+  <g id="specs">
+    <text x="34" y="124" class="big">1,400MW급</text>
+    <text x="34" y="140" class="lab">2루프 가압경수로, 열출력 4,000MWt</text>
+    <text x="34" y="153" class="lab2">총출력 1,455MWe(국내) · 순출력 약 1,345~1,400MWe</text>
+    <line x1="34" y1="162" x2="296" y2="162" stroke="#e5e7eb"/>
+
+    <text x="34" y="190" class="big">60년</text>
+    <text x="34" y="206" class="lab">주요 기기의 설계수명</text>
+    <text x="34" y="219" class="lab2">국내 운영허가는 40년, 그 뒤 10년 단위 계속운전</text>
+    <line x1="34" y1="228" x2="296" y2="228" stroke="#e5e7eb"/>
+
+    <text x="34" y="256" class="big">0.3g</text>
+    <text x="34" y="272" class="lab">안전정지지진</text>
+    <text x="34" y="285" class="lab2">암반·토사 부지 공통 · 바라카도 같은 0.3g로 설계</text>
+    <line x1="34" y1="294" x2="296" y2="294" stroke="#e5e7eb"/>
+
+    <text x="34" y="322" class="big">241다발</text>
+    <text x="34" y="338" class="lab">연료집합체 · 재장전 주기 18개월</text>
+    <text x="34" y="351" class="lab2">재장전마다 노심의 약 3분의 1을 교체</text>
+    <line x1="34" y1="360" x2="296" y2="360" stroke="#e5e7eb"/>
+
+    <text x="34" y="388" class="big">4계열</text>
+    <text x="34" y="404" class="lab">안전주입, 원자로용기 직접주입</text>
+    <text x="34" y="417" class="lab2">능동형 설계 · 코어캐처 없음(EU-APR만 추가)</text>
+    <line x1="34" y1="426" x2="296" y2="426" stroke="#e5e7eb"/>
+
+    <text x="34" y="449" class="lab"><tspan style="fill:#f5a623">8기</tspan> 상업운전 중, 2026년 9월</text>
+    <text x="34" y="461" class="lab2">국내 4기, 바라카 4기 · 시운전 1기 · 건설 중 3기</text>
+  </g>
+
+  <!-- 연표 -->
+  <rect x="330" y="66" width="410" height="400" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="330" y="66" width="410" height="26" rx="10" fill="#6b7280"/>
+  <rect x="330" y="80" width="410" height="12" fill="#6b7280"/>
+  <text x="344" y="84" class="hd" style="fill:#fff">계보와 이정표</text>
+
+  <line x1="392" y1="104" x2="392" y2="452" stroke="#0b6e4f" stroke-width="3" opacity="0.35"/>
+
+  <g id="timeline">
+    <!-- 1992 -->
+    <circle cx="392" cy="118" r="6" fill="#6b7280"/>
+    <text x="344" y="122" class="yr" fill="#6b7280">1992</text>
+    <text x="408" y="116" class="ev">개발 시작</text>
+    <text x="408" y="129" class="ev2">정부 주도 '차세대 원자로' 과제, CE 시스템 80+ 기반</text>
+
+    <!-- 2002 -->
+    <circle cx="392" cy="162" r="6" fill="#6b7280"/>
+    <text x="344" y="166" class="yr" fill="#6b7280">2002</text>
+    <text x="408" y="160" class="ev">한국 표준설계인가</text>
+    <text x="408" y="173" class="ev2">2002년 5월 · 기본설계 1999년 완료, 2001년 APR1400 명명</text>
+
+    <!-- 2008 -->
+    <circle cx="392" cy="206" r="6" fill="#0b6e4f"/>
+    <text x="344" y="210" class="yr" fill="#0b6e4f">2008</text>
+    <text x="408" y="204" class="ev">신고리 3호기 최초 콘크리트</text>
+    <text x="408" y="217" class="ev2">2008년 10월 · 바라카 1호기는 2012년 7월</text>
+
+    <!-- 2016 -->
+    <circle cx="392" cy="250" r="6" fill="#0b6e4f"/>
+    <text x="344" y="254" class="yr" fill="#0b6e4f">2016</text>
+    <text x="408" y="248" class="ev">첫 호기 상업운전</text>
+    <text x="408" y="261" class="ev2">신고리 3호기(현 새울 1호기), 2016년 12월 20일, 계획보다 3년 늦게</text>
+
+    <!-- 2017 -->
+    <circle cx="392" cy="294" r="6" fill="#f5a623"/>
+    <text x="344" y="298" class="yr" fill="#b45309">2017</text>
+    <text x="408" y="292" class="ev">EU-APR, 유럽 EUR 인증</text>
+    <text x="408" y="305" class="ev2">2017년 10월 · 유럽형은 코어캐처를 추가</text>
+
+    <!-- 2018/2019 -->
+    <circle cx="392" cy="338" r="6" fill="#f5a623"/>
+    <text x="380" y="342" class="yr" fill="#b45309" text-anchor="end">2018~19</text>
+    <text x="408" y="336" class="ev">미국 NRC 승인과 설계인증</text>
+    <text x="408" y="349" class="ev2">승인 2018년 9월 28일, 규칙 발효 2019년 9월 19일 · 유효기간 40년</text>
+
+    <!-- 2024 -->
+    <circle cx="392" cy="382" r="6" fill="#0b6e4f"/>
+    <text x="344" y="386" class="yr" fill="#0b6e4f">2024</text>
+    <text x="408" y="380" class="ev">바라카 완공, 4기 모두 운전</text>
+    <text x="408" y="393" class="ev2">4호기 상업운전 2024년 9월 5일 · APR1000 EUR 인증 2023년 3월</text>
+
+    <!-- 2025 -->
+    <circle cx="392" cy="426" r="6" fill="#f5a623"/>
+    <text x="344" y="430" class="yr" fill="#b45309">2025</text>
+    <text x="408" y="424" class="ev">두코바니 계약, APR1000 2기</text>
+    <text x="408" y="437" class="ev2">2025년 6월 4일 서명 · 웨스팅하우스 합의 2025년 1월 · 착공 2029년</text>
+  </g>
+
+  <!-- 범례 -->
+  <g id="legend" font-size="10" fill="#6b7280">
+    <circle cx="349" cy="456" r="4" fill="#6b7280"/><text x="357" y="459">설계</text>
+    <circle cx="404" cy="456" r="4" fill="#0b6e4f"/><text x="412" y="459">건설·운영</text>
+    <circle cx="486" cy="456" r="4" fill="#f5a623"/><text x="494" y="459">인증·계약</text>
+  </g>
+
+  <text x="20" y="486" class="sub">2026년 9월 기준 · 출처: 한수원, 미국 NRC, IAEA ARIS, WNA</text>
+  <text x="20" y="500" class="sub">순출력은 부지와 냉각수 조건에 따라 다름 · EUR = 유럽사업자요건(전력회사 사양, 규제 승인 아님)</text>
+</svg>
