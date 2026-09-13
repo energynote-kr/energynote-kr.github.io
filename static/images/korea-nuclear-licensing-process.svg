@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">부지 실시계획부터 상업운전까지 한국 원전 인허가 7단계 사다리에 단계별 결정 주체와 새울 3호기·신한울 3·4호기·i-SMR의 2026년 9월 현재 위치를 표시한 그림</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .stage { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .stage2 { font-size: 10.5px; fill: #6b7280; }
+    .body { font-size: 11px; font-weight: 700; }
+    .chip { font-size: 11px; font-weight: 700; }
+    .leg { font-size: 11px; fill: #1f2937; }
+    .col { font-size: 10px; font-weight: 700; fill: #6b7280; letter-spacing: 0.4px; }
+  </style>
+  <rect x="0" y="0" width="760" height="520" fill="#f8faf9"/>
+  <text x="20" y="28" class="title">원전은 어떻게 허가받나: 일곱 단계 사다리</text>
+  <text x="20" y="46" class="sub">위로 갈수록 전기 판매에 가깝다 · 부지 계획과 첫 발전 사이에 원안위 의결이 세 번(설계·건설·운영) 있다</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="58" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="36" y="68">KINS 심사를 거친 원안위 결정</text>
+    <rect x="228" y="58" width="12" height="12" rx="3" fill="#6b7280"/><text x="244" y="68">부처 단계</text>
+    <rect x="334" y="58" width="12" height="12" rx="3" fill="#f5a623"/><text x="350" y="68">국내 사업의 현재 위치, 2026년 9월</text>
+  </g>
+  <text x="262" y="82" class="col">결정 주체</text>
+  <text x="444" y="82" class="col">사업 위치</text>
+
+  <!-- Ladder rail -->
+  <line x1="254" y1="88" x2="254" y2="478" stroke="#0b6e4f" stroke-width="3" opacity="0.35"/>
+
+  <!-- Rung 7: Commercial operation (y 88-138) -->
+  <rect x="12" y="88" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="108" class="stage">⑦ 상업운전</text>
+  <text x="24" y="124" class="stage2">'가동 원전' 수에 합류</text>
+  <rect x="262" y="99" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="118" class="body" text-anchor="middle" style="fill:#fff">원안위 최종 검사 완료</text>
+  <rect x="444" y="99" width="298" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="593" y="118" class="chip" text-anchor="middle" fill="#1f2937">새울 3호기 10월 목표 · 직전 완주 신한울 2호기(2024)</text>
+
+  <!-- Rung 6: Criticality and power ascension (y 144-194) -->
+  <rect x="12" y="144" width="736" height="50" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="164" class="stage">⑥ 임계 · 출력상승</text>
+  <text x="24" y="180" class="stage2">제16조 검사는 허가 뒤에도 계속</text>
+  <rect x="262" y="155" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="174" class="body" text-anchor="middle" style="fill:#fff">KINS 검사, 원안위 승인</text>
+  <rect x="444" y="155" width="298" height="28" rx="14" fill="#f5a623"/>
+  <text x="593" y="174" class="chip" text-anchor="middle" fill="#1f2937">새울 3호기: 4월 12일 임계 · 9월 4일 시험 재개</text>
+
+  <!-- Rung 5: Operating license (y 200-250) -->
+  <rect x="12" y="200" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="220" class="stage">⑤ 운영허가</text>
+  <text x="24" y="236" class="stage2">제20조 · FSAR · 연료장전 허용</text>
+  <rect x="262" y="211" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="230" class="body" text-anchor="middle" style="fill:#fff">원안위 의결(KINS 심사)</text>
+  <rect x="444" y="211" width="298" height="28" rx="14" fill="#f5a623"/>
+  <text x="593" y="230" class="chip" text-anchor="middle" fill="#1f2937">새울 4호기: 2020년 8월 신청, 2027년 1월 목표</text>
+
+  <!-- Rung 4: Pre-operational inspections / construction (y 256-306) -->
+  <rect x="12" y="256" width="736" height="50" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="276" class="stage">④ 건설 · 사용전검사</text>
+  <text x="24" y="292" class="stage2">제16조 · 연료장전까지 4단계</text>
+  <rect x="262" y="267" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="286" class="body" text-anchor="middle" style="fill:#fff">원안위를 대신한 KINS 검사</text>
+  <rect x="444" y="267" width="298" height="28" rx="14" fill="#f5a623"/>
+  <text x="593" y="286" class="chip" text-anchor="middle" fill="#1f2937">신한울 3·4호기: 최초 콘크리트 2025년 5월·2026년 5월</text>
+
+  <!-- Rung 3: Construction permit (y 312-362) -->
+  <rect x="12" y="312" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="332" class="stage">③ 건설허가</text>
+  <text x="24" y="348" class="stage2">제10조 · PSAR · 신청 전 제103조 공청회</text>
+  <rect x="262" y="323" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="342" class="body" text-anchor="middle" style="fill:#fff">원안위 의결(KINS 심사)</text>
+  <rect x="444" y="323" width="298" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="593" y="342" class="chip" text-anchor="middle" fill="#1f2937">신한울 3·4호기: 2024년 9월 허가(2016년 1월 신청)</text>
+
+  <!-- Rung 2: Standard design approval (y 368-418) -->
+  <rect x="12" y="368" width="736" height="50" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="388" class="stage">② 표준설계인가</text>
+  <text x="24" y="404" class="stage2">제12조 · 선택 · 10년 유효 · 부지 없음</text>
+  <rect x="262" y="379" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="398" class="body" text-anchor="middle" style="fill:#fff">원안위 의결(KINS 심사)</text>
+  <rect x="444" y="379" width="150" height="28" rx="14" fill="#f5a623"/>
+  <text x="519" y="398" class="chip" text-anchor="middle" fill="#1f2937">i-SMR: 2026년 2월 신청</text>
+  <rect x="600" y="379" width="142" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="671" y="398" class="chip" text-anchor="middle" fill="#1f2937">SMART100: 2024년 9월</text>
+
+  <!-- Rung 1: Site plan (y 424-474) -->
+  <rect x="12" y="424" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="444" class="stage">① 부지 실시계획</text>
+  <text x="24" y="460" class="stage2">전원개발촉진법 · 지자체 의견 청취</text>
+  <rect x="262" y="435" width="172" height="28" rx="14" fill="#6b7280"/>
+  <text x="348" y="454" class="body" text-anchor="middle" style="fill:#fff">기후에너지환경부 장관</text>
+  <rect x="444" y="435" width="298" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="593" y="454" class="chip" text-anchor="middle" fill="#1f2937">영덕(대형 2기) · 기장(i-SMR): 후보지</text>
+
+  <text x="20" y="494" class="sub">주황 채움 = 사업의 현재 단계 · 점선 = 이미 지난 단계 또는 아직 못 미친 목표 · 제n조 = 원자력안전법 조문</text>
+  <text x="20" y="509" class="sub">2026년 9월 기준 · 출처: 원안위, KINS, 한수원</text>
+</svg>
