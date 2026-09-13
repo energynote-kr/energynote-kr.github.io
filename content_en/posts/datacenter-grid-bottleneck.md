@@ -4,7 +4,7 @@ date: 2026-09-03T12:30:00+09:00
 dataAsOf: "2026-09-03"
 categories: ["Nuclear & Energy"]
 tags: ["data centers", "transmission", "HVDC", "transformers", "interconnection queue"]
-description: "South Korea approves only 1.9% of Seoul-area data center power applications. The real bottleneck is the grid: HVDC delays, 2–3-year transformer lead times, and PJM's 40-month queue."
+description: "Only 1.9% of Seoul-area data center power applications get approved. Oklo's 750 MW Virginia project was dropped from PJM's queue and is now before FERC. Same bottleneck on both sides: the grid, not the plant."
 ---
 
 1.9 percent. Through March 2026, developers had filed 522 grid impact assessments for data centers in the Seoul metropolitan area, asking for a combined 33,592 MW. Ten of them had received a final "supply available" decision, according to a July 2026 tally by CBRE Korea, the real estate services firm.
