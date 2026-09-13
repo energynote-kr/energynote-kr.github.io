@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Licensing ladder for a Korean power reactor from site plan to commercial operation, with the responsible body per rung and the current positions of Saeul 3, Shin-Hanul 3 and 4 and the i-SMR</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .stage { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .stage2 { font-size: 10.5px; fill: #6b7280; }
+    .body { font-size: 11px; font-weight: 700; }
+    .chip { font-size: 11px; font-weight: 700; }
+    .leg { font-size: 11px; fill: #1f2937; }
+    .col { font-size: 10px; font-weight: 700; fill: #6b7280; letter-spacing: 0.4px; }
+  </style>
+  <rect x="0" y="0" width="760" height="520" fill="#f8faf9"/>
+  <text x="20" y="28" class="title">How a reactor gets licensed in Korea: the seven rungs</text>
+  <text x="20" y="46" class="sub">Higher = closer to selling power · three NSSC votes (design, construction, operation) sit between a site plan and first power</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="58" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="36" y="68">NSSC decision on a KINS review</text>
+    <rect x="228" y="58" width="12" height="12" rx="3" fill="#6b7280"/><text x="244" y="68">Ministry step</text>
+    <rect x="334" y="58" width="12" height="12" rx="3" fill="#f5a623"/><text x="350" y="68">Where Korean projects stand, Sept 2026</text>
+  </g>
+  <text x="262" y="82" class="col">WHO DECIDES</text>
+  <text x="444" y="82" class="col">PROJECT POSITION</text>
+
+  <!-- Ladder rail -->
+  <line x1="254" y1="88" x2="254" y2="478" stroke="#0b6e4f" stroke-width="3" opacity="0.35"/>
+
+  <!-- Rung 7: Commercial operation (y 88-138) -->
+  <rect x="12" y="88" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="108" class="stage">⑦ Commercial operation</text>
+  <text x="24" y="124" class="stage2">Unit joins the 'operating' count</text>
+  <rect x="262" y="99" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="118" class="body" text-anchor="middle" style="fill:#fff">NSSC clears final inspections</text>
+  <rect x="444" y="99" width="298" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="593" y="118" class="chip" text-anchor="middle" fill="#1f2937">Saeul 3 target Oct 2026 · last: Shin-Hanul 2, 2024</text>
+
+  <!-- Rung 6: Criticality and power ascension (y 144-194) -->
+  <rect x="12" y="144" width="736" height="50" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="164" class="stage">⑥ Criticality · power ascension</text>
+  <text x="24" y="180" class="stage2">Art. 16 inspections continue after the license</text>
+  <rect x="262" y="155" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="174" class="body" text-anchor="middle" style="fill:#fff">KINS inspects, NSSC clears</text>
+  <rect x="444" y="155" width="298" height="28" rx="14" fill="#f5a623"/>
+  <text x="593" y="174" class="chip" text-anchor="middle" fill="#1f2937">Saeul 3: critical Apr 12; tests resumed Sept 4</text>
+
+  <!-- Rung 5: Operating license (y 200-250) -->
+  <rect x="12" y="200" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="220" class="stage">⑤ Operating license</text>
+  <text x="24" y="236" class="stage2">Art. 20 · FSAR, tech specs · permits fuel load</text>
+  <rect x="262" y="211" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="230" class="body" text-anchor="middle" style="fill:#fff">NSSC vote on KINS review</text>
+  <rect x="444" y="211" width="298" height="28" rx="14" fill="#f5a623"/>
+  <text x="593" y="230" class="chip" text-anchor="middle" fill="#1f2937">Saeul 4: filed Aug 2020, target Jan 2027</text>
+
+  <!-- Rung 4: Pre-operational inspections / construction (y 256-306) -->
+  <rect x="12" y="256" width="736" height="50" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="276" class="stage">④ Construction · inspections</text>
+  <text x="24" y="292" class="stage2">Art. 16 pre-operational · four stages to fuel load</text>
+  <rect x="262" y="267" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="286" class="body" text-anchor="middle" style="fill:#fff">KINS inspectors for the NSSC</text>
+  <rect x="444" y="267" width="298" height="28" rx="14" fill="#f5a623"/>
+  <text x="593" y="286" class="chip" text-anchor="middle" fill="#1f2937">Shin-Hanul 3·4: concrete May 2025 / May 2026</text>
+
+  <!-- Rung 3: Construction permit (y 312-362) -->
+  <rect x="12" y="312" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="332" class="stage">③ Construction permit</text>
+  <text x="24" y="348" class="stage2">Art. 10 · PSAR · Art. 103 hearing before filing</text>
+  <rect x="262" y="323" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="342" class="body" text-anchor="middle" style="fill:#fff">NSSC vote on KINS review</text>
+  <rect x="444" y="323" width="298" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="593" y="342" class="chip" text-anchor="middle" fill="#1f2937">Shin-Hanul 3·4 granted Sept 12, 2024 (filed Jan 2016)</text>
+
+  <!-- Rung 2: Standard design approval (y 368-418) -->
+  <rect x="12" y="368" width="736" height="50" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="388" class="stage">② Standard design approval</text>
+  <text x="24" y="404" class="stage2">Art. 12 · optional · valid 10 years · no site</text>
+  <rect x="262" y="379" width="172" height="28" rx="14" fill="#0b6e4f"/>
+  <text x="348" y="398" class="body" text-anchor="middle" style="fill:#fff">NSSC vote on KINS review</text>
+  <rect x="444" y="379" width="150" height="28" rx="14" fill="#f5a623"/>
+  <text x="519" y="398" class="chip" text-anchor="middle" fill="#1f2937">i-SMR: filed Feb 27, 2026</text>
+  <rect x="600" y="379" width="142" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="671" y="398" class="chip" text-anchor="middle" fill="#1f2937">SMART100: Sept 2024</text>
+
+  <!-- Rung 1: Site plan (y 424-474) -->
+  <rect x="12" y="424" width="736" height="50" rx="8" fill="#e3f2ec"/>
+  <text x="24" y="444" class="stage">① Site plan</text>
+  <text x="24" y="460" class="stage2">Electric Source Development Promotion Act · local opinions</text>
+  <rect x="262" y="435" width="172" height="28" rx="14" fill="#6b7280"/>
+  <text x="348" y="454" class="body" text-anchor="middle" style="fill:#fff">Energy ministry (MCEE)</text>
+  <rect x="444" y="435" width="298" height="28" rx="14" fill="#ffffff" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="593" y="454" class="chip" text-anchor="middle" fill="#1f2937">Yeongdeok (2 large units) · Gijang (i-SMR): candidates</text>
+
+  <text x="20" y="494" class="sub">Solid orange = current rung of the project · dashed = a rung already passed, or a target not yet reached · Art. = Nuclear Safety Act article</text>
+  <text x="20" y="509" class="sub">As of September 2026 · Sources: NSSC, KINS, KHNP</text>
+</svg>
