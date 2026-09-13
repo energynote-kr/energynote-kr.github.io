@@ -51,8 +51,8 @@
   <!-- 2026.8.20 이후 0 -->
   <rect x="590" y="199" width="52" height="1" fill="#b91c1c"/>
   <text x="616" y="183" class="val" text-anchor="middle" style="fill:#b91c1c">0개</text>
-  <text x="616" y="218" class="label" text-anchor="middle">디젤로 버팀</text>
-  <text x="616" y="233" class="small" text-anchor="middle">2026.8.20~</text>
+  <text x="616" y="218" class="label" text-anchor="middle">디젤로 18일</text>
+  <text x="616" y="233" class="small" text-anchor="middle">2026.8.20~9.7</text>
 
   <text x="20" y="257" class="small">※ 2025.11.8 이후 두 회선이 함께 연결됐으나 330kV는 12월·1.2·2.10 세 번 더 끊겼다 3.6 재연결. 하나라도 살아 있으면 완전 상실 아님.</text>
 
@@ -93,5 +93,5 @@
   <text x="370" y="487" class="small" text-anchor="middle">(2024년은 0건)</text>
   <text x="490" y="487" class="small" text-anchor="middle">(30일 정전 포함)</text>
 
-  <text x="20" y="508" class="small">출처: IAEA 사무총장 우크라이나 상황 업데이트(2022~2026), OECD/NEA·BASE 현황 페이지 · 2026년 9월 6일 기준 · energynote.kr</text>
+  <text x="20" y="508" class="small">출처: IAEA 사무총장 우크라이나 상황 업데이트(2022~2026), OECD/NEA·BASE 현황 페이지 · 2026년 9월 13일 기준 · energynote.kr</text>
 </svg>

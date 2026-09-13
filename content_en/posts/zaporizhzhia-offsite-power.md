@@ -1,19 +1,19 @@
 ---
 title: "[In-depth] A shut-down reactor still needs power — the record of Zaporizhzhia's off-site power losses"
 date: 2026-09-13T09:00:00+09:00
-dataAsOf: "2026-09-06"
+dataAsOf: "2026-09-13"
 categories: ["Nuclear & Energy"]
 tags: ["Zaporizhzhia", "IAEA", "off-site power", "emergency diesel generators", "Fukushima"]
-description: "Zaporizhzhia's six reactors are shut down, yet since August 20, 2026 they have run on diesel. Why a stopped plant still needs power, and the 26 losses so far."
+description: "Zaporizhzhia's six reactors are shut down, and for 18 days from August 20, 2026 they ran on diesel alone. Why a stopped plant still needs power, and the 26 losses so far."
 ---
 
-On August 20, 2026, the last power line still feeding the Zaporizhzhia nuclear plant, on the left bank of the Dnipro River in southern Ukraine, was cut after military activity across the river. It was the 330 kV Ferosplavna-1 line. The plant's emergency diesel generators, on-site units that start automatically when grid power fails, kicked in, and since that day the pumps cooling six reactors and their spent fuel pools have run on diesel, not on the grid.
+On August 20, 2026, the last power line still feeding the Zaporizhzhia nuclear plant, on the left bank of the Dnipro River in southern Ukraine, was cut after military activity across the river. It was the 330 kV Ferosplavna-1 line. The plant's emergency diesel generators, on-site units that start automatically when grid power fails, kicked in, and for the next 18 days the pumps cooling six reactors and their spent fuel pools ran on diesel, not on the grid.
 
-Nine days later, on August 29, IAEA Director General Rafael Grossi warned that without restored off-site power or fresh diesel the plant could lose all power in roughly ten days. A local ceasefire brokered by the IAEA took effect on September 5 and Ukrainian crews began repairs after demining, but as of September 6, this article's as-of date, no completed repair had been confirmed. This record keeps three things apart: what the IAEA has confirmed directly, what Ukraine says, and what Russia says.
+Nine days later, on August 29, IAEA Director General Rafael Grossi warned that without restored off-site power or fresh diesel the plant could lose all power in roughly ten days. A local ceasefire brokered by the IAEA took effect on September 5 and Ukrainian crews began repairs after demining, and on September 7 at 19:02 local time the line was reconnected, ending an 18-day outage; the diesel generators went back to standby (Energoatom statement; IAEA confirmed the reconnection). This record keeps three things apart: what the IAEA has confirmed directly, what Ukraine says, and what Russia says.
 
 > **Key takeaways**
 > - All six Zaporizhzhia reactors have been in cold shutdown since April 2024, but decay heat removal, spent fuel pool cooling and instrumentation still need off-site electricity.
-> - The plant had 10 off-site lines before the war (four 750 kV, six 330 kV). From March 24, 2026 it had one; on August 20 that one was cut, and the 26th complete loss of off-site power by the IAEA's count has been running ever since (as of September 6, 2026).
+> - The plant had 10 off-site lines before the war (four 750 kV, six 330 kV). From March 24, 2026 it had one; on August 20 that one was cut, and the 26th complete loss of off-site power by the IAEA's count lasted 18 days until the line was repaired on September 7 (as of September 13, 2026).
 > - The last line of defense is about 20 emergency diesel generators with a required minimum of ten days of fuel, 11 groundwater wells drilled after the Kakhovka dam collapse, and staff who commute to work under drone attack.
 
 ## 1. Why a stopped reactor needs electricity
@@ -36,12 +36,12 @@ Units 1 to 3, which had been operating, lost all AC power, a condition called **
 
 Zaporizhzhia is Europe's largest nuclear plant, six reactors of about 1,000 MW each. Russian forces seized it on March 4, 2022, and it has not generated electricity since September 2022. Two names recur below: **Energoatom**, Ukraine's state nuclear operator, which ran the plant before the occupation, and **Rosatom**, the Russian state nuclear corporation, which runs it now.
 
-Before the war, according to the IAEA, the plant had 10 off-site lines: four at 750 kV (kilovolts, an extra-high-voltage transmission level) and six at 330 kV. The table shows the status as of September 6, 2026.
+Before the war, according to the IAEA, the plant had 10 off-site lines: four at 750 kV (kilovolts, an extra-high-voltage transmission level) and six at 330 kV. The table shows the status as of September 13, 2026.
 
 | Line | Voltage | Status | IAEA update |
 |---|---|---|---|
 | Dniprovska | 750 kV (main) | Cut March 24. Plant-side repairs completed in June under an IAEA-brokered ceasefire, but a substation about 100 km (62 miles) away, damaged in May, cannot carry power to it | July 2, 2026 |
-| Ferosplavna-1 | 330 kV (backup, via the switchyard of a nearby thermal power plant) | Cut August 20. Local ceasefire in force from September 5; Ukrainian crews began repairs after demining | September 5, 2026 |
+| Ferosplavna-1 | 330 kV (backup, via the switchyard of a nearby thermal power plant) | Cut Aug 20 after military activity north of the river; repaired under the 7th local ceasefire and reconnected Sep 7 at 19:02 | Sep 8, 2026 (IAEA/Energoatom) |
 | Other 8 lines | Three 750 kV, five 330 kV | Damaged or cut one by one from the early months of the 2022 occupation, never restored | — |
 
 The **750 kV Dniprovska line** is the main tie to Ukraine's national grid; the **330 kV Ferosplavna-1 line** is a backup routed through the nearby Zaporizhzhia thermal power plant. The stretches on a single line have grown longer: the 750 kV line alone from May 7, 2025 (until it too was cut on September 23, starting a 30-day blackout), then the 330 kV line alone from March 24, 2026, for more than five months. In that state a thunderstorm or damage to a switchyard (the equipment that connects and disconnects lines) is enough to take the whole plant off the grid.
@@ -90,7 +90,7 @@ For 19 months, from December 2023 to July 2025, there was no complete loss, thou
 | Jun 10–13 | About 3 days | Damage near the thermal plant's switchyard. 19th |
 | Jun 20 / Jul 3 / Jul 14 | — | 20th, 21st, 22nd. The July 14 cut was caused by a thunderstorm |
 | Aug 1 / 4 / 8 | Around an hour each (Energoatom figures) | Three in eight days. 23rd, 24th, 25th |
-| Aug 20– | Over 17 days as of Sep 6 | 330 kV line cut after military activity north of the river. 26th. Repairs under way from Sep 5 under the 7th local ceasefire |
+| Aug 20–Sep 7 | 18 days | 330 kV line cut after military activity north of the river. 26th. Repaired under the 7th local ceasefire (from Sep 5) and reconnected Sep 7 |
 
 In its August 14 update the IAEA noted that 13 of the 25 losses had come in the four months since April. In 2022 lines were physically cut by shelling; in 2026 a single remaining line is exposed to many causes at once, from the thermal plant's switchyard and substations to thunderstorms, and drops again and again. Energoatom stresses the wear on diesel generators from frequent starts; the IAEA stresses the fragility of depending on one line at all.
 
@@ -159,8 +159,8 @@ What Zaporizhzhia shows is less a list of equipment than what a layer means. Ten
 
 ## Where this goes next
 
-Watch first whether the 330 kV Ferosplavna-1 line is reconnected under the September 5 ceasefire, and how many diesel generators are still running when it is. Then comes the 750 kV Dniprovska line, which needs the distant substation repaired before it can carry power, and winter, when Ukraine's grid comes under more strain. The IAEA's numbered updates remain the reference count, and this timeline will be extended as they arrive.
+The 330 kV Ferosplavna-1 line came back on September 7 after three days of repairs under the seventh local ceasefire, so the plant is again on a single backup line. Next comes the 750 kV Dniprovska line, which needs the distant substation repaired before it can carry power, and winter, when Ukraine's grid comes under more strain. The IAEA's numbered updates remain the reference count, and this timeline will be extended as they arrive.
 
 ---
 
-*Sources: IAEA Director General updates on the situation in Ukraine, Update 354 (June 19, 2026), 356 (July 2), 358 (July 15), 359 (July 23), 361 (August 6), 362 (August 14), 363 (August 20), 364 (August 29) and the September 5, 2026 local-ceasefire statement; IAEA topic page on nuclear safety, security and safeguards in Ukraine (seven pillars, March 2, 2022); IAEA September 2022 report (protection-zone proposal); UN Security Council meeting record SC/15300 (five principles, May 30, 2023); IAEA updates of July 4, 2025 (9th loss), December 6, 2025 (11th), December 13, 2025 (12th), February 19, 2026 (cooling pond level) and April 2026 (13th–15th); OECD/NEA status page on Ukraine's nuclear facilities (April 24, 2026); BASE (Germany) Ukraine status page (August 25, 2026); World Nuclear Association information pages on the Russia–Ukraine war and on the Fukushima Daiichi accident; World Nuclear News, December 4, 2023, July 7, 2025, October 23, 2025, November 10, 2025, September 1, 2026; Xinhua, May 29, 2026; Kyiv Independent, June 2026; Energoatom statements and Ukrainska Pravda, August 4 and 20, 2026; UNN, August 20 and September 5, 2026; Reuters, July 24, August 29 and September 5, 2026 (carried by Daily Maverick, Al Jazeera, Global Banking and Finance); Arms Control Today, September 2026; Anadolu Agency, December 3, 2025 (IAEA rotation); AP and PBS, October 8, 2022; The Hill, October 12, 2022; Al Jazeera, August 25, 2022; NSSC 228th meeting, Saeul unit 3 operating license agenda document (December 30, 2025); KHNP press release on mobile generator trucks at all sites (May 7, 2014); Asia Economy report from Kori unit 2 (March 19, 2026)*
+*Sources: IAEA Director General updates on the situation in Ukraine, Update 354 (June 19, 2026), 356 (July 2), 358 (July 15), 359 (July 23), 361 (August 6), 362 (August 14), 363 (August 20), 364 (August 29) the September 5, 2026 local-ceasefire statement and the September 8, 2026 reconnection statement; Energoatom statement on the September 7 reconnection; World Nuclear News, "Zaporizhzhia reconnected to external power after 18 days" (September 8, 2026); IAEA topic page on nuclear safety, security and safeguards in Ukraine (seven pillars, March 2, 2022); IAEA September 2022 report (protection-zone proposal); UN Security Council meeting record SC/15300 (five principles, May 30, 2023); IAEA updates of July 4, 2025 (9th loss), December 6, 2025 (11th), December 13, 2025 (12th), February 19, 2026 (cooling pond level) and April 2026 (13th–15th); OECD/NEA status page on Ukraine's nuclear facilities (April 24, 2026); BASE (Germany) Ukraine status page (August 25, 2026); World Nuclear Association information pages on the Russia–Ukraine war and on the Fukushima Daiichi accident; World Nuclear News, December 4, 2023, July 7, 2025, October 23, 2025, November 10, 2025, September 1, 2026; Xinhua, May 29, 2026; Kyiv Independent, June 2026; Energoatom statements and Ukrainska Pravda, August 4 and 20, 2026; UNN, August 20 and September 5, 2026; Reuters, July 24, August 29 and September 5, 2026 (carried by Daily Maverick, Al Jazeera, Global Banking and Finance); Arms Control Today, September 2026; Anadolu Agency, December 3, 2025 (IAEA rotation); AP and PBS, October 8, 2022; The Hill, October 12, 2022; Al Jazeera, August 25, 2022; NSSC 228th meeting, Saeul unit 3 operating license agenda document (December 30, 2025); KHNP press release on mobile generator trucks at all sites (May 7, 2014); Asia Economy report from Kori unit 2 (March 19, 2026)*

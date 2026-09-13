@@ -15,7 +15,7 @@ A law, a regulator's roadmap, a candidate site and a queue of corporate sponsors
 
 > **Key takeaways**
 > - i-SMR (four 170 MWe integral pressurized-water modules, 680 MWe per plant) filed for Standard Design Approval on February 27, 2026. The review has only begun: the regulator's plan puts the main test results at June 2028, so the "approval by 2028" target has almost no slack.
-> - The SMR Special Act (in force September 11, 2026), the regulator's 2026–2030 roadmap and the Gijang candidate site (chosen in June) are building the frame, with construction targeted for 2030 and commercial operation for 2035. The construction permit, a buyer for the power and the cost are still blank.
+> - The SMR Special Act (in force since September 11, 2026), the regulator's 2026–2030 roadmap and the Gijang candidate site (chosen in June) are building the frame, with construction targeted for 2030 and commercial operation for 2035. The construction permit, a buyer for the power and the cost are still blank.
 > - The leading SMRs abroad aim for first power around 2030, roughly five years ahead. What to watch: the approval date, first-of-a-kind cost, power purchase agreements, and spent fuel.
 
 ## 1. i-SMR in 30 seconds
@@ -43,7 +43,7 @@ KINS itself described the completion date as "fluid." Read plainly, approval is 
 
 ### The law and the regulator: a framework still under construction
 
-The **SMR Special Act** passed the National Assembly on February 12, 2026 and takes effect on September 11. Its core is promotional: a national SMR development plan, a promotion committee, and designated R&D zones. On the same day the Act passed, NSSC published its **SMR Regulatory Framework Roadmap** (2026–2030), which schedules SMR-specific technical standards and amendments to the Nuclear Safety Act for **2028**.
+The **SMR Special Act** passed the National Assembly on February 12, 2026 and took effect on September 11, 2026. Its core is promotional: a national SMR development plan, a promotion committee, and designated R&D zones. On the same day the Act passed, NSSC published its **SMR Regulatory Framework Roadmap** (2026–2030), which schedules SMR-specific technical standards and amendments to the Nuclear Safety Act for **2028**.
 
 That means the design review and the writing of the rules it will be judged against are running in parallel. Korean environmental groups made exactly this point in August: licensing has started while the regulatory system is still being built, and they asked the regulator to set the safety standards first. It is a fair criticism of the sequence. Regulators abroad have also written SMR-specific rules while reviewing first applications, but that is context, not an answer to it.
 
@@ -97,7 +97,7 @@ If i-SMR reaches construction, the work flows in order: design, then major compo
 
 The field is wide, but i-SMR revenue for Korean companies only becomes real once a construction permit follows the SDA, and the earliest realistic point for that is the second half of 2028 or later.
 
-**Where this goes next.** The next dated events are September 11 (the Act takes effect), the first meeting of the promotion committee it creates, the drafting of the 12th Basic Plan, and the June 2027 document deadline at KINS. None of them will tell you whether Korea's SMR succeeds. Together they will tell you whether the 2028–2030–2035 calendar is still intact, and that is the one thing worth tracking.
+**Where this goes next.** With the Act in force since September 11, the next dated events are the first meeting of the promotion committee it creates, the drafting of the 12th Basic Plan, and the June 2027 document deadline at KINS. None of them will tell you whether Korea's SMR succeeds. Together they will tell you whether the 2028–2030–2035 calendar is still intact, and that is the one thing worth tracking.
 
 **Industry note.** The listed companies with a public role in i-SMR or in overseas SMR projects are KEPCO E&C (KRX: 052690), Doosan Enerbility (KRX: 034020), Woojin (KRX: 105840), Hyundai E&C (KRX: 000720), Samsung C&T (KRX: 028260) and Daewoo E&C (KRX: 047040) in Korea, and NuScale (NYSE: SMR) and GE Vernova (NYSE: GEV) abroad. For the Korean companies, i-SMR-specific revenue depends on a construction permit that cannot come before late 2028; the two US names are listed as overseas reference projects, not i-SMR suppliers.
 

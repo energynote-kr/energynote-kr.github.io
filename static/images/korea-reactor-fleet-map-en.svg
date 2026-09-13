@@ -109,9 +109,9 @@
     <rect x="462" y="122" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
     <text x="526" y="134" class="u" text-anchor="middle" style="fill:#fff">Hanbit 1</text>
     <text x="526" y="145" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · vote H1 2027</text>
-    <rect x="462" y="154" width="128" height="28" rx="5" fill="#0b6e4f"/>
+    <rect x="462" y="154" width="128" height="28" rx="5" fill="#0b6e4f" stroke="#f5a623" stroke-width="2" stroke-dasharray="4 2"/>
     <text x="526" y="166" class="u" text-anchor="middle" style="fill:#fff">Hanbit 2</text>
-    <text x="526" y="177" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · stops Sep 11</text>
+    <text x="526" y="177" class="u2" text-anchor="middle" style="fill:#fff">WH3 · 950 · off line Sep 11</text>
     <rect x="462" y="186" width="128" height="28" rx="5" fill="#0b6e4f"/>
     <text x="526" y="198" class="u" text-anchor="middle" style="fill:#fff">Hanbit 3</text>
     <text x="526" y="209" class="u2" text-anchor="middle" style="fill:#fff">OPR · 1,000 · 1995</text>
@@ -171,7 +171,7 @@
   <rect x="12" y="464" width="732" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
   <text x="80" y="486" class="totn" text-anchor="middle">26</text>
   <text x="80" y="503" class="tot" text-anchor="middle">operating · 26,050 MW</text>
-  <text x="240" y="486" class="totn" text-anchor="middle">3 of 26</text>
+  <text x="240" y="486" class="totn" text-anchor="middle">4 of 26</text>
   <text x="240" y="503" class="tot" text-anchor="middle">off line, renewal pending</text>
   <text x="400" y="486" class="totn" text-anchor="middle">4</text>
   <text x="400" y="503" class="tot" text-anchor="middle">under construction · 5,600 MW</text>

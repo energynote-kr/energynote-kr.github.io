@@ -1,13 +1,13 @@
 ---
 title: "Korea's nuclear reactor fleet, site by site — every unit, its type, age and status (September 2026)"
 date: 2026-09-06T14:44:00+09:00
-dataAsOf: "2026-09-06"
+dataAsOf: "2026-09-13"
 categories: ["Nuclear & Energy"]
 tags: ["Korea nuclear reactors", "APR1400", "Kori", "continued operation", "KHNP"]
 description: "All 32 South Korean reactor units by site: type, capacity, commercial-operation date and status as of September 2026, with license-renewal dates through 2029."
 ---
 
-On September 11, 2026, the 40-year operating license of Hanbit unit 2, a Westinghouse reactor on Korea's southwest coast, runs out. The unit is due to stop that day and join two Kori units and its sister Hanbit 1 in a queue for license renewal, without leaving the official count of 26 "operating" reactors. A list of Korean reactors has to carry that kind of detail, and most lists in English do not.
+On September 11, 2026, the 40-year operating license of Hanbit unit 2, a Westinghouse reactor on Korea's southwest coast, runs out. The unit stopped that day and joined two Kori units and its sister Hanbit 1 in a queue for license renewal, without leaving the official count of 26 "operating" reactors. A list of Korean reactors has to carry that kind of detail, and most lists in English do not.
 
 This article is the list: every reactor unit in South Korea, site by site, with reactor type, rated capacity, commercial-operation date and status as of September 6, 2026, followed by a reading of the fleet as a whole. The institutions behind it are mapped in [our guide to Korea's nuclear industry](/en/posts/korea-nuclear-industry-map/).
 
@@ -75,7 +75,7 @@ Hanbit, in Yeonggwang County, South Jeolla Province, is the only site on the Yel
 | Unit | Type, MW | Commercial operation | Status (Sept. 2026) |
 |---|---|---|---|
 | Hanbit 1 | WH 3-loop, 950 | Aug. 25, 1986 | Off line since Dec. 9, 2025; license expired Dec. 22, 2025; vote planned H1 2027 |
-| Hanbit 2 | WH 3-loop, 950 | June 10, 1987 | Operating; license expires Sept. 11, 2026; vote planned H1 2027 |
+| Hanbit 2 | WH 3-loop, 950 | June 10, 1987 | Off line since Sept. 11, 2026 (license expired); vote planned H1 2027 |
 | Hanbit 3 | OPR1000, 1,000 | Mar. 31, 1995 | Operating |
 | Hanbit 4 | OPR1000, 1,000 | Jan. 1, 1996 | Operating |
 | Hanbit 5 | OPR1000, 1,000 | May 21, 2002 | Operating |
@@ -106,11 +106,11 @@ KHNP submitted the periodic safety reviews for Hanul 1 and 2 in October 2023; on
 
 ## 6. The totals, and how Saeul 3 is counted
 
-The official count, used by KHNP, the NSSC and the IAEA, is **26 operating, 4 under construction, 2 permanently shut**. Saeul 3 sits in "under construction" despite holding an operating license, because a unit counts as operating from commercial operation (on September 6, KHNP's real-time page showed 20 of 26 actually generating, the rest in planned outages); when it passes that gate, expected in October, the count becomes 27 and 3. The 26 include Kori 3, Kori 4 and Hanbit 1, whose licenses have expired but which are not permanently shut; strictly, 23 units can generate today.
+The official count, used by KHNP, the NSSC and the IAEA, is **26 operating, 4 under construction, 2 permanently shut**. Saeul 3 sits in "under construction" despite holding an operating license, because a unit counts as operating from commercial operation (on September 6, KHNP's real-time page showed 20 of 26 actually generating, the rest in planned outages); when it passes that gate, expected in October, the count becomes 27 and 3. The 26 include Kori 3, Kori 4 and Hanbit 1, whose licenses have expired but which are not permanently shut; strictly, 22 units can generate today, since Hanbit 2 joined the list on September 11.
 
 | Category | Units | Capacity, MW | Notes |
 |---|---|---|---|
-| Operating (licensed) | 26 | 26,050 | Of which 3 units, 2,850 MW, off line pending license renewal |
+| Operating (licensed) | 26 | 26,050 | Of which 4 units, 3,800 MW, off line pending license renewal (as of Sept. 13, 2026) |
 | Under construction | 4 | 5,600 | Saeul 3 in commissioning; Saeul 4; Shin-Hanul 3 and 4 |
 | Permanently shut | 2 | 1,266 | Kori 1 (2017), Wolsong 1 (2019) |
 | Total on sites | 32 | 32,916 | Five sites |
@@ -133,7 +133,7 @@ The decisions the NSSC must take, in order of license expiry, as of September 20
 | Kori 3 | 950 | Sept. 2024 | Vote planned H2 2026 |
 | Kori 4 | 950 | Aug. 2025 | Vote planned H2 2026 |
 | Hanbit 1 | 950 | Dec. 2025 | Vote planned H1 2027 |
-| Hanbit 2 | 950 | Sept. 11, 2026 | Vote planned H1 2027 |
+| Hanbit 2 | 950 | Sept. 11, 2026 (expired) | Vote planned H1 2027 |
 | Wolsong 2 | 700 | Nov. 1, 2026 | Safety assessment filed; license application pending |
 | Hanul 1 | 950 | Dec. 2027 | Under review, no date |
 | Wolsong 3 | 700 | Dec. 2027 | Safety assessment filed; license application pending |

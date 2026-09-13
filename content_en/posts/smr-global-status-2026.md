@@ -109,7 +109,7 @@ Google–Kairos 500 MW by 2035, Amazon–X-energy 5 GW by 2039, Meta–Oklo 1.2 
 
 - The KINS review plan reported on August 27 lists 13 supplementary items and sets test-result submission for June 2028, leaving almost no slack against the "approval in 2028" target.
 - Gijang County was confirmed as the candidate site in June; the plan is construction in 2030 and operation in 2035.
-- The SMR Special Act passed the National Assembly on February 12, 2026 and takes effect on September 11, 2026. The NSSC's "SMR regulatory framework roadmap (2026–2030)" puts SMR-specific technical standards and the associated law amendments in 2028. Review and rule-writing run in parallel; Korean environmental groups argue that "licensing has started while the regulatory framework is still being built" and want the standards first.
+- The SMR Special Act passed the National Assembly on February 12, 2026 and took effect on September 11, 2026. The NSSC's "SMR regulatory framework roadmap (2026–2030)" puts SMR-specific technical standards and the associated law amendments in 2028. Review and rule-writing run in parallel; Korean environmental groups argue that "licensing has started while the regulatory framework is still being built" and want the standards first.
 - At a September 1 forum on private-sector SMR development, GS Energy, SK Innovation and POSCO Holdings presented participation plans, but what they asked for was permission for long-term power purchase agreements and inclusion in the 12th Basic Plan for Electricity Supply and Demand.
 
 **Korea already holds some pieces.**

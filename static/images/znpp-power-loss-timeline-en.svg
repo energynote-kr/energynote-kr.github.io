@@ -51,8 +51,8 @@
   <!-- Aug 20, 2026: 0 -->
   <rect x="640" y="199" width="52" height="1" fill="#b91c1c"/>
   <text x="666" y="183" class="val" text-anchor="middle" style="fill:#b91c1c">0 lines</text>
-  <text x="666" y="218" class="label" text-anchor="middle">On diesel</text>
-  <text x="666" y="233" class="small" text-anchor="middle">Aug 20, 2026 onward</text>
+  <text x="666" y="218" class="label" text-anchor="middle">18 days on diesel</text>
+  <text x="666" y="233" class="small" text-anchor="middle">Aug 20–Sep 7, 2026</text>
 
   <text x="20" y="257" class="small">Note: both lines reconnected from Nov 8, 2025, but the 330 kV line was cut three more times (Dec, Jan 2, Feb 10) and restored Mar 6.</text>
   <text x="20" y="272" class="small">A loss counts as "complete" only when no line at all is connected.</text>
@@ -94,5 +94,5 @@
   <text x="530" y="503" class="small" text-anchor="middle">(incl. 30-day blackout)</text>
   <text x="660" y="503" class="small" text-anchor="middle">(through Aug 20 event)</text>
 
-  <text x="20" y="524" class="small">As of September 6, 2026 · Sources: IAEA Director General updates, OECD NEA, BASE · energynote.kr</text>
+  <text x="20" y="524" class="small">As of September 13, 2026 · Sources: IAEA Director General updates, OECD NEA, BASE · energynote.kr</text>
 </svg>
