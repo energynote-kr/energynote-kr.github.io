@@ -14,7 +14,7 @@
   </style>
   <rect x="0" y="0" width="760" height="520" fill="#f8faf9"/>
   <text x="20" y="30" class="title">How a Korean reactor gets 10 more years: the continued-operation ladder</text>
-  <text x="20" y="48" class="sub">Steps under the Nuclear Safety Act · rule or typical duration in gray · Kori 2, the first case, in orange</text>
+  <text x="20" y="48" class="sub">Steps under the Nuclear Safety Act · rule or typical duration in gray · Kori 2's actual record in orange</text>
 
   <!-- Ladder: 6 rising steps, box 112x54, x = 16 + i*122 -->
   <g>

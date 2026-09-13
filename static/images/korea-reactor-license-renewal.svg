@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">한국 원전 계속운전 6단계를 규정 기간과 고리 2호기의 실제 날짜와 함께 계단으로 그리고, 신청부터 재가동까지 48개월이 걸린 고리 2호기의 시간표와 허가 만료 순으로 늘어선 대기 9기를 단계별 색으로 구분한 그림</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .h { font-size: 12px; font-weight: 800; fill: #1f2937; }
+    .s1 { font-size: 10.5px; font-weight: 700; }
+    .s2 { font-size: 9px; }
+    .tl { font-size: 9.5px; fill: #1f2937; }
+    .tla { font-size: 9.5px; fill: #b45309; font-weight: 700; }
+    .q1 { font-size: 10px; font-weight: 700; }
+    .q2 { font-size: 9px; }
+    .leg { font-size: 10px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="760" height="520" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한국 원전이 10년을 더 받는 길: 계속운전 6단계</text>
+  <text x="20" y="48" class="sub">원자력안전법에 따른 단계 · 규정 또는 통상 기간은 연한 글자 · 고리 2호기 실제 기록은 노란 글자</text>
+
+  <!-- Ladder: 6 rising steps, box 112x54, x = 16 + i*122 -->
+  <g>
+    <!-- connectors -->
+    <path d="M128 259 H138 V233 H140" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M250 233 H260 V207 H262" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M372 207 H382 V181 H384" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M494 181 H504 V155 H506" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M616 155 H626 V129 H628" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+
+    <!-- step 1 -->
+    <rect x="16" y="232" width="112" height="54" rx="6" fill="#0b6e4f"/>
+    <text x="72" y="248" class="s1" text-anchor="middle" style="fill:#fff">1. 평가서 제출</text>
+    <text x="72" y="262" class="s2" text-anchor="middle" style="fill:#d1fae5">만료 10~5년 전</text>
+    <text x="72" y="276" class="s2" text-anchor="middle" style="fill:#fcd34d">고리 2호기: 2022.4.4</text>
+    <!-- step 2 -->
+    <rect x="138" y="206" width="112" height="54" rx="6" fill="#0b6e4f"/>
+    <text x="194" y="222" class="s1" text-anchor="middle" style="fill:#fff">2. KINS 심사</text>
+    <text x="194" y="236" class="s2" text-anchor="middle" style="fill:#d1fae5">시행령상 18개월</text>
+    <text x="194" y="250" class="s2" text-anchor="middle" style="fill:#fcd34d">2022.12~2025.7</text>
+    <!-- step 3 -->
+    <rect x="260" y="180" width="112" height="54" rx="6" fill="#0b6e4f"/>
+    <text x="316" y="196" class="s1" text-anchor="middle" style="fill:#fff">3. 주민 공청회</text>
+    <text x="316" y="210" class="s2" text-anchor="middle" style="fill:#d1fae5">환경영향평가서 초안</text>
+    <text x="316" y="224" class="s2" text-anchor="middle" style="fill:#fcd34d">5회, 2022.11~12</text>
+    <!-- step 4 -->
+    <rect x="382" y="154" width="112" height="54" rx="6" fill="#0b6e4f"/>
+    <text x="438" y="170" class="s1" text-anchor="middle" style="fill:#fff">4. 전문위·표결</text>
+    <text x="438" y="184" class="s2" text-anchor="middle" style="fill:#d1fae5">전문위 검토 뒤 원안위</text>
+    <text x="438" y="198" class="s2" text-anchor="middle" style="fill:#fcd34d">2025.11.13, 3차 회의</text>
+    <!-- step 5 -->
+    <rect x="504" y="128" width="112" height="54" rx="6" fill="#0b6e4f"/>
+    <text x="560" y="144" class="s1" text-anchor="middle" style="fill:#fff">5. 허가 변경</text>
+    <text x="560" y="158" class="s2" text-anchor="middle" style="fill:#d1fae5">만료일부터 10년</text>
+    <text x="560" y="172" class="s2" text-anchor="middle" style="fill:#fcd34d">2033.4.8까지</text>
+    <!-- step 6 -->
+    <rect x="626" y="102" width="112" height="54" rx="6" fill="#0b6e4f"/>
+    <text x="682" y="118" class="s1" text-anchor="middle" style="fill:#fff">6. 재가동</text>
+    <text x="682" y="132" class="s2" text-anchor="middle" style="fill:#d1fae5">안전조치 뒤 정기검사</text>
+    <text x="682" y="146" class="s2" text-anchor="middle" style="fill:#fcd34d">2026.4.4</text>
+  </g>
+
+  <!-- Kori 2 timeline: Apr 2022 (x=40) to Apr 2026 (x=720), 48 months -->
+  <text x="20" y="304" class="h">고리 2호기 시간표: 신청부터 재가동까지 48개월, 그중 36개월은 정지</text>
+  <rect x="210" y="326" width="510" height="10" fill="#f5a623" opacity="0.35"/>
+  <line x1="40" y1="331" x2="720" y2="331" stroke="#6b7280" stroke-width="2"/>
+  <!-- year ticks: Jan 2023 = 9 mo -> x=167.5; Jan 2024 = 21 -> 337.5; Jan 2025 = 33 -> 507.5; Jan 2026 = 45 -> 677.5 -->
+  <g stroke="#9ca3af" stroke-width="1">
+    <line x1="167" y1="336" x2="167" y2="342"/><line x1="337" y1="336" x2="337" y2="342"/><line x1="507" y1="336" x2="507" y2="342"/><line x1="677" y1="336" x2="677" y2="342"/>
+  </g>
+  <g class="sub" text-anchor="middle">
+    <text x="167" y="352">2023</text><text x="337" y="352">2024</text><text x="507" y="352">2025</text><text x="677" y="352">2026</text>
+  </g>
+  <!-- markers -->
+  <g>
+    <circle cx="40" cy="331" r="4" fill="#0b6e4f"/>
+    <text x="40" y="322" class="tl" text-anchor="start">평가서 제출 2022.4</text>
+    <circle cx="145" cy="331" r="4" fill="#0b6e4f"/>
+    <text x="145" y="366" class="tl" text-anchor="middle">공청회 11~12월</text>
+    <circle cx="196" cy="331" r="4" fill="#0b6e4f"/>
+    <text x="200" y="322" class="tl" text-anchor="middle">허가 신청 2023.3</text>
+    <circle cx="210" cy="331" r="4" fill="#f5a623"/>
+    <text x="272" y="366" class="tla" text-anchor="middle">2023.4.8 만료: 정지</text>
+    <circle cx="593" cy="331" r="4" fill="#0b6e4f"/>
+    <text x="580" y="322" class="tl" text-anchor="end">KINS 심사 종료 2025.7</text>
+    <circle cx="630" cy="331" r="4" fill="#6b7280"/>
+    <text x="618" y="366" class="tl" text-anchor="middle">표결 보류 9월·10월</text>
+    <circle cx="655" cy="331" r="4" fill="#0b6e4f"/>
+    <text x="700" y="322" class="tl" text-anchor="middle">승인 11.13</text>
+    <circle cx="720" cy="331" r="4" fill="#f5a623"/>
+    <text x="722" y="379" class="tla" text-anchor="end">재가동 2026.4.4</text>
+  </g>
+
+  <!-- Queue strip -->
+  <text x="20" y="398" class="h">대기 중인 호기, 허가 만료 순(2026년 9월 13일 기준)</text>
+  <g>
+    <!-- Kori 2 approved -->
+    <rect x="20" y="408" width="66" height="40" rx="5" fill="#0b6e4f"/>
+    <text x="53" y="424" class="q1" text-anchor="middle" style="fill:#fff">고리 2호기</text>
+    <text x="53" y="438" class="q2" text-anchor="middle" style="fill:#d1fae5">2023 → 2033</text>
+    <!-- off line, vote pending -->
+    <rect x="92" y="408" width="66" height="40" rx="5" fill="#f5a623"/>
+    <text x="125" y="424" class="q1" text-anchor="middle" style="fill:#fff">고리 3호기</text>
+    <text x="125" y="438" class="q2" text-anchor="middle" style="fill:#fff">만료 2024</text>
+    <rect x="164" y="408" width="66" height="40" rx="5" fill="#f5a623"/>
+    <text x="197" y="424" class="q1" text-anchor="middle" style="fill:#fff">고리 4호기</text>
+    <text x="197" y="438" class="q2" text-anchor="middle" style="fill:#fff">만료 2025</text>
+    <rect x="236" y="408" width="66" height="40" rx="5" fill="#f5a623"/>
+    <text x="269" y="424" class="q1" text-anchor="middle" style="fill:#fff">한빛 1호기</text>
+    <text x="269" y="438" class="q2" text-anchor="middle" style="fill:#fff">만료 2025</text>
+    <rect x="308" y="408" width="66" height="40" rx="5" fill="#f5a623"/>
+    <text x="341" y="424" class="q1" text-anchor="middle" style="fill:#fff">한빛 2호기</text>
+    <text x="341" y="438" class="q2" text-anchor="middle" style="fill:#fff">만료 2026</text>
+    <!-- safety assessment filed, application pending -->
+    <rect x="380" y="408" width="66" height="40" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="413" y="424" class="q1" text-anchor="middle" fill="#1f2937">월성 2호기</text>
+    <text x="413" y="438" class="q2" text-anchor="middle" fill="#6b7280">2026.11</text>
+    <!-- application filed, under review -->
+    <rect x="452" y="408" width="66" height="40" rx="5" fill="#6b7280"/>
+    <text x="485" y="424" class="q1" text-anchor="middle" style="fill:#fff">한울 1호기</text>
+    <text x="485" y="438" class="q2" text-anchor="middle" style="fill:#fff">2027.12</text>
+    <rect x="524" y="408" width="66" height="40" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="557" y="424" class="q1" text-anchor="middle" fill="#1f2937">월성 3호기</text>
+    <text x="557" y="438" class="q2" text-anchor="middle" fill="#6b7280">2027.12</text>
+    <rect x="596" y="408" width="66" height="40" rx="5" fill="#6b7280"/>
+    <text x="629" y="424" class="q1" text-anchor="middle" style="fill:#fff">한울 2호기</text>
+    <text x="629" y="438" class="q2" text-anchor="middle" style="fill:#fff">2028.12</text>
+    <rect x="668" y="408" width="66" height="40" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="701" y="424" class="q1" text-anchor="middle" fill="#1f2937">월성 4호기</text>
+    <text x="701" y="438" class="q2" text-anchor="middle" fill="#6b7280">2029.2</text>
+  </g>
+  <g class="leg">
+    <rect x="20" y="462" width="11" height="11" rx="3" fill="#0b6e4f"/><text x="35" y="471">승인, 운영 중</text>
+    <rect x="140" y="462" width="11" height="11" rx="3" fill="#f5a623"/><text x="155" y="471">허가 만료로 정지, 원안위 표결 대기</text>
+    <rect x="378" y="462" width="11" height="11" rx="3" fill="#6b7280"/><text x="393" y="471">허가 신청, 심사 중</text>
+    <rect x="550" y="462" width="11" height="11" rx="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 2"/><text x="565" y="471">허가 신청 전</text>
+  </g>
+
+  <text x="20" y="492" class="sub">2026년 9월 13일 정지 중: 고리 3·4호기, 한빛 1·2호기(3,800MW). 10년은 만료일부터 세므로 멈춘 기간은 그대로 사라진다.</text>
+  <text x="20" y="508" class="sub">2026년 9월 기준 · 출처: 원안위, 한수원</text>
+</svg>
