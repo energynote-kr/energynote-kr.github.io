@@ -29,6 +29,9 @@ defaultContentLanguageInSubdir = false
       author = "EnergyNote editor"
       authorBio = "Trained in nuclear engineering and radiation science, based in South Korea, writing anonymously."
 
+[params]
+inboxUrl = "https://script.google.com/macros/s/AKfycbymP1tVmPnuAXLjpce3wYjAmEV4S4EPLit2P5S6tXpT982CFtq0CoEv7RzYyhUYKBAmGA/exec"
+
 [pagination]
 pagerSize = 10
 

@@ -1,0 +1,82 @@
+{{- $en := eq .Page.Language.Lang "en" -}}
+{{- $url := site.Params.inboxUrl -}}
+<div class="inbox" data-url="{{ $url }}" data-lang="{{ .Page.Language.Lang }}">
+  <div class="inbox-list" id="inbox-list"></div>
+  <form class="inbox-form" id="inbox-form">
+    <label for="inbox-msg">{{ if $en }}Your message{{ else }}문의 내용{{ end }}</label>
+    <textarea id="inbox-msg" rows="6" maxlength="3000" required placeholder="{{ if $en }}Questions, corrections (with the article URL and your source), or topic requests. Only the site operator can read this.{{ else }}질문, 오류 제보(글 주소와 근거 포함), 주제 제안 등. 운영자만 읽을 수 있습니다.{{ end }}"></textarea>
+    <div class="inbox-row">
+      <button type="submit" id="inbox-send">{{ if $en }}Send privately{{ else }}비공개로 보내기{{ end }}</button>
+      <span class="inbox-status" id="inbox-status"></span>
+    </div>
+  </form>
+  <p class="inbox-note">{{ if $en }}No account, no e-mail. After sending you get a private link; replies appear on this page (this browser) and at that link.{{ else }}가입도 이메일도 필요 없습니다. 보내면 나만 볼 수 있는 링크가 생기고, 답변은 이 페이지(이 브라우저)와 그 링크에서 볼 수 있습니다.{{ end }}</p>
+</div>
+<script>
+(function(){
+  var box=document.querySelector('.inbox'); if(!box) return;
+  var URL_=box.getAttribute('data-url'), en=box.getAttribute('data-lang')==='en';
+  var T={
+    sending: en?'Sending…':'보내는 중…',
+    sent: en?'Sent. Your private link:':'접수됐습니다. 나만 보는 링크:',
+    fail: en?'Could not send. Please try again later.':'전송에 실패했습니다. 잠시 후 다시 시도해 주세요.',
+    busy: en?'Too many messages right now. Please try again in a few minutes.':'지금 문의가 몰려 있습니다. 몇 분 뒤 다시 시도해 주세요.',
+    mine: en?'Your messages':'내 문의',
+    pending: en?'No reply yet.':'아직 답변 전입니다.',
+    reply: en?'Reply':'답변',
+    link: en?'Private link':'나만 보는 링크',
+    at: en?'Sent':'보낸 시각',
+    noconf: en?'The contact box is not ready yet.':'문의 기능이 아직 준비 중입니다.'
+  };
+  var KEY='energynote-inbox-tokens';
+  function tokens(){ try{ return JSON.parse(localStorage.getItem(KEY)||'[]'); }catch(e){ return []; } }
+  function save(list){ try{ localStorage.setItem(KEY, JSON.stringify(list.slice(-20))); }catch(e){} }
+  function fmt(d){ if(!d) return ''; var x=new Date(d); return isNaN(x)?'':x.toLocaleString(en?'en-US':'ko-KR'); }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function nl(s){ return esc(s).replace(/\n/g,'<br>'); }
+  function linkFor(t){ return location.origin+location.pathname+'?t='+t; }
+  var list=document.getElementById('inbox-list');
+  function render(items){
+    if(!items.length){ list.innerHTML=''; return; }
+    var h='<h2>'+T.mine+'</h2>';
+    items.forEach(function(it){
+      h+='<div class="inbox-item"><div class="inbox-q"><span class="inbox-meta">'+T.at+' '+esc(fmt(it.at))+'</span><p>'+nl(it.message)+'</p></div>';
+      if(it.reply){ h+='<div class="inbox-a"><span class="inbox-meta">'+T.reply+(it.repliedAt?' · '+esc(fmt(it.repliedAt)):'')+'</span><p>'+nl(it.reply)+'</p></div>'; }
+      else { h+='<div class="inbox-a inbox-pending">'+T.pending+'</div>'; }
+      h+='<div class="inbox-meta"><a href="'+esc(linkFor(it.token))+'">'+T.link+'</a></div></div>';
+    });
+    list.innerHTML=h;
+  }
+  function load(){
+    var ts=tokens(); var q=new URLSearchParams(location.search).get('t');
+    if(q && /^[a-z0-9]{10}$/.test(q) && ts.indexOf(q)<0){ ts.push(q); save(ts); }
+    if(!ts.length || !URL_) return;
+    Promise.all(ts.map(function(t){
+      return fetch(URL_+'?t='+encodeURIComponent(t),{redirect:'follow'})
+        .then(function(r){return r.json();})
+        .then(function(j){ return j.ok?{token:t,at:j.at,message:j.message,reply:j.reply,repliedAt:j.repliedAt}:null; })
+        .catch(function(){return null;});
+    })).then(function(rs){ render(rs.filter(Boolean).reverse()); });
+  }
+  var form=document.getElementById('inbox-form'), st=document.getElementById('inbox-status'), btn=document.getElementById('inbox-send');
+  form.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    if(!URL_){ st.textContent=T.noconf; return; }
+    var msg=document.getElementById('inbox-msg').value.trim(); if(!msg) return;
+    btn.disabled=true; st.textContent=T.sending;
+    fetch(URL_,{method:'POST',redirect:'follow',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({message:msg,page:document.referrer||''})})
+      .then(function(r){return r.json();})
+      .then(function(j){
+        if(j.ok&&j.token){
+          var ts=tokens(); ts.push(j.token); save(ts);
+          document.getElementById('inbox-msg').value='';
+          st.innerHTML=T.sent+' <a href="'+esc(linkFor(j.token))+'">'+esc(linkFor(j.token))+'</a>';
+          load();
+        } else { st.textContent=(j.error==='busy')?T.busy:T.fail; }
+      })
+      .catch(function(){ st.textContent=T.fail; })
+      .then(function(){ btn.disabled=false; });
+  });
+  load();
+})();
+</script>

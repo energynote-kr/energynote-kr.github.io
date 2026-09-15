@@ -156,5 +156,17 @@ a:hover { text-decoration: underline; }
 .author-box .author-name { margin: 0 0 4px; font-weight: 700; }
 .author-box p { margin: 0; }
 
-.form-embed { margin: 20px 0; }
-.form-embed iframe { width: 100%; min-height: 820px; border: 1px solid #e5e5e5; border-radius: 8px; background: #fff; }
+
+.inbox { margin: 20px 0; }
+.inbox textarea { width: 100%; box-sizing: border-box; padding: 10px 12px; border: 1px solid #d9d9d9; border-radius: 8px; font: inherit; line-height: 1.55; resize: vertical; }
+.inbox label { display: block; font-weight: 700; margin-bottom: 6px; }
+.inbox-row { display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
+.inbox button { padding: 9px 16px; border: 0; border-radius: 6px; background: #1a5fb4; color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.inbox button:disabled { opacity: .6; cursor: default; }
+.inbox-status { font-size: .92rem; color: #444; word-break: break-all; }
+.inbox-note { font-size: .88rem; color: #666; margin-top: 10px; }
+.inbox-item { border: 1px solid #e5e5e5; border-radius: 8px; padding: 12px 14px; margin: 12px 0; }
+.inbox-item p { margin: 6px 0 0; }
+.inbox-meta { font-size: .82rem; color: #777; }
+.inbox-a { margin-top: 10px; padding: 10px 12px; background: #f3f7fc; border-left: 4px solid #1a5fb4; border-radius: 6px; }
+.inbox-pending { color: #777; background: #fafafa; border-left-color: #ccc; }
