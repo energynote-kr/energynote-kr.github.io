@@ -7,11 +7,11 @@ tags: ["data centers", "transmission", "HVDC", "transformers", "interconnection 
 description: "Only 1.9% of Seoul-area data center power applications get approved. Oklo's 750 MW Virginia project was dropped from PJM's queue and is now before FERC. Same bottleneck on both sides: the grid, not the plant."
 ---
 
-1.9 percent. Through March 2026, developers had filed 522 grid impact assessments for data centers in the Seoul metropolitan area, asking for a combined 33,592 MW. Ten of them had received a final "supply available" decision, according to a July 2026 tally by CBRE Korea, the real estate services firm.
+1.9 percent. That is the share of Seoul-area data center power applications that had cleared final approval through March 2026, out of 522 filings asking for a combined 33,592 MW, according to a July 2026 tally by CBRE Korea, the real estate services firm. Ten projects made it through.
 
-The reason is not a shortage of power plants. In the first seven months of 2025, the provinces of Gyeongbuk and Jeonnam generated more than 200 percent of the electricity they consumed, while Seoul generated 7.5 percent of its own (data submitted to the National Assembly's Environment and Labor Committee).
+Not a shortage of power plants. In the first seven months of 2025, the provinces of Gyeongbuk and Jeonnam generated more than 200 percent of the electricity they consumed, while Seoul generated just 7.5 percent of its own, according to data submitted to the National Assembly's Environment and Labor Committee.
 
-Korea has electricity to spare in the east and south. **What it does not have is a way to bring it to where the data centers want to be**. That is the story of this post, and, as the second half shows, it is the same story the United States tells in the language of the "interconnection queue."
+Korea has electricity to spare in the east and south. **What it lacks is a way to bring that power to where the data centers want to be.** That is this post's subject, and, as the second half shows, the United States tells the same story in the language of the "interconnection queue."
 
 > **Key takeaways**
 > - Seoul-area data center power applications have a 1.9 percent approval rate (as of March 2026). The constraint is transmission lines, substations and transformers, not generation.
@@ -71,7 +71,7 @@ In PJM, the grid operator for the mid-Atlantic region that includes northern Vir
 
 ### Oklo's 750 MW Virginia project
 
-Oklo, the small modular reactor developer covered in [our 2026 SMR licensing map](/en/posts/smr-global-status-2026/), ran into this wall in August 2026. In April it applied to PJM for a **750 MW project in Virginia** (in Dominion Energy's zone) combining 150 MW of nuclear, 300 MW of fuel cells and 300 MW of gas.
+Oklo, one of the small modular reactor developers ranked in [our 2026 SMR licensing map](/en/posts/smr-global-status-2026/), ran into this wall in August 2026. In April it applied to PJM for a **750 MW project in Virginia** (in Dominion Energy's zone) combining 150 MW of nuclear, 300 MW of fuel cells and 300 MW of gas.
 
 PJM issued a deficiency notice on May 15 listing six categories. Oklo says it cured them; PJM then posted further comments on its portal on June 24 without notifying the company, among them a request for data on **ride-through**, the ability to keep running through a sudden voltage dip, and on **August 3 withdrew the project from its Cycle 1 study process**, the first full interconnection cycle under PJM's reformed rules.
 
@@ -87,7 +87,7 @@ Each side has a fair point against the other. The "build near demand" camp point
 
 Environmental groups take a third position. Green Korea and the Green Transition Institute argued in August 2026 that the AI data center demand in the draft 12th Basic Plan rests on uncertain corporate investment plans and should be re-examined before it justifies new plants (Kyunghyang Shinmun, August 20, 2026).
 
-With Korea's 12th Basic Plan for Electricity Supply and Demand, the government's rolling 15-year power plan, being drafted and a public deliberation on new reactors under way (see [our post on the new-reactor debate](/en/posts/new-reactor-public-debate/)), the two camps agree on one thing: **the cost of the grid ends up in the electricity bill**, whichever way it is built. Where SMRs fit in Korea's own plans is covered in [our i-SMR status report](/en/posts/korean-smr-ismr-status/). Speaking from inside the nuclear field, one cautious observation: the hotter the argument over which kind of power plant to build, the further the slowest item on the list, the wire, slips down the agenda.
+With Korea's 12th Basic Plan for Electricity Supply and Demand, the government's rolling 15-year power plan, being drafted and a public deliberation on new reactors under way (see [our post on the new-reactor debate](/en/posts/new-reactor-public-debate/)), the two camps agree on one thing: **the cost of the grid ends up in the electricity bill**, whichever way it is built. That includes SMRs. Where those fit into Korea's plans, our [i-SMR status report](/en/posts/korean-smr-ismr-status/) follows on its own. Writing from inside the nuclear field, my own worry is simpler than either camp's case: the hotter the argument over which kind of power plant to build, the further the slowest item on the list, the wire, slips down the agenda.
 
 ## Where this goes next
 

@@ -7,9 +7,9 @@ tags: ["SMR", "licensing", "NRC", "i-SMR", "HALEU"]
 description: "Ranked by licensing stage, not press releases: only China and Russia run SMRs, the US and Canada are pouring concrete, and Korea's i-SMR is on the first rung."
 ---
 
-Ask "who leads in SMRs" and you get three answers: NuScale, the only SMR developer with an NRC design approval; China, which is building the world's first land-based commercial SMR; or, counting hyperscaler contracts, Oklo and Kairos. None of the three is wrong. They are measured with different rulers.
+Who actually leads in SMRs? Ask three people and you get three answers: NuScale, the only SMR developer with an NRC design approval; China, which is building the world's first land-based commercial SMR; or, counting hyperscaler contracts, Oklo and Kairos. None of the three is wrong. They are just measured with different rulers.
 
-This article fixes the ruler. **The licensing stage a reactor must pass before it can sell electricity** is the one measure that, unlike an announcement or a memorandum, is hard to walk back. Our Korean explainer covers [what an SMR is](/posts/smr-explained/) (in Korean).
+So this article fixes the ruler. **The licensing stage a reactor must pass before it can sell electricity** is the one measure that, unlike an announcement or a memorandum, is hard to walk back. Our Korean explainer covers [what an SMR is](/posts/smr-explained/) (in Korean).
 
 > **Key takeaways**
 > - Only two SMRs are operating anywhere: Russia's Akademik Lomonosov and China's HTR-PM. The West has zero.
@@ -128,7 +128,7 @@ Spent fuel does not disappear because the reactor got smaller; see [our Korean p
 
 Natrium (sodium fast reactor), Xe-100 (high-temperature gas), Kairos (fluoride-salt-cooled) and Oklo (fast reactor) mostly use **HALEU**, high-assay low-enriched uranium enriched to 5–20 percent uranium-235, just under the 20 percent HEU threshold (weapons-grade is around 90 percent) and chosen to run fuel longer in a smaller core.
 
-Only one Western company is producing at this assay today: Centrus, which runs the only US facility licensed to enrich up to 19.75 percent, in Piketon, Ohio. By June 2026 it had filled its entire pilot contract, delivering more than 1,900 kg to DOE; in July 2026 it moved toward commercial production under a $900 million DOE contract, but its initial commercial plant is targeted for 2029, with 12 metric tons per year after that. A pilot output of about 900 kg per year is small against several commercial-scale reactors, so the non-LWR schedules depend on fuel as much as on licensing.
+Only one Western company is producing at this assay today: Centrus, which runs the only US facility licensed to enrich up to 19.75 percent, in Piketon, Ohio. By June 2026 it had filled its entire pilot contract, delivering more than 1,900 kg to DOE; in July 2026 it moved toward commercial production under a $900 million DOE contract, but its initial commercial plant is targeted for 2029, with 12 metric tons per year after that. A pilot output of about 900 kg per year is small against several commercial-scale reactors, so the non-LWR schedules depend on fuel as much as on licensing. Ranking reactors this way is slower and far less exciting than a press release. It is also harder to fake.
 
 ## Where this goes next
 

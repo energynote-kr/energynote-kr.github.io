@@ -7,11 +7,13 @@ tags: ["i-SMR", "SMR", "Korea", "SMR Special Act", "Gijang"]
 description: "Korea's i-SMR filed for design approval in Feb 2026, but test results are due June 2028 and commercial operation is targeted for 2035. The real timeline."
 ---
 
-On September 1, 2026, Seoul National University's Nuclear Policy Center and GS Energy, a private Korean power company, hosted a policy forum on building a "private-sector-led SMR business model." SK Innovation presented a Korea–US cooperation model built around TerraPower. POSCO Holdings said it wants small modular reactors to supply the 1.7 GW of electricity its hydrogen-based steelmaking will need.
+Try to follow Korea's SMR program for even a week and you run into a law, a regulator's roadmap, a candidate site and a queue of corporate sponsors, all arriving at once. Not all of it moves the reactor forward.
+
+On September 1, 2026, one piece of that arrived at Seoul National University's Nuclear Policy Center, where GS Energy, a private Korean power company, hosted a policy forum on building a "private-sector-led SMR business model." SK Innovation presented a Korea–US cooperation model built around TerraPower. POSCO Holdings said it wants small modular reactors to supply the 1.7 GW of electricity its hydrogen-based steelmaking will need.
 
 GS Energy spoke first, and what it put on the table was a list of **four uncertainties: reactor type and technology, revenue structure, community acceptance, and the legal and regulatory framework**. Ten days later, on September 11, Korea's SMR Special Act enters into force.
 
-A law, a regulator's roadmap, a candidate site and a queue of corporate sponsors are all appearing at once. The simpler question, asked from inside the Korean nuclear sector, is how far along Korea's own reactor actually is, and what the calendar says.
+The simpler question, asked from inside the Korean nuclear sector, is how far along Korea's own reactor actually is, and what the calendar says.
 
 > **Key takeaways**
 > - i-SMR (four 170 MWe integral pressurized-water modules, 680 MWe per plant) filed for Standard Design Approval on February 27, 2026. The review has only begun: the regulator's plan puts the main test results at June 2028, so the "approval by 2028" target has almost no slack.
@@ -98,6 +100,8 @@ If i-SMR reaches construction, the work flows in order: design, then major compo
 The field is wide, but i-SMR revenue for Korean companies only becomes real once a construction permit follows the SDA, and the earliest realistic point for that is the second half of 2028 or later.
 
 **Where this goes next.** With the Act in force since September 11, the next dated events are the first meeting of the promotion committee it creates, the drafting of the 12th Basic Plan, and the June 2027 document deadline at KINS. None of them will tell you whether Korea's SMR succeeds. Together they will tell you whether the 2028–2030–2035 calendar is still intact, and that is the one thing worth tracking.
+
+My own take, from inside the nuclear field: that June 2027 document deadline matters more than any forum headline. It will not trend. That is exactly why it is worth watching.
 
 **Industry note.** The listed companies with a public role in i-SMR or in overseas SMR projects are KEPCO E&C (KRX: 052690), Doosan Enerbility (KRX: 034020), Woojin (KRX: 105840), Hyundai E&C (KRX: 000720), Samsung C&T (KRX: 028260) and Daewoo E&C (KRX: 047040) in Korea, and NuScale (NYSE: SMR) and GE Vernova (NYSE: GEV) abroad. For the Korean companies, i-SMR-specific revenue depends on a construction permit that cannot come before late 2028; the two US names are listed as overseas reference projects, not i-SMR suppliers.
 

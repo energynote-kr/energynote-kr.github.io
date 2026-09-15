@@ -7,7 +7,7 @@ tags: ["Korea nuclear export", "KHNP", "APR1400", "Dukovany", "Barakah"]
 description: "Korea has delivered Barakah and signed Dukovany; Poland, Sweden and the Netherlands fell away. Every Korean nuclear export by stage, as of September 2026."
 ---
 
-On June 5, 2026, the European Commission notified Korea Hydro & Nuclear Power (KHNP) that it would not open an in-depth investigation into the Dukovany contract under the EU's Foreign Subsidies Regulation. That closed a 16-month review and left Korea's second nuclear export where its first, Barakah, stood a decade and a half earlier: contracted, financed and waiting for concrete.
+Sixteen months. That is how long the European Commission spent reviewing the Dukovany contract before deciding, on June 5, 2026, not to open an in-depth investigation into Korea Hydro & Nuclear Power (KHNP) under the EU's Foreign Subsidies Regulation. The decision left Korea's second nuclear export where its first, Barakah, stood a decade and a half earlier: contracted, financed and waiting for concrete.
 
 Between those two projects sits a longer list of countries that were in the pipeline in 2023 and are not in it now. This article sorts every Korean nuclear export by stage, from talks to operation, and explains what each stage does and does not mean. The company structure behind the exports is in [our map of Korea's nuclear industry](/en/posts/korea-nuclear-industry-map/); here the focus is the projects.
 
@@ -146,6 +146,8 @@ Three checks sort most export news.
 ## Where this goes next
 
 Three dates decide the rest of 2026: Vietnam's partner choice for Ninh Thuan 2, announced for the third quarter; the Nuclear Export Promotion Act and any KEPCO–Westinghouse arrangement, which together set who bids and where; and the Czech state-aid decision on Dukovany 6, expected in early 2027. Saudi Arabia's tender has slipped repeatedly since 2022; treat headlines about it with caution until a contract is signed.
+
+My own filter for this pipeline is the three-question test above: which reactor, who is prime contractor, what stage. Everything else is a press release.
 
 ## Industry note
 

@@ -7,7 +7,9 @@ tags: ["Korea", "new nuclear", "public deliberation", "12th Basic Plan", "spent 
 description: "Korea's two new large reactors and one SMR are already decided. The September–October 2026 deliberation asks whether to add more for 2040 — here are both sides."
 ---
 
-On August 20, 2026, in a National Assembly office building in Seoul, the committee drafting Korea's next 15-year power plan put a new number on the table. Peak electricity demand in 2040 is now forecast at **158.4–165.0 GW**, up from the 131.8–138.2 GW the same committee had forecast in April. The gap is about 27 GW, the output of nineteen large reactors of 1.4 GW each, and it appeared in four months.
+Nineteen reactors' worth of extra electricity demand, and it showed up on a single forecast in four months.
+
+On August 20, 2026, in a National Assembly office building in Seoul, the committee drafting Korea's next 15-year power plan put that new number on the table. Peak electricity demand in 2040 is now forecast at **158.4–165.0 GW**, up from the 131.8–138.2 GW the same committee had forecast in April. The gap is about 27 GW, the output of nineteen large reactors of 1.4 GW each.
 
 Holding that number, the Ministry of Climate, Energy and Environment starts a series of public forums in September on one question: should Korea build more reactors? I work in the nuclear field, but this article does not argue a side. It puts the arguments for and against on the same scale and reports what each one weighs.
 
