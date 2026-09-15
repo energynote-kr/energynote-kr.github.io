@@ -11,7 +11,7 @@ On April 6, 2026 (US Eastern time), the Orion spacecraft passed a point 406,771 
 
 The crews that follow will be out there longer. In late February NASA reshuffled the plan: Artemis III in 2027 will first rehearse docking with the SpaceX Starship and Blue Origin Blue Moon landers in low Earth orbit, and the actual Moon landing moves to Artemis IV in 2028.
 
-So the question is worth asking in numbers: how much radiation does ten days in deep space give you? What follows is the arithmetic, from someone who does radiation work for a living.
+So the question is worth asking in numbers: how much radiation does ten days in deep space give you? What follows is the arithmetic, from someone who studied radiation science.
 
 > **Key takeaways**
 > - Scaled from the Artemis I mannequin measurements, the Artemis II crew's ten-day dose comes out at roughly 10–15 mSv, generously up to about 20 mSv — one to three chest CT scans, or 10–20% of the five-year occupational limit. NASA had not published the crew's measured dose as of September 2026.

@@ -101,7 +101,7 @@ The field is wide, but i-SMR revenue for Korean companies only becomes real once
 
 **Where this goes next.** With the Act in force since September 11, the next dated events are the first meeting of the promotion committee it creates, the drafting of the 12th Basic Plan, and the June 2027 document deadline at KINS. None of them will tell you whether Korea's SMR succeeds. Together they will tell you whether the 2028–2030–2035 calendar is still intact, and that is the one thing worth tracking.
 
-My own take, from inside the nuclear field: that June 2027 document deadline matters more than any forum headline. It will not trend. That is exactly why it is worth watching.
+My own take: that June 2027 document deadline matters more than any forum headline. It will not trend. That is exactly why it is worth watching.
 
 **Industry note.** The listed companies with a public role in i-SMR or in overseas SMR projects are KEPCO E&C (KRX: 052690), Doosan Enerbility (KRX: 034020), Woojin (KRX: 105840), Hyundai E&C (KRX: 000720), Samsung C&T (KRX: 028260) and Daewoo E&C (KRX: 047040) in Korea, and NuScale (NYSE: SMR) and GE Vernova (NYSE: GEV) abroad. For the Korean companies, i-SMR-specific revenue depends on a construction permit that cannot come before late 2028; the two US names are listed as overseas reference projects, not i-SMR suppliers.
 

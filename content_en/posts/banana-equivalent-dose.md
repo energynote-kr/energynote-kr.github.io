@@ -9,7 +9,7 @@ description: "One banana is 0.1 μSv, so a CT scan is 70,000 bananas. Where the 
 
 Scroll through the comments under any radiation story and someone will post it: "One CT scan = 70,000 bananas." The line usually traces back to xkcd's radiation dose chart (2011) or the English Wikipedia entry on the "banana equivalent dose," BED for short. The ruler is one banana at 0.1 microsieverts, and X-rays, CT scans and nuclear accidents are lined up against it.
 
-To someone working in radiation protection, the comparison is half right and half wrong. This post sorts out which half is which, in question-and-answer form.
+To someone who studied radiation protection, the comparison is half right and half wrong. This post sorts out which half is which, in question-and-answer form.
 
 > **Key takeaways**
 > - One banana holds about 15 Bq of potassium-40, which the standard dose coefficients turn into roughly 0.1 μSv. The unit was proposed on the RadSafe mailing list in 1995 as a teaching aid, not a measurement.
