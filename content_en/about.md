@@ -5,6 +5,10 @@ description: "Who writes EnergyNote, what it covers, and the principles behind e
 
 EnergyNote is written by a nuclear and radiation professional working in South Korea. The Korean edition covers everyday radiation questions and Korea's energy debates; this English edition focuses on what an insider's view from Korea can add for international readers.
 
+## Who writes this
+
+The EnergyNote editor is a nuclear and radiation professional working in South Korea. Because the day job is in the public sector, the author writes anonymously and names no employer; the views here are personal. In place of a name, every article carries a "Data as of" date, named sources, and a separate fact check before publication.
+
 ## What you will find here
 
 - **SMR and nuclear licensing, tracked by stage** — design approval, construction permit, construction, commissioning — rather than by press release.

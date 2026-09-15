@@ -5,6 +5,7 @@
     <div class="post-meta">
       {{ with .Params.categories }}<span class="badge">{{ index . 0 }}</span>{{ end }}
       {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ if $en }}{{ .Date.Format "January 2, 2006" }}{{ else }}{{ .Date.Format "2006년 1월 2일" }}{{ end }}</time>{{ end }}
+      {{ if eq .Type "posts" }}<span class="byline">{{ if $en }}By {{ site.Params.author }} · Nuclear and radiation professional{{ else }}글 {{ site.Params.author }} · 원자력·방사선 분야 전문가{{ end }}</span>{{ end }}
       {{ range .Translations }}<a class="lang-link" href="{{ .Permalink }}" hreflang="{{ .Language.LanguageCode }}" lang="{{ .Language.LanguageCode }}">{{ if eq .Language.Lang "ko" }}한국어로 읽기{{ else }}Read in English{{ end }}</a>{{ end }}
     </div>
     <h1>{{ .Title }}</h1>
@@ -21,6 +22,12 @@
   <div class="post-body">
     {{ .Content }}
   </div>
+  {{ if eq .Type "posts" }}
+  <aside class="author-box">
+    <p class="author-name">{{ site.Params.author }}</p>
+    <p>{{ site.Params.authorBio }} {{ if $en }}Every figure is checked against primary sources before publication and dated in the text. Corrections are welcome via the <a href="{{ "/contact/" | relLangURL }}">contact page</a>.{{ else }}모든 수치는 발행 전에 1차 출처와 대조하고, 글 안에 기준일을 적습니다. 오류 제보는 <a href="{{ "/contact/" | relLangURL }}">문의하기</a>로 보내 주세요.{{ end }}</p>
+  </aside>
+  {{ end }}
   {{ with .Params.tags }}
   <div class="post-tags">
     {{ range . }}<a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">#{{ . }}</a>{{ end }}
