@@ -3,11 +3,11 @@ title: "About EnergyNote"
 description: "Who writes EnergyNote, what it covers, and the principles behind every article."
 ---
 
-EnergyNote is written by a nuclear and radiation professional working in South Korea. The Korean edition covers everyday radiation questions and Korea's energy debates; this English edition focuses on what an insider's view from Korea can add for international readers.
+EnergyNote is written by a South Korean author trained in nuclear engineering and radiation science. The Korean edition covers everyday radiation questions and Korea's energy debates; this English edition focuses on what an insider's view from Korea can add for international readers.
 
 ## Who writes this
 
-The EnergyNote editor is a nuclear and radiation professional working in South Korea. Because the day job is in the public sector, the author writes anonymously and names no employer; the views here are personal. In place of a name, every article carries a "Data as of" date, named sources, and a separate fact check before publication.
+The EnergyNote editor studied nuclear engineering and radiation science and writes from South Korea. The author writes anonymously and names no employer; the views here are personal. In place of a name, every article carries a "Data as of" date, named sources, and a separate fact check before publication.
 
 ## What you will find here
 
