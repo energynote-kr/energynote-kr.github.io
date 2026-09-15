@@ -1,9 +1,15 @@
 ---
 title: "Contact"
-description: "How to reach EnergyNote for corrections, questions or requests."
+description: "Leave a private message for EnergyNote: corrections, questions or topic requests."
 ---
 
-E-mail: **wogkwo@gmail.com**
+Use the form below for questions, corrections or topic requests. Messages are visible only to the site operator. Add your e-mail if you want a reply.
+
+<div class="form-embed">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeDj6CDpb_ddbXgmZ1kzD3eXHBI259qTpBkydFF03u-NtG9wA/viewform?embedded=true" title="EnergyNote contact form" loading="lazy">Loading…</iframe>
+</div>
+
+If the form does not load, [open it in a new window](https://docs.google.com/forms/d/e/1FAIpQLSeDj6CDpb_ddbXgmZ1kzD3eXHBI259qTpBkydFF03u-NtG9wA/viewform). The form labels are in Korean: the first box is your message (required), the second is your e-mail (optional).
 
 ## Corrections
 

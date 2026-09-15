@@ -35,7 +35,7 @@ You may ask what data, if any, this site holds about you, and request its correc
 
 ## 6. Contact
 
-Site operator: EnergyNote (pseudonymous). E-mail: wogkwo@gmail.com
+Site operator: EnergyNote (pseudonymous). Contact: the private form on the [contact page](/en/contact/).
 
 ## 7. Changes
 

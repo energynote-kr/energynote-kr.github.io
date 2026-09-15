@@ -51,7 +51,7 @@ Google AdSense와 Google Analytics는 Google LLC(미국)가 제공하는 서비�
 ## 9. 개인정보 보호책임자
 
 - 성명: 에너지노트 운영자
-- 연락처: wogkwo@gmail.com ([문의하기](/contact/))
+- 연락처: [문의하기](/contact/) 페이지의 비공개 문의 양식
 
 ## 10. 방침의 변경
 
