@@ -7,7 +7,7 @@ EnergyNote is written by a South Korean author trained in nuclear engineering an
 
 ## Who writes this
 
-The EnergyNote editor studied nuclear engineering and radiation science and writes from South Korea. The author writes anonymously and names no employer; the views here are personal. In place of a name, every article carries a "Data as of" date, named sources, and a separate fact check before publication.
+The EnergyNote editor studied nuclear engineering and radiation science and writes from South Korea. The views here are personal. Every article carries a "Data as of" date, named sources, and a separate fact check before publication.
 
 ## What you will find here
 
@@ -27,6 +27,6 @@ The EnergyNote editor studied nuclear engineering and radiation science and writ
 
 - **Health.** Articles on radiation and health are general information from a radiation-protection perspective and do not replace medical diagnosis or treatment. Consult your physician for decisions about examinations or treatment.
 - **Industry and companies.** Sections on industry structure and listed companies are for understanding the sector. They are not recommendations to buy or sell any security. The author is not a licensed investment adviser, and investment decisions are your own responsibility.
-- **Independence.** The author writes anonymously and does not represent any employer, agency or company. Corrections are welcome via the [contact page](/en/contact/).
+- **Independence.** The author does not represent any employer, agency or company. Corrections are welcome via the [contact page](/en/contact/).
 
 The Korean edition is at [energynote.kr](/).

@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir = false
     [languages.ko.params]
       description = "원자력·방사선 전공자가 쉽게 풀어주는 생활 속 방사선 안전과 원자력·에너지 이야기"
       author = "에너지노트 운영자"
-      authorBio = "원자력·방사선 전공자. 익명으로 씁니다."
+      authorBio = "원자력·방사선 전공자."
   [languages.en]
     languageName = "English"
     languageCode = "en-US"
@@ -27,7 +27,7 @@ defaultContentLanguageInSubdir = false
     [languages.en.params]
       description = "Nuclear energy, SMRs and radiation safety, explained by a Korean writer trained in nuclear engineering and radiation science."
       author = "EnergyNote editor"
-      authorBio = "Trained in nuclear engineering and radiation science, based in South Korea, writing anonymously."
+      authorBio = "Trained in nuclear engineering and radiation science, based in South Korea."
 
 [params]
 inboxUrl = "https://script.google.com/macros/s/AKfycbymP1tVmPnuAXLjpce3wYjAmEV4S4EPLit2P5S6tXpT982CFtq0CoEv7RzYyhUYKBAmGA/exec"
