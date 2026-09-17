@@ -1,5 +1,5 @@
 ---
-title: "South Korea's data center power shortage: why only 1.9% of grid applications get approved, and what the US queue shows"
+title: "Oklo's PJM withdrawal and Korea's 1.9% data center approvals: the grid is the bottleneck"
 date: 2026-09-03T12:30:00+09:00
 dataAsOf: "2026-09-03"
 categories: ["Nuclear & Energy"]
