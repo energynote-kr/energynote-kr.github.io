@@ -1,22 +1,22 @@
 ---
 title: "Korea is asking whether to build more reactors — what the September 2026 public deliberation is really about"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-09-09"
+dataAsOf: "2026-09-22"
 categories: ["Nuclear & Energy"]
 tags: ["Korea", "new nuclear", "public deliberation", "12th Basic Plan", "spent fuel"]
-description: "Korea's two new large reactors and one SMR are already decided. The September–October 2026 deliberation asks whether to add more for 2040 — here are both sides."
+description: "Korea's two new large reactors and one SMR are already decided. The September–December 2026 deliberation asks what role nuclear should play for 2040 — here are both sides."
 ---
 
 Nineteen reactors' worth of extra electricity demand, and it showed up on a single forecast in four months.
 
 On August 20, 2026, in a National Assembly office building in Seoul, the committee drafting Korea's next 15-year power plan put that new number on the table. Peak electricity demand in 2040 is now forecast at **158.4–165.0 GW**, up from the 131.8–138.2 GW the same committee had forecast in April. The gap is about 27 GW, the output of nineteen large reactors of 1.4 GW each.
 
-Holding that number, the Ministry of Climate, Energy and Environment starts a series of public forums in September on one question: should Korea build more reactors? I work in the nuclear field, but this article does not argue a side. It puts the arguments for and against on the same scale and reports what each one weighs.
+Holding that number, the Ministry of Climate, Energy and Environment starts a citizen-jury deliberation in September on one question: what role should nuclear play? I work in the nuclear field, but this article does not argue a side. It puts the arguments for and against on the same scale and reports what each one weighs.
 
 > **Key takeaways**
-> - The two large reactors and one small modular reactor (SMR) in Korea's 11th Basic Plan are already decided, with candidate sites chosen in June 2026. The September–October deliberation asks whether the 12th Basic Plan, which runs to 2040, should add more nuclear on top of them.
+> - The two large reactors and one small modular reactor (SMR) in Korea's 11th Basic Plan are already decided, with candidate sites chosen in June 2026. The September–December deliberation asks what role nuclear should play in the 12th Basic Plan, which runs to 2040 — not a specific number of additional units.
 > - The case for building more rests on carbon-free baseload, the 2040 demand re-forecast, the low cost of the existing fleet and a supply chain that is still running. The case for caution rests on new-build cost overruns abroad, the absence of a spent-fuel repository, local acceptance and the falling price of solar and storage.
-> - Korea's 2017 deliberation on two half-built reactors used a 471-citizen jury and took three months. The January 2026 process took two forums and a phone poll. As of September 9, the format of the new round had not been announced.
+> - Korea's 2017 deliberation on two half-built reactors used a 471-citizen jury and took three months. The January 2026 process took two forums and a phone poll. On September 22 the government confirmed the new round will also use a citizen jury, run by an 11-member deliberation committee over about three months, though it will not decide how many reactors to add.
 
 ## 1. The plan behind the question
 
@@ -24,7 +24,7 @@ Korea decides what power plants to build through a single document, and the deli
 
 - **Basic Plan for Long-term Electricity Supply and Demand.** A rolling 15-year plan, revised roughly every two years, that sets the national demand forecast and the generation mix to meet it. A reactor that is not in the plan does not get built; a reactor that is in the plan still needs a site, licenses and a budget.
 - **The 11th Basic Plan** was confirmed in February 2025. It includes **two new large reactors** (2.8 GW combined, targeted for 2037–38) and **one SMR** (0.7 GW, targeted for 2035–36).
-- **The 12th Basic Plan** is now being drafted. It extends the horizon to 2040, and the demand re-forecast of August 20 is its starting point. The schedule, as of September 2026: forums in September–October, a government draft in October, reports to the presidential Climate Response Commission and to the National Assembly, and confirmation during the regular parliamentary session that runs to December.
+- **The 12th Basic Plan** is now being drafted. It extends the horizon to 2040, and the demand re-forecast of August 20 is its starting point. On September 22 the ministry reported a public-deliberation plan to the Cabinet: an 11-member committee (including a neutral chair, with no nuclear-industry stakeholders) will run about three months of deliberation by a representative citizen jury. Because that process needs to feed into the plan, the government draft was pushed back from October to December, ahead of confirmation during the regular parliamentary session that runs to December.
 - **Ministry of Climate, Energy and Environment** is the new owner of the plan. It was created in October 2025 by merging the environment ministry with the energy functions of the former Ministry of Trade, Industry and Energy (MOTIE), so this is its first Basic Plan.
 - **KHNP** (Korea Hydro & Nuclear Power) is the state utility that operates all of Korea's reactors and would build any new ones. **KEPCO** (Korea Electric Power Corporation), its parent, is the near-monopoly buyer and seller of electricity. **NSSC** (Nuclear Safety and Security Commission) is the independent regulator that licenses reactors; it plays no part in deciding how many to build.
 
@@ -36,7 +36,7 @@ The government reconfirmed the 11th Plan's two large units and one SMR in Januar
 
 On January 26 it announced that the units would "proceed as planned." On June 17, KHNP's site selection committee chose **Yeongdeok County**, on the east coast in North Gyeongsang Province, as the candidate site for the two large reactors, and **Gijang County in Busan**, next to the existing Kori plant, for the SMR.
 
-So the real question for September–October is narrower and larger at the same time: with 27 GW more demand forecast for 2040, should the 12th Plan write in additional reactors and SMRs beyond the three already committed? The decisions so far, and the ones still ahead (as of September 3, 2026):
+So the real question for the September–December deliberation is narrower and larger at the same time: with 27 GW more demand forecast for 2040, should the 12th Plan write in additional reactors and SMRs beyond the three already committed? The government has said the deliberation itself will not settle a specific number, only nuclear's role among the alternatives. The decisions so far, and the ones still ahead (as of September 22, 2026):
 
 | Date | Step | Status |
 |---|---|---|
@@ -45,8 +45,8 @@ So the real question for September–October is narrower and larger at the same 
 | Jan 26, 2026 | "Proceed as planned" (polls 62–70% in favor) | Done |
 | Jun 17, 2026 | KHNP names Yeongdeok (large units) and Gijang (SMR) | Done |
 | Aug 20, 2026 | 2040 demand re-forecast: 158.4–165.0 GW | Done |
-| Sept–Oct 2026 | Public forums on additional reactors for the 12th Plan | Ahead |
-| Oct 2026 | Government draft of the 12th Plan | Ahead |
+| Sept 22, 2026 | Public-deliberation plan (citizen jury, ~3 months) confirmed | Done |
+| Dec 2026 | Government draft of the 12th Plan (pushed back from October) | Ahead |
 | By Dec 2026 | Climate Response Commission and Assembly reports; plan confirmed | Ahead |
 
 The answer will shape the electricity bills Koreans pay in 2040; the same demand forecast is also what is driving the [data-center grid debate](/en/posts/datacenter-grid-bottleneck/).
@@ -73,24 +73,24 @@ The reference point is the 2017 deliberation on Shin-Kori units 5 and 6, two rea
 
 The same panel also backed reducing nuclear's share of the mix over time, 53.2 percent. Supporters and opponents had read the same material in the same room.
 
-The January 2026 process, by contrast, was two forums and a telephone and automated-response poll. Korean environmental groups criticized it for providing too little information and for questions that leaned toward one answer. The differences, side by side (as of early September 2026):
+The January 2026 process, by contrast, was two forums and a telephone and automated-response poll. Korean environmental groups criticized it for providing too little information and for questions that leaned toward one answer. On September 22 the government confirmed the new round will look more like 2017 than January: a representative citizen jury studies and debates nuclear's role, then answers before-and-after surveys, over about three months. Minister Kim Sung-hwan drew one boundary, however: how many reactors to add "may not fall within the deliberation committee's scope," so this round covers nuclear's role among several alternatives for future demand, not a number. The differences, side by side:
 
-| Item | 2017 Shin-Kori 5&6 | Jan 2026 | Sept–Oct 2026 |
+| Item | 2017 Shin-Kori 5&6 | Jan 2026 | Sept–Dec 2026 |
 |---|---|---|---|
-| Question | Resume two half-built units? | Keep the 11th Plan's 2 + 1 units? | Add more to the 12th Plan? |
-| Method | 471-citizen jury, deliberation | Two forums, poll of ~3,000 | Not yet announced |
-| Duration | About three months | Under a month | Sept–Oct |
+| Question | Resume two half-built units? | Keep the 11th Plan's 2 + 1 units? | Nuclear's role in the 2040 mix (not a specific number) |
+| Method | 471-citizen jury, deliberation | Two forums, poll of ~3,000 | Citizen jury, ~11-member committee |
+| Duration | About three months | Under a month | About three months |
 | Result | Resume 59.5% / stop 40.5% | 62–70% in favor; proceed | Ahead |
 
-Whether the new round uses a citizen jury or repeats the forum-plus-poll formula had not been officially announced as of September 9, 2026; August press reports said a policy forum on new reactors was planned for September. Either way, the credibility of the result will rest on whether the participants read the eight arguments above **from the same set of materials**.
+The credibility of the result will still rest on whether the participants read the eight arguments above **from the same set of materials**.
 
 ## 6. The author's scale
 
 I will not say which side is heavier. What I will say is this: a reactor takes about twelve years from decision to grid, and renewables take about as long for the transmission lines to catch up. The 2017 deliberation took three months; the January 2026 decision took less than one.
 
-The cost that has actually grown is not the decision itself but **the years lost each time a new government reversed the last one, and construction starts and grid lines were pushed back with it**. Whether Korea builds more reactors or concentrates on solar, storage and wires, an answer in October that the next government does not overturn would be cheaper than either conclusion.
+The cost that has actually grown is not the decision itself but **the years lost each time a new government reversed the last one, and construction starts and grid lines were pushed back with it**. Whether Korea builds more reactors or concentrates on solar, storage and wires, an answer by December that the next government does not overturn would be cheaper than either conclusion.
 
-**Where this goes next.** The dated events are the September–October forums, the October draft of the 12th Plan and its confirmation before the Assembly session ends in December. Watch two things in the draft: whether it writes in reactors beyond the 2 + 1 already committed, and whether it names a deliberation format that both sides can accept. Beyond that, the 11th Plan's SMR is targeted for 2035–36 and its two large units for 2037–38; anything added by the 12th Plan would come after that.
+**Where this goes next.** The dated events are the roughly three-month citizen-jury deliberation that started September 22, the now-December draft of the 12th Plan, and its confirmation before the Assembly session ends in December. Watch two things in the draft: whether it writes in reactors beyond the 2 + 1 already committed, and whether it names a deliberation format that both sides can accept. Beyond that, the 11th Plan's SMR is targeted for 2035–36 and its two large units for 2037–38; anything added by the 12th Plan would come after that.
 
 **Industry note.** More reactors would engage Doosan Enerbility (KRX: 034020), the reactor-vessel manufacturer, KEPCO E&C (KRX: 052690) for design and Hyundai E&C (KRX: 000720) for construction; see [our Korean guide to nuclear stocks](/posts/nuclear-stocks-guide/) (in Korean). A solar-and-storage path would engage LG Energy Solution (KRX: 373220), Samsung SDI (KRX: 006400) and Hanwha Solutions (KRX: 009830). Either way the evening peak through the mid-2030s is likely met by gas, Korea Gas Corporation's (KRX: 036460) business. A Basic Plan entry is not an order, and a 15-year plan is revised many times.
 
@@ -98,4 +98,4 @@ The cost that has actually grown is not the decision itself but **the years lost
 
 ---
 
-*Sources: Ministry of Climate, Energy and Environment and the 12th Basic Plan general committee, fifth public policy forum (August 20, 2026); Ministry of Trade, Industry and Energy, 11th Basic Plan for Long-term Electricity Supply and Demand (February 2025); Ministry of Climate, Energy and Environment, results of the new-reactor public opinion polls (January 2026); Korea Hydro & Nuclear Power, new-reactor site selection (June 17, 2026); Shin-Kori 5&6 Public Deliberation Commission, final result via Korea Policy Briefing (October 2017); Korea Power Exchange, 2025 Electricity Market Statistics; Special Act on High-Level Radioactive Waste Management (2025); first-half 2026 solar fixed-price contract auction notice; Korea Energy Information Culture Agency, national energy awareness survey (Q4 2025 and June 2026); Korea Hydro & Nuclear Power 2026 business report (2025 capacity factor); Georgia Power and EDF disclosures on Vogtle 3&4 and Flamanville 3 (rounded).*
+*Sources: Ministry of Climate, Energy and Environment and the 12th Basic Plan general committee, fifth public policy forum (August 20, 2026); Ministry of Climate, Energy and Environment, public-deliberation plan reported to the Cabinet (September 22, 2026); Ministry of Trade, Industry and Energy, 11th Basic Plan for Long-term Electricity Supply and Demand (February 2025); Ministry of Climate, Energy and Environment, results of the new-reactor public opinion polls (January 2026); Korea Hydro & Nuclear Power, new-reactor site selection (June 17, 2026); Shin-Kori 5&6 Public Deliberation Commission, final result via Korea Policy Briefing (October 2017); Korea Power Exchange, 2025 Electricity Market Statistics; Special Act on High-Level Radioactive Waste Management (2025); first-half 2026 solar fixed-price contract auction notice; Korea Energy Information Culture Agency, national energy awareness survey (Q4 2025 and June 2026); Korea Hydro & Nuclear Power 2026 business report (2025 capacity factor); Georgia Power and EDF disclosures on Vogtle 3&4 and Flamanville 3 (rounded).*
