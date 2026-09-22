@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Barakah timeline from the 2009 contract to full-fleet operation in 2024, with 2025-2026 figures: about 25 percent of UAE electricity, roughly 40 terawatt-hours a year, an 82.8 percent load factor for Unit 1 in 2025, and a 1.1 billion dollar KEPCO-KHNP cost arbitration</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .year { font-size: 13px; font-weight: 800; fill: #0b6e4f; }
+    .ev { font-size: 11.5px; font-weight: 700; fill: #1f2937; }
+    .small { font-size: 10.5px; fill: #5a6472; }
+    .stat-n { font-size: 20px; font-weight: 800; fill: #0b6e4f; }
+    .stat-l { font-size: 10.5px; fill: #1f2937; }
+  </style>
+  <rect x="0" y="0" width="760" height="380" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">Barakah, 2009 to 2026: contract to full fleet</text>
+  <text x="20" y="48" class="sub">Four APR1400 units, Korea's first completed nuclear export · dated milestones below</text>
+
+  <!-- axis -->
+  <line x1="40" y1="170" x2="720" y2="170" stroke="#c9c6bd" stroke-width="4"/>
+
+  <!-- tick positions: 2009=60, 2012=160, 2021=420, 2022=490, 2023=560, 2024=630, 2026=710 -->
+  <g fill="#0b6e4f">
+    <circle cx="60" cy="170" r="7"/>
+    <circle cx="160" cy="170" r="7"/>
+    <circle cx="420" cy="170" r="7"/>
+  </g>
+  <g fill="#f5a623">
+    <circle cx="490" cy="170" r="7"/>
+    <circle cx="560" cy="170" r="7"/>
+    <circle cx="630" cy="170" r="7"/>
+  </g>
+  <circle cx="710" cy="170" r="7" fill="#1f2937"/>
+
+  <!-- labels above axis -->
+  <text x="60" y="100" class="year" text-anchor="middle">Dec 2009</text>
+  <text x="60" y="116" class="ev" text-anchor="middle">Contract signed</text>
+  <text x="60" y="130" class="small" text-anchor="middle">$20.4bn, 4 units</text>
+
+  <text x="160" y="100" class="year" text-anchor="middle">Jul 2012</text>
+  <text x="160" y="116" class="ev" text-anchor="middle">Construction starts</text>
+  <text x="160" y="130" class="small" text-anchor="middle">Unit 1, after FANR license</text>
+
+  <text x="420" y="100" class="year" text-anchor="middle">Apr 2021</text>
+  <text x="420" y="116" class="ev" text-anchor="middle">Unit 1 commercial</text>
+  <text x="420" y="130" class="small" text-anchor="middle">first Arab-world reactor</text>
+
+  <!-- labels below axis -->
+  <text x="490" y="200" class="year" text-anchor="middle">Mar 2022</text>
+  <text x="490" y="216" class="ev" text-anchor="middle">Unit 2</text>
+
+  <text x="560" y="200" class="year" text-anchor="middle">Feb 2023</text>
+  <text x="560" y="216" class="ev" text-anchor="middle">Unit 3</text>
+
+  <text x="630" y="200" class="year" text-anchor="middle">Sep 2024</text>
+  <text x="630" y="216" class="ev" text-anchor="middle">Unit 4</text>
+  <text x="630" y="230" class="small" text-anchor="middle">full fleet online</text>
+
+  <text x="710" y="200" class="year" text-anchor="middle">2026</text>
+  <text x="710" y="216" class="ev" text-anchor="middle">5 yrs, Unit 1</text>
+
+  <!-- stat cards -->
+  <g>
+    <rect x="20" y="256" width="168" height="66" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="34" y="284" class="stat-n">~25%</text>
+    <text x="34" y="300" class="stat-l">of UAE electricity, 2025</text>
+    <text x="34" y="313" class="small">Source: ENEC</text>
+
+    <rect x="198" y="256" width="168" height="66" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="212" y="284" class="stat-n">~40 TWh</text>
+    <text x="212" y="300" class="stat-l">generated per year</text>
+    <text x="212" y="313" class="small">Source: ENEC</text>
+
+    <rect x="376" y="256" width="182" height="66" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="390" y="284" class="stat-n">82.8%</text>
+    <text x="390" y="300" class="stat-l">Unit 1 load factor, 2025</text>
+    <text x="390" y="313" class="small">Source: WNA / IAEA PRIS</text>
+
+    <rect x="568" y="256" width="172" height="66" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="582" y="284" class="stat-n">$1.1bn</text>
+    <text x="582" y="300" class="stat-l">KEPCO-KHNP arbitration</text>
+    <text x="582" y="313" class="small">Filed May 2026, KCAB</text>
+  </g>
+
+  <!-- legend -->
+  <g class="small">
+    <circle cx="30" cy="340" r="6" fill="#0b6e4f"/>
+    <text x="42" y="344">Contract and construction</text>
+    <circle cx="220" cy="340" r="6" fill="#f5a623"/>
+    <text x="232" y="344">Units 2-4 commercial</text>
+    <circle cx="400" cy="340" r="6" fill="#1f2937"/>
+    <text x="412" y="344">Five-year mark</text>
+  </g>
+
+  <text x="20" y="368" class="sub">As of September 2026; sources: ENEC, World Nuclear Association, IAEA PRIS, Korea Times / Seoul Economic Daily</text>
+</svg>

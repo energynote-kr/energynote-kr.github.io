@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 516" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">무색 토파즈가 전자가속기 또는 원자로 중성자로 조사되어 색이 든 뒤, 중성자 조사분만 냉각 보관을 거쳐 출하되는 흐름과 색상별 처리 방식을 정리한 도해</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="516" fill="#f8faf9"/>
+
+  <text x="20" y="28" font-size="17" font-weight="800" fill="#1f2937">블루토파즈는 어떻게 색이 드나 — 조사부터 출하까지</text>
+  <text x="20" y="47" font-size="12" fill="#6b7280">전자가속기 전자선은 방사화 없이 짧게, 원자로 중성자는 방사화되어 냉각 보관을 거친 뒤 검사 후 출하(2026년 9월 기준)</text>
+
+  <!-- origin box -->
+  <rect x="16" y="118" width="120" height="56" rx="8" fill="#0b6e4f"/>
+  <text x="76" y="141" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">무색</text>
+  <text x="76" y="160" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">토파즈 원석</text>
+
+  <!-- split arrows from origin -->
+  <line x1="136" y1="136" x2="168" y2="100" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="136" y1="156" x2="168" y2="192" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- electron path -->
+  <rect x="172" y="76" width="130" height="48" rx="8" fill="#f5a623"/>
+  <text x="237" y="96" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">전자가속기</text>
+  <text x="237" y="114" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">전자선</text>
+
+  <line x1="302" y1="100" x2="342" y2="100" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="346" y="76" width="102" height="48" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+  <text x="397" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#1f2937">며칠 냉각</text>
+
+  <line x1="448" y1="100" x2="556" y2="128" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- neutron path -->
+  <rect x="172" y="168" width="130" height="48" rx="8" fill="#f5a623"/>
+  <text x="237" y="188" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">원자로</text>
+  <text x="237" y="206" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">중성자</text>
+
+  <line x1="302" y1="192" x2="342" y2="192" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="346" y="168" width="148" height="48" rx="8" fill="#f5a623" opacity="0.9"/>
+  <text x="420" y="197" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">수개월~3년 냉각</text>
+
+  <line x1="494" y1="192" x2="556" y2="164" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- merge / release box -->
+  <rect x="560" y="108" width="180" height="114" rx="10" fill="#0b6e4f"/>
+  <text x="650" y="152" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">방사능 기준</text>
+  <text x="650" y="172" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">이하 확인 후</text>
+  <text x="650" y="192" text-anchor="middle" font-size="13" font-weight="700" style="fill:#fff">출하·유통</text>
+
+  <!-- section: color by treatment -->
+  <text x="20" y="248" font-size="15" font-weight="800" fill="#0b6e4f">색 이름마다 처리 방식이 다르다</text>
+
+  <rect x="20" y="268" width="28" height="28" rx="4" fill="#bfe3f2" stroke="#6b7280" stroke-width="1"/>
+  <text x="58" y="287" font-size="13" font-weight="700" fill="#1f2937">스카이 블루</text>
+  <text x="170" y="287" font-size="12.5" fill="#374151">전자가속기 전자선만 — 방사화 없이 짧은 보관 후 유통</text>
+
+  <rect x="20" y="322" width="28" height="28" rx="4" fill="#3fa9d1" stroke="#6b7280" stroke-width="1"/>
+  <text x="58" y="341" font-size="13" font-weight="700" fill="#1f2937">스위스 블루</text>
+  <text x="170" y="341" font-size="12.5" fill="#374151">중성자+전자선+열처리 — 방사화되어 냉각 보관 필요</text>
+
+  <rect x="20" y="376" width="28" height="28" rx="4" fill="#1c4e80" stroke="#6b7280" stroke-width="1"/>
+  <text x="58" y="395" font-size="13" font-weight="700" fill="#1f2937">런던 블루</text>
+  <text x="170" y="395" font-size="12.5" fill="#374151">원자로 중성자 단독 — 가장 짙은 색, 냉각 기간도 가장 길다</text>
+
+  <!-- consumer dose note -->
+  <rect x="20" y="418" width="720" height="56" rx="10" fill="#e3f2ec"/>
+  <text x="40" y="440" font-size="12.5" font-weight="700" fill="#1f2937">소비자가 받는 선량(미국 NRC 추정)</text>
+  <text x="40" y="459" font-size="12.5" fill="#374151">규정 허용 상한치의 6캐럿 토파즈를 착용해도 첫해 약 0.3μSv — 바나나 약 3개 분량, 연간 자연방사선의 1만분의 1 수준</text>
+
+  <text x="20" y="487" font-size="10.5" fill="#6b7280">자료: 미국 NRC 10 CFR 30.14·30.70·32.11, NRC Backgrounder on Irradiated Gemstones</text>
+  <text x="20" y="500" font-size="10.5" fill="#6b7280">NRC Generic Letter 88-04, Health Physics Society Ask the Experts · 2026년 9월 기준</text>
+</svg>
