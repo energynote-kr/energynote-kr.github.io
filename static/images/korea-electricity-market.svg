@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 660" width="760" height="660" role="img" aria-labelledby="t d" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">한국 전력시장: 발전사, 전력거래소, 한전, 소비자</title>
+  <desc id="d">흐름도: 발전 자회사와 민간 발전사가 전력거래소(KPX)의 도매시장에 전기를 팔면, KPX가 시간별 계통한계가격(SMP), 용량요금, 정산조정계수를 매긴다. 한국전력이 이를 전부 사들여 정부가 정한 요금제별로 소비자에게 되판다. SMP·용량요금·한전 손실 수치는 2026년 9월 기준.</desc>
+  <defs>
+    <marker id="ah-g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0b6e4f"/>
+    </marker>
+    <marker id="ah-o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f5a623"/>
+    </marker>
+    <marker id="ah-gr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect width="760" height="660" fill="#f8faf9"/>
+
+  <!-- Title -->
+  <text x="20" y="30" font-size="17" font-weight="700" fill="#111827">한국 전력시장, 단계별로 보기</text>
+  <text x="20" y="48" font-size="11.5" fill="#6b7280">발전사는 전력거래소에 팔고, 한전이 전부 사서 요금제별로 되팝니다. 2026년 9월 기준.</text>
+
+  <!-- Generator boxes -->
+  <g>
+    <rect x="20" y="60" width="340" height="90" rx="8" fill="#0b6e4f"/>
+    <text x="32" y="80" font-size="13" font-weight="700" style="fill:#fff">한수원 + 5개 발전 자회사</text>
+    <text x="32" y="98" font-size="11" style="fill:#fff">원자력·수력·석탄, 한전 산하</text>
+    <text x="32" y="114" font-size="11" style="fill:#fff">발전 자회사</text>
+    <text x="32" y="134" font-size="12" font-weight="700" style="fill:#fff">SMP×정산조정계수로 지급</text>
+  </g>
+  <g>
+    <rect x="400" y="60" width="340" height="90" rx="8" fill="#f5a623"/>
+    <text x="412" y="80" font-size="13" font-weight="700" style="fill:#fff">민간·독립 발전사(IPP)</text>
+    <text x="412" y="98" font-size="11" style="fill:#fff">LNG·석탄 중심 민간 발전</text>
+    <text x="412" y="114" font-size="11" style="fill:#fff">한전 그룹 밖에서 참여</text>
+    <text x="412" y="134" font-size="12" font-weight="700" style="fill:#fff">SMP 전액 지급, 계수 없음</text>
+  </g>
+
+  <!-- Arrows generators -> KPX -->
+  <line x1="190" y1="150" x2="190" y2="168" stroke="#0b6e4f" stroke-width="3" marker-end="url(#ah-g)"/>
+  <line x1="570" y1="150" x2="570" y2="168" stroke="#f5a623" stroke-width="3" marker-end="url(#ah-o)"/>
+
+  <!-- KPX box -->
+  <rect x="20" y="170" width="720" height="220" rx="8" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="34" y="192" font-size="13" font-weight="700" fill="#111827">전력거래소(KPX)·도매시장</text>
+  <text x="34" y="208" font-size="10.5" fill="#6b7280">하루 전 시장에서 가격을 정하며, 그 값은 가동된 모든 발전기에 동일 적용</text>
+
+  <text x="34" y="232" font-size="12" font-weight="700" fill="#b45309">1. 시간별 계통한계가격(SMP)</text>
+  <text x="46" y="248" font-size="11" fill="#374151">가장 비싼 발전기가 결정, 대개 막판에 불려 나온 LNG</text>
+  <text x="46" y="264" font-size="11" fill="#374151">2022년 12월 월평균 267.63원/kWh로 최고치(KPX)</text>
+
+  <text x="34" y="288" font-size="12" font-weight="700" fill="#374151">2. 용량요금(CP)</text>
+  <text x="46" y="304" font-size="11" fill="#374151">가동 여부와 무관하게 kW당 지급</text>
+  <text x="46" y="320" font-size="11" fill="#374151">2023년 정산액 78조 원 중 약 7.5조 원(KPX)</text>
+
+  <text x="34" y="344" font-size="12" font-weight="700" fill="#0b6e4f">3. 정산조정계수</text>
+  <text x="46" y="360" font-size="11" fill="#374151">0~1 값으로 원자력·석탄의 원가 위 마진을 조정</text>
+  <text x="46" y="376" font-size="11" fill="#374151">SMP 급등 시 차익을 한전 쪽으로 환수</text>
+
+  <!-- Arrow KPX -> KEPCO -->
+  <line x1="380" y1="390" x2="380" y2="408" stroke="#6b7280" stroke-width="3" marker-end="url(#ah-gr)"/>
+
+  <!-- KEPCO box -->
+  <rect x="140" y="410" width="480" height="80" rx="8" fill="#fff" stroke="#b45309" stroke-width="2"/>
+  <text x="380" y="434" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle">한국전력·유일한 판매자</text>
+  <text x="380" y="452" font-size="11" fill="#374151" text-anchor="middle">KPX 정산액을 모두 매입, 정부가 정한 요금으로 판매</text>
+  <text x="380" y="468" font-size="11" font-weight="700" fill="#374151" text-anchor="middle">2021~23년 누적 영업손실 약 43조 원(한전)</text>
+
+  <!-- Arrow KEPCO -> customers (branching) -->
+  <line x1="380" y1="490" x2="380" y2="500" stroke="#6b7280" stroke-width="3"/>
+  <line x1="130" y1="500" x2="630" y2="500" stroke="#6b7280" stroke-width="3"/>
+  <line x1="130" y1="500" x2="130" y2="508" stroke="#6b7280" stroke-width="3" marker-end="url(#ah-gr)"/>
+  <line x1="380" y1="500" x2="380" y2="508" stroke="#6b7280" stroke-width="3" marker-end="url(#ah-gr)"/>
+  <line x1="630" y1="500" x2="630" y2="508" stroke="#6b7280" stroke-width="3" marker-end="url(#ah-gr)"/>
+
+  <!-- Customer boxes -->
+  <g>
+    <rect x="20" y="510" width="220" height="95" rx="8" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="32" y="532" font-size="12.5" font-weight="700" fill="#374151">주택용(누진제)</text>
+    <text x="32" y="550" font-size="10.5" fill="#374151">3단계, 7~8월 구간 완화</text>
+    <text x="32" y="566" font-size="10.5" fill="#374151">14분기째 동결(2026 4분기)</text>
+  </g>
+  <g>
+    <rect x="270" y="510" width="220" height="95" rx="8" fill="#fff" stroke="#b45309" stroke-width="1.5"/>
+    <text x="282" y="532" font-size="12.5" font-weight="700" fill="#b45309">산업용</text>
+    <text x="282" y="550" font-size="10.5" fill="#374151">국내 수요 절반 이상</text>
+    <text x="282" y="566" font-size="10.5" fill="#374151">2022년 이후 누적 +70%</text>
+  </g>
+  <g>
+    <rect x="520" y="510" width="220" height="95" rx="8" fill="#fff" stroke="#0b6e4f" stroke-width="1.5"/>
+    <text x="532" y="532" font-size="12.5" font-weight="700" fill="#0b6e4f">일반·기타</text>
+    <text x="532" y="550" font-size="10.5" fill="#374151">상업·농사·가로등</text>
+    <text x="532" y="566" font-size="10.5" fill="#374151">2026년 지역별 차등요금 예정</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="20" y="636" font-size="10" fill="#6b7280">2026년 9월 기준 · 출처: KPX, 한국전력, 산업통상자원부/기후에너지환경부</text>
+  <text x="740" y="636" font-size="10" fill="#6b7280" text-anchor="end">energynote.kr</text>
+</svg>
