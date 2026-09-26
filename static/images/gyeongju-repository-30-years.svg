@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="760" height="480" role="img" aria-labelledby="t d" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">방폐장 완공까지 30년: 경주 방폐장 연표, 1986~2026</title>
+  <desc id="d">1986년부터 2026년까지 한국의 방사성폐기물 부지 선정 연표. 안면도(1990)와 부안(2003~2004, 91.8% 반대)에서 무산된 뒤, 2005년 4개 도시 주민투표에서 경주가 89.5% 찬성으로 선정됐고, 2014~15년 1단계(10만 드럼)가 가동을 시작했으며, 2025~26년 2단계(12.5만 드럼)가 준공됐다. 2025년 9월 시행된 고준위방사성폐기물 특별법은 부지선정 절차만 마련했고, 목표는 중간저장 2050년·처분 2060년이다.</desc>
+  <rect width="760" height="480" fill="#f8faf9"/>
+
+  <!-- Title -->
+  <text x="24" y="34" font-size="19" font-weight="700" fill="#1f2937">방폐장 완공까지 30년</text>
+  <text x="24" y="54" font-size="12" fill="#6b7280">경주 중저준위 방폐장 연표(1986~2026): 실패한 시도, 주민투표, 1·2단계 준공</text>
+
+  <!-- Legend -->
+  <g font-size="10.5" fill="#4b5563">
+    <rect x="24" y="68" width="10" height="10" rx="2" fill="#b91c1c"/>
+    <text x="39" y="77">반대로 무산된 부지</text>
+    <rect x="185" y="68" width="10" height="10" rx="2" fill="#0b6e4f"/>
+    <text x="200" y="77">주민투표 승리 / 처분장 이정표</text>
+    <rect x="450" y="68" width="10" height="10" rx="2" fill="#f5a623"/>
+    <text x="465" y="77">별도의 고준위 폐기물 트랙</text>
+  </g>
+
+  <!-- Timeline -->
+  <line x1="60" y1="260" x2="700" y2="260" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Node 1: 1986 -->
+  <g>
+    <circle cx="70" cy="260" r="8" fill="#9ca3af"/>
+    <text x="70" y="228" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">1986</text>
+    <text x="70" y="286" font-size="10.5" text-anchor="middle" fill="#374151">부지 물색</text>
+    <text x="70" y="299" font-size="10.5" text-anchor="middle" fill="#374151">시작</text>
+  </g>
+
+  <!-- Node 2: 1990 -->
+  <g>
+    <circle cx="190" cy="260" r="8" fill="#b91c1c"/>
+    <text x="190" y="228" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">1990</text>
+    <text x="190" y="286" font-size="10.5" text-anchor="middle" fill="#374151">안면도</text>
+    <text x="190" y="299" font-size="10.5" text-anchor="middle" fill="#374151">반대로 무산</text>
+  </g>
+
+  <!-- Node 3: 2003-04 -->
+  <g>
+    <circle cx="320" cy="260" r="8" fill="#b91c1c"/>
+    <text x="320" y="228" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">2003~04</text>
+    <text x="320" y="286" font-size="10.5" text-anchor="middle" fill="#374151">부안 갈등,</text>
+    <text x="320" y="299" font-size="10.5" text-anchor="middle" fill="#374151">부지 백지화</text>
+    <text x="320" y="317" font-size="12" font-weight="700" text-anchor="middle" fill="#b91c1c">91.8% 반대</text>
+  </g>
+
+  <!-- Node 4: 2005 -->
+  <g>
+    <circle cx="450" cy="260" r="8" fill="#0b6e4f"/>
+    <text x="450" y="228" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">2005</text>
+    <text x="450" y="286" font-size="10.5" text-anchor="middle" fill="#374151">4개 도시 투표,</text>
+    <text x="450" y="299" font-size="10.5" text-anchor="middle" fill="#374151">경주 선정</text>
+    <text x="450" y="317" font-size="12" font-weight="700" text-anchor="middle" fill="#0b6e4f">89.5% 찬성</text>
+  </g>
+
+  <!-- Node 5: 2014-15 -->
+  <g>
+    <circle cx="580" cy="260" r="8" fill="#0b6e4f"/>
+    <text x="580" y="228" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">2014~15</text>
+    <text x="580" y="286" font-size="10.5" text-anchor="middle" fill="#374151">1단계 허가,</text>
+    <text x="580" y="299" font-size="10.5" text-anchor="middle" fill="#374151">사일로 가동</text>
+    <text x="580" y="317" font-size="12" font-weight="700" text-anchor="middle" fill="#0b6e4f">10만 드럼</text>
+  </g>
+
+  <!-- Node 6: 2025-26 -->
+  <g>
+    <circle cx="700" cy="260" r="8" fill="#0b6e4f"/>
+    <text x="700" y="228" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">2025~26</text>
+    <text x="700" y="286" font-size="10.5" text-anchor="middle" fill="#374151">2단계 준공,</text>
+    <text x="700" y="299" font-size="10.5" text-anchor="middle" fill="#374151">지표처분시설</text>
+    <text x="700" y="317" font-size="12" font-weight="700" text-anchor="middle" fill="#0b6e4f">12.5만 드럼</text>
+  </g>
+
+  <!-- Callout: HLW Act -->
+  <g>
+    <rect x="60" y="350" width="640" height="66" rx="8" fill="#fff7ea" stroke="#f5a623" stroke-width="1.5"/>
+    <text x="80" y="373" font-size="12" font-weight="700" fill="#92400e">한편, 별도 트랙: 사용후핵연료</text>
+    <text x="80" y="392" font-size="11" fill="#4b5563">고준위방사성폐기물 특별법 2025년 9월 26일 시행 — 부지선정 절차는 생겼지만</text>
+    <text x="80" y="407" font-size="11" fill="#4b5563">부지는 아직 없음. 목표: 중간저장 2050년, 처분 2060년.</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="24" y1="440" x2="736" y2="440" stroke="#e5e7eb"/>
+  <text x="24" y="458" font-size="10" fill="#6b7280">2026년 9월 기준 · 출처: KORAD, 국회, 기후에너지환경부</text>
+  <text x="736" y="458" font-size="10" fill="#6b7280" text-anchor="end">energynote.kr</text>
+</svg>
