@@ -43,7 +43,7 @@
     <text x="211" y="172" class="val">after 2016 (all 6 units)</text>
     <text x="211" y="196" class="lbl">Flood defense</text>
     <text x="211" y="212" class="val">Sea-wall height</text>
-    <text x="211" y="228" class="note">not confirmed in sources</text>
+    <text x="211" y="228" class="note">12 m site grade; wall n/a</text>
   </g>
 
   <!-- Hanbit -->
@@ -70,7 +70,7 @@
     <text x="569" y="156" class="val">SSE 0.3g, Shin-Hanul</text>
     <text x="569" y="172" class="val">1&#8211;4</text>
     <text x="569" y="196" class="lbl">Flood defense</text>
-    <text x="569" y="212" class="val">10&#8211;12 m site grade</text>
+    <text x="569" y="212" class="val">10 m site grade</text>
     <text x="569" y="228" class="note">no built sea wall</text>
   </g>
 
