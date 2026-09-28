@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 574" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">한국 원전 4개 부지의 설계 지진(g)과 침수 대비 높이, 2016년 경주 지진 당시 계측값을 0.2g·0.3g 설계 한계와 비교한 막대그래프</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .site { font-size: 14px; font-weight: 800; fill: #ffffff; }
+    .lbl { font-size: 10.5px; font-weight: 700; fill: #1f2937; }
+    .val { font-size: 10.5px; fill: #374151; }
+    .sec { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .barval { font-size: 12px; font-weight: 800; fill: #ffffff; }
+    .axis { font-size: 9.5px; fill: #6b7280; }
+    .note { font-size: 9.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="574" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한국 원전은 얼마나 흔들려도 버티나: 부지별 설계 지진</text>
+  <text x="20" y="48" class="sub">설계지진(SSE) g 단위, 침수 대비 높이(공개된 곳만) &#183; 2026년 9월 기준</text>
+
+  <!-- Site cards -->
+  <!-- Kori / Saeul -->
+  <g>
+    <rect x="20" y="66" width="171" height="34" rx="6" fill="#0b6e4f"/>
+    <text x="105" y="88" class="site" text-anchor="middle">고리 / 새울</text>
+    <rect x="20" y="100" width="171" height="140" rx="0" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="32" y="120" class="lbl">10기 &#183; 부산/울산</text>
+    <text x="32" y="140" class="val">기존호기 0.2g</text>
+    <text x="32" y="156" class="val">새울1&#183;2 0.3g</text>
+    <text x="32" y="172" class="val">새울3&#183;4 0.5g목표</text>
+    <text x="32" y="196" class="lbl">침수 대비</text>
+    <text x="32" y="212" class="val">방벽 10m(2013)</text>
+    <text x="32" y="228" class="note">(기존 7.5&#8211;9.5m)</text>
+  </g>
+
+  <!-- Wolsong -->
+  <g>
+    <rect x="199" y="66" width="171" height="34" rx="6" fill="#0b6e4f"/>
+    <text x="284" y="88" class="site" text-anchor="middle">월성</text>
+    <rect x="199" y="100" width="171" height="140" rx="0" fill="#e3f2ec"/>
+    <text x="211" y="120" class="lbl">6기 &#183; 경주</text>
+    <text x="211" y="140" class="val">기존설계 0.2g</text>
+    <text x="211" y="156" class="val">2016년 이후</text>
+    <text x="211" y="172" class="val">0.3g로 전6기 보강</text>
+    <text x="211" y="196" class="lbl">침수 대비</text>
+    <text x="211" y="212" class="val">부지고도 12m</text>
+    <text x="211" y="228" class="note">(방벽 높이 미공개)</text>
+  </g>
+
+  <!-- Hanbit -->
+  <g>
+    <rect x="378" y="66" width="171" height="34" rx="6" fill="#0b6e4f"/>
+    <text x="463" y="88" class="site" text-anchor="middle">한빛</text>
+    <rect x="378" y="100" width="171" height="140" rx="0" fill="#ffffff" stroke="#e5e7eb"/>
+    <text x="390" y="120" class="lbl">6기 &#183; 영광</text>
+    <text x="390" y="140" class="val">기존호기 0.2g</text>
+    <text x="390" y="156" class="val">2016년 이후</text>
+    <text x="390" y="172" class="val">0.3g 목표 보강</text>
+    <text x="390" y="196" class="lbl">침수 대비</text>
+    <text x="390" y="212" class="val">부지고도 10m</text>
+    <text x="390" y="228" class="note">(별도 방벽 없음)</text>
+  </g>
+
+  <!-- Hanul -->
+  <g>
+    <rect x="557" y="66" width="171" height="34" rx="6" fill="#0b6e4f"/>
+    <text x="642" y="88" class="site" text-anchor="middle">한울</text>
+    <rect x="557" y="100" width="171" height="140" rx="0" fill="#e3f2ec"/>
+    <text x="569" y="120" class="lbl">8기 &#183; 울진</text>
+    <text x="569" y="140" class="val">기존호기 0.2g</text>
+    <text x="569" y="156" class="val">신한울1~4</text>
+    <text x="569" y="172" class="val">0.3g 설계</text>
+    <text x="569" y="196" class="lbl">침수 대비</text>
+    <text x="569" y="212" class="val">부지고도 10m</text>
+    <text x="569" y="228" class="note">(별도 방벽 없음)</text>
+  </g>
+
+  <!-- Bar chart section -->
+  <text x="20" y="270" class="sec">설계 한계 대 2016년 경주 지진의 실제 흔들림</text>
+  <text x="20" y="286" class="sub">최대지반가속도(g) &#183; 월성 부지 계측값, 2016년 9월 12일</text>
+
+  <!-- chart baseline -->
+  <line x1="90" y1="480" x2="740" y2="480" stroke="#d1d5db" stroke-width="1"/>
+  <!-- gridlines at 0.1g steps, scale: 300px per 1.0g -->
+  <line x1="90" y1="450" x2="740" y2="450" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="454" class="axis" text-anchor="end">0.1g</text>
+  <line x1="90" y1="420" x2="740" y2="420" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="424" class="axis" text-anchor="end">0.2g</text>
+  <line x1="90" y1="390" x2="740" y2="390" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="394" class="axis" text-anchor="end">0.3g</text>
+  <line x1="90" y1="360" x2="740" y2="360" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="364" class="axis" text-anchor="end">0.4g</text>
+  <line x1="90" y1="330" x2="740" y2="330" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="80" y="334" class="axis" text-anchor="end">0.5g</text>
+  <text x="80" y="484" class="axis" text-anchor="end">0g</text>
+
+  <!-- Bar: legacy fleet 0.2g -->
+  <rect x="150" y="420" width="90" height="60" fill="#6b7280" rx="4"/>
+  <text x="195" y="440" class="barval" text-anchor="middle">0.2g</text>
+  <text x="195" y="500" class="lbl" text-anchor="middle">기존호기</text>
+  <text x="195" y="514" class="note" text-anchor="middle">설계 기준</text>
+
+  <!-- Bar: APR1400 0.3g -->
+  <rect x="290" y="390" width="90" height="90" fill="#0b6e4f" rx="4"/>
+  <text x="335" y="410" class="barval" text-anchor="middle">0.3g</text>
+  <text x="335" y="500" class="lbl" text-anchor="middle">APR1400</text>
+  <text x="335" y="514" class="note" text-anchor="middle">설계 기준</text>
+
+  <!-- Bar: Saeul 3-4 target 0.5g -->
+  <rect x="430" y="330" width="90" height="150" fill="#f5a623" rx="4"/>
+  <text x="475" y="350" class="barval" text-anchor="middle" fill="#1f2937">0.5g</text>
+  <text x="475" y="500" class="lbl" text-anchor="middle">새울3&#183;4</text>
+  <text x="475" y="514" class="note" text-anchor="middle">2017년 목표</text>
+
+  <!-- Bar: 2016 Wolsong recorded PGA ~0.12g, peak sensor 0.16g -->
+  <rect x="570" y="444" width="90" height="36" fill="#c0392b" rx="4"/>
+  <text x="615" y="463" class="barval" text-anchor="middle">0.12g</text>
+  <line x1="580" y1="425" x2="650" y2="425" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+  <text x="615" y="418" class="note" text-anchor="middle" fill="#c0392b">최고 0.16g</text>
+  <text x="615" y="500" class="lbl" text-anchor="middle">월성 2016</text>
+  <text x="615" y="514" class="note" text-anchor="middle">계측 PGA</text>
+
+  <text x="20" y="538" class="sub">두 설계 한계 모두 지켜졌다: 2016년 지진은 0.2g 아래였다.</text>
+  <text x="20" y="552" class="sub">새울3&#183;4호기 0.5g은 한수원 2017년 목표치로, 최종 확정 여부는 별도 확인되지 않았다.</text>
+  <text x="20" y="566" class="sub">자료: 원자력안전위원회, 한국수력원자력, 세계원자력협회(WNA), 2016년 이후 국내 언론보도 &#183; 2026년 9월 기준</text>
+</svg>
