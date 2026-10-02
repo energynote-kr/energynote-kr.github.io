@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">The October 2026 US-Korea nuclear framework: six AP1000 and two APR1400 reactors in three phases, up to $120 billion split into $100 billion construction and $20 billion contingency, with sites, owners, EPC contracts and power buyers not yet decided</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .leg { font-size: 11px; fill: #1f2937; }
+    .head { font-size: 12px; font-weight: 800; fill: #1f2937; }
+    .ph { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .tile { font-size: 11px; font-weight: 800; fill: #ffffff; }
+    .tilesub { font-size: 9px; fill: #ffffff; }
+    .nd { font-size: 10px; font-weight: 700; fill: #4b5563; }
+    .note { font-size: 10px; fill: #4b5563; }
+    .item { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .item2 { font-size: 10px; fill: #6b7280; }
+    .bar { font-size: 10.5px; font-weight: 800; fill: #ffffff; }
+    .big { font-size: 22px; font-weight: 800; fill: #1f2937; }
+    .foot { font-size: 9.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="480" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">The US-Korea nuclear package: what is on paper</text>
+  <text x="20" y="48" class="sub">Framework announced Sept. 30 (US) / Oct. 1 (Korea), 2026 · commercial terms non-binding · status as of Oct. 2, 2026</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="60" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="38" y="70">Confirmed (in the governments' own releases)</text>
+    <rect x="300" y="60" width="12" height="12" rx="3" fill="#f5a623"/><text x="318" y="70">Reported (company releases, press)</text>
+    <rect x="545" y="60" width="12" height="12" rx="3" fill="#ffffff" stroke="#6b7280" stroke-dasharray="3 2"/><text x="563" y="70">Not yet decided</text>
+  </g>
+
+  <!-- Left panel: reactors -->
+  <rect x="12" y="84" width="458" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="106" class="head">Eight large reactors, three phases</text>
+
+  <text x="24" y="145" class="ph">Phase 1</text>
+  <rect x="100" y="124" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="140" y="142" class="tile" text-anchor="middle">AP1000</text><text x="140" y="155" class="tilesub" text-anchor="middle">Westinghouse</text>
+  <rect x="188" y="124" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="228" y="142" class="tile" text-anchor="middle">AP1000</text><text x="228" y="155" class="tilesub" text-anchor="middle">Westinghouse</text>
+
+  <text x="24" y="195" class="ph">Phase 2</text>
+  <rect x="100" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="140" y="192" class="tile" text-anchor="middle">APR1400</text><text x="140" y="205" class="tilesub" text-anchor="middle">Korean design</text>
+  <rect x="188" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="228" y="192" class="tile" text-anchor="middle">APR1400</text><text x="228" y="205" class="tilesub" text-anchor="middle">Korean design</text>
+  <rect x="276" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="316" y="192" class="tile" text-anchor="middle">AP1000</text><text x="316" y="205" class="tilesub" text-anchor="middle">Westinghouse</text>
+  <rect x="364" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="404" y="192" class="tile" text-anchor="middle">AP1000</text><text x="404" y="205" class="tilesub" text-anchor="middle">Westinghouse</text>
+
+  <text x="24" y="245" class="ph">Phase 3</text>
+  <rect x="100" y="224" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="140" y="242" class="tile" text-anchor="middle">AP1000</text><text x="140" y="255" class="tilesub" text-anchor="middle">Westinghouse</text>
+  <rect x="188" y="224" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="228" y="242" class="tile" text-anchor="middle">AP1000</text><text x="228" y="255" class="tilesub" text-anchor="middle">Westinghouse</text>
+
+  <text x="284" y="136" class="note">Phase 2 EPC aimed within about</text>
+  <text x="284" y="149" class="note">6 months of phase 1 (best efforts)</text>
+  <text x="284" y="240" class="note">Phase 2 APR1400s need a waiver</text>
+  <text x="284" y="253" class="note">of the 2025 deal (contemplated)</text>
+
+  <!-- Not yet decided -->
+  <text x="24" y="292" class="head">Not yet decided</text>
+  <g>
+    <rect x="24" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="64" y="321" class="nd" text-anchor="middle">Exact sites</text>
+    <rect x="112" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="152" y="321" class="nd" text-anchor="middle">Owners</text>
+    <rect x="200" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="240" y="321" class="nd" text-anchor="middle">EPC contracts</text>
+    <rect x="288" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="328" y="321" class="nd" text-anchor="middle">Power buyers</text>
+    <rect x="376" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="416" y="321" class="nd" text-anchor="middle">Schedules</text>
+  </g>
+  <text x="24" y="354" class="note">Candidate states named: Ohio, Tennessee, South Carolina, Kentucky (reported)</text>
+  <text x="24" y="370" class="note">Construction start around 2030, build time about 10 years (reported)</text>
+
+  <!-- Right panel: money -->
+  <rect x="482" y="84" width="266" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="494" y="106" class="head">The money</text>
+  <text x="494" y="134" class="big">Up to $120B</text>
+  <rect x="494" y="144" width="202" height="26" rx="4" fill="#0b6e4f"/>
+  <text x="595" y="161" class="bar" text-anchor="middle">$100B construction</text>
+  <rect x="696" y="144" width="40" height="26" rx="4" fill="#5fae93"/>
+  <text x="716" y="161" class="bar" text-anchor="middle">$20B</text>
+  <text x="494" y="186" class="note">$20B is a contingency reserve.</text>
+  <text x="494" y="198" class="note">Inside Korea's $200B US pledge.</text>
+
+  <circle cx="500" cy="212" r="5" fill="#0b6e4f"/>
+  <text x="512" y="216" class="item">$10B advance by year-end</text>
+  <text x="512" y="229" class="item2">long-lead items; review and Assembly report first</text>
+
+  <circle cx="500" cy="254" r="5" fill="#f5a623"/>
+  <text x="512" y="258" class="item">About $2B per APR1400 to Westinghouse</text>
+  <text x="512" y="271" class="item2">licence, services, fuel; about $4B for two units</text>
+
+  <circle cx="500" cy="296" r="5" fill="#f5a623"/>
+  <text x="512" y="300" class="item">5 to 10% stake in Westinghouse</text>
+  <text x="512" y="313" class="item2">Brookfield and Korean press; terms open</text>
+
+  <circle cx="500" cy="338" r="5" fill="#f5a623"/>
+  <text x="512" y="342" class="item">Up to $30B per two-unit pair</text>
+  <text x="512" y="355" class="item2">$25B construction plus $5B contingency</text>
+
+  <!-- Footer -->
+  <line x1="12" y1="402" x2="748" y2="402" stroke="#e5e7eb"/>
+  <text x="12" y="418" class="foot">Sources: US Commerce Dept. fact sheet (Sept. 30, 2026) as relayed by World Nuclear News and ANS (Oct. 1); Brookfield and Cameco</text>
+  <text x="12" y="431" class="foot">releases (Sept. 30); Korean industry ministry plan via Financial News, Seoul Economic Daily and Aju Press (Oct. 1).</text>
+  <text x="12" y="444" class="foot">Reactor counts are a plan, not an order: no EPC contract, site, owner or schedule has been signed. EnergyNote, Oct. 2026.</text>
+</svg>
