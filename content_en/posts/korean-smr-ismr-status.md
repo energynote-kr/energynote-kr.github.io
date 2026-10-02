@@ -1,7 +1,7 @@
 ---
 title: "Korea's SMR program in 2026: where i-SMR really stands, and what the new SMR Act changes"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-09-03"
+dataAsOf: "2026-10-02"
 categories: ["Nuclear & Energy"]
 tags: ["i-SMR", "SMR", "Korea", "SMR Special Act", "Gijang"]
 description: "Korea's i-SMR filed for design approval in Feb 2026, but test results are due June 2028 and commercial operation is targeted for 2035. The real timeline."
@@ -17,7 +17,7 @@ The simpler question, asked from inside the Korean nuclear sector, is how far al
 
 > **Key takeaways**
 > - i-SMR (four 170 MWe integral pressurized-water modules, 680 MWe per plant) filed for Standard Design Approval on February 27, 2026. The review has only begun: the regulator's plan puts the main test results at June 2028, so the "approval by 2028" target has almost no slack.
-> - The SMR Special Act (in force since September 11, 2026), the regulator's 2026–2030 roadmap and the Gijang candidate site (chosen in June) are building the frame, with construction targeted for 2030 and commercial operation for 2035. The construction permit, a buyer for the power and the cost are still blank.
+> - The SMR Special Act (in force since September 11, 2026), the regulator's 2026–2030 roadmap and the Gijang candidate site (chosen in June) are building the frame, with construction targeted for around 2030 and commercial operation for 2035. The construction permit, a buyer for the power and the cost are still blank.
 > - The leading SMRs abroad aim for first power around 2030, roughly five years ahead. What to watch: the approval date, first-of-a-kind cost, power purchase agreements, and spent fuel.
 
 ## 1. i-SMR in 30 seconds
@@ -39,19 +39,19 @@ If you want the basics of what an SMR is and what it does and does not change, s
 
 ### The design review has barely started
 
-The program office filed the SDA application with NSSC on **February 27, 2026**. The statutory review period is 24 months, but the review plan that KINS reported on **August 27, 2026** shows how much work sits in front of that clock. The document check produced **13 supplement requests**; the supplemented documents are due in **June 2027**, and the main test results, including thermal-hydraulic validation tests, are due in **June 2028** (status as of August 2026).
+The program office filed the SDA application with NSSC on **February 27, 2026**. The statutory review period is 24 months, but the review plan that KINS reported on **August 27, 2026** shows how much work sits in front of that clock. The document check produced **13 supplement requests**; the supplemented documents are due in **June 2027**, and the main verification test results are due in **June 2028** (status as of August 2026).
 
-KINS itself described the completion date as "fluid." Read plainly, approval is more likely to come in the second half of 2028 or later, which means the 2028 target has almost no margin. It has not slipped yet, but nothing in the schedule is there to absorb a delay.
+An NSSC official described the completion date as "fluid." Read plainly, approval is more likely to come in the second half of 2028 or later, which means the 2028 target has almost no margin. It has not slipped yet, but nothing in the schedule is there to absorb a delay.
 
 ### The law and the regulator: a framework still under construction
 
-The **SMR Special Act** passed the National Assembly on February 12, 2026 and took effect on September 11, 2026. Its core is promotional: a national SMR development plan, a promotion committee, and designated R&D zones. On the same day the Act passed, NSSC published its **SMR Regulatory Framework Roadmap** (2026–2030), which schedules SMR-specific technical standards and amendments to the Nuclear Safety Act for **2028**.
+The **SMR Special Act** passed the National Assembly on February 12, 2026 and took effect on September 11, 2026. Its core is promotional: a national SMR development plan, a promotion committee, and designated R&D zones. On the same day the Act passed, NSSC published its **SMR Regulatory Framework Roadmap** (2026–2030), which schedules SMR-specific technical standards for **2027** and amendments to the Nuclear Safety Act for **2028**.
 
 That means the design review and the writing of the rules it will be judged against are running in parallel. Korean environmental groups made exactly this point in August: licensing has started while the regulatory system is still being built, and they asked the regulator to set the safety standards first. It is a fair criticism of the sequence. Regulators abroad have also written SMR-specific rules while reviewing first applications, but that is context, not an answer to it.
 
 ### The site: chosen, but the procedure is not
 
-KHNP's site selection committee confirmed **Gijang County in Busan**, on the southeastern coast, as the first candidate site on June 17, 2026, with a score of 87.11 against 84.56 for Gyeongju. Gijang already hosts the Kori nuclear plant. The plan from here is SDA in 2028, then public consultation and a construction permit, then **construction start in 2030 and commercial operation in 2035**.
+KHNP's site selection committee confirmed **Gijang County in Busan**, on the southeastern coast, as the first candidate site on June 17, 2026, with a score of 87.11 against 84.56 for Gyeongju. Gijang already hosts the Kori nuclear plant. The plan from here is SDA in 2028, then public consultation and a construction permit, then **construction start around 2030 (Korean outlets give 2029 to the early 2030s) and commercial operation in 2035**.
 
 ![Timeline placing i-SMR's milestones from the 2023 program start to the 2035 first-unit target on one axis alongside NuScale, TerraPower, BWRX-300, Oklo and Linglong One](/images/ismr-roadmap-en.svg)
 

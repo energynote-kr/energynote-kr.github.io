@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Milestone track for Korea's i-SMR design approval: application, document check, main review, 2028 approval target, construction permit, first unit in the mid-2030s, with the position as of October 2026</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .name { font-size: 12.5px; font-weight: 700; fill: #1f2937; }
+    .lab { font-size: 11px; fill: #374151; }
+    .labg { font-size: 11px; fill: #6b7280; }
+    .now { font-size: 12px; font-weight: 700; fill: #b45309; }
+    .src { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="330" fill="#f8faf9"/>
+  <text x="24" y="32" class="title">i-SMR design approval track, as of Oct 2, 2026</text>
+  <text x="24" y="51" class="sub">Green = done. Orange = current stage. Ring = planned. Future dates are targets, not commitments.</text>
+
+  <!-- Track: nodes at x = 80, 214, 348, 482, 616, 700 -> equal spacing 134 for first five, last at 696 -->
+  <!-- done segment -->
+  <line x1="80" y1="152" x2="348" y2="152" stroke="#1f7a5c" stroke-width="5" stroke-linecap="round"/>
+  <!-- planned segment -->
+  <line x1="348" y1="152" x2="680" y2="152" stroke="#9ca3af" stroke-width="3" stroke-dasharray="7 5"/>
+
+  <!-- Nodes -->
+  <circle cx="80" cy="152" r="10" fill="#1f7a5c"/>
+  <circle cx="214" cy="152" r="10" fill="#1f7a5c"/>
+  <circle cx="348" cy="152" r="12" fill="#f5a623" stroke="#b45309" stroke-width="2"/>
+  <circle cx="482" cy="152" r="10" fill="#f8faf9" stroke="#6b7280" stroke-width="2.5"/>
+  <circle cx="616" cy="152" r="10" fill="#f8faf9" stroke="#6b7280" stroke-width="2.5"/>
+  <circle cx="710" cy="152" r="10" fill="#f8faf9" stroke="#6b7280" stroke-width="2.5"/>
+
+  <!-- You are here marker (above main review node) -->
+  <rect x="258" y="78" width="180" height="30" rx="6" fill="#fff4e0" stroke="#b45309" stroke-width="1.5"/>
+  <text x="348" y="98" class="now" text-anchor="middle">You are here: Oct 2026</text>
+  <path d="M348 108 L348 138" stroke="#b45309" stroke-width="1.5" fill="none"/>
+  <path d="M342 132 L348 140 L354 132 Z" fill="#b45309"/>
+
+  <!-- Labels -->
+  <g text-anchor="middle">
+    <text x="80" y="188" class="name">Application</text>
+    <text x="80" y="206" class="lab">Feb 27, 2026</text>
+    <text x="80" y="222" class="labg">Filed with NSSC</text>
+
+    <text x="214" y="188" class="name">Document check</text>
+    <text x="214" y="206" class="lab">Reported Aug 27</text>
+    <text x="214" y="222" class="labg">13 supplements</text>
+
+    <text x="348" y="188" class="name">Main review</text>
+    <text x="348" y="206" class="lab">Supplements: Jun 2027</text>
+    <text x="348" y="222" class="lab">Test results: Jun 2028</text>
+
+    <text x="482" y="188" class="name">SDA target</text>
+    <text x="482" y="206" class="lab">2028</text>
+    <text x="482" y="222" class="labg">Little slack</text>
+
+    <text x="616" y="188" class="name">Construction permit</text>
+    <text x="616" y="206" class="lab">Filing about 2029</text>
+    <text x="616" y="222" class="labg">Gijang site picked</text>
+
+    <text x="710" y="236" class="name">First unit</text>
+    <text x="710" y="254" class="lab">Mid-2030s</text>
+    <text x="710" y="270" class="labg">2035 target</text>
+  </g>
+
+  <text x="24" y="311" class="src">Sources: NSSC and KINS review plan (Aug 27, 2026); KHNP site decision (Jun 2026); Asia Economy (Aug 28, 2026); MSIT (Sep 2026).</text>
+</svg>
