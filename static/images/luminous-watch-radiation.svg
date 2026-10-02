@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">야광 시계 세 세대 비교: 라듐 도료, 삼중수소, 축광 도료의 발광 원리와 방사성 물질, 반감기, 착용 선량 수준, 식별법</title>
+  <rect width="760" height="490" fill="#f8faf9"/>
+  <text x="20" y="30" font-size="18" font-weight="800" fill="#1f2937">야광 시계 세 세대, 무엇이 다를까</text>
+
+  <!-- 열 머리글 -->
+  <rect x="110" y="46" width="205" height="52" rx="8" fill="#c0392b"/>
+  <text x="212" y="68" text-anchor="middle" font-size="15" font-weight="800" style="fill:#fff">1세대 라듐 도료</text>
+  <text x="212" y="87" text-anchor="middle" font-size="12" style="fill:#fff">1910~1960년대</text>
+
+  <rect x="325" y="46" width="205" height="52" rx="8" fill="#f5a623"/>
+  <text x="427" y="68" text-anchor="middle" font-size="15" font-weight="800" fill="#1f2937">2세대 삼중수소</text>
+  <text x="427" y="87" text-anchor="middle" font-size="12" fill="#1f2937">도료에서 가스관(GTLS)으로</text>
+
+  <rect x="540" y="46" width="205" height="52" rx="8" fill="#0b6e4f"/>
+  <text x="642" y="68" text-anchor="middle" font-size="15" font-weight="800" style="fill:#fff">3세대 축광 도료</text>
+  <text x="642" y="87" text-anchor="middle" font-size="12" style="fill:#fff">슈퍼루미노바 등 1990년대~</text>
+
+  <!-- 행 배경 -->
+  <rect x="14" y="106" width="738" height="64" rx="6" fill="#eef3f1"/>
+  <rect x="14" y="178" width="738" height="64" rx="6" fill="#ffffff"/>
+  <rect x="14" y="250" width="738" height="64" rx="6" fill="#eef3f1"/>
+  <rect x="14" y="322" width="738" height="76" rx="6" fill="#ffffff"/>
+  <rect x="14" y="406" width="738" height="52" rx="6" fill="#eef3f1"/>
+
+  <!-- 행 라벨 -->
+  <g font-size="13" font-weight="800" fill="#0b6e4f">
+    <text x="22" y="143">발광 원리</text>
+    <text x="22" y="215">방사성 물질</text>
+    <text x="22" y="287">반감기</text>
+    <text x="22" y="364">착용 선량</text>
+    <text x="22" y="436">식별법</text>
+  </g>
+
+  <g font-size="12.5" fill="#1f2937">
+    <!-- 발광 원리 -->
+    <text x="122" y="128">라듐 알파선이 형광체</text>
+    <text x="122" y="146">(황화아연)를 때려</text>
+    <text x="122" y="164">빛을 냄</text>
+    <text x="337" y="128">삼중수소 베타선이</text>
+    <text x="337" y="146">유리관 속 형광체를</text>
+    <text x="337" y="164">자극해 스스로 발광</text>
+    <text x="552" y="128">빛을 흡수해 두었다가</text>
+    <text x="552" y="146">몇 시간에 걸쳐 방출</text>
+    <text x="552" y="164">(빛 충전 필요)</text>
+
+    <!-- 방사성 물질 -->
+    <text x="122" y="206">라듐-226</text>
+    <text x="122" y="224">알파선, 감마선 동반</text>
+    <text x="337" y="206">삼중수소(H-3)</text>
+    <text x="337" y="224">약한 베타선만 방출</text>
+    <text x="552" y="206">없음</text>
+    <text x="552" y="224">스트론튬 알루미네이트</text>
+
+    <!-- 반감기 -->
+    <text x="122" y="278">약 1,600년</text>
+    <text x="122" y="296">시계 수명보다 훨씬 김</text>
+    <text x="337" y="278">약 12.3년</text>
+    <text x="337" y="296">해마다 점점 어두워짐</text>
+    <text x="552" y="287">해당 없음</text>
+
+    <!-- 착용 선량 -->
+    <text x="122" y="342">전신 연 수십 μSv 수준</text>
+    <text x="122" y="360">손목 피부 국소선량은 큼</text>
+    <text x="122" y="378">핵심 위험은 가루 흡입</text>
+    <text x="337" y="342">가스관형 연 0.1μSv</text>
+    <text x="337" y="360">보다 한참 낮음</text>
+    <text x="337" y="378">도료형은 대체로 20μSv 이하</text>
+    <text x="552" y="360">방사선 없음</text>
+
+    <!-- 식별법 -->
+    <text x="122" y="428">표기가 없을 수 있어</text>
+    <text x="122" y="446">측정기 점검이 확실</text>
+    <text x="337" y="428">문자판에 'T', 'H3',</text>
+    <text x="337" y="446">'T25' 표기</text>
+    <text x="552" y="428">'L Swiss Made L' 등</text>
+    <text x="552" y="446">'L' 표기(스위스산)</text>
+  </g>
+
+  <!-- 출처 -->
+  <text x="20" y="474" font-size="10.5" fill="#6b7280">출처: 독일 BfS, 미국 HPS·NRC(10 CFR 30.15), 슈퍼루미노바 특허·자료 · 수치는 대표값이며 시계마다 다름 · 기준일 2026-10-02</text>
+</svg>
