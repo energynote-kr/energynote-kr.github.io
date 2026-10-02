@@ -1,7 +1,7 @@
 ---
 title: "Designing for 100,000 years: the world's deep repositories, from Onkalo to Korea's Gyeongju"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-09-03"
+dataAsOf: "2026-10-02"
 categories: ["Nuclear & Energy"]
 tags: ["Onkalo", "deep geological repository", "high-level waste", "Gyeongju", "Korea"]
 description: "Finland's Onkalo cleared its safety review in Aug 2026; the first spent-fuel repository may open soon. Where Sweden, France, the US, Germany and Korea stand."
@@ -28,7 +28,7 @@ The United States' one operating deep repository sits in salt. The rock differs;
 
 Finland is the clear leader. The **Onkalo repository**, built by the waste company Posiva into bedrock about 400 meters below Olkiluoto island on the west coast, is a KBS-3 facility: spent fuel in copper canisters, wrapped in bentonite, placed in granite.
 
-Parliament approved the site in 2001. In **August 2026, STUK, Finland's nuclear regulator, completed its safety assessment and found the facility acceptable**; the government's decision on the operating licence is the remaining step before Onkalo can claim the title of the world's first operating spent-fuel repository.
+Parliament approved the site in 2001. On **August 10, 2026, STUK, Finland's nuclear regulator, said it saw no obstacle to granting Onkalo an operating licence**. The government's decision is expected in autumn 2026 and is the remaining step before Onkalo can claim the title of the world's first operating spent-fuel repository.
 
 Finnish experts tend to credit the result less to technology than to **trust in the process**: decades of transparent site investigation, a host municipality that consented, and political consistency that did not keep postponing the decision.
 
@@ -84,7 +84,7 @@ Stage of each national program for high-level waste, as of September 2026.
 
 | Country | Site / rock | Stage |
 |---|---|---|
-| Finland | Onkalo, granite (KBS-3) | Safety review passed August 2026; operating licence decision pending |
+| Finland | Onkalo, granite (KBS-3) | STUK saw no obstacle to a licence (Aug 10, 2026); government decision expected autumn 2026 |
 | Sweden | Forsmark, granite (KBS-3) | Government approval 2022; construction |
 | France | Cigéo, Bure, clay | Licence application under review |
 | Switzerland | Nördlich Lägern, Opalinus Clay | General licence application filed November 2024; referendum expected 2031 |
@@ -93,7 +93,7 @@ Stage of each national program for high-level waste, as of September 2026.
 | Germany | Gorleben abandoned | Site selection restarted 2017 |
 | Korea | No site | Special Act 2025; targets 2050 interim storage, 2060 disposal |
 
-**Where this goes next.** The next dated marker is the Finnish government's operating licence decision for Onkalo, which would turn a 25-year program into the first working example the rest of the world can point to. In Korea, the things to watch are the High-Level Radioactive Waste Management Committee, launched in October 2025 when the act took effect and now drafting the criteria for excluding unsuitable areas, the first call for volunteer communities, and whether the 2050 interim storage date holds as at-reactor pools fill up.
+**Where this goes next.** The next dated marker is the Finnish government's operating licence decision for Onkalo, expected in autumn 2026, which would turn a 25-year program into the first working example the rest of the world can point to. In Korea, the things to watch are the High-Level Radioactive Waste Management Committee, launched in October 2025 when the act took effect and now drafting the criteria for excluding unsuitable areas, the first call for volunteer communities, and whether the 2050 interim storage date holds as at-reactor pools fill up.
 
 The copper corrosion argument is worth following too; if it gains ground, it affects Finland and Sweden alike.
 
@@ -103,4 +103,4 @@ The copper corrosion argument is worth following too; if it gains ground, it aff
 
 ---
 
-*Sources: STUK and Posiva, Onkalo safety assessment and operating licence process (2026); IAEA, status of geological disposal programs; SKB, Forsmark repository approval (2022); ANDRA, Cigéo licence application; Nagra, general licence application for Nördlich Lägern (November 2024) and project timeline; NUMO and World Nuclear News, literature surveys in Suttsu, Kamoenai and Genkai (2020–2024); Nippon.com, Japan's repository site search (January 2025); The Japan Times, Hitachiomiya survey request (August 31, 2026); The Japan Times, Minamitorishima literature survey (May 21, 2026); Ministry of Climate, Energy and Environment, press release on the High-Level Radioactive Waste Management Committee (May 15, 2026); Nagra, "Facts about the general licence application" (2025); US Department of Energy, WIPP operating history; Germany's Site Selection Act (2017) and BGE, Asse retrieval; KORAD, Gyeongju repository; Korea, High-Level Radioactive Waste Special Act (2025); Shin & Kim / Lexology, establishment of the Ministry of Climate, Energy and Environment (September 2025).*
+*Sources: STUK and Posiva, Onkalo safety assessment and operating licence process (2026); ANS Nuclear Newswire, "Onkalo SNF repository passes safety assessment" (August 10, 2026); IAEA, status of geological disposal programs; SKB, Forsmark repository approval (2022); ANDRA, Cigéo licence application; Nagra, general licence application for Nördlich Lägern (November 2024) and project timeline; NUMO and World Nuclear News, literature surveys in Suttsu, Kamoenai and Genkai (2020–2024); Nippon.com, Japan's repository site search (January 2025); The Japan Times, Hitachiomiya survey request (August 31, 2026); The Japan Times, Minamitorishima literature survey (May 21, 2026); Ministry of Climate, Energy and Environment, press release on the High-Level Radioactive Waste Management Committee (May 15, 2026); Nagra, "Facts about the general licence application" (2025); US Department of Energy, WIPP operating history; Germany's Site Selection Act (2017) and BGE, Asse retrieval; KORAD, Gyeongju repository; Korea, High-Level Radioactive Waste Special Act (2025); Shin & Kim / Lexology, establishment of the Ministry of Climate, Energy and Environment (September 2025).*

@@ -1,10 +1,10 @@
 ---
 title: "Oklo's PJM withdrawal and Korea's 1.9% data center approvals: the grid is the bottleneck"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-09-03"
+dataAsOf: "2026-10-02"
 categories: ["Nuclear & Energy"]
 tags: ["data centers", "transmission", "HVDC", "transformers", "interconnection queue"]
-description: "Only 1.9% of Seoul-area data center power applications get approved. Oklo's 750 MW Virginia project was dropped from PJM's queue and is now before FERC. Same bottleneck on both sides: the grid, not the plant."
+description: "Only 1.9% of Seoul-area data center power applications get approved. Oklo's 750 MW Virginia project was dropped from PJM's queue, and FERC rejected its complaint. Same bottleneck on both sides: the grid, not the plant."
 ---
 
 1.9 percent. That is the share of Seoul-area data center power applications that had cleared final approval through March 2026, out of 522 filings asking for a combined 33,592 MW, according to a July 2026 tally by CBRE Korea, the real estate services firm. Ten projects made it through.
@@ -75,7 +75,9 @@ Oklo, one of the small modular reactor developers ranked in [our 2026 SMR licens
 
 PJM issued a deficiency notice on May 15 listing six categories. Oklo says it cured them; PJM then posted further comments on its portal on June 24 without notifying the company, among them a request for data on **ride-through**, the ability to keep running through a sudden voltage dip, and on **August 3 withdrew the project from its Cycle 1 study process**, the first full interconnection cycle under PJM's reformed rules.
 
-On August 28 Oklo filed an emergency complaint with the Federal Energy Regulatory Commission (FERC), arguing the withdrawal means a delay of at least 14 months; FERC had not ruled as of early September 2026.
+On August 28 Oklo filed an emergency complaint with the Federal Energy Regulatory Commission (FERC), arguing the withdrawal means a delay of at least 14 months. On September 24 FERC rejected the complaint, finding Oklo had not shown PJM violated its tariff.
+
+Oklo can fix its application and enter PJM's next cycle, or use the Expedited Interconnection Track. Utility Dive reports that missing the current cycle means a delay of at least 18 months.
 
 Nothing in the dispute is about the reactor. **More than a year of schedule is riding on connection paperwork**. That is what a queue weighs.
 
@@ -91,7 +93,7 @@ With Korea's 12th Basic Plan for Electricity Supply and Demand, the government's
 
 ## Where this goes next
 
-Three dates will show whether the wall is moving. In Korea, whether the Dongseoul converter station finally breaks ground in the second half of 2026, and whether the December 2027 date for stage 1 of the East Coast line holds. In the US, FERC's ruling on Oklo's complaint, which will signal how much slack PJM has to give data center-linked projects, and Wood Mackenzie's next transformer lead-time survey, which will say whether the two-to-three-year wait has started to shorten.
+Three dates will show whether the wall is moving. In Korea, whether the Dongseoul converter station finally breaks ground in the second half of 2026, and whether the December 2027 date for stage 1 of the East Coast line holds. In the US, how Oklo responds after FERC rejected its complaint on September 24, by curing its application for the next cycle or taking the Expedited Interconnection Track, which will signal how much slack PJM has to give data center-linked projects, and Wood Mackenzie's next transformer lead-time survey, which will say whether the two-to-three-year wait has started to shorten.
 
 ## Industry note
 
@@ -101,4 +103,4 @@ The value chain here sits one step downstream of the power plant: transformers, 
 
 ---
 
-*Sources: IDC Korea, Korean data center power demand forecast (June 2025); MOTIE and KEPCO, data center electricity-supply application status submitted to the National Assembly (July 2025); CBRE Korea, data center grid impact assessment status (July 2026); Ministry of Climate, Energy and Environment Notice No. 2026-168 on the East Coast–Shin-Gapyeong HVDC project period (July 2026); Hankook Ilbo and Kyeongin Ilbo reports on the Dongseoul converter station (2026); Seoul Economic Daily, KEPCO nationwide data center grid impact assessment status (August 2026); Kyunghyang Shinmun report on civic groups' response to the 12th Basic Plan demand forecast (August 2026); Wood Mackenzie transformer lead-time surveys (2025–2026, as reported by POWER and Data Center Knowledge); PJM interconnection reform materials (2026); Carbon Direct, PJM and ERCOT queue analysis (May 2026); RMI, "PJM's Speed to Power Problem" (2025); Lawrence Berkeley National Laboratory, "Queued Up 2026"; Utility Dive reporting on Oklo's FERC complaint EL26-101 (2026); Shin & Kim client note on the Ministry of Climate, Energy and Environment (September 2025); Kim & Chang note on the Distributed Energy Act enforcement decree (2024); company investor relations materials*
+*Sources: IDC Korea, Korean data center power demand forecast (June 2025); MOTIE and KEPCO, data center electricity-supply application status submitted to the National Assembly (July 2025); CBRE Korea, data center grid impact assessment status (July 2026); Ministry of Climate, Energy and Environment Notice No. 2026-168 on the East Coast–Shin-Gapyeong HVDC project period (July 2026); Hankook Ilbo and Kyeongin Ilbo reports on the Dongseoul converter station (2026); Seoul Economic Daily, KEPCO nationwide data center grid impact assessment status (August 2026); Kyunghyang Shinmun report on civic groups' response to the 12th Basic Plan demand forecast (August 2026); Wood Mackenzie transformer lead-time surveys (2025–2026, as reported by POWER and Data Center Knowledge); PJM interconnection reform materials (2026); Carbon Direct, PJM and ERCOT queue analysis (May 2026); RMI, "PJM's Speed to Power Problem" (2025); Lawrence Berkeley National Laboratory, "Queued Up 2026"; Utility Dive reporting on Oklo's FERC complaint EL26-101 (2026); Utility Dive, "FERC rejects Oklo complaint" (September 25, 2026); Shin & Kim client note on the Ministry of Climate, Energy and Environment (September 2025); Kim & Chang note on the Distributed Energy Act enforcement decree (2024); company investor relations materials*

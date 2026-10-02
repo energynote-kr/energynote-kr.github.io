@@ -1,7 +1,7 @@
 ---
 title: "The 2026 SMR licensing map: who is actually where, from design approval to first power"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-09-03"
+dataAsOf: "2026-10-02"
 categories: ["Nuclear & Energy"]
 tags: ["SMR", "licensing", "NRC", "i-SMR", "HALEU"]
 description: "Ranked by licensing stage, not press releases: only China and Russia run SMRs, the US and Canada are pouring concrete, and Korea's i-SMR is on the first rung."
@@ -46,7 +46,7 @@ In the last column, the entry before the slash is the UK, the entry after it is 
 
 ![Ladder of six licensing stages, from design review to operating, with the world's main SMR projects placed on their current rung and colored by country](/images/smr-license-ladder-en.svg)
 
-## 2. Project by project: the current rung (early September 2026)
+## 2. Project by project: the current rung (early September 2026; Clinch River and Natrium updated October 2)
 
 ### Rungs ⑥ and ⑤: operating, commissioning, late construction
 
@@ -62,13 +62,13 @@ In the last column, the entry before the slash is the UK, the entry after it is 
 
 | Project | Reactor, output, country | Current stage | Target, customer |
 |---|---|---|---|
-| Natrium Kemmerer 1 | Sodium fast reactor, 345 MWe (500 MWe with storage), US | **Under construction**: CP March 4, 2026; nuclear construction from April 23 | Fuel load 2030, commercial 2031. Meta: up to 8 units (January 2026) |
+| Natrium Kemmerer 1 | Sodium fast reactor, 345 MWe (500 MWe with storage), US | **Under construction**: CP March 4, 2026; nuclear construction from April 23 | Fuel load 2030, commercial 2031. Meta: up to 8 units (January 2026). Bechtel announced on September 22 that it is leaving the project; TerraPower plans to rebid the EPC contract and says the schedule is unaffected |
 | BWRX-300 Darlington 1 | BWR, 300 MWe, Canada | **Under construction**: Licence to Construct April 2025, construction from May; Licence to Operate applied for March 25, 2026 | Grid connection end-2030. OPG (Ontario's public utility) |
 | Hermes 1 / Hermes 2 | Fluoride-salt-cooled high-temperature reactor, 35 MWt test unit / 50 MWe, US | **Under construction**: Hermes 1 CP December 2023, nuclear construction May 2025; Hermes 2 CP November 2024, construction from April 17, 2026 | Hermes 1 complete 2028 (company; NRC permit deadline April 2029). Hermes 2 power 2030 to TVA (Tennessee Valley Authority, the US federal utility), then Google 50 MW PPA |
 | Oklo Aurora-INL | Sodium fast reactor, up to 75 MWe class, US | **Building under the DOE pilot pathway** at Idaho National Laboratory: construction from September 2025; Preliminary Documented Safety Analysis approved June 11, 2026; no NRC application yet | Company target 2028. Meta Ohio 1.2 GW |
 | Xe-100 Long Mott | High-temperature gas reactor, 4 × 80 MWe, US | **CP under review**: docketed May 2025; environmental review done May 2026; safety evaluation targeted November 2026 | CP early 2027, operation early 2030s. Dow self-supply; Amazon 5 GW partnership |
 | Holtec SMR-300 Palisades | LWR, 2 × 340 MWe, US | **CP Part 1 under review**: filed December 31, 2025, docketed February 27, 2026; Holtec asked for a December 2026 decision, NRC targets H1 2027 | Part 2 filing mid-2027. Michigan grid |
-| TVA Clinch River BWRX-300 | BWR, 300 MWe, US | **CP review, final stage**: docketed July 2025; staff safety evaluation recommended issuance June 2026; Commission hearing August 13 (issuance unconfirmed as of early September) | Early 2030s. TVA |
+| TVA Clinch River BWRX-300 | BWR, 300 MWe, US | **CP issued**: docketed July 2025; staff safety evaluation recommended issuance June 2026; Commission hearing August 13; NRC issued the permit September 30 (14-month review, four months ahead of schedule) | Early 2030s. TVA (no construction date announced) |
 | Natura MSR-1 | Molten-salt research reactor, 1 MWt, US | NRC CP held since September 2024; also on the DOE pilot pathway (nuclear safety design agreement approved July 2026) | Criticality after 2026. Research |
 | DOE pilot program, 11 projects | Microreactors and test reactors, US | Selected August 2025; **four critical** by July 4, 2026 (Antares, Valar, Deployable, Aalo) | Test reactors |
 
@@ -132,7 +132,7 @@ Only one Western company is producing at this assay today: Centrus, which runs t
 
 ## Where this goes next
 
-Watch three things through the end of 2026: whether the NRC issues the Clinch River CP after the August hearing, whether Rolls-Royce SMR receives its DAC, and whether Linglong One loads fuel. In Korea, the KINS supplementary-item schedule and the 2028 rule-writing target will show whether the i-SMR's 2028 date is a plan or a hope.
+Watch four things through the end of 2026: whether TVA sets a construction start for Clinch River after the NRC issued its CP on September 30, whom TerraPower picks to replace Bechtel on Natrium, whether Rolls-Royce SMR receives its DAC, and whether Linglong One loads fuel. In Korea, the KINS supplementary-item schedule and the 2028 rule-writing target will show whether the i-SMR's 2028 date is a plan or a hope.
 
 ## Industry note
 
@@ -142,4 +142,4 @@ On the ladder, revenue arrives first on the upper rungs. Doosan Enerbility (KRX:
 
 ---
 
-*Sources: US NRC releases and project pages (NuScale US460 SDA, 2025; Natrium CP and Part 53 final rule, 2026; Clinch River, Long Mott, Palisades dockets); US DOE Reactor Pilot Program (2025, 2026); Executive Order 14300 (2025); CNSC Darlington project page, REGDOC-3.5.4; UK ONR GDA guidance; World Nuclear News (Aug 3, 2026 Linglong One; Darlington operating-license application; Oklo, 2026); ANS Nuclear Newswire (Holtec, Clinch River, Kairos, Centrus, 2026); Nuclear Engineering International (CAREM, 2024; Yakutia); Argentine press (CNEA cuts, 2026); Kairos Power, TerraPower, Oklo, Centrus, Dow, Vattenfall releases; NSSC/KINS i-SMR review plan and SMR regulatory roadmap (2026); KAERI SMART100 release (2024); Doosan Enerbility release (2025)*
+*Sources: US NRC releases and project pages (NuScale US460 SDA, 2025; Natrium CP and Part 53 final rule, 2026; Clinch River, Long Mott, Palisades dockets); US DOE Reactor Pilot Program (2025, 2026); Executive Order 14300 (2025); CNSC Darlington project page, REGDOC-3.5.4; UK ONR GDA guidance; World Nuclear News (Aug 3, 2026 Linglong One; Sept 30, 2026 Clinch River construction permit; Sept 22, 2026 Bechtel and TerraPower; Darlington operating-license application; Oklo, 2026); ANS Nuclear Newswire (Holtec, Clinch River, Kairos, Centrus, 2026); Nuclear Engineering International (CAREM, 2024; Yakutia); Argentine press (CNEA cuts, 2026); Kairos Power, TerraPower, Oklo, Centrus, Dow, Vattenfall releases; NSSC/KINS i-SMR review plan and SMR regulatory roadmap (2026); KAERI SMART100 release (2024); Doosan Enerbility release (2025)*
