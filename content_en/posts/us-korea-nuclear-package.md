@@ -11,7 +11,7 @@ Eight reactors and up to $120 billion make the headline. The number that matters
 
 The framework was announced on September 30 in Washington, which was October 1 in Seoul. It covers six Westinghouse AP1000 reactors and up to two Korean APR1400s. This article separates what the two governments and the companies have put in writing from what is still being negotiated.
 
-Commerce and Korea's trade ministry issued a joint statement on September 30. Sources disagree on whether the participants have signed the framework itself (ANS calls them signatories; the Korea Herald said they were expected to sign), and both Brookfield and Cameco call its terms non-binding.
+Commerce and Korea's Ministry of Trade, Industry and Resources issued a joint statement on September 30. Sources disagree on whether the participants have signed the framework itself (ANS calls them signatories; the Korea Herald said they were expected to sign), and both Brookfield and Cameco call its terms non-binding.
 
 > **Key takeaways**
 > - The framework earmarks up to $120 billion ($100 billion for construction, $20 billion for contingency) from Korea's $200 billion US investment pledge to eight large reactors, in three phases. Brookfield and Cameco, Westinghouse's owners, both say the transaction terms are non-binding and subject to final negotiations.
@@ -30,7 +30,7 @@ Two details are worded differently by source. Brookfield and Cameco say the reac
 
 ## 2. What is still unsigned
 
-Industry Minister Kim Jung-kwan said on September 27, as reported by Asia Today and translated by UPI, that the framework does not mean the projects will proceed immediately, and he repeated the point at the ministry's October 1 briefing. Each project must first pass a commercial-reasonableness review and National Assembly procedures.
+Trade and Industry Minister Kim Jung-kwan said on September 27, as reported by Asia Today and translated by UPI, that the framework does not mean the projects will proceed immediately, and he repeated the point at the ministry's October 1 briefing. Each project must first pass a commercial-reasonableness review and National Assembly procedures.
 
 - **Construction contracts.** No engineering, procurement and construction (EPC) contract exists. The two sides agreed to make "reasonable efforts" to sign the phase 2 EPC within six months of phase 1, which is not a deadline.
 - **Sites.** Commerce Secretary Howard Lutnick named Ohio, Tennessee, South Carolina and Kentucky, without saying how many units go where or where the APR1400s would sit. JoongAng Daily listed only the first three, so treat the list as candidates.
@@ -119,11 +119,11 @@ Status as of October 2, 2026.
 
 ## Where this goes next
 
-Korean reactors are no longer contractually barred from the US, but the larger question is open: will any utility sign for the power at Vogtle-era costs? The [Barakah record](/en/posts/barakah-five-years/) suggests the Korean team's edge is repeat building, and a first US unit would be a first build again. I would not call this an order until a named owner signs an EPC contract.
+The contractual bar on Korean reactors in the US is on its way to being lifted for two units, but the larger question is open: will any utility sign for the power at Vogtle-era costs? The [Barakah record](/en/posts/barakah-five-years/) suggests the Korean team's edge is repeat building, and a first US unit would be a first build again. I would not call this an order until a named owner signs an EPC contract.
 
 ## Industry note
 
-Korean companies named in the framework coverage include KEPCO (KRX: 015760), Doosan Enerbility (KRX: 034020), KEPCO E&C (KRX: 052690), Hyundai E&C (KRX: 000720) and Samsung C&T (KRX: 028260). Westinghouse's owners are Brookfield (NYSE: BAM) and Cameco (NYSE: CCJ). KHNP and Westinghouse are unlisted.
+Korean companies named in the framework coverage include KEPCO (KRX: 015760), Doosan Enerbility (KRX: 034020), Hyundai E&C (KRX: 000720) and Samsung C&T (KRX: 028260). Westinghouse's owners are Brookfield (NYSE: BAM) and Cameco (NYSE: CCJ). KHNP and Westinghouse are unlisted.
 
 > This section is provided to help understand the industry and is not a recommendation to buy or sell any security. Investment decisions and their consequences are the reader's own.
 

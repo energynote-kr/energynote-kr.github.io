@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">2026년 10월 한미 원전 틀: AP1000 6기와 APR1400 2기를 3단계로, 최대 1,200억 달러(건설 1,000억·예비 200억). 부지·사업자·EPC 계약·전력 구매자는 아직 미정</title>
+  <style>
+    .title { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .leg { font-size: 11px; fill: #1f2937; }
+    .head { font-size: 12px; font-weight: 800; fill: #1f2937; }
+    .ph { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .tile { font-size: 11px; font-weight: 800; fill: #ffffff; }
+    .tilesub { font-size: 9px; fill: #ffffff; }
+    .nd { font-size: 10px; font-weight: 700; fill: #4b5563; }
+    .note { font-size: 10px; fill: #4b5563; }
+    .item { font-size: 11px; font-weight: 700; fill: #1f2937; }
+    .item2 { font-size: 10px; fill: #6b7280; }
+    .bar { font-size: 10.5px; font-weight: 800; fill: #ffffff; }
+    .big { font-size: 22px; font-weight: 800; fill: #1f2937; }
+    .foot { font-size: 9.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="480" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">한미 원전 패키지: 서류에 적힌 것</text>
+  <text x="20" y="48" class="sub">틀 발표 2026.9.30(미국)·10.1(한국) · 상업 조건은 구속력 없음 · 2026년 10월 2일 기준</text>
+
+  <!-- Legend -->
+  <g class="leg">
+    <rect x="20" y="60" width="12" height="12" rx="3" fill="#0b6e4f"/><text x="38" y="70">확정(양국 정부 발표문)</text>
+    <rect x="300" y="60" width="12" height="12" rx="3" fill="#f5a623"/><text x="318" y="70">보도(기업 발표·언론)</text>
+    <rect x="545" y="60" width="12" height="12" rx="3" fill="#ffffff" stroke="#6b7280" stroke-dasharray="3 2"/><text x="563" y="70">미정</text>
+  </g>
+
+  <!-- Left panel: reactors -->
+  <rect x="12" y="84" width="458" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="106" class="head">대형 원전 8기, 3단계</text>
+
+  <text x="24" y="145" class="ph">1단계</text>
+  <rect x="100" y="124" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="140" y="142" class="tile" text-anchor="middle">AP1000</text><text x="140" y="155" class="tilesub" text-anchor="middle">웨스팅하우스</text>
+  <rect x="188" y="124" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="228" y="142" class="tile" text-anchor="middle">AP1000</text><text x="228" y="155" class="tilesub" text-anchor="middle">웨스팅하우스</text>
+
+  <text x="24" y="195" class="ph">2단계</text>
+  <rect x="100" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="140" y="192" class="tile" text-anchor="middle">APR1400</text><text x="140" y="205" class="tilesub" text-anchor="middle">한국형 설계</text>
+  <rect x="188" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="228" y="192" class="tile" text-anchor="middle">APR1400</text><text x="228" y="205" class="tilesub" text-anchor="middle">한국형 설계</text>
+  <rect x="276" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="316" y="192" class="tile" text-anchor="middle">AP1000</text><text x="316" y="205" class="tilesub" text-anchor="middle">웨스팅하우스</text>
+  <rect x="364" y="174" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="404" y="192" class="tile" text-anchor="middle">AP1000</text><text x="404" y="205" class="tilesub" text-anchor="middle">웨스팅하우스</text>
+
+  <text x="24" y="245" class="ph">3단계</text>
+  <rect x="100" y="224" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="140" y="242" class="tile" text-anchor="middle">AP1000</text><text x="140" y="255" class="tilesub" text-anchor="middle">웨스팅하우스</text>
+  <rect x="188" y="224" width="80" height="40" rx="6" fill="#0b6e4f"/><text x="228" y="242" class="tile" text-anchor="middle">AP1000</text><text x="228" y="255" class="tilesub" text-anchor="middle">웨스팅하우스</text>
+
+  <text x="284" y="136" class="note">2단계 EPC 서명은 1단계 후</text>
+  <text x="284" y="149" class="note">약 6개월 안이 목표(합리적 노력)</text>
+  <text x="284" y="240" class="note">APR1400은 2025년 합의의</text>
+  <text x="284" y="253" class="note">예외 필요('상정'됨)</text>
+
+  <!-- Not yet decided -->
+  <text x="24" y="292" class="head">아직 정해지지 않은 것</text>
+  <g>
+    <rect x="24" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="64" y="321" class="nd" text-anchor="middle">정확한 부지</text>
+    <rect x="112" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="152" y="321" class="nd" text-anchor="middle">사업자</text>
+    <rect x="200" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="240" y="321" class="nd" text-anchor="middle">EPC 계약</text>
+    <rect x="288" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="328" y="321" class="nd" text-anchor="middle">전력 구매자</text>
+    <rect x="376" y="300" width="80" height="34" rx="6" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/><text x="416" y="321" class="nd" text-anchor="middle">일정</text>
+  </g>
+  <text x="24" y="354" class="note">후보 주(보도): 오하이오, 테네시, 사우스캐롤라이나, 켄터키</text>
+  <text x="24" y="370" class="note">착공 2030년 전후, 공사 약 10년 목표(보도)</text>
+
+  <!-- Right panel: money -->
+  <rect x="482" y="84" width="266" height="300" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="494" y="106" class="head">돈</text>
+  <text x="494" y="134" class="big">최대 1,200억 달러</text>
+  <rect x="494" y="144" width="202" height="26" rx="4" fill="#0b6e4f"/>
+  <text x="595" y="161" class="bar" text-anchor="middle">건설 1,000억</text>
+  <rect x="696" y="144" width="40" height="26" rx="4" fill="#5fae93"/>
+  <text x="716" y="161" class="bar" text-anchor="middle">200억</text>
+  <text x="494" y="186" class="note">200억 달러는 예비비입니다.</text>
+  <text x="494" y="198" class="note">한국의 2,000억 달러 대미 투자 약속 안.</text>
+
+  <circle cx="500" cy="212" r="5" fill="#0b6e4f"/>
+  <text x="512" y="216" class="item">연말까지 100억 달러 선투입</text>
+  <text x="512" y="229" class="item2">장납기 품목, 검토·국회 보고 선행</text>
+
+  <circle cx="500" cy="254" r="5" fill="#f5a623"/>
+  <text x="512" y="258" class="item">APR1400 호기당 약 20억 달러</text>
+  <text x="512" y="271" class="item2">웨스팅하우스에 지급, 2기 약 40억</text>
+
+  <circle cx="500" cy="296" r="5" fill="#f5a623"/>
+  <text x="512" y="300" class="item">웨스팅하우스 지분 5~10%</text>
+  <text x="512" y="313" class="item2">브룩필드·한국 언론, 조건 미정</text>
+
+  <circle cx="500" cy="338" r="5" fill="#f5a623"/>
+  <text x="512" y="342" class="item">2기 한 쌍당 최대 300억 달러</text>
+  <text x="512" y="355" class="item2">건설 250억 + 예비비 50억</text>
+
+  <!-- Footer -->
+  <line x1="12" y1="402" x2="748" y2="402" stroke="#e5e7eb"/>
+  <text x="12" y="418" class="foot">자료: 미 상무부 팩트시트(2026.9.30, WNN·ANS 10.1 전달), 브룩필드·카메코 발표(9.30),</text>
+  <text x="12" y="431" class="foot">한국 부처 계획(파이낸셜뉴스·서울경제·아주경제 10.1 보도).</text>
+  <text x="12" y="444" class="foot">기수는 계획일 뿐 주문이 아닙니다. EPC 계약·부지·사업자·일정 미확정. 에너지노트, 2026.10.</text>
+</svg>
