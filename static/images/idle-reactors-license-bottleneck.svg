@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">고리 3·4호기, 한빛 1·2호기, 월성 2호기의 허가 만료일과 정지 기간, 심사 단계, 다음 일정을 2024년 7월부터 2027년 9월까지의 타임라인으로 그린 그림</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .hd { font-size: 12px; font-weight: 800; fill: #1f2937; }
+    .nm { font-size: 13px; font-weight: 800; fill: #1f2937; }
+    .mw { font-size: 11px; fill: #6b7280; }
+    .tk { font-size: 11px; fill: #6b7280; }
+    .dt { font-size: 10.5px; fill: #1f2937; font-weight: 700; }
+    .i1 { font-size: 12px; fill: #1f2937; font-weight: 700; }
+    .i2 { font-size: 11.5px; fill: #1f2937; }
+    .lg { font-size: 11px; fill: #1f2937; }
+    .src { font-size: 10px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="760" height="460" fill="#f8faf9"/>
+  <text x="20" y="30" class="title">멈춘 원전 4기와 11월 1일 월성 2호기: 만료일, 정지 기간, 다음 일정</text>
+  <text x="20" y="48" class="sub">허가 만료 뒤 정지 기간은 2026년 10월 3일까지 · 결정 목표는 보도된 시기이며 확정 일정이 아님</text>
+  <text x="20" y="64" class="hd">호기</text>
+  <text x="108" y="64" class="hd">허가 만료와 정지 기간</text>
+  <text x="474" y="64" class="hd">심사 단계 · 다음 일정</text>
+  <line x1="108" y1="92" x2="458" y2="92" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="161.8" y1="88" x2="161.8" y2="376" stroke="#d1d5db" stroke-width="1"/>
+  <text x="164.8" y="85" class="tk">2025</text>
+  <line x1="269.5" y1="88" x2="269.5" y2="376" stroke="#d1d5db" stroke-width="1"/>
+  <text x="272.5" y="85" class="tk">2026</text>
+  <line x1="377.2" y1="88" x2="377.2" y2="376" stroke="#d1d5db" stroke-width="1"/>
+  <text x="380.2" y="85" class="tk">2027</text>
+  <line x1="215.7" y1="89" x2="215.7" y2="95" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="323.4" y1="89" x2="323.4" y2="95" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="431.1" y1="89" x2="431.1" y2="95" stroke="#9ca3af" stroke-width="1"/>
+  <text x="20" y="116" class="nm">고리 3호기</text>
+  <text x="20" y="132" class="mw">950MW</text>
+  <rect x="108" y="110" width="26.0" height="16" rx="3" fill="#bfe3d3"/>
+  <rect x="134.0" y="110" width="217.2" height="16" rx="3" fill="#f5a623"/>
+  <rect x="129.0" y="113" width="10" height="10" transform="rotate(45 134.0 118)" fill="#1f2937"/>
+  <text x="140.0" y="105" class="dt">9.28 만료</text>
+  <path d="M323.4 133 V138 H377.2 V133" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="474" y="115" class="i1">원안위 심의 · 계획서 2회 보류</text>
+  <text x="474" y="132" class="i2">결정 목표 2026년 하반기</text>
+  <line x1="16" y1="146.0" x2="744" y2="146.0" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="172" class="nm">고리 4호기</text>
+  <text x="20" y="188" class="mw">950MW</text>
+  <rect x="108" y="166" width="118.5" height="16" rx="3" fill="#bfe3d3"/>
+  <rect x="226.5" y="166" width="124.7" height="16" rx="3" fill="#f5a623"/>
+  <rect x="221.5" y="169" width="10" height="10" transform="rotate(45 226.5 174)" fill="#1f2937"/>
+  <text x="232.5" y="161" class="dt">8.6 만료</text>
+  <path d="M323.4 189 V194 H377.2 V189" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="474" y="171" class="i1">3호기와 같은 안건</text>
+  <text x="474" y="188" class="i2">결정 목표 2026년 하반기</text>
+  <line x1="16" y1="202.0" x2="744" y2="202.0" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="228" class="nm">한빛 1호기</text>
+  <text x="20" y="244" class="mw">950MW</text>
+  <rect x="108" y="222" width="158.8" height="16" rx="3" fill="#bfe3d3"/>
+  <rect x="266.8" y="222" width="84.4" height="16" rx="3" fill="#f5a623"/>
+  <rect x="261.8" y="225" width="10" height="10" transform="rotate(45 266.8 230)" fill="#1f2937"/>
+  <text x="272.8" y="217" class="dt">12월 만료</text>
+  <path d="M377.2 245 V250 H431.1 V245" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="474" y="227" class="i1">원안위 심의 · 계획서 2회 보류</text>
+  <text x="474" y="244" class="i2">결정 목표 2027년 상반기</text>
+  <line x1="16" y1="258.0" x2="744" y2="258.0" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="284" class="nm">한빛 2호기</text>
+  <text x="20" y="300" class="mw">950MW</text>
+  <rect x="108" y="278" width="236.0" height="16" rx="3" fill="#bfe3d3"/>
+  <rect x="344.0" y="278" width="7.2" height="16" rx="3" fill="#f5a623"/>
+  <rect x="339.0" y="281" width="10" height="10" transform="rotate(45 344.0 286)" fill="#1f2937"/>
+  <text x="338.0" y="273" class="dt" text-anchor="end">9.11 만료</text>
+  <path d="M377.2 301 V306 H431.1 V301" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="474" y="283" class="i1">1호기와 같은 안건</text>
+  <text x="474" y="300" class="i2">결정 목표 2027년 상반기</text>
+  <line x1="16" y1="314.0" x2="744" y2="314.0" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="340" class="nm">월성 2호기</text>
+  <text x="20" y="356" class="mw">700MW</text>
+  <rect x="108" y="334" width="251.3" height="16" rx="3" fill="#bfe3d3"/>
+  <rect x="359.3" y="334" width="98.7" height="16" rx="3" fill="none" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="408.6" y="346" class="dt" text-anchor="middle" style="fill:#b45309">정지 예정</text>
+  <rect x="354.3" y="337" width="10" height="10" transform="rotate(45 359.3 342)" fill="#1f2937"/>
+  <text x="365.3" y="329" class="dt">11.1 만료</text>
+  <text x="474" y="339" class="i1">신청서 제출 확인 못 함</text>
+  <text x="474" y="356" class="i2">11월 1일 멈추면 4.5GW</text>
+  <line x1="351.2" y1="92" x2="351.2" y2="372" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="351.2" y="385" class="dt" text-anchor="middle" style="fill:#dc2626">오늘 10.3</text>
+  <rect x="20" y="393" width="22" height="10" rx="2" fill="#bfe3d3"/>
+  <text x="48" y="402" class="lg">운전 중</text>
+  <rect x="112" y="393" width="22" height="10" rx="2" fill="#f5a623"/>
+  <text x="140" y="402" class="lg">허가 만료 정지</text>
+  <rect x="246" y="393" width="22" height="10" rx="2" fill="none" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="274" y="402" class="lg">정지 예정</text>
+  <rect x="364" y="393" width="9" height="9" transform="rotate(45 368.5 397.5)" fill="#1f2937"/>
+  <text x="382" y="402" class="lg">허가 만료일</text>
+  <path d="M476 396 V401 H498 V396" fill="none" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="504" y="402" class="lg">결정 목표 시기</text>
+  <text x="20" y="428" class="src">출처: 원자력안전위원회 회의 결과 보도(아시아경제·세계일보 2026.9.30), 황정아 의원실 한수원 제출 자료 보도(2026.9.29),</text>
+  <text x="20" y="442" class="src">서울경제(2026.9) · 한빛 1호기는 2025년 12월 만료(정확한 일자 생략) · 기준일 2026년 10월 3일</text>
+</svg>

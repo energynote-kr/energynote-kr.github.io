@@ -123,7 +123,7 @@ The contractual bar on Korean reactors in the US is on its way to being lifted f
 
 ## Industry note
 
-Korean companies named in the framework coverage include KEPCO (KRX: 015760), Doosan Enerbility (KRX: 034020), Hyundai E&C (KRX: 000720) and Samsung C&T (KRX: 028260). Westinghouse's owners are Brookfield (NYSE: BAM) and Cameco (NYSE: CCJ). KHNP and Westinghouse are unlisted.
+Korean companies named in the framework coverage include KEPCO (KRX: 015760), Doosan Enerbility (KRX: 034020), Hyundai E&C (KRX: 000720) and Samsung C&T (KRX: 028260). Westinghouse is owned by Brookfield Renewable (NYSE: BEP) with institutional partners (51%) and Cameco (NYSE: CCJ, 49%). KHNP and Westinghouse are unlisted.
 
 > This section is provided to help understand the industry and is not a recommendation to buy or sell any security. Investment decisions and their consequences are the reader's own.
 
