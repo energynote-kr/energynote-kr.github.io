@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">2025년 의료방사선 검사 종류별 건수 비중과 선량 비중 비교, 그리고 1인당 연간 선량 2021년 2.64mSv에서 2025년 3.24mSv로의 변화</title>
+  <rect width="760" height="490" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="700" fill="#1f2937">2025년 의료방사선: 건수는 일반촬영, 선량은 CT</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">총 4억 3,159만 건 · 1인당 8.4건 · 1인당 3.24mSv (2025년 통계)</text>
+
+  <!-- 범례 -->
+  <rect x="20" y="72" width="12" height="12" rx="2" fill="#6b7280" opacity="0.55"/>
+  <text x="38" y="83" font-size="12" fill="#1f2937">건수 비중</text>
+  <rect x="112" y="72" width="12" height="12" rx="2" fill="#0b6e4f"/>
+  <text x="130" y="83" font-size="12" fill="#1f2937">선량 비중</text>
+  <rect x="204" y="72" width="12" height="12" rx="2" fill="#f5a623"/>
+  <text x="222" y="83" font-size="12" fill="#1f2937">CT 선량 비중</text>
+
+  <!-- 축선 -->
+  <line x1="110" y1="96" x2="110" y2="372" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- 일반촬영 -->
+  <text x="20" y="123" font-size="14" fill="#1f2937">일반촬영</text>
+  <rect x="110" y="104" width="287" height="12" rx="2" fill="#6b7280" opacity="0.55"/>
+  <text x="404" y="114" font-size="12" fill="#1f2937">76.4%</text>
+  <rect x="110" y="118" width="103" height="12" rx="2" fill="#0b6e4f"/>
+  <text x="220" y="128" font-size="12" fill="#1f2937">27.4%</text>
+
+  <!-- CT -->
+  <text x="20" y="163" font-size="14" font-weight="700" fill="#1f2937">CT촬영</text>
+  <rect x="110" y="144" width="14" height="12" rx="2" fill="#6b7280" opacity="0.55"/>
+  <text x="131" y="154" font-size="12" fill="#1f2937">3.8%</text>
+  <rect x="110" y="158" width="252" height="12" rx="2" fill="#f5a623"/>
+  <text x="369" y="168" font-size="12" font-weight="700" fill="#1f2937">67.1%</text>
+
+  <!-- 치과 -->
+  <text x="20" y="203" font-size="14" fill="#1f2937">치과촬영</text>
+  <rect x="110" y="184" width="47" height="12" rx="2" fill="#6b7280" opacity="0.55"/>
+  <text x="164" y="194" font-size="12" fill="#1f2937">12.4%</text>
+  <rect x="110" y="198" width="3" height="12" rx="1" fill="#0b6e4f"/>
+  <text x="120" y="208" font-size="12" fill="#1f2937">0.7%</text>
+
+  <!-- 유방 -->
+  <text x="20" y="243" font-size="14" fill="#1f2937">유방촬영</text>
+  <rect x="110" y="224" width="20" height="12" rx="2" fill="#6b7280" opacity="0.55"/>
+  <text x="137" y="234" font-size="12" fill="#1f2937">5.2%</text>
+  <rect x="110" y="238" width="5" height="12" rx="1" fill="#0b6e4f"/>
+  <text x="122" y="248" font-size="12" fill="#1f2937">1.3%</text>
+
+  <!-- 골밀도 -->
+  <text x="20" y="283" font-size="14" fill="#1f2937">골밀도촬영</text>
+  <rect x="110" y="264" width="7" height="12" rx="1" fill="#6b7280" opacity="0.55"/>
+  <text x="124" y="274" font-size="12" fill="#1f2937">1.8%</text>
+  <rect x="110" y="278" width="2" height="12" fill="#0b6e4f"/>
+  <text x="119" y="288" font-size="12" fill="#1f2937">0.05%</text>
+
+  <!-- 투시 -->
+  <text x="20" y="323" font-size="14" fill="#1f2937">투시촬영</text>
+  <rect x="110" y="304" width="2" height="12" fill="#6b7280" opacity="0.55"/>
+  <text x="119" y="314" font-size="12" fill="#1f2937">0.4%</text>
+  <rect x="110" y="318" width="5" height="12" rx="1" fill="#0b6e4f"/>
+  <text x="122" y="328" font-size="12" fill="#1f2937">1.4%</text>
+
+  <!-- 혈관 -->
+  <text x="20" y="363" font-size="14" fill="#1f2937">혈관촬영</text>
+  <rect x="110" y="344" width="2" height="12" fill="#6b7280" opacity="0.55"/>
+  <text x="119" y="354" font-size="12" fill="#1f2937">0.1%</text>
+  <rect x="110" y="358" width="8" height="12" rx="1" fill="#0b6e4f"/>
+  <text x="125" y="368" font-size="12" fill="#1f2937">2.1%</text>
+
+  <!-- 구분선 -->
+  <line x1="510" y1="70" x2="510" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- 우측: 1인당 선량 추이 -->
+  <text x="530" y="90" font-size="14" font-weight="700" fill="#1f2937">1인당 연간 선량(mSv)</text>
+  <line x1="530" y1="340" x2="740" y2="340" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- 눈금: 55px per mSv -->
+  <rect x="538" y="195" width="28" height="145" rx="3" fill="#0b6e4f"/>
+  <text x="552" y="188" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2937">2.64</text>
+  <text x="552" y="358" font-size="12" text-anchor="middle" fill="#6b7280">2021</text>
+
+  <rect x="578" y="189" width="28" height="151" rx="3" fill="#0b6e4f" opacity="0.55"/>
+  <text x="592" y="182" font-size="12" text-anchor="middle" fill="#1f2937">2.75</text>
+  <text x="592" y="358" font-size="12" text-anchor="middle" fill="#6b7280">2022</text>
+
+  <rect x="618" y="168" width="28" height="172" rx="3" fill="#0b6e4f" opacity="0.55"/>
+  <text x="632" y="161" font-size="12" text-anchor="middle" fill="#1f2937">3.13</text>
+  <text x="632" y="358" font-size="12" text-anchor="middle" fill="#6b7280">2023</text>
+
+  <rect x="658" y="168" width="28" height="172" rx="3" fill="#0b6e4f" opacity="0.55"/>
+  <text x="672" y="161" font-size="12" text-anchor="middle" fill="#1f2937">3.13</text>
+  <text x="672" y="358" font-size="12" text-anchor="middle" fill="#6b7280">2024</text>
+
+  <rect x="698" y="162" width="28" height="178" rx="3" fill="#f5a623"/>
+  <text x="712" y="155" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2937">3.24</text>
+  <text x="712" y="358" font-size="12" text-anchor="middle" fill="#6b7280">2025</text>
+
+  <text x="530" y="385" font-size="12" fill="#1f2937">1인당 검사 6.4건 → 8.4건</text>
+  <text x="530" y="403" font-size="12" fill="#6b7280">총 선량 약 22.6% 증가 (2021→2025)</text>
+
+  <!-- 하단 출처 -->
+  <line x1="20" y1="428" x2="740" y2="428" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="20" y="448" font-size="11" fill="#6b7280">자료: 질병관리청 「2025년 국민 의료방사선 평가 연보」·보도참고자료(2026-08-28), 2025년 통계 기준, 2026-10-03 확인</text>
+  <text x="20" y="466" font-size="11" fill="#6b7280">비중은 각 항목의 반올림 값이며, 1인당 선량은 전체 집단선량을 인구(약 5,168만 명)로 나눈 평균입니다.</text>
+</svg>
