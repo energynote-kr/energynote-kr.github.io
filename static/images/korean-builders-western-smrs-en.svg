@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 614" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="t">Matrix of Korean firms against Western SMR projects as of October 2026: Samsung C&amp;T on Kairos Hermes 2, BWRX-300 Europe and NuScale Romania; Hyundai E&amp;C on Holtec Palisades and TerraPower Natrium; Doosan Enerbility on Natrium, Rolls-Royce SMR, NuScale and X-energy; no Korean firm named at TVA Clinch River</title>
+  <style>
+    .title { font-size: 19px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .leg { font-size: 12px; fill: #1f2937; }
+    .colh { font-size: 14px; font-weight: 800; fill: #1f2937; }
+    .proj { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .proj2 { font-size: 12px; fill: #6b7280; }
+    .cellw { font-size: 12px; font-weight: 700; fill: #ffffff; }
+    .cella { font-size: 12px; font-weight: 700; fill: #1f2937; }
+    .none { font-size: 14px; fill: #6b7280; }
+    .note { font-size: 12px; font-weight: 700; fill: #1f2937; }
+    .foot { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="614" fill="#f8faf9"/>
+  <text x="16" y="30" class="title">Korean firms in Western SMR projects</text>
+  <text x="16" y="50" class="sub">As of October 5, 2026. Only roles confirmed in company releases, WNN or SEC filings.</text>
+
+  <!-- Legend -->
+  <rect x="16" y="64" width="14" height="14" rx="3" fill="#0b6e4f"/>
+  <text x="36" y="76" class="leg">Construction or EPC role</text>
+  <rect x="210" y="64" width="14" height="14" rx="3" fill="#f5a623"/>
+  <text x="230" y="76" class="leg">Equipment supply</text>
+  <rect x="380" y="64" width="14" height="14" rx="3" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="400" y="76" class="leg">Contract or binding term sheet</text>
+  <rect x="16" y="86" width="14" height="14" rx="3" fill="#ffffff" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="36" y="98" class="leg">Dashed border: non-binding (MoU, framework, reservation) or award pending</text>
+
+  <!-- Column headers -->
+  <text x="310" y="128" class="colh" text-anchor="middle">Samsung C&amp;T</text>
+  <text x="466" y="128" class="colh" text-anchor="middle">Hyundai E&amp;C</text>
+  <text x="622" y="128" class="colh" text-anchor="middle">Doosan Enerbility</text>
+  <line x1="16" y1="136" x2="704" y2="136" stroke="#d1d5db"/>
+
+  <!-- Row 1: Clinch River (y 144) -->
+  <text x="16" y="164" class="proj">TVA Clinch River</text>
+  <text x="16" y="180" class="proj2">BWRX-300, US</text>
+  <rect x="236" y="144" width="468" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="470" y="162" class="note" text-anchor="middle">No Korean firm named in TVA's team:</text>
+  <text x="470" y="179" class="note" text-anchor="middle">Bechtel, Sargent &amp; Lundy, GE Vernova Hitachi</text>
+
+  <!-- Row 2: Natrium (y 198) -->
+  <text x="16" y="218" class="proj">TerraPower Natrium</text>
+  <text x="16" y="234" class="proj2">Sodium fast, US</text>
+  <rect x="236" y="198" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="226" class="none" text-anchor="middle">none</text>
+  <rect x="392" y="198" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="466" y="217" class="cellw" text-anchor="middle">EPC right, up to</text>
+  <text x="466" y="233" class="cellw" text-anchor="middle">8 later units</text>
+  <rect x="548" y="198" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="622" y="217" class="cella" text-anchor="middle">Core barrel, guard</text>
+  <text x="622" y="233" class="cella" text-anchor="middle">vessel, supports</text>
+
+  <!-- Row 3: Kairos (y 252) -->
+  <text x="16" y="272" class="proj">Kairos Hermes 2</text>
+  <text x="16" y="288" class="proj2">Salt-cooled, US</text>
+  <rect x="236" y="252" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="310" y="271" class="cellw" text-anchor="middle">Power-systems EPC</text>
+  <text x="310" y="287" class="cellw" text-anchor="middle">up to $100M</text>
+  <rect x="392" y="252" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="280" class="none" text-anchor="middle">none</text>
+  <rect x="548" y="252" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="622" y="280" class="none" text-anchor="middle">none</text>
+
+  <!-- Row 4: Holtec (y 306) -->
+  <text x="16" y="326" class="proj">Holtec Palisades</text>
+  <text x="16" y="342" class="proj2">SMR-300, US</text>
+  <rect x="236" y="306" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="334" class="none" text-anchor="middle">none</text>
+  <rect x="392" y="306" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="466" y="325" class="cellw" text-anchor="middle">EPC partner,</text>
+  <text x="466" y="341" class="cellw" text-anchor="middle">no award yet</text>
+  <rect x="548" y="306" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="622" y="334" class="none" text-anchor="middle">none</text>
+
+  <!-- Row 5: NuScale (y 360) -->
+  <text x="16" y="380" class="proj">NuScale</text>
+  <text x="16" y="396" class="proj2">Romania and US</text>
+  <rect x="236" y="360" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="310" y="379" class="cellw" text-anchor="middle">FEED participation,</text>
+  <text x="310" y="395" class="cellw" text-anchor="middle">EPC not confirmed</text>
+  <rect x="392" y="360" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="388" class="none" text-anchor="middle">none</text>
+  <rect x="548" y="360" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="622" y="379" class="cella" text-anchor="middle">12 upper vessels,</text>
+  <text x="622" y="395" class="cella" text-anchor="middle">long-lead items</text>
+
+  <!-- Row 6: Rolls-Royce (y 414) -->
+  <text x="16" y="434" class="proj">Rolls-Royce SMR</text>
+  <text x="16" y="450" class="proj2">UK and Czechia</text>
+  <rect x="236" y="414" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="442" class="none" text-anchor="middle">none</text>
+  <rect x="392" y="414" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="442" class="none" text-anchor="middle">none</text>
+  <rect x="548" y="414" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="622" y="433" class="cella" text-anchor="middle">Vessel pre-</text>
+  <text x="622" y="449" class="cella" text-anchor="middle">production work</text>
+
+  <!-- Row 7: X-energy (y 468) -->
+  <text x="16" y="488" class="proj">X-energy Xe-100</text>
+  <text x="16" y="504" class="proj2">Gas-cooled, US</text>
+  <rect x="236" y="468" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="496" class="none" text-anchor="middle">none</text>
+  <rect x="392" y="468" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="496" class="none" text-anchor="middle">none</text>
+  <rect x="548" y="468" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="622" y="487" class="cella" text-anchor="middle">Forgings capacity</text>
+  <text x="622" y="503" class="cella" text-anchor="middle">reserved</text>
+
+  <!-- Row 8: BWRX-300 Europe (y 522) -->
+  <text x="16" y="542" class="proj">BWRX-300 Europe</text>
+  <text x="16" y="558" class="proj2">Central/Eastern Europe, UK</text>
+  <rect x="236" y="522" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="310" y="541" class="cellw" text-anchor="middle">EPC capability</text>
+  <text x="310" y="557" class="cellw" text-anchor="middle">(MoU, Sept. 22)</text>
+  <rect x="392" y="522" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="550" class="none" text-anchor="middle">none</text>
+  <rect x="548" y="522" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="622" y="550" class="none" text-anchor="middle">none</text>
+
+  <!-- Footer -->
+  <line x1="16" y1="576" x2="704" y2="576" stroke="#d1d5db"/>
+  <text x="16" y="591" class="foot">Sources: World Nuclear News, GE Vernova, TerraPower, Hyundai Motor Group and Rolls-Royce SMR releases, Holtec SEC filing, NuScale 10-K.</text>
+  <text x="16" y="605" class="foot">Status as of Oct. 5, 2026; most builder roles are not yet priced contracts. EnergyNote, Oct. 2026.</text>
+</svg>
