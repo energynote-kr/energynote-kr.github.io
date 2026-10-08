@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">ICRP 방호 3원칙(정당화·최적화·선량한도)에서 ALARA의 자리, 한도는 천장이고 ALARA는 실제 선량을 그 아래로 누르는 힘이라는 개념, 그리고 미국 NRC가 제안한 단계적 선량관리 문턱값</title>
+  <rect width="720" height="480" fill="#f8faf9"/>
+  <text x="20" y="30" font-size="18" font-weight="800" fill="#1f2937">ALARA는 어디에 있나: ICRP 3원칙과 선량한도</text>
+
+  <!-- 왼쪽: ICRP 3원칙 -->
+  <text x="20" y="58" font-size="13" font-weight="800" fill="#0b6e4f">ICRP 방호 3원칙(간행물 103, 2007)</text>
+
+  <rect x="20" y="68" width="310" height="70" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="32" y="90" font-size="14" font-weight="800" fill="#1f2937">1. 정당화</text>
+  <text x="32" y="110" font-size="12" fill="#1f2937">이익이 위해보다 커야 방사선을 쓴다</text>
+  <text x="32" y="127" font-size="12" fill="#6b7280">예: 연기감지기는 허용, 라듐 야광 도료는 퇴출</text>
+
+  <rect x="20" y="148" width="310" height="104" rx="8" fill="#f5a623"/>
+  <text x="32" y="172" font-size="14" font-weight="800" fill="#1f2937">2. 최적화 = ALARA</text>
+  <text x="32" y="192" font-size="12" fill="#1f2937">피폭 가능성·피폭자 수·개인선량을</text>
+  <text x="32" y="209" font-size="12" fill="#1f2937">경제·사회적 인자를 고려해</text>
+  <text x="32" y="226" font-size="12" fill="#1f2937">합리적으로 달성할 수 있는 한 낮게</text>
+  <text x="32" y="244" font-size="12" font-weight="800" fill="#1f2937">NRC 규칙안이 지우려는 단어</text>
+
+  <rect x="20" y="262" width="310" height="78" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="32" y="286" font-size="14" font-weight="800" fill="#1f2937">3. 선량한도</text>
+  <text x="32" y="306" font-size="12" fill="#1f2937">일반인 연 1mSv, 종사자 5년 100mSv(연 50)</text>
+  <text x="32" y="323" font-size="12" fill="#6b7280">환자의 의료피폭에는 적용하지 않음</text>
+
+  <!-- 오른쪽: 천장과 누르는 힘 -->
+  <text x="360" y="58" font-size="13" font-weight="800" fill="#0b6e4f">한도는 천장, ALARA는 천장 아래의 힘</text>
+
+  <rect x="380" y="70" width="56" height="270" rx="6" fill="#eef3f1" stroke="#6b7280"/>
+  <line x1="368" y1="78" x2="448" y2="78" stroke="#c0392b" stroke-width="3"/>
+  <text x="456" y="82" font-size="12" font-weight="800" fill="#c0392b">선량한도(천장)</text>
+  <text x="456" y="99" font-size="11" fill="#6b7280">한국 일반인 연 1mSv, 종사자 연 50mSv</text>
+
+  <line x1="408" y1="105" x2="408" y2="285" stroke="#f5a623" stroke-width="4"/>
+  <polygon points="396,285 420,285 408,298" fill="#f5a623"/>
+  <text x="456" y="180" font-size="12" font-weight="800" fill="#1f2937">ALARA가 누르는 힘</text>
+  <text x="456" y="197" font-size="11" fill="#6b7280">'합리적'에 비용·사회적 요인 포함</text>
+
+  <rect x="380" y="300" width="56" height="40" rx="4" fill="#0b6e4f"/>
+  <text x="456" y="325" font-size="12" font-weight="800" fill="#0b6e4f">실제 선량(한도보다 훨씬 낮음)</text>
+
+  <!-- 아래: NRC 제안 -->
+  <text x="20" y="368" font-size="13" font-weight="800" fill="#0b6e4f">미국 NRC 규칙안(2026.7): ALARA 대신 '단계적 선량관리'</text>
+
+  <rect x="20" y="380" width="215" height="58" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="32" y="402" font-size="13" font-weight="800" fill="#1f2937">연 1mSv 넘으면</text>
+  <text x="32" y="421" font-size="12" fill="#1f2937">방사선 교육 제공</text>
+
+  <rect x="247" y="380" width="215" height="58" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="259" y="402" font-size="13" font-weight="800" fill="#1f2937">연 5mSv 넘으면</text>
+  <text x="259" y="421" font-size="12" fill="#1f2937">개인 선량측정 시작</text>
+
+  <rect x="474" y="380" width="215" height="58" rx="8" fill="#ffffff" stroke="#c0392b"/>
+  <text x="486" y="402" font-size="13" font-weight="800" fill="#c0392b">연 50mSv = 한도</text>
+  <text x="486" y="421" font-size="12" fill="#1f2937">종사자 한도 유지, 일반인 연 1mSv</text>
+
+  <text x="20" y="466" font-size="10.5" fill="#6b7280">출처: ICRP Publication 103(2007), 미국 NRC 연방관보 91 FR 43456(2026.7.15), 원자력안전법 시행령 별표 1 · 기준일 2026-10-08</text>
+</svg>
