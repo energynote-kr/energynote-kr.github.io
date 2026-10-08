@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 614" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">2026년 10월 기준 서구 SMR 사업별 한국 기업 참여 현황표: 삼성물산은 카이로스 헤르메스 2, BWRX-300 유럽, 뉴스케일 루마니아; 현대건설은 홀텍 팰리세이즈와 테라파워 나트륨; 두산에너빌리티는 나트륨, 롤스로이스 SMR, 뉴스케일, X-energy; TVA 클린치리버에는 한국 기업 없음</title>
+  <style>
+    .title { font-size: 19px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .leg { font-size: 12px; fill: #1f2937; }
+    .colh { font-size: 14px; font-weight: 800; fill: #1f2937; }
+    .proj { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .proj2 { font-size: 12px; fill: #6b7280; }
+    .cellw { font-size: 12px; font-weight: 700; fill: #ffffff; }
+    .cella { font-size: 12px; font-weight: 700; fill: #1f2937; }
+    .none { font-size: 14px; fill: #6b7280; }
+    .note { font-size: 12px; font-weight: 700; fill: #1f2937; }
+    .foot { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="614" fill="#f8faf9"/>
+  <text x="16" y="30" class="title">서구 SMR 사업에 들어간 한국 기업</text>
+  <text x="16" y="50" class="sub">2026년 10월 5일 기준. 기업 발표, WNN, SEC 공시로 확인된 역할만 표시.</text>
+
+  <!-- Legend -->
+  <rect x="16" y="64" width="14" height="14" rx="3" fill="#0b6e4f"/>
+  <text x="36" y="76" class="leg">시공·EPC 역할</text>
+  <rect x="210" y="64" width="14" height="14" rx="3" fill="#f5a623"/>
+  <text x="230" y="76" class="leg">기기 공급</text>
+  <rect x="380" y="64" width="14" height="14" rx="3" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="400" y="76" class="leg">계약 또는 구속력 있는 텀시트</text>
+  <rect x="16" y="86" width="14" height="14" rx="3" fill="#ffffff" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text x="36" y="98" class="leg">점선 테두리: 구속력 없음(MoU·기본협약·예약) 또는 수주 미확정</text>
+
+  <!-- Column headers -->
+  <text x="310" y="128" class="colh" text-anchor="middle">삼성물산</text>
+  <text x="466" y="128" class="colh" text-anchor="middle">현대건설</text>
+  <text x="622" y="128" class="colh" text-anchor="middle">두산에너빌리티</text>
+  <line x1="16" y1="136" x2="704" y2="136" stroke="#d1d5db"/>
+
+  <!-- Row 1: Clinch River (y 144) -->
+  <text x="16" y="164" class="proj">TVA 클린치리버</text>
+  <text x="16" y="180" class="proj2">BWRX-300, 미국</text>
+  <rect x="236" y="144" width="468" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="470" y="162" class="note" text-anchor="middle">TVA가 발표한 팀에 한국 기업 없음:</text>
+  <text x="470" y="179" class="note" text-anchor="middle">벡텔, 사전트앤룬디, GE버노바히타치</text>
+
+  <!-- Row 2: Natrium (y 198) -->
+  <text x="16" y="218" class="proj">테라파워 나트륨</text>
+  <text x="16" y="234" class="proj2">소듐냉각, 미국</text>
+  <rect x="236" y="198" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="226" class="none" text-anchor="middle">없음</text>
+  <rect x="392" y="198" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="466" y="217" class="cellw" text-anchor="middle" style="fill:#fff">후속 최대 8기</text>
+  <text x="466" y="233" class="cellw" text-anchor="middle" style="fill:#fff">EPC 권리</text>
+  <rect x="548" y="198" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="622" y="217" class="cella" text-anchor="middle">노심 배럴·가드베슬</text>
+  <text x="622" y="233" class="cella" text-anchor="middle">내부 지지구조</text>
+
+  <!-- Row 3: Kairos (y 252) -->
+  <text x="16" y="272" class="proj">카이로스 헤르메스 2</text>
+  <text x="16" y="288" class="proj2">용융염냉각, 미국</text>
+  <rect x="236" y="252" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="310" y="271" class="cellw" text-anchor="middle" style="fill:#fff">전력계통 EPC</text>
+  <text x="310" y="287" class="cellw" text-anchor="middle" style="fill:#fff">최대 1억 달러</text>
+  <rect x="392" y="252" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="280" class="none" text-anchor="middle">없음</text>
+  <rect x="548" y="252" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="622" y="280" class="none" text-anchor="middle">없음</text>
+
+  <!-- Row 4: Holtec (y 306) -->
+  <text x="16" y="326" class="proj">홀텍 팰리세이즈</text>
+  <text x="16" y="342" class="proj2">SMR-300, 미국</text>
+  <rect x="236" y="306" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="334" class="none" text-anchor="middle">없음</text>
+  <rect x="392" y="306" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="466" y="325" class="cellw" text-anchor="middle" style="fill:#fff">EPC 파트너</text>
+  <text x="466" y="341" class="cellw" text-anchor="middle" style="fill:#fff">수주 미확정</text>
+  <rect x="548" y="306" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="622" y="334" class="none" text-anchor="middle">없음</text>
+
+  <!-- Row 5: NuScale (y 360) -->
+  <text x="16" y="380" class="proj">뉴스케일</text>
+  <text x="16" y="396" class="proj2">루마니아·미국</text>
+  <rect x="236" y="360" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="310" y="379" class="cellw" text-anchor="middle" style="fill:#fff">FEED 참여</text>
+  <text x="310" y="395" class="cellw" text-anchor="middle" style="fill:#fff">EPC 수주 미확인</text>
+  <rect x="392" y="360" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="388" class="none" text-anchor="middle">없음</text>
+  <rect x="548" y="360" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="622" y="379" class="cella" text-anchor="middle">상부 용기 12기</text>
+  <text x="622" y="395" class="cella" text-anchor="middle">장납기 단조품</text>
+
+  <!-- Row 6: Rolls-Royce (y 414) -->
+  <text x="16" y="434" class="proj">롤스로이스 SMR</text>
+  <text x="16" y="450" class="proj2">영국·체코</text>
+  <rect x="236" y="414" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="442" class="none" text-anchor="middle">없음</text>
+  <rect x="392" y="414" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="442" class="none" text-anchor="middle">없음</text>
+  <rect x="548" y="414" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="622" y="433" class="cella" text-anchor="middle">원자로 용기</text>
+  <text x="622" y="449" class="cella" text-anchor="middle">사전 제작 작업</text>
+
+  <!-- Row 7: X-energy (y 468) -->
+  <text x="16" y="488" class="proj">X-energy Xe-100</text>
+  <text x="16" y="504" class="proj2">가스냉각, 미국</text>
+  <rect x="236" y="468" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="310" y="496" class="none" text-anchor="middle">없음</text>
+  <rect x="392" y="468" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="496" class="none" text-anchor="middle">없음</text>
+  <rect x="548" y="468" width="148" height="44" rx="6" fill="#f5a623" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="622" y="487" class="cella" text-anchor="middle">단조 생산능력</text>
+  <text x="622" y="503" class="cella" text-anchor="middle">예약</text>
+
+  <!-- Row 8: BWRX-300 Europe (y 522) -->
+  <text x="16" y="542" class="proj">BWRX-300 유럽</text>
+  <text x="16" y="558" class="proj2">중·동유럽, 영국</text>
+  <rect x="236" y="522" width="148" height="44" rx="6" fill="#0b6e4f" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="310" y="541" class="cellw" text-anchor="middle" style="fill:#fff">EPC 역량</text>
+  <text x="310" y="557" class="cellw" text-anchor="middle" style="fill:#fff">(MoU, 9월 22일)</text>
+  <rect x="392" y="522" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="466" y="550" class="none" text-anchor="middle">없음</text>
+  <rect x="548" y="522" width="148" height="44" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="622" y="550" class="none" text-anchor="middle">없음</text>
+
+  <!-- Footer -->
+  <line x1="16" y1="576" x2="704" y2="576" stroke="#d1d5db"/>
+  <text x="16" y="591" class="foot">자료: World Nuclear News, GE버노바·테라파워·현대차그룹·롤스로이스 SMR 발표, 홀텍 SEC 공시, 뉴스케일 10-K.</text>
+  <text x="16" y="605" class="foot">2026년 10월 5일 기준. 시공사 역할 대부분은 아직 금액이 정해진 계약이 아님. 에너지노트, 2026년 10월.</text>
+</svg>
