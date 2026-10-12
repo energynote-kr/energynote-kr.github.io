@@ -1,0 +1,120 @@
+{{- $en := eq .Page.Language.Lang "en" -}}
+<div class="dc" id="dc" data-lang="{{ .Page.Language.Lang }}">
+  <form class="dc-form" id="dc-form" autocomplete="off">
+    <fieldset class="dc-group">
+      <legend>{{ if $en }}1. Where you live{{ else }}1. 사는 곳의 자연방사선{{ end }}</legend>
+      <label class="dc-radio"><input type="radio" name="bg" value="3.0" checked> {{ if $en }}South Korea (about 3.0 mSv/yr, radon included){{ else }}한국 평균 (연 약 3.0mSv, 라돈 포함){{ end }}</label>
+      <label class="dc-radio"><input type="radio" name="bg" value="2.4"> {{ if $en }}World average (about 2.4 mSv/yr, UNSCEAR){{ else }}세계 평균 (연 약 2.4mSv, UNSCEAR){{ end }}</label>
+    </fieldset>
+
+    <fieldset class="dc-group">
+      <legend>{{ if $en }}2. Medical imaging in the last 12 months (number of exams){{ else }}2. 최근 1년 의료 영상 검사 (횟수){{ end }}</legend>
+      <div class="dc-rows">
+        <label><span>{{ if $en }}Chest X-ray{{ else }}흉부 엑스레이{{ end }} <small>0.1 mSv</small></span><input type="number" name="cxr" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Dental X-ray (panoramic){{ else }}치과 엑스레이(파노라마){{ end }} <small>0.01 mSv</small></span><input type="number" name="dental" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Mammography{{ else }}유방촬영(맘모그래피){{ end }} <small>0.4 mSv</small></span><input type="number" name="mammo" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Bone density (DXA){{ else }}골밀도 검사(DXA){{ end }} <small>0.001 mSv</small></span><input type="number" name="dxa" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Head CT{{ else }}두부(머리) CT{{ end }} <small>2 mSv</small></span><input type="number" name="headct" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Low-dose lung CT{{ else }}저선량 폐 CT{{ end }} <small>1.5 mSv</small></span><input type="number" name="ldct" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Chest CT{{ else }}흉부 CT{{ end }} <small>7 mSv</small></span><input type="number" name="chestct" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Abdomen/pelvis CT{{ else }}복부·골반 CT{{ end }} <small>9 mSv</small></span><input type="number" name="abdct" min="0" max="99" value="0"></label>
+        <label><span>PET-CT <small>15 mSv</small></span><input type="number" name="petct" min="0" max="99" value="0"></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="dc-group">
+      <legend>{{ if $en }}3. Flights in the last 12 months (round trips){{ else }}3. 최근 1년 비행기 여행 (왕복 횟수){{ end }}</legend>
+      <div class="dc-rows">
+        <label><span>{{ if $en }}Long haul (Korea–Americas/Europe){{ else }}장거리 (미주·유럽 왕복){{ end }} <small>0.15 mSv</small></span><input type="number" name="fl_long" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Medium haul (Southeast Asia){{ else }}중거리 (동남아 왕복){{ end }} <small>0.03 mSv</small></span><input type="number" name="fl_mid" min="0" max="99" value="0"></label>
+        <label><span>{{ if $en }}Short haul (Japan/China/domestic){{ else }}단거리 (일본·중국·국내 왕복){{ end }} <small>0.01 mSv</small></span><input type="number" name="fl_short" min="0" max="99" value="0"></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="dc-group">
+      <legend>{{ if $en }}4. Lifestyle{{ else }}4. 생활 습관{{ end }}</legend>
+      <div class="dc-rows">
+        <label><span>{{ if $en }}Smoking (packs per day){{ else }}흡연 (하루 갑 수){{ end }} <small>0.36 mSv/{{ if $en }}yr per pack{{ else }}갑·년{{ end }}</small></span><input type="number" name="smoke" min="0" max="5" step="0.5" value="0"></label>
+        <label class="dc-check"><input type="checkbox" name="nuts" value="0.16"> {{ if $en }}Two Brazil nuts every day (about 0.16 mSv/yr){{ else }}브라질너트를 매일 2알 먹는다 (연 약 0.16mSv){{ end }}</label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="dc-result" id="dc-result" aria-live="polite">
+    <div class="dc-total"><span class="dc-total-label">{{ if $en }}Estimated dose, last 12 months{{ else }}최근 1년 추정 피폭량{{ end }}</span><span class="dc-total-num" id="dc-total">3.0</span><span class="dc-total-unit">mSv</span></div>
+    <div class="dc-bar" id="dc-bar" role="img" aria-label="{{ if $en }}Breakdown of the estimated dose{{ else }}추정 피폭량 구성{{ end }}"></div>
+    <ul class="dc-legend" id="dc-legend"></ul>
+    <div class="dc-compare" id="dc-compare"></div>
+    <div class="dc-scale" id="dc-scale"></div>
+  </div>
+</div>
+<script>
+(function(){
+  var root=document.getElementById('dc'); if(!root) return;
+  var en=root.getAttribute('data-lang')==='en';
+  var F=document.getElementById('dc-form');
+  var V={cxr:0.1,dental:0.01,mammo:0.4,dxa:0.001,headct:2,ldct:1.5,chestct:7,abdct:9,petct:15,fl_long:0.15,fl_mid:0.03,fl_short:0.01,smoke:0.36};
+  var T=en?{
+    nat:'Natural background',med:'Medical imaging',fly:'Flights',life:'Lifestyle',
+    noadd:'No extra dose entered yet. Everything above comes from natural background radiation.',
+    add:'Extra dose on top of natural background: ',
+    yrs:function(n){return n.toFixed(1)+' years of Korean natural background (3 mSv/yr)';},
+    cxr:function(n){return 'about '+fmt(n)+' chest X-rays';},
+    ban:function(n){return 'about '+fmt(n)+' bananas (0.1 μSv each)';},
+    scaleTitle:'Where this sits on the scale',
+    marks:[[1,'Public dose limit for man-made sources (excl. medical), 1 mSv/yr'],[3,'Korean natural background, 3 mSv/yr'],[6,'Korean aircrew management level, 6 mSv/yr'],[20,'Radiation worker average limit, 20 mSv/yr'],[100,'Level where effects are clearly observed (ICRP), 100 mSv']],
+    you:'Your estimate',
+    medNote:'Medical doses are typical effective-dose values; your actual dose depends on the device, protocol and body size. A medically necessary exam is worth far more than the small risk it carries.'
+  }:{
+    nat:'자연방사선',med:'의료 영상',fly:'비행',life:'생활 습관',
+    noadd:'아직 추가 항목이 없습니다. 위 값은 모두 자연방사선입니다.',
+    add:'자연방사선을 뺀 추가 피폭량: ',
+    yrs:function(n){return '한국 자연방사선 약 '+n.toFixed(1)+'년치 (연 3mSv 기준)';},
+    cxr:function(n){return '흉부 엑스레이 약 '+fmt(n)+'장';},
+    ban:function(n){return '바나나 약 '+fmt(n)+'개 (1개 0.1μSv)';},
+    scaleTitle:'이 값은 어디쯤일까',
+    marks:[[1,'일반인 선량한도 (인공 방사선, 의료 제외) 연 1mSv'],[3,'한국인 연간 자연방사선 약 3mSv'],[6,'항공 승무원 관리 기준 연 6mSv'],[20,'방사선 종사자 연평균 한도 20mSv'],[100,'영향이 뚜렷이 확인되는 수준 (ICRP) 100mSv']],
+    you:'내 추정값',
+    medNote:'의료 검사 수치는 평균적인 유효선량이며, 실제 값은 장비·촬영 조건·체격에 따라 달라집니다. 필요해서 받는 검사의 이득은 작은 방사선 위험보다 훨씬 큽니다.'
+  };
+  function fmt(n){ return Math.round(n).toLocaleString(en?'en-US':'ko-KR'); }
+  function num(name){ var el=F.elements[name]; var v=parseFloat(el.value); return isNaN(v)||v<0?0:v; }
+  function calc(){
+    var bg=parseFloat(F.elements['bg'].value);
+    var med=0; ['cxr','dental','mammo','dxa','headct','ldct','chestct','abdct','petct'].forEach(function(k){ med+=num(k)*V[k]; });
+    var fly=num('fl_long')*V.fl_long+num('fl_mid')*V.fl_mid+num('fl_short')*V.fl_short;
+    var life=num('smoke')*V.smoke+(F.elements['nuts'].checked?0.16:0);
+    render(bg,med,fly,life);
+  }
+  function render(bg,med,fly,life){
+    var total=bg+med+fly+life, extra=med+fly+life;
+    document.getElementById('dc-total').textContent=total<10?total.toFixed(2).replace(/0$/,''):total.toFixed(1);
+    var parts=[[T.nat,bg,'#0b6e4f'],[T.med,med,'#f5a623'],[T.fly,fly,'#3b82f6'],[T.life,life,'#6b7280']];
+    var bar='',leg='';
+    parts.forEach(function(p){ if(p[1]<=0) return; var w=(p[1]/total*100); bar+='<span style="width:'+w.toFixed(2)+'%;background:'+p[2]+'" title="'+p[0]+' '+p[1].toFixed(2)+' mSv"></span>'; leg+='<li><i style="background:'+p[2]+'"></i>'+p[0]+' <b>'+p[1].toFixed(2)+' mSv</b> ('+Math.round(w)+'%)</li>'; });
+    document.getElementById('dc-bar').innerHTML=bar; document.getElementById('dc-legend').innerHTML=leg;
+    var c='';
+    if(extra<=0){ c='<p>'+T.noadd+'</p>'; }
+    else {
+      c='<p>'+T.add+'<b>'+extra.toFixed(2)+' mSv</b></p><ul>'+
+        '<li>'+T.yrs(extra/3)+'</li>'+
+        '<li>'+T.cxr(extra/0.1)+'</li>'+
+        '<li>'+T.ban(extra/0.0001)+'</li></ul>';
+      if(med>0) c+='<p class="dc-note">'+T.medNote+'</p>';
+    }
+    document.getElementById('dc-compare').innerHTML=c;
+    // log scale 0.1~200 mSv
+    var lo=Math.log10(0.1), hi=Math.log10(200);
+    function pos(v){ return Math.min(100,Math.max(0,(Math.log10(Math.max(v,0.1))-lo)/(hi-lo)*100)); }
+    var s='<p class="dc-scale-title">'+T.scaleTitle+'</p><div class="dc-axis">';
+    T.marks.forEach(function(m){ s+='<span class="dc-mark" style="left:'+pos(m[0]).toFixed(1)+'%"><i></i><em>'+m[0]+'</em></span>'; });
+    s+='<span class="dc-you" style="left:'+pos(total).toFixed(1)+'%"><i></i><em>'+T.you+' '+total.toFixed(1)+'</em></span></div><ol class="dc-marks">';
+    T.marks.forEach(function(m){ s+='<li><b>'+m[0]+' mSv</b> '+m[1]+'</li>'; });
+    s+='</ol>';
+    document.getElementById('dc-scale').innerHTML=s;
+  }
+  F.addEventListener('input',calc); F.addEventListener('change',calc);
+  F.addEventListener('submit',function(e){e.preventDefault();});
+  calc();
+})();
+</script>
