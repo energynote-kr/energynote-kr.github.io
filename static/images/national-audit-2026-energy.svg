@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">2026년 국정감사 첫 주(10월 6일~12일)에 나온 원자력·전기 쟁점을 돈, 전기요금, 안전 세 갈래로 나누고 각 쟁점의 핵심 숫자를 정리한 그림</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .hd { font-size: 15px; font-weight: 800; }
+    .num { font-size: 19px; font-weight: 800; fill: #1f2937; }
+    .lb { font-size: 12px; fill: #1f2937; }
+    .sm { font-size: 11px; fill: #6b7280; }
+    .src { font-size: 10px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="470" fill="#f8faf9"/>
+  <text x="20" y="32" class="title">2026 국감 첫 주, 원자력·전기 쟁점 세 갈래</text>
+  <text x="20" y="51" class="sub">10월 6일 기후에너지환경부 감사 · 10월 8일 의원 자료 공개 · 10월 12일 산중위 감사 기준</text>
+
+  <!-- column 1: 돈 -->
+  <rect x="20" y="68" width="216" height="336" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="68" width="216" height="40" rx="12" fill="#0b6e4f"/>
+  <rect x="20" y="96" width="216" height="12" fill="#0b6e4f"/>
+  <text x="36" y="94" class="hd" style="fill:#fff">① 수출 계약의 돈</text>
+  <text x="36" y="140" class="num">1조 2,000억 원</text>
+  <text x="36" y="160" class="lb">이집트 엘다바 공사손실</text>
+  <text x="36" y="176" class="lb">충당부채(2025년, 한수원)</text>
+  <text x="36" y="193" class="sm">수주액 약 3조 3,000억 원</text>
+  <line x1="36" y1="210" x2="220" y2="210" stroke="#e5e7eb"/>
+  <text x="36" y="240" class="num">3억 5,000만 달러</text>
+  <text x="36" y="260" class="lb">두코바니 2기 웨스팅하우스</text>
+  <text x="36" y="276" class="lb">기술료(한전 사장 오후 정정)</text>
+  <line x1="36" y1="293" x2="220" y2="293" stroke="#e5e7eb"/>
+  <text x="36" y="323" class="num">1기당 최대 20억 달러</text>
+  <text x="36" y="343" class="lb">기술료·용역·핵연료 등 대가의</text>
+  <text x="36" y="359" class="lb">상한 가이드라인</text>
+  <text x="36" y="376" class="sm">한미 원전 협력 틀 기준</text>
+
+  <!-- column 2: 요금 -->
+  <rect x="252" y="68" width="216" height="336" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="252" y="68" width="216" height="40" rx="12" fill="#f5a623"/>
+  <rect x="252" y="96" width="216" height="12" fill="#f5a623"/>
+  <text x="268" y="94" class="hd" style="fill:#fff">② 전기요금과 한전</text>
+  <text x="268" y="140" class="num">25조 원</text>
+  <text x="268" y="160" class="lb">한전이 삼성전자(20조)·</text>
+  <text x="268" y="176" class="lb">SK하이닉스(5조)에 제안한</text>
+  <text x="268" y="192" class="lb">전기요금 선납</text>
+  <line x1="268" y1="210" x2="452" y2="210" stroke="#e5e7eb"/>
+  <text x="268" y="240" class="num">연 최대 3,628억 원</text>
+  <text x="268" y="260" class="lb">지역별 요금제 최대 인하폭을</text>
+  <text x="268" y="276" class="lb">적용한 상위 5개 법인 감면액</text>
+  <text x="268" y="292" class="sm">의원실 가정 계산</text>
+  <line x1="268" y1="309" x2="452" y2="309" stroke="#e5e7eb"/>
+  <text x="268" y="339" class="num">4.0 → 11.9GW</text>
+  <text x="268" y="359" class="lb">2040년 데이터센터 최대수요</text>
+  <text x="268" y="375" class="lb">전망(4월안 → 8월안)</text>
+  <text x="268" y="392" class="sm">장관, 과잉 측면 인정 취지 답변</text>
+
+  <!-- column 3: 안전 -->
+  <rect x="484" y="68" width="216" height="336" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="484" y="68" width="216" height="40" rx="12" fill="#6b7280"/>
+  <rect x="484" y="96" width="216" height="12" fill="#6b7280"/>
+  <text x="500" y="94" class="hd" style="fill:#fff">③ 안전과 저장</text>
+  <text x="500" y="140" class="num">117건</text>
+  <text x="500" y="160" class="lb">원전 보고대상 사건</text>
+  <text x="500" y="176" class="lb">(2016.1~2026.9, 연 약 11건)</text>
+  <text x="500" y="193" class="sm">설비 결함 57.3%</text>
+  <line x1="500" y1="210" x2="684" y2="210" stroke="#e5e7eb"/>
+  <text x="500" y="240" class="num">9기</text>
+  <text x="500" y="260" class="lb">계속운전 심사 중인 원전</text>
+  <text x="500" y="276" class="lb">질의·보완 4~6차까지 반복</text>
+  <text x="500" y="292" class="sm">불허 사례는 지금까지 없음</text>
+  <line x1="500" y1="309" x2="684" y2="309" stroke="#e5e7eb"/>
+  <text x="500" y="339" class="num">93.4%</text>
+  <text x="500" y="359" class="lb">고리 사용후핵연료 저장조</text>
+  <text x="500" y="375" class="lb">저장률(2026년 6월 말)</text>
+  <text x="500" y="392" class="sm">한빛 86.0% · 한울 75.4%</text>
+
+  <text x="20" y="430" class="src">자료: 아주경제·뉴스핌·주간한국(10/12 산중위), 에너지신문(10/6 기후에너지환경노동위), 아이뉴스24(10/8, 한국원자력안전기술원 자료),</text>
+  <text x="20" y="446" class="src">경인매일(10/12, 한수원·고준위방폐물관리위 자료), 에너지데일리(국회입법조사처 '2026 국정감사 이슈 분석'). 2026년 10월 12일 확인.</text>
+</svg>
