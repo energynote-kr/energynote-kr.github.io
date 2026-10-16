@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">Timeline of the six IAEA ministerial conferences on nuclear power from Paris 2005 to Incheon 2026 with participation figures, and four boxes with the Incheon dates and venue, the 413 operating reactors worldwide, the five panel themes and the president's statement as the outcome</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .hd { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .yr { font-size: 15px; font-weight: 800; fill: #0b6e4f; }
+    .city { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .num { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .lb { font-size: 12px; fill: #1f2937; }
+    .sm { font-size: 11px; fill: #6b7280; }
+    .src { font-size: 10px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="490" fill="#f8faf9"/>
+  <text x="20" y="32" class="title">IAEA ministerial conferences on nuclear power, Paris to Incheon</text>
+  <text x="20" y="51" class="sub">Six conferences since 2005, and the key numbers for Incheon 2026 (as of October 16, 2026)</text>
+
+  <!-- section 1: timeline -->
+  <text x="20" y="82" class="hd">1. The series: every four to five years, a different host</text>
+  <line x1="40" y1="135" x2="680" y2="135" stroke="#d1d5db" stroke-width="3"/>
+
+  <text x="62" y="112" class="yr" text-anchor="middle">2005</text>
+  <circle cx="62" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="62" y="160" class="city" text-anchor="middle">Paris</text>
+  <text x="62" y="178" class="sm" text-anchor="middle">74 states</text>
+  <text x="62" y="194" class="sm" text-anchor="middle">10 organizations</text>
+
+  <text x="180" y="112" class="yr" text-anchor="middle">2009</text>
+  <circle cx="180" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="180" y="160" class="city" text-anchor="middle">Beijing</text>
+  <text x="180" y="178" class="sm" text-anchor="middle">61 states</text>
+  <text x="180" y="194" class="sm" text-anchor="middle">808 participants</text>
+
+  <text x="298" y="112" class="yr" text-anchor="middle">2013</text>
+  <circle cx="298" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="298" y="160" class="city" text-anchor="middle">St. Petersburg</text>
+  <text x="298" y="178" class="sm" text-anchor="middle">87 countries</text>
+  <text x="298" y="194" class="sm" text-anchor="middle">500-plus</text>
+
+  <text x="416" y="112" class="yr" text-anchor="middle">2017</text>
+  <circle cx="416" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="416" y="160" class="city" text-anchor="middle">Abu Dhabi</text>
+  <text x="416" y="178" class="sm" text-anchor="middle">67 states/orgs</text>
+  <text x="416" y="194" class="sm" text-anchor="middle">about 400</text>
+
+  <text x="534" y="112" class="yr" text-anchor="middle">2022</text>
+  <circle cx="534" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="534" y="160" class="city" text-anchor="middle">Washington, D.C.</text>
+  <text x="534" y="178" class="sm" text-anchor="middle">69 countries</text>
+  <text x="534" y="194" class="sm" text-anchor="middle">about 800</text>
+
+  <text x="652" y="112" class="yr" text-anchor="middle" style="fill:#f5a623">2026</text>
+  <circle cx="652" cy="135" r="10" fill="#f5a623"/>
+  <text x="652" y="160" class="city" text-anchor="middle">Incheon</text>
+  <text x="652" y="178" class="sm" text-anchor="middle">6th conference</text>
+  <text x="652" y="194" class="sm" text-anchor="middle">first in Korea</text>
+
+  <!-- section 2: key numbers -->
+  <text x="20" y="232" class="hd">2. Key numbers for Incheon</text>
+
+  <rect x="25" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="25" y="248" width="6" height="172" rx="3" fill="#0b6e4f"/>
+  <text x="41" y="284" class="num">Oct 27 to 29</text>
+  <text x="41" y="312" class="lb">Songdo ConvensiA,</text>
+  <text x="41" y="330" class="lb">Incheon, Korea</text>
+  <text x="41" y="348" class="lb">IAEA with OECD/NEA</text>
+  <text x="41" y="372" class="sm">Hosted via Korea's MSIT</text>
+  <text x="41" y="390" class="sm">Registration due Oct 19</text>
+
+  <rect x="195" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="195" y="248" width="6" height="172" rx="3" fill="#f5a623"/>
+  <text x="211" y="284" class="num">413 reactors</text>
+  <text x="211" y="312" class="lb">operating worldwide</text>
+  <text x="211" y="330" class="lb">31 countries, ~377 GW</text>
+  <text x="211" y="348" class="lb">60+ more considering</text>
+  <text x="211" y="372" class="sm">IAEA announcement</text>
+  <text x="211" y="390" class="sm">CN-348</text>
+
+  <rect x="365" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="365" y="248" width="6" height="172" rx="3" fill="#6b7280"/>
+  <text x="381" y="284" class="num">5 panel themes</text>
+  <text x="381" y="312" class="lb">Newcomers, regulation,</text>
+  <text x="381" y="330" class="lb">SMRs and fusion,</text>
+  <text x="381" y="348" class="lb">supply chain, maritime</text>
+  <text x="381" y="372" class="sm">In-Focus: finance, AI,</text>
+  <text x="381" y="390" class="sm">stakeholder engagement</text>
+
+  <rect x="535" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="535" y="248" width="6" height="172" rx="3" fill="#0b6e4f"/>
+  <text x="551" y="284" class="num">President's</text>
+  <text x="551" y="306" class="num">statement</text>
+  <text x="551" y="330" class="lb">Not a negotiated,</text>
+  <text x="551" y="348" class="lb">signed declaration</text>
+  <text x="551" y="372" class="sm">No vote, not binding;</text>
+  <text x="551" y="390" class="sm">read at closing plenary</text>
+
+  <text x="20" y="452" class="src">Sources: IAEA announcement CN-348 (2026); IAEA final statement 2005, reports 2009, Year in Review 2013; French CEA (2017);</text>
+  <text x="20" y="468" class="src">Nuclear Engineering International (Oct 31, 2022). Counting methods differ by conference. Checked Oct 16, 2026.</text>
+</svg>

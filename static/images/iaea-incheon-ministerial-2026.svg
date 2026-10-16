@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">2005년 파리부터 2026년 인천까지 IAEA 원자력 장관회의 여섯 번의 연혁과 참가 규모 타임라인, 그리고 인천 회의의 일정·장소, 세계 가동 원전 413기, 패널 주제 5개, 결과물인 의장 성명을 네 칸으로 정리한 그림</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 11px; fill: #6b7280; }
+    .hd { font-size: 13px; font-weight: 700; fill: #0b6e4f; }
+    .yr { font-size: 15px; font-weight: 800; fill: #0b6e4f; }
+    .city { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .num { font-size: 17px; font-weight: 800; fill: #1f2937; }
+    .lb { font-size: 12px; fill: #1f2937; }
+    .sm { font-size: 11px; fill: #6b7280; }
+    .src { font-size: 10px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="490" fill="#f8faf9"/>
+  <text x="20" y="32" class="title">IAEA 원자력 장관회의, 파리에서 인천까지</text>
+  <text x="20" y="51" class="sub">여섯 번의 장관회의 연혁과 2026년 인천 회의의 핵심 숫자 (2026년 10월 16일 기준)</text>
+
+  <!-- section 1: timeline -->
+  <text x="20" y="82" class="hd">① 연혁: 4~5년마다, 개최국을 바꿔 가며</text>
+  <line x1="40" y1="135" x2="680" y2="135" stroke="#d1d5db" stroke-width="3"/>
+
+  <text x="62" y="112" class="yr" text-anchor="middle">2005</text>
+  <circle cx="62" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="62" y="160" class="city" text-anchor="middle">파리</text>
+  <text x="62" y="178" class="sm" text-anchor="middle">74개국</text>
+  <text x="62" y="194" class="sm" text-anchor="middle">국제기구 10곳</text>
+
+  <text x="180" y="112" class="yr" text-anchor="middle">2009</text>
+  <circle cx="180" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="180" y="160" class="city" text-anchor="middle">베이징</text>
+  <text x="180" y="178" class="sm" text-anchor="middle">61개국</text>
+  <text x="180" y="194" class="sm" text-anchor="middle">808명</text>
+
+  <text x="298" y="112" class="yr" text-anchor="middle">2013</text>
+  <circle cx="298" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="298" y="160" class="city" text-anchor="middle">상트페테르부르크</text>
+  <text x="298" y="178" class="sm" text-anchor="middle">87개국·기구 7곳</text>
+  <text x="298" y="194" class="sm" text-anchor="middle">500명 이상</text>
+
+  <text x="416" y="112" class="yr" text-anchor="middle">2017</text>
+  <circle cx="416" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="416" y="160" class="city" text-anchor="middle">아부다비</text>
+  <text x="416" y="178" class="sm" text-anchor="middle">67개국·기구</text>
+  <text x="416" y="194" class="sm" text-anchor="middle">약 400명</text>
+
+  <text x="534" y="112" class="yr" text-anchor="middle">2022</text>
+  <circle cx="534" cy="135" r="7" fill="#0b6e4f"/>
+  <text x="534" y="160" class="city" text-anchor="middle">워싱턴 D.C.</text>
+  <text x="534" y="178" class="sm" text-anchor="middle">69개국</text>
+  <text x="534" y="194" class="sm" text-anchor="middle">약 800명</text>
+
+  <text x="652" y="112" class="yr" text-anchor="middle" style="fill:#f5a623">2026</text>
+  <circle cx="652" cy="135" r="10" fill="#f5a623"/>
+  <text x="652" y="160" class="city" text-anchor="middle">인천</text>
+  <text x="652" y="178" class="sm" text-anchor="middle">제6차 회의</text>
+  <text x="652" y="194" class="sm" text-anchor="middle">한국 첫 개최</text>
+
+  <!-- section 2: key numbers -->
+  <text x="20" y="232" class="hd">② 이번 회의 핵심 숫자</text>
+
+  <rect x="25" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="25" y="248" width="6" height="172" rx="3" fill="#0b6e4f"/>
+  <text x="41" y="284" class="num">10.27~29</text>
+  <text x="41" y="312" class="lb">인천 송도컨벤시아</text>
+  <text x="41" y="330" class="lb">IAEA 주관·OECD/NEA 협력</text>
+  <text x="41" y="348" class="lb">과기정통부 주최</text>
+  <text x="41" y="372" class="sm">대표단 등록 마감</text>
+  <text x="41" y="390" class="sm">10월 19일</text>
+
+  <rect x="195" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="195" y="248" width="6" height="172" rx="3" fill="#f5a623"/>
+  <text x="211" y="284" class="num">413기</text>
+  <text x="211" y="312" class="lb">세계 가동 원전</text>
+  <text x="211" y="330" class="lb">31개국, 약 377GW</text>
+  <text x="211" y="348" class="lb">도입 검토 60개국 이상</text>
+  <text x="211" y="372" class="sm">IAEA 회의 안내문</text>
+  <text x="211" y="390" class="sm">CN-348 기준</text>
+
+  <rect x="365" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="365" y="248" width="6" height="172" rx="3" fill="#6b7280"/>
+  <text x="381" y="284" class="num">패널 5개</text>
+  <text x="381" y="312" class="lb">신규 도입국, 규제 조화</text>
+  <text x="381" y="330" class="lb">SMR·핵융합, 공급망</text>
+  <text x="381" y="348" class="lb">해상·오지 원자력</text>
+  <text x="381" y="372" class="sm">In-Focus 세션은</text>
+  <text x="381" y="390" class="sm">금융·AI·소통</text>
+
+  <rect x="535" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="535" y="248" width="6" height="172" rx="3" fill="#0b6e4f"/>
+  <text x="551" y="284" class="num">의장 성명</text>
+  <text x="551" y="312" class="lb">협상·서명하는 선언문이</text>
+  <text x="551" y="330" class="lb">아니라 폐회 때 의장이</text>
+  <text x="551" y="348" class="lb">읽는 결론 성명</text>
+  <text x="551" y="372" class="sm">표결 없음</text>
+  <text x="551" y="390" class="sm">법적 구속력 없음</text>
+
+  <text x="20" y="452" class="src">자료: IAEA 제6차 장관회의 안내문 CN-348(2026), IAEA 2005 최종성명·2009 보도·2013 연례보고, 프랑스 CEA(2017),</text>
+  <text x="20" y="468" class="src">Nuclear Engineering International(2022.10.31). 참가 규모는 회의마다 집계 방식이 다름. 2026년 10월 16일 확인.</text>
+</svg>
