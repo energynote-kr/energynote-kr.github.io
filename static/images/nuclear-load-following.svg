@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">원전 감발 하루 개념도: 출력을 100%에서 70%로 내렸다 올릴 때 제논-135 반응도 변화와 원자로 출력을 조절하는 세 가지 손잡이</title>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+
+  <text x="30" y="34" font-size="18" font-weight="700" fill="#1f2937">원전 감발 하루, 원자로 안에서는</text>
+  <text x="30" y="56" font-size="12" fill="#6b7280">개념도(수치는 예시) · 전기 출력을 100% → 70% → 100%로 하루 안에 오가는 경우</text>
+
+  <!-- 패널 1: 전기 출력 -->
+  <text x="30" y="88" font-size="14" font-weight="700" fill="#1f2937">① 전기 출력</text>
+  <line x1="90" y1="100" x2="90" y2="180" stroke="#6b7280" stroke-width="1"/>
+  <line x1="90" y1="180" x2="690" y2="180" stroke="#6b7280" stroke-width="1"/>
+  <line x1="90" y1="110" x2="690" y2="110" stroke="#6b7280" stroke-width="0.6" stroke-dasharray="4 4"/>
+  <text x="82" y="114" font-size="12" fill="#1f2937" text-anchor="end">100%</text>
+  <text x="82" y="164" font-size="12" fill="#1f2937" text-anchor="end">70%</text>
+  <path d="M90,110 L240,110 L315,160 L465,160 L540,110 L690,110" fill="none" stroke="#0b6e4f" stroke-width="3"/>
+  <text x="390" y="148" font-size="12" fill="#0b6e4f" text-anchor="middle">낮은 출력 유지</text>
+  <text x="250" y="140" font-size="12" fill="#6b7280" text-anchor="end">천천히 내림</text>
+  <text x="530" y="140" font-size="12" fill="#6b7280">천천히 올림</text>
+
+  <!-- 패널 2: 제논-135 -->
+  <text x="30" y="222" font-size="14" font-weight="700" fill="#1f2937">② 제논-135가 빼앗는 반응도</text>
+  <line x1="90" y1="234" x2="90" y2="340" stroke="#6b7280" stroke-width="1"/>
+  <line x1="90" y1="340" x2="690" y2="340" stroke="#6b7280" stroke-width="1"/>
+  <line x1="90" y1="258" x2="690" y2="258" stroke="#6b7280" stroke-width="0.6" stroke-dasharray="4 4"/>
+  <text x="82" y="262" font-size="12" fill="#6b7280" text-anchor="end">평상시</text>
+  <path d="M90,258 L240,258 C300,262 360,302 440,314 C470,317 495,300 520,276 C548,248 580,240 615,244 C645,248 670,254 690,256" fill="none" stroke="#f5a623" stroke-width="3"/>
+  <text x="250" y="314" font-size="12" fill="#1f2937" text-anchor="middle">출력을 내린 뒤 수 시간 쌓임</text>
+  <text x="250" y="330" font-size="11" fill="#6b7280" text-anchor="middle">(정점까지 7~8시간 안팎)</text>
+  <text x="615" y="232" font-size="12" fill="#1f2937" text-anchor="middle">올리면 한동안 줄어듦</text>
+  <text x="688" y="332" font-size="11" fill="#6b7280" text-anchor="end">아래로 갈수록 손실이 큼</text>
+
+  <text x="90" y="358" font-size="11" fill="#6b7280" text-anchor="middle">0시</text>
+  <text x="240" y="358" font-size="11" fill="#6b7280" text-anchor="middle">6시</text>
+  <text x="390" y="358" font-size="11" fill="#6b7280" text-anchor="middle">12시</text>
+  <text x="540" y="358" font-size="11" fill="#6b7280" text-anchor="middle">18시</text>
+  <text x="690" y="358" font-size="11" fill="#6b7280" text-anchor="end">24시</text>
+
+  <!-- 세 손잡이 -->
+  <rect x="30" y="378" width="200" height="26" rx="4" fill="#0b6e4f"/>
+  <text x="130" y="396" font-size="14" font-weight="700" style="fill:#fff" text-anchor="middle">제어봉</text>
+  <rect x="30" y="404" width="200" height="56" fill="#e3f2ec"/>
+  <text x="42" y="426" font-size="12" fill="#1f2937">빠르지만 출력이 쏠림</text>
+  <text x="42" y="446" font-size="12" fill="#1f2937">→ 위아래 출력분포 관리</text>
+
+  <rect x="260" y="378" width="200" height="26" rx="4" fill="#0b6e4f"/>
+  <text x="360" y="396" font-size="14" font-weight="700" style="fill:#fff" text-anchor="middle">붕소 농도</text>
+  <rect x="260" y="404" width="200" height="56" fill="#e3f2ec"/>
+  <text x="272" y="426" font-size="12" fill="#1f2937">고르게 듣지만 느림</text>
+  <text x="272" y="446" font-size="12" fill="#1f2937">→ 처리할 물이 늘어남</text>
+
+  <rect x="490" y="378" width="200" height="26" rx="4" fill="#f5a623"/>
+  <text x="590" y="396" font-size="14" font-weight="700" fill="#1f2937" text-anchor="middle">제논-135</text>
+  <rect x="490" y="404" width="200" height="56" fill="#fdf1dc"/>
+  <text x="502" y="426" font-size="12" fill="#1f2937">출력 변화를 늦게 따라옴</text>
+  <text x="502" y="446" font-size="12" fill="#1f2937">→ 반감기 약 9.1시간</text>
+
+  <text x="30" y="484" font-size="10.5" fill="#6b7280">자료: 미국 에너지부 DOE-HDBK-1019/2-93(제논·붕소 거동), OECD-NEA(2011, 부하추종 운전)</text>
+  <text x="30" y="499" font-size="10.5" fill="#6b7280">곡선 모양과 시간은 이해를 돕는 예시이며 실제 원전마다 다름 · 2026년 10월 26일 작성</text>
+</svg>
