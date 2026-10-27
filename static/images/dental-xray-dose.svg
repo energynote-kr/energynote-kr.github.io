@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">치과 촬영 종류별 유효선량 범위를 흉부 엑스레이, 머리 CT, 자연방사선 하루치와 로그 눈금으로 비교한 그림</title>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">치과 엑스레이 방사선량, 촬영 종류별 범위</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">막대는 문헌에 보고된 범위, 주황 점은 대표값(성인). 가로축은 로그 눈금이라 한 칸마다 10배입니다.</text>
+
+  <!-- 세로 눈금선: x = 200 + 96*(log10(mSv)+4) -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="200" y1="76" x2="200" y2="388"/>
+    <line x1="296" y1="76" x2="296" y2="388"/>
+    <line x1="392" y1="76" x2="392" y2="388"/>
+    <line x1="488" y1="76" x2="488" y2="388"/>
+    <line x1="584" y1="76" x2="584" y2="388"/>
+    <line x1="680" y1="76" x2="680" y2="388"/>
+  </g>
+
+  <!-- 1. 구내 촬영 1장: 0.00065~0.0095, 대표 0.005 -->
+  <text x="20" y="96" font-size="13" font-weight="700" fill="#1f2937">구내 촬영</text>
+  <text x="20" y="112" font-size="11" fill="#6b7280">치근단·교익 사진</text>
+  <rect x="278" y="91" width="112" height="14" rx="4" fill="#0b6e4f" opacity="0.45"/>
+  <circle cx="363" cy="98" r="6" fill="#f5a623" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="400" y="103" font-size="12" font-weight="700" fill="#0b6e4f">대표 약 0.005</text>
+
+  <!-- 2. 파노라마: 0.00385~0.038, 대표 0.025 -->
+  <text x="20" y="140" font-size="13" font-weight="700" fill="#1f2937">파노라마</text>
+  <text x="20" y="156" font-size="11" fill="#6b7280">위아래 턱 전체 한 장</text>
+  <rect x="352" y="135" width="96" height="14" rx="4" fill="#0b6e4f" opacity="0.45"/>
+  <circle cx="430" cy="142" r="6" fill="#f5a623" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="458" y="147" font-size="12" font-weight="700" fill="#0b6e4f">대표 약 0.025</text>
+
+  <!-- 3. CBCT 소형 FOV: 0.005~0.652, 평균 0.084 -->
+  <text x="20" y="184" font-size="13" font-weight="700" fill="#1f2937">치과 CBCT 소형</text>
+  <text x="20" y="200" font-size="11" fill="#6b7280">턱 일부 범위</text>
+  <rect x="363" y="179" width="203" height="14" rx="4" fill="#0b6e4f" opacity="0.75"/>
+  <circle cx="481" cy="186" r="6" fill="#f5a623" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="576" y="191" font-size="12" font-weight="700" fill="#0b6e4f">평균 약 0.08</text>
+
+  <!-- 4. CBCT 대형 FOV: 0.046~1.073, 평균 0.212 -->
+  <text x="20" y="228" font-size="13" font-weight="700" fill="#1f2937">치과 CBCT 대형</text>
+  <text x="20" y="244" font-size="11" fill="#6b7280">얼굴 전체 범위</text>
+  <rect x="456" y="223" width="131" height="14" rx="4" fill="#0b6e4f" opacity="0.75"/>
+  <circle cx="519" cy="230" r="6" fill="#f5a623" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="597" y="235" font-size="12" font-weight="700" fill="#0b6e4f">평균 약 0.21</text>
+
+  <!-- 구분선 -->
+  <line x1="20" y1="260" x2="700" y2="260" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="20" y="278" font-size="12" font-weight="700" fill="#6b7280">비교 기준</text>
+
+  <!-- 5. 자연방사선 하루치 0.008 -->
+  <text x="20" y="300" font-size="13" fill="#1f2937">자연방사선 하루치</text>
+  <text x="20" y="316" font-size="11" fill="#6b7280">한국 연 약 3mSv ÷ 365</text>
+  <circle cx="383" cy="302" r="6" fill="#6b7280"/>
+  <text x="395" y="307" font-size="12" font-weight="700" fill="#374151">약 0.008</text>
+
+  <!-- 6. 흉부 X선 0.1 -->
+  <text x="20" y="342" font-size="13" fill="#1f2937">흉부 엑스레이 1장</text>
+  <circle cx="488" cy="338" r="6" fill="#6b7280"/>
+  <text x="500" y="343" font-size="12" font-weight="700" fill="#374151">약 0.1</text>
+
+  <!-- 7. 머리 CT 1.6~2 -->
+  <text x="20" y="376" font-size="13" fill="#1f2937">머리 CT 1회</text>
+  <rect x="603" y="367" width="11" height="10" rx="3" fill="#6b7280"/>
+  <text x="624" y="377" font-size="12" font-weight="700" fill="#374151">약 1.6~2</text>
+
+  <!-- 축 -->
+  <line x1="200" y1="388" x2="680" y2="388" stroke="#6b7280" stroke-width="1"/>
+  <g font-size="12" fill="#374151" text-anchor="middle">
+    <text x="200" y="406">0.0001</text>
+    <text x="296" y="406">0.001</text>
+    <text x="392" y="406">0.01</text>
+    <text x="488" y="406">0.1</text>
+    <text x="584" y="406">1</text>
+    <text x="680" y="406">10</text>
+  </g>
+  <text x="440" y="426" font-size="12" fill="#6b7280" text-anchor="middle">유효선량(mSv, 로그 눈금: 눈금 한 칸마다 10배)</text>
+
+  <!-- 범례 -->
+  <rect x="20" y="441" width="28" height="12" rx="3" fill="#0b6e4f" opacity="0.6"/>
+  <text x="56" y="452" font-size="12" fill="#1f2937">문헌 범위(장비·설정에 따라 다름)</text>
+  <circle cx="296" cy="447" r="6" fill="#f5a623" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="308" y="452" font-size="12" fill="#1f2937">대표값·평균</text>
+
+  <!-- 출처 -->
+  <text x="20" y="474" font-size="10.5" fill="#6b7280">출처: 구내·파노라마 범위 Li(2013), CBCT 범위·평균 Ludlow 외(2015, 성인 값), 대표값 RadiologyInfo(ACR·RSNA)</text>
+  <text x="20" y="490" font-size="10.5" fill="#6b7280">비교값: 흉부 엑스레이·머리 CT는 이 사이트 계산기와 RadiologyInfo 기준, 자연방사선은 한국 연 약 3mSv · 2026년 10월 기준</text>
+</svg>
