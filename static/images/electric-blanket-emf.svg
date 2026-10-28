@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">전기장판·온수매트 자기장: 기준값과 정부 측정값 비교</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .head { font-size: 14px; font-weight: 700; fill: #0b6e4f; }
+    .label { font-size: 13px; fill: #1f2937; }
+    .value { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .src { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+
+  <text x="24" y="34" class="title">전기장판 전자파, 기준과 측정값을 나란히 보면</text>
+  <text x="24" y="56" class="sub">극저주파(60Hz) 전자파 · 측정값은 국내 인체보호기준 대비 노출 비율</text>
+
+  <!-- 1. 기준값 (200μT = 340px) -->
+  <text x="24" y="92" class="head">① 일반인 자기장 기준값</text>
+  <text x="24" y="124" class="label">국내 인체보호기준 (60Hz)</text>
+  <rect x="230" y="109" width="142" height="22" rx="4" fill="#0b6e4f"/>
+  <text x="380" y="125" class="value">83.3μT</text>
+  <text x="24" y="160" class="label">ICNIRP 2010 (50·60Hz)</text>
+  <rect x="230" y="145" width="340" height="22" rx="4" fill="#6b7280"/>
+  <text x="578" y="161" class="value">200μT</text>
+
+  <!-- 2. 측정값 (100% = 400px) -->
+  <text x="24" y="206" class="head">② 정부 측정값 (국내 기준 = 100%)</text>
+  <line x1="630" y1="218" x2="630" y2="408" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="630" y="214" class="sub" text-anchor="middle">기준 100%</text>
+  <line x1="230" y1="218" x2="230" y2="408" stroke="#d1d5db" stroke-width="1"/>
+
+  <text x="24" y="240" class="label">온수매트 조절부 바로 옆</text>
+  <rect x="230" y="226" width="80" height="20" rx="3" fill="#f5a623"/>
+  <rect x="310" y="226" width="40" height="20" rx="3" fill="#f5a623" opacity="0.45"/>
+  <text x="358" y="241" class="value">20~30% (2019)</text>
+
+  <text x="24" y="278" class="label">온수매트 조절부 30cm</text>
+  <rect x="230" y="264" width="5" height="20" fill="#0b6e4f"/>
+  <text x="243" y="279" class="value">1.27% (2019)</text>
+
+  <text x="24" y="316" class="label">전기매트</text>
+  <rect x="230" y="302" width="3" height="20" fill="#0b6e4f"/>
+  <text x="243" y="317" class="value">0.62% 이하 (2025)</text>
+
+  <text x="24" y="354" class="label">전기담요</text>
+  <rect x="230" y="340" width="2" height="20" fill="#0b6e4f"/>
+  <text x="243" y="355" class="value">0.18% 이하 (2025)</text>
+
+  <text x="24" y="392" class="label">온수매트 매트 위</text>
+  <rect x="230" y="378" width="2" height="20" fill="#0b6e4f"/>
+  <text x="243" y="393" class="value">0.17% (2019)</text>
+
+  <rect x="24" y="420" width="672" height="34" rx="8" fill="#0b6e4f"/>
+  <text x="40" y="442" style="font-size:13px; font-weight:700; fill:#fff">같은 조절부도 30cm 떨어지면 기준의 1%대 · 몸에서 멀리 두는 것이 가장 쉬운 저감법</text>
+
+  <text x="24" y="474" class="src">출처: 과기정통부고시 제2019-4호(국내 60Hz 83.3μT), ICNIRP 2010(200μT), 국립전파연구원(2019.12 온수매트),</text>
+  <text x="24" y="490" class="src">과학기술정보통신부 2025년 하반기 측정결과(2025.12.29 발표, 언론 보도). 연도는 측정 자료 시점. 기준 시점 2026년 10월.</text>
+</svg>
