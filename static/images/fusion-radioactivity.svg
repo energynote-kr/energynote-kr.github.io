@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">핵융합 D-T 반응과 방사선 문제가 생기는 세 지점(삼중수소, 중성자 방사화, 폐기물), 핵분열과의 차이</title>
+  <rect x="0" y="0" width="720" height="490" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">핵융합로에서 방사선 문제가 생기는 세 지점</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">중수소(D)·삼중수소(T) 핵융합 기준 · 헬륨은 안정하지만 중성자는 방사선, 연료는 방사성</text>
+
+  <!-- 왼쪽: D-T 반응 도식 -->
+  <rect x="20" y="72" width="380" height="300" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="36" y="96" font-size="14" font-weight="800" fill="#1f2937">D-T 반응</text>
+
+  <circle cx="70" cy="140" r="22" fill="#6b7280"/>
+  <text x="70" y="145" font-size="15" font-weight="700" text-anchor="middle" style="fill:#fff">D</text>
+  <text x="70" y="182" font-size="12" text-anchor="middle" fill="#1f2937">중수소</text>
+
+  <circle cx="70" cy="240" r="22" fill="#f5a623"/>
+  <text x="70" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">T</text>
+  <text x="70" y="282" font-size="12" text-anchor="middle" fill="#1f2937">삼중수소</text>
+  <text x="70" y="298" font-size="11" text-anchor="middle" fill="#6b7280">(방사성)</text>
+
+  <line x1="94" y1="148" x2="150" y2="182" stroke="#6b7280" stroke-width="2"/>
+  <line x1="94" y1="232" x2="150" y2="198" stroke="#6b7280" stroke-width="2"/>
+  <circle cx="170" cy="190" r="20" fill="#0b6e4f"/>
+  <text x="170" y="195" font-size="12" font-weight="700" text-anchor="middle" style="fill:#fff">융합</text>
+
+  <line x1="190" y1="180" x2="252" y2="140" stroke="#6b7280" stroke-width="2"/>
+  <line x1="190" y1="200" x2="256" y2="232" stroke="#6b7280" stroke-width="2"/>
+
+  <circle cx="275" cy="128" r="20" fill="#6b7280"/>
+  <text x="275" y="133" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">He</text>
+  <text x="275" y="166" font-size="12" text-anchor="middle" fill="#1f2937">헬륨-4 · 3.5MeV</text>
+  <text x="275" y="182" font-size="11" text-anchor="middle" fill="#6b7280">(에너지 약 20%)</text>
+
+  <circle cx="275" cy="240" r="15" fill="#0b6e4f"/>
+  <text x="275" y="245" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">n</text>
+  <text x="275" y="274" font-size="12" text-anchor="middle" fill="#1f2937">중성자 · 14.1MeV</text>
+  <text x="275" y="290" font-size="11" text-anchor="middle" fill="#6b7280">(에너지 약 80%)</text>
+
+  <line x1="291" y1="240" x2="352" y2="240" stroke="#0b6e4f" stroke-width="2.5"/>
+  <polygon points="352,234 362,240 352,246" fill="#0b6e4f"/>
+  <rect x="364" y="110" width="14" height="190" fill="#6b7280"/>
+  <text x="371" y="318" font-size="11" text-anchor="middle" fill="#1f2937">구조재 벽</text>
+
+  <text x="36" y="350" font-size="13" font-weight="700" fill="#0b6e4f">D + T → He-4 + n (총 17.6MeV)</text>
+
+  <!-- 오른쪽: 세 지점 -->
+  <rect x="420" y="72" width="280" height="92" rx="10" fill="#ffffff" stroke="#f5a623" stroke-width="2"/>
+  <text x="436" y="98" font-size="14" font-weight="800" fill="#1f2937">① 삼중수소(연료)</text>
+  <text x="436" y="122" font-size="12.5" fill="#1f2937">반감기 약 12.3년, 약한 베타선</text>
+  <text x="436" y="144" font-size="12.5" fill="#1f2937">금속 투과·먼지·물(HTO)로 이동</text>
+
+  <rect x="420" y="176" width="280" height="92" rx="10" fill="#ffffff" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="436" y="202" font-size="14" font-weight="800" fill="#1f2937">② 중성자 방사화</text>
+  <text x="436" y="226" font-size="12.5" fill="#1f2937">벽·구조재가 방사성으로 바뀜</text>
+  <text x="436" y="248" font-size="12.5" fill="#1f2937">운전 중 냉각수 질소-16(7.1초)</text>
+
+  <rect x="420" y="280" width="280" height="92" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="436" y="306" font-size="14" font-weight="800" fill="#1f2937">③ 폐기물</text>
+  <text x="436" y="330" font-size="12.5" fill="#1f2937">방사화 구조재·삼중수소 오염물</text>
+  <text x="436" y="352" font-size="12.5" fill="#1f2937">대부분 단수명(장수명 약 5%)</text>
+
+  <!-- 하단: 핵분열과 비교 -->
+  <rect x="20" y="388" width="680" height="56" rx="10" fill="#e3f2ec"/>
+  <text x="36" y="410" font-size="12.5" fill="#1f2937">핵분열과 다른 점: 연쇄반응·핵분열성 물질 없음, 고준위 사용후핵연료 없음</text>
+  <text x="36" y="432" font-size="12.5" fill="#1f2937">정지 후 열도 작음: ITER 붕괴열은 정지 직후 약 10MW, 하루 안에 1MW 미만</text>
+
+  <text x="20" y="464" font-size="10.5" fill="#6b7280">출처: ITER 기구(Fusion Fuels), 프랑스 CEA IRFM, Taylor·Cortes(2014, Fusion Eng. Des.), 미국 NRC 핵융합 규칙안(2026.2)</text>
+  <text x="20" y="480" font-size="10.5" fill="#6b7280">폐기물 비율은 CEA가 제시한 핵융합로 일반 추정 · 기준 2026년 10월 30일</text>
+</svg>

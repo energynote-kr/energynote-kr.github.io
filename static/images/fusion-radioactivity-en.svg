@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">The D-T fusion reaction and the three places where radiation problems arise (tritium, neutron activation, waste), with differences from fission</title>
+  <rect x="0" y="0" width="720" height="490" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">Where radiation enters a fusion power plant</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">D-T fusion: the helium is stable, but the neutron is radiation and the tritium fuel is radioactive.</text>
+
+  <!-- Left: D-T reaction -->
+  <rect x="20" y="72" width="380" height="300" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="36" y="96" font-size="14" font-weight="800" fill="#1f2937">The D-T reaction</text>
+
+  <circle cx="70" cy="140" r="22" fill="#6b7280"/>
+  <text x="70" y="145" font-size="15" font-weight="700" text-anchor="middle" style="fill:#fff">D</text>
+  <text x="70" y="182" font-size="12" text-anchor="middle" fill="#1f2937">Deuterium</text>
+
+  <circle cx="70" cy="240" r="22" fill="#f5a623"/>
+  <text x="70" y="245" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2937">T</text>
+  <text x="70" y="282" font-size="12" text-anchor="middle" fill="#1f2937">Tritium</text>
+  <text x="70" y="298" font-size="11" text-anchor="middle" fill="#6b7280">(radioactive)</text>
+
+  <line x1="94" y1="148" x2="150" y2="182" stroke="#6b7280" stroke-width="2"/>
+  <line x1="94" y1="232" x2="150" y2="198" stroke="#6b7280" stroke-width="2"/>
+  <circle cx="170" cy="190" r="20" fill="#0b6e4f"/>
+  <text x="170" y="194" font-size="10.5" font-weight="700" text-anchor="middle" style="fill:#fff">fuse</text>
+
+  <line x1="190" y1="180" x2="252" y2="140" stroke="#6b7280" stroke-width="2"/>
+  <line x1="190" y1="200" x2="256" y2="232" stroke="#6b7280" stroke-width="2"/>
+
+  <circle cx="275" cy="128" r="20" fill="#6b7280"/>
+  <text x="275" y="133" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">He</text>
+  <text x="275" y="166" font-size="12" text-anchor="middle" fill="#1f2937">Helium-4 · 3.5 MeV</text>
+  <text x="275" y="182" font-size="11" text-anchor="middle" fill="#6b7280">(~20% of energy)</text>
+
+  <circle cx="275" cy="240" r="15" fill="#0b6e4f"/>
+  <text x="275" y="245" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">n</text>
+  <text x="275" y="274" font-size="12" text-anchor="middle" fill="#1f2937">Neutron · 14.1 MeV</text>
+  <text x="275" y="290" font-size="11" text-anchor="middle" fill="#6b7280">(~80% of energy)</text>
+
+  <line x1="291" y1="240" x2="352" y2="240" stroke="#0b6e4f" stroke-width="2.5"/>
+  <polygon points="352,234 362,240 352,246" fill="#0b6e4f"/>
+  <rect x="364" y="110" width="14" height="190" fill="#6b7280"/>
+  <text x="371" y="318" font-size="11" text-anchor="middle" fill="#1f2937">Wall</text>
+
+  <text x="36" y="350" font-size="13" font-weight="700" fill="#0b6e4f">D + T → He-4 + n (17.6 MeV total)</text>
+
+  <!-- Right: three points -->
+  <rect x="420" y="72" width="280" height="92" rx="10" fill="#ffffff" stroke="#f5a623" stroke-width="2"/>
+  <text x="436" y="98" font-size="14" font-weight="800" fill="#1f2937">1  Tritium (the fuel)</text>
+  <text x="436" y="122" font-size="12" fill="#1f2937">Half-life ~12.3 years, weak beta</text>
+  <text x="436" y="144" font-size="12" fill="#1f2937">Moves via metal, dust, water (HTO)</text>
+
+  <rect x="420" y="176" width="280" height="92" rx="10" fill="#ffffff" stroke="#0b6e4f" stroke-width="2"/>
+  <text x="436" y="202" font-size="14" font-weight="800" fill="#1f2937">2  Neutron activation</text>
+  <text x="436" y="226" font-size="12" fill="#1f2937">Turns walls and steel radioactive</text>
+  <text x="436" y="248" font-size="12" fill="#1f2937">N-16 (7.1 s) in coolant while running</text>
+
+  <rect x="420" y="280" width="280" height="92" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="436" y="306" font-size="14" font-weight="800" fill="#1f2937">3  Waste</text>
+  <text x="436" y="330" font-size="12" fill="#1f2937">Activated steel, tritiated parts</text>
+  <text x="436" y="352" font-size="12" fill="#1f2937">Mostly short-lived (~5% long-lived)</text>
+
+  <!-- Bottom: vs fission -->
+  <rect x="20" y="388" width="680" height="56" rx="10" fill="#e3f2ec"/>
+  <text x="36" y="410" font-size="12.5" fill="#1f2937">Unlike fission: no chain reaction, no fissile fuel, no high-level spent fuel</text>
+  <text x="36" y="432" font-size="12.5" fill="#1f2937">Low decay heat: ITER about 10 MW at shutdown, below 1 MW within a day</text>
+
+  <text x="20" y="464" font-size="10.5" fill="#6b7280">Sources: ITER Organization (Fusion Fuels); CEA IRFM; Taylor and Cortes (2014); US NRC proposed rule (Feb. 2026)</text>
+  <text x="20" y="480" font-size="10.5" fill="#6b7280">Waste shares are CEA's general estimate for a fusion reactor · As of October 30, 2026</text>
+</svg>
