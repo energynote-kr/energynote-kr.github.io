@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
-  <title id="t">Timeline of the six IAEA ministerial conferences on nuclear power from Paris 2005 to Incheon 2026 with participation figures, and four boxes with the Incheon dates and venue, the 413 operating reactors worldwide, the five panel themes and the president's statement as the outcome</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">Timeline of the six IAEA ministerial conferences on nuclear power from Paris 2005 to Incheon 2026 with participation figures including 62 countries and 800-plus at Incheon, and four boxes with the Incheon dates, venue and attendance, the 413 operating reactors worldwide, the five panel themes and the president's statement as the outcome</title>
   <style>
     .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
     .sub { font-size: 11px; fill: #6b7280; }
@@ -11,9 +11,9 @@
     .sm { font-size: 11px; fill: #6b7280; }
     .src { font-size: 10px; fill: #6b7280; }
   </style>
-  <rect x="0" y="0" width="720" height="490" fill="#f8faf9"/>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
   <text x="20" y="32" class="title">IAEA ministerial conferences on nuclear power, Paris to Incheon</text>
-  <text x="20" y="51" class="sub">Six conferences since 2005, and the key numbers for Incheon 2026 (as of October 16, 2026)</text>
+  <text x="20" y="51" class="sub">Six conferences since 2005, and the key numbers for Incheon 2026 (as of October 30, 2026)</text>
 
   <!-- section 1: timeline -->
   <text x="20" y="82" class="hd">1. The series: every four to five years, a different host</text>
@@ -40,8 +40,8 @@
   <text x="416" y="112" class="yr" text-anchor="middle">2017</text>
   <circle cx="416" cy="135" r="7" fill="#0b6e4f"/>
   <text x="416" y="160" class="city" text-anchor="middle">Abu Dhabi</text>
-  <text x="416" y="178" class="sm" text-anchor="middle">67 states/orgs</text>
-  <text x="416" y="194" class="sm" text-anchor="middle">about 400</text>
+  <text x="416" y="178" class="sm" text-anchor="middle">68 states</text>
+  <text x="416" y="194" class="sm" text-anchor="middle">about 700</text>
 
   <text x="534" y="112" class="yr" text-anchor="middle">2022</text>
   <circle cx="534" cy="135" r="7" fill="#0b6e4f"/>
@@ -52,8 +52,9 @@
   <text x="652" y="112" class="yr" text-anchor="middle" style="fill:#f5a623">2026</text>
   <circle cx="652" cy="135" r="10" fill="#f5a623"/>
   <text x="652" y="160" class="city" text-anchor="middle">Incheon</text>
-  <text x="652" y="178" class="sm" text-anchor="middle">6th conference</text>
-  <text x="652" y="194" class="sm" text-anchor="middle">first in Korea</text>
+  <text x="652" y="178" class="sm" text-anchor="middle">62 countries</text>
+  <text x="652" y="194" class="sm" text-anchor="middle">800-plus</text>
+  <text x="652" y="210" class="sm" text-anchor="middle">first in Korea</text>
 
   <!-- section 2: key numbers -->
   <text x="20" y="232" class="hd">2. Key numbers for Incheon</text>
@@ -65,7 +66,7 @@
   <text x="41" y="330" class="lb">Incheon, Korea</text>
   <text x="41" y="348" class="lb">IAEA with OECD/NEA</text>
   <text x="41" y="372" class="sm">Hosted via Korea's MSIT</text>
-  <text x="41" y="390" class="sm">Registration due Oct 19</text>
+  <text x="41" y="390" class="sm">62 countries, 800-plus</text>
 
   <rect x="195" y="248" width="160" height="172" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
   <rect x="195" y="248" width="6" height="172" rx="3" fill="#f5a623"/>
@@ -94,6 +95,7 @@
   <text x="551" y="372" class="sm">No vote, not binding;</text>
   <text x="551" y="390" class="sm">read at closing plenary</text>
 
-  <text x="20" y="452" class="src">Sources: IAEA announcement CN-348 (2026); IAEA final statement 2005, reports 2009, Year in Review 2013; French CEA (2017);</text>
-  <text x="20" y="468" class="src">Nuclear Engineering International (Oct 31, 2022). Counting methods differ by conference. Checked Oct 16, 2026.</text>
+  <text x="20" y="450" class="src">Sources: IAEA announcement CN-348 (2026); IAEA statements 2005 and 2017, reports 2009, Year in Review 2013;</text>
+  <text x="20" y="466" class="src">Nuclear Engineering International (Oct 31, 2022); MSIT closing release (Oct 29, 2026) for Incheon attendance.</text>
+  <text x="20" y="482" class="src">Counting methods differ by conference. President's statement text not found as of Oct 30, 2026.</text>
 </svg>
