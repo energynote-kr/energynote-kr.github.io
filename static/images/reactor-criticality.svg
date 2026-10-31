@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">미임계·임계·초임계에서 세대별 중성자 수 변화와 새 원전이 최초 임계를 거쳐 상업운전에 이르는 시운전 순서</title>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">원자로 임계: 중성자 한 세대가 다음 세대를 몇 개 남기나</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">점 하나 = 중성자 묶음 · k값(0.5, 1, 2)은 설명용 과장, 실제 운전 중 k는 1에서 아주 조금만 벗어남</text>
+
+  <!-- 패널 1: 미임계 -->
+  <rect x="20" y="72" width="214" height="250" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="36" y="98" font-size="15" font-weight="800" fill="#1f2937">미임계 (k &lt; 1)</text>
+  <text x="36" y="118" font-size="12" fill="#6b7280">연쇄반응이 잦아듦</text>
+  <text x="36" y="152" font-size="12" fill="#1f2937">1세대</text>
+  <text x="36" y="188" font-size="12" fill="#1f2937">2세대</text>
+  <text x="36" y="224" font-size="12" fill="#1f2937">3세대</text>
+  <text x="36" y="260" font-size="12" fill="#1f2937">4세대</text>
+  <g fill="#6b7280">
+    <circle cx="94" cy="148" r="5"/><circle cx="108" cy="148" r="5"/><circle cx="122" cy="148" r="5"/><circle cx="136" cy="148" r="5"/><circle cx="150" cy="148" r="5"/><circle cx="164" cy="148" r="5"/><circle cx="178" cy="148" r="5"/><circle cx="192" cy="148" r="5"/>
+    <circle cx="94" cy="184" r="5"/><circle cx="108" cy="184" r="5"/><circle cx="122" cy="184" r="5"/><circle cx="136" cy="184" r="5"/>
+    <circle cx="94" cy="220" r="5"/><circle cx="108" cy="220" r="5"/>
+    <circle cx="94" cy="256" r="5"/>
+  </g>
+  <text x="36" y="300" font-size="12.5" font-weight="700" fill="#6b7280">출력 감소 · 정지 상태</text>
+
+  <!-- 패널 2: 임계 -->
+  <rect x="253" y="72" width="214" height="250" rx="10" fill="#ffffff" stroke="#0b6e4f" stroke-width="2.5"/>
+  <text x="269" y="98" font-size="15" font-weight="800" fill="#0b6e4f">임계 (k = 1)</text>
+  <text x="269" y="118" font-size="12" fill="#6b7280">연쇄반응이 스스로 유지됨</text>
+  <text x="269" y="152" font-size="12" fill="#1f2937">1세대</text>
+  <text x="269" y="188" font-size="12" fill="#1f2937">2세대</text>
+  <text x="269" y="224" font-size="12" fill="#1f2937">3세대</text>
+  <text x="269" y="260" font-size="12" fill="#1f2937">4세대</text>
+  <g fill="#0b6e4f">
+    <circle cx="327" cy="148" r="5"/><circle cx="341" cy="148" r="5"/><circle cx="355" cy="148" r="5"/><circle cx="369" cy="148" r="5"/>
+    <circle cx="327" cy="184" r="5"/><circle cx="341" cy="184" r="5"/><circle cx="355" cy="184" r="5"/><circle cx="369" cy="184" r="5"/>
+    <circle cx="327" cy="220" r="5"/><circle cx="341" cy="220" r="5"/><circle cx="355" cy="220" r="5"/><circle cx="369" cy="220" r="5"/>
+    <circle cx="327" cy="256" r="5"/><circle cx="341" cy="256" r="5"/><circle cx="355" cy="256" r="5"/><circle cx="369" cy="256" r="5"/>
+  </g>
+  <text x="269" y="300" font-size="12.5" font-weight="700" fill="#0b6e4f">출력 일정 · 정상 운전</text>
+
+  <!-- 패널 3: 초임계 -->
+  <rect x="486" y="72" width="214" height="250" rx="10" fill="#ffffff" stroke="#f5a623" stroke-width="2"/>
+  <text x="502" y="98" font-size="15" font-weight="800" fill="#1f2937">초임계 (k &gt; 1)</text>
+  <text x="502" y="118" font-size="12" fill="#6b7280">연쇄반응이 불어남</text>
+  <text x="502" y="152" font-size="12" fill="#1f2937">1세대</text>
+  <text x="502" y="188" font-size="12" fill="#1f2937">2세대</text>
+  <text x="502" y="224" font-size="12" fill="#1f2937">3세대</text>
+  <text x="502" y="260" font-size="12" fill="#1f2937">4세대</text>
+  <g fill="#f5a623">
+    <circle cx="560" cy="148" r="5"/>
+    <circle cx="560" cy="184" r="5"/><circle cx="574" cy="184" r="5"/>
+    <circle cx="560" cy="220" r="5"/><circle cx="574" cy="220" r="5"/><circle cx="588" cy="220" r="5"/><circle cx="602" cy="220" r="5"/>
+    <circle cx="560" cy="256" r="5"/><circle cx="574" cy="256" r="5"/><circle cx="588" cy="256" r="5"/><circle cx="602" cy="256" r="5"/><circle cx="616" cy="256" r="5"/><circle cx="630" cy="256" r="5"/><circle cx="644" cy="256" r="5"/><circle cx="658" cy="256" r="5"/>
+  </g>
+  <text x="502" y="300" font-size="12.5" font-weight="700" fill="#1f2937">출력 증가 · 올릴 때 잠깐</text>
+
+  <!-- 시운전 순서 -->
+  <text x="20" y="352" font-size="14" font-weight="800" fill="#1f2937">새 원전의 시운전 순서</text>
+  <rect x="20" y="364" width="128" height="58" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="84" y="387" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">연료 장전</text>
+  <text x="84" y="408" font-size="11" text-anchor="middle" fill="#6b7280">노심에 연료 채움</text>
+  <polygon points="150,388 156,393 150,398" fill="#6b7280"/>
+
+  <rect x="158" y="364" width="128" height="58" rx="8" fill="#f5a623"/>
+  <text x="222" y="387" font-size="13" font-weight="800" text-anchor="middle" fill="#1f2937">최초 임계</text>
+  <text x="222" y="408" font-size="11" text-anchor="middle" fill="#1f2937">처음으로 k = 1</text>
+  <polygon points="288,388 294,393 288,398" fill="#6b7280"/>
+
+  <rect x="296" y="364" width="128" height="58" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="360" y="387" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">저출력 시험</text>
+  <text x="360" y="408" font-size="11" text-anchor="middle" fill="#6b7280">설계 계산과 대조</text>
+  <polygon points="426,388 432,393 426,398" fill="#6b7280"/>
+
+  <rect x="434" y="364" width="128" height="58" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="498" y="387" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">출력상승 시험</text>
+  <text x="498" y="408" font-size="11" text-anchor="middle" fill="#6b7280">단계별로 출력 올림</text>
+  <polygon points="564,388 570,393 564,398" fill="#6b7280"/>
+
+  <rect x="572" y="364" width="128" height="58" rx="8" fill="#0b6e4f"/>
+  <text x="636" y="387" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">상업운전</text>
+  <text x="636" y="408" font-size="11" text-anchor="middle" style="fill:#fff">정식 운전 시작</text>
+
+  <!-- 하단: 지발중성자 -->
+  <rect x="20" y="436" width="680" height="34" rx="8" fill="#e3f2ec"/>
+  <text x="34" y="458" font-size="12.5" fill="#1f2937">제어가 가능한 이유: 우라늄-235 핵분열 중성자의 약 0.65%는 몇 초~몇 분 늦게 나오는 지발중성자</text>
+
+  <text x="20" y="488" font-size="10.5" fill="#6b7280">출처: 미국 NRC 임계안전 용어집, 세계원자력협회(WNA), 원자력안전위원회·한수원 새울 3호기 발표</text>
+  <text x="20" y="503" font-size="10.5" fill="#6b7280">시운전 순서는 일반적 흐름을 단순화한 것 · 기준 2026년 10월 31일</text>
+</svg>
