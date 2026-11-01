@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">Nuclear reactors under construction by country (World Nuclear Association, updated October 16, 2026): China 38, India 8, Russia 7, Egypt, South Korea and Türkiye 4 each, Bangladesh, UK, Japan and Ukraine 2 each, Argentina, Brazil, Canada, Hungary, Iran and Pakistan 1 each, 79 worldwide</title>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">Who is building nuclear reactors now</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">Reactors under construction by country (suspended units included), as of October 16, 2026</text>
+
+  <!-- legend -->
+  <rect x="20" y="68" width="12" height="12" fill="#0b6e4f"/>
+  <text x="38" y="79" font-size="12" fill="#1f2937">Under construction</text>
+  <rect x="190" y="68" width="12" height="12" fill="#f5a623"/>
+  <text x="208" y="79" font-size="12" fill="#1f2937">South Korea</text>
+  <rect x="310" y="68" width="12" height="12" fill="#6b7280"/>
+  <text x="328" y="79" font-size="12" fill="#1f2937">Countries with only suspended units</text>
+
+  <!-- bars: start x=120, 1 unit = 12px -->
+  <g font-size="13" fill="#1f2937">
+    <text x="20" y="112">China</text>
+    <rect x="120" y="100" width="456" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="584" y="112" font-weight="700" fill="#0b6e4f">38</text>
+
+    <text x="20" y="134">India</text>
+    <rect x="120" y="122" width="96" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="224" y="134" font-weight="700" fill="#0b6e4f">8</text>
+
+    <text x="20" y="156">Russia</text>
+    <rect x="120" y="144" width="84" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="212" y="156" font-weight="700" fill="#0b6e4f">7</text>
+
+    <text x="20" y="178">Egypt</text>
+    <rect x="120" y="166" width="48" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="176" y="178" font-weight="700" fill="#0b6e4f">4</text>
+
+    <text x="20" y="200" font-weight="700">South Korea</text>
+    <rect x="120" y="188" width="48" height="15" rx="3" fill="#f5a623"/>
+    <text x="176" y="200" font-weight="700" fill="#b26b00">4</text>
+
+    <text x="20" y="222">Türkiye</text>
+    <rect x="120" y="210" width="48" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="176" y="222" font-weight="700" fill="#0b6e4f">4</text>
+
+    <text x="20" y="244">Bangladesh</text>
+    <rect x="120" y="232" width="24" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="152" y="244" font-weight="700" fill="#0b6e4f">2</text>
+
+    <text x="20" y="266">UK</text>
+    <rect x="120" y="254" width="24" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="152" y="266" font-weight="700" fill="#0b6e4f">2</text>
+
+    <text x="20" y="288">Japan</text>
+    <rect x="120" y="276" width="24" height="15" rx="3" fill="#6b7280"/>
+    <text x="152" y="288" font-weight="700" fill="#6b7280">2</text>
+
+    <text x="20" y="310">Ukraine</text>
+    <rect x="120" y="298" width="24" height="15" rx="3" fill="#6b7280"/>
+    <text x="152" y="310" font-weight="700" fill="#6b7280">2</text>
+
+    <text x="20" y="332">Argentina</text>
+    <rect x="120" y="320" width="12" height="15" rx="3" fill="#6b7280"/>
+    <text x="140" y="332" font-weight="700" fill="#6b7280">1</text>
+
+    <text x="20" y="354">Brazil</text>
+    <rect x="120" y="342" width="12" height="15" rx="3" fill="#6b7280"/>
+    <text x="140" y="354" font-weight="700" fill="#6b7280">1</text>
+
+    <text x="20" y="376">Canada</text>
+    <rect x="120" y="364" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="140" y="376" font-weight="700" fill="#0b6e4f">1</text>
+
+    <text x="20" y="398">Hungary</text>
+    <rect x="120" y="386" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="140" y="398" font-weight="700" fill="#0b6e4f">1</text>
+
+    <text x="20" y="420">Iran</text>
+    <rect x="120" y="408" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="140" y="420" font-weight="700" fill="#0b6e4f">1</text>
+
+    <text x="20" y="442">Pakistan</text>
+    <rect x="120" y="430" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="140" y="442" font-weight="700" fill="#0b6e4f">1</text>
+  </g>
+
+  <!-- totals box -->
+  <rect x="400" y="140" width="300" height="160" rx="8" fill="#ffffff" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="418" y="168" font-size="13" fill="#6b7280">World total (WNA, Oct 16, 2026)</text>
+  <text x="418" y="202" font-size="24" font-weight="800" fill="#0b6e4f">79 reactors</text>
+  <text x="418" y="230" font-size="13" fill="#1f2937">in 16 countries · 86,560 MWe gross</text>
+  <text x="418" y="256" font-size="13" fill="#1f2937">China: 38, about 48% of the total</text>
+  <text x="418" y="282" font-size="12" fill="#6b7280">Of these, 6 are suspended (per WNA)</text>
+
+  <text x="20" y="470" font-size="10.5" fill="#6b7280">Source: World Nuclear Association, World Nuclear Power Reactors &amp; Uranium Requirements</text>
+  <text x="20" y="485" font-size="10.5" fill="#6b7280">Updated Oct 16, 2026. Gray = construction suspended, as classified by WNA.</text>
+  <text x="20" y="500" font-size="10.5" fill="#6b7280">China's total includes fast and small reactors · energynote.kr</text>
+</svg>

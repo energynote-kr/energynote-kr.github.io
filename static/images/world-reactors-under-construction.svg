@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">국가별 건설 중 원자로 수(세계원자력협회, 2026년 10월 16일 갱신): 중국 38기, 인도 8기, 러시아 7기, 이집트·한국·튀르키예 각 4기, 방글라데시·영국·일본·우크라이나 각 2기, 아르헨티나·브라질·캐나다·헝가리·이란·파키스탄 각 1기, 세계 79기</title>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">지금 원자로를 짓고 있는 나라</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">국가별 건설 중 원자로 수 (공사 중단 호기 포함, 2026년 10월 16일 기준)</text>
+
+  <!-- 범례 -->
+  <rect x="20" y="68" width="12" height="12" fill="#0b6e4f"/>
+  <text x="38" y="79" font-size="12" fill="#1f2937">건설 진행</text>
+  <rect x="120" y="68" width="12" height="12" fill="#f5a623"/>
+  <text x="138" y="79" font-size="12" fill="#1f2937">한국</text>
+  <rect x="190" y="68" width="12" height="12" fill="#6b7280"/>
+  <text x="208" y="79" font-size="12" fill="#1f2937">공사 중단 호기만 있는 나라</text>
+
+  <!-- 막대: x=110 시작, 1기 = 12px -->
+  <g font-size="13" fill="#1f2937">
+    <text x="20" y="112">중국</text>
+    <rect x="110" y="100" width="456" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="574" y="112" font-weight="700" fill="#0b6e4f">38기</text>
+
+    <text x="20" y="134">인도</text>
+    <rect x="110" y="122" width="96" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="214" y="134" font-weight="700" fill="#0b6e4f">8기</text>
+
+    <text x="20" y="156">러시아</text>
+    <rect x="110" y="144" width="84" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="202" y="156" font-weight="700" fill="#0b6e4f">7기</text>
+
+    <text x="20" y="178">이집트</text>
+    <rect x="110" y="166" width="48" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="166" y="178" font-weight="700" fill="#0b6e4f">4기</text>
+
+    <text x="20" y="200" font-weight="700">한국</text>
+    <rect x="110" y="188" width="48" height="15" rx="3" fill="#f5a623"/>
+    <text x="166" y="200" font-weight="700" fill="#b26b00">4기</text>
+
+    <text x="20" y="222">튀르키예</text>
+    <rect x="110" y="210" width="48" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="166" y="222" font-weight="700" fill="#0b6e4f">4기</text>
+
+    <text x="20" y="244">방글라데시</text>
+    <rect x="110" y="232" width="24" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="142" y="244" font-weight="700" fill="#0b6e4f">2기</text>
+
+    <text x="20" y="266">영국</text>
+    <rect x="110" y="254" width="24" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="142" y="266" font-weight="700" fill="#0b6e4f">2기</text>
+
+    <text x="20" y="288">일본</text>
+    <rect x="110" y="276" width="24" height="15" rx="3" fill="#6b7280"/>
+    <text x="142" y="288" font-weight="700" fill="#6b7280">2기</text>
+
+    <text x="20" y="310">우크라이나</text>
+    <rect x="110" y="298" width="24" height="15" rx="3" fill="#6b7280"/>
+    <text x="142" y="310" font-weight="700" fill="#6b7280">2기</text>
+
+    <text x="20" y="332">아르헨티나</text>
+    <rect x="110" y="320" width="12" height="15" rx="3" fill="#6b7280"/>
+    <text x="130" y="332" font-weight="700" fill="#6b7280">1기</text>
+
+    <text x="20" y="354">브라질</text>
+    <rect x="110" y="342" width="12" height="15" rx="3" fill="#6b7280"/>
+    <text x="130" y="354" font-weight="700" fill="#6b7280">1기</text>
+
+    <text x="20" y="376">캐나다</text>
+    <rect x="110" y="364" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="130" y="376" font-weight="700" fill="#0b6e4f">1기</text>
+
+    <text x="20" y="398">헝가리</text>
+    <rect x="110" y="386" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="130" y="398" font-weight="700" fill="#0b6e4f">1기</text>
+
+    <text x="20" y="420">이란</text>
+    <rect x="110" y="408" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="130" y="420" font-weight="700" fill="#0b6e4f">1기</text>
+
+    <text x="20" y="442">파키스탄</text>
+    <rect x="110" y="430" width="12" height="15" rx="3" fill="#0b6e4f"/>
+    <text x="130" y="442" font-weight="700" fill="#0b6e4f">1기</text>
+  </g>
+
+  <!-- 합계 상자 -->
+  <rect x="400" y="140" width="300" height="160" rx="8" fill="#ffffff" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="418" y="168" font-size="13" fill="#6b7280">세계 합계 (WNA, 2026.10.16)</text>
+  <text x="418" y="202" font-size="24" font-weight="800" fill="#0b6e4f">79기 · 16개국</text>
+  <text x="418" y="230" font-size="14" fill="#1f2937">총출력 86,560MWe (그로스)</text>
+  <text x="418" y="256" font-size="14" fill="#1f2937">중국 38기 = 전체의 약 48%</text>
+  <text x="418" y="282" font-size="12" fill="#6b7280">이 중 6기는 공사 중단(WNA 분류)</text>
+
+  <text x="20" y="476" font-size="10.5" fill="#6b7280">자료: 세계원자력협회(WNA) World Nuclear Power Reactors &amp; Uranium Requirements, 2026년 10월 16일 갱신</text>
+  <text x="20" y="492" font-size="10.5" fill="#6b7280">회색은 WNA가 공사 중단으로 분류한 호기. 중국에는 고속로·소형로 포함 · energynote.kr</text>
+</svg>
