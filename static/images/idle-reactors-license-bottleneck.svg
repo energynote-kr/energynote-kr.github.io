@@ -16,7 +16,7 @@
   </style>
   <rect x="0" y="0" width="720" height="470" fill="#f8faf9"/>
   <text x="20" y="30" class="title">고리 3·4호기 10월 27일 계속운전 허가, 남은 한빛 1·2호기와 월성 2호기</text>
-  <text x="20" y="48" class="sub">정지 기간은 2026년 10월 29일까지 · 재가동·심의 목표는 보도된 시기이며 확정 일정이 아님</text>
+  <text x="20" y="48" class="sub">정지 기간은 2026년 11월 2일까지 · 재가동·심의 목표는 보도된 시기이며 확정 일정이 아님</text>
   <text x="20" y="66" class="hd">호기</text>
   <text x="100" y="66" class="hd">허가 만료와 정지 기간</text>
   <text x="436" y="66" class="hd">심사 단계 · 다음 일정</text>
@@ -95,12 +95,12 @@
   <rect x="308.3" y="337" width="10" height="10" transform="rotate(45 313.3 342)" fill="#1f2937"/>
   <text x="319.3" y="329" class="dt">11.1 만료</text>
   <path d="M374.3 357 V362 H420 V357" fill="none" stroke="#0b6e4f" stroke-width="2"/>
-  <text x="436" y="339" class="i1">11.1 허가 만료 · 변경허가 신청 전</text>
+  <text x="436" y="339" class="i1">11.1 만료 정지 · 10.29 변경허가 신청</text>
   <text x="436" y="356" class="i2">한수원 심의 목표 2027 하반기</text>
 
   <!-- 기준일 선 -->
-  <line x1="312.8" y1="96" x2="312.8" y2="372" stroke="#dc2626" stroke-width="1" stroke-dasharray="2 3"/>
-  <text x="312.8" y="385" class="dt" text-anchor="middle" style="fill:#dc2626">기준 10.29</text>
+  <line x1="313.8" y1="96" x2="313.8" y2="372" stroke="#dc2626" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="313.8" y="385" class="dt" text-anchor="middle" style="fill:#dc2626">기준 11.2</text>
 
   <!-- 범례 -->
   <rect x="20" y="396" width="22" height="10" rx="2" fill="#bfe3d3"/>
@@ -119,5 +119,5 @@
   <text x="308" y="426" class="lg">재가동·심의 목표 시기</text>
 
   <text x="20" y="448" class="src">출처: 원안위 의결 보도(경향신문·파이낸셜뉴스 2026.10.27), 사고관리계획서 승인(경향신문 2026.10.15), 재경일보(2026.10.27),</text>
-  <text x="20" y="462" class="src">매일신문(2026.10.21) · 월성 2호기 신청 여부는 10월 21일 보도 기준 · 한빛 1호기는 2025년 12월 만료 · 기준일 2026년 10월 29일</text>
+  <text x="20" y="462" class="src">매일신문(2026.10.21), 경북일보(2026.11.1) · 월성 2호기 신청일은 한수원 발표 · 한빛 1호기는 2025.12 만료 · 기준일 2026.11.2</text>
 </svg>

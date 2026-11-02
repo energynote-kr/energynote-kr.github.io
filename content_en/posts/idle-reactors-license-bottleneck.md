@@ -1,35 +1,35 @@
 ---
-title: "Kori 3 and 4 continued operation approved: why a 10-year extension buys about seven, and what is left for Hanbit 1 and 2 and Wolsong 2"
+title: "Kori 3 and 4 approved, Wolsong 2 shut down: why a 10-year extension buys about seven, and the seven Korean reactors still waiting"
 date: 2026-10-08T09:00:00+09:00
-lastmod: 2026-10-29T15:00:00+09:00
-dataAsOf: "2026-10-29"
+lastmod: 2026-11-02T15:00:00+09:00
+dataAsOf: "2026-11-02"
 categories: ["Nuclear & Energy"]
 tags: ["Korea nuclear", "NSSC", "license renewal", "Kori 3 and 4"]
-description: "Korea's NSSC approved continued operation of Kori 3 and 4 on Oct. 27, 2026. The 10 years run from design-life expiry, so real operation is about 7 to 8 years."
+description: "Korea's NSSC approved continued operation of Kori 3 and 4 on Oct. 27, 2026. The 10 years run from design-life expiry, so real operation is about 7 to 8 years. Wolsong 2 went idle at license expiry on Nov. 1 after a late filing."
 ---
 
 On October 27, 2026, Korea's Nuclear Safety and Security Commission (NSSC), the country's nuclear regulator, voted 5 to 2 to let Kori 3 and 4 run for another ten years. Seven of its nine members took part (Kyunghyang Shinmun; Cheonji Ilbo, October 27, 2026). The two 950 MW units near Busan had been idle since their licenses expired.
 
-Approval does not mean power. Korea Hydro & Nuclear Power (KHNP), the state utility that operates every Korean reactor, aims to restart them one after the other in the first half of 2027, after equipment upgrades and inspections. This post first appeared on October 8 as a look at why four reactors were stuck; it has been updated as of October 29 with the outcome and the units still waiting.
+Approval does not mean power. Korea Hydro & Nuclear Power (KHNP), the state utility that operates every Korean reactor, aims to restart them one after the other in the first half of 2027, after equipment upgrades and inspections. This post first appeared on October 8 as a look at why four reactors were stuck; it was updated on October 29 with the outcome and the units still waiting, and on November 2 with Wolsong 2's license expiry and KHNP's application.
 
 > **Key takeaways**
 > - Kori 3 and 4 were approved on October 27 to operate until September 28, 2034 and August 6, 2035. KHNP targets restart in the first half of 2027.
 > - The accident-management plans that were deferred twice in September were approved on October 15 for Kori 3 and 4 and Hanbit 1 and 2. A decision on Hanbit 1 and 2 continued operation is targeted for the first half of 2027.
-> - The ten years run from the original design-life expiry, not from approval, so Korean media put the real extra operation at about seven years for Kori 3 and eight for Kori 4. Wolsong 2's license ends on November 1, and as of an October 21 report KHNP had not yet filed its application.
+> - The ten years run from the original design-life expiry, not from approval, so Korean media put the real extra operation at about seven years for Kori 3 and eight for Kori 4. Wolsong 2's 30-year license ended on November 1, so it cannot restart during review. KHNP said it applied for continued operation of Wolsong 2 to 4 on October 29 (Kyongbuk Ilbo, November 1, 2026).
 
 ## 1. What was decided on October 27
 
 Korean reactors carry a design-life date in their license, 40 years for these pressurized water reactors. When it arrives the unit must stop until the NSSC approves continued operation, backed by a technical review from KINS (Korea Institute of Nuclear Safety, the NSSC's review body). How that process compares with the US, Japan and France is covered in [our process explainer](/en/posts/korea-reactor-license-renewal/).
 
-The table is as of October 29, 2026. Targets are windows the NSSC or KHNP reportedly gave, not fixed dates.
+The table is as of November 2, 2026. Targets are windows the NSSC or KHNP reportedly gave, not fixed dates.
 
-| Unit | License expired | Status on Oct. 29 | Next step |
+| Unit | License expired | Status on Nov. 2 | Next step |
 |---|---|---|---|
 | Kori 3 | Sept. 28, 2024 | Approved Oct. 27; runs to Sept. 28, 2034 | Restart target H1 2027 |
 | Kori 4 | Aug. 6, 2025 | Approved Oct. 27; runs to Aug. 6, 2035 | Restart target H1 2027 |
 | Hanbit 1 | Dec. 2025 | Plan approved Oct. 15; under review | Decision target H1 2027 |
 | Hanbit 2 | Sept. 11, 2026 | Same stage as Hanbit 1 | Decision target H1 2027 |
-| Wolsong 2 | Nov. 1, 2026 | Application not yet filed (Oct. 21 report) | KHNP aims for review in H2 2027 |
+| Wolsong 2 | Nov. 1, 2026 | Idle at license expiry; applied Oct. 29 | KHNP aims for review in H2 2027 |
 
 ### The vote and the dissent
 
@@ -67,11 +67,13 @@ KINS confirmed after site inspections that accident-management capability meets 
 
 The Korea Federation for Environmental Movements argued that a multi-unit probabilistic safety assessment study was not reflected in the review, and that the NSSC approved unit by unit without fully examining a site where reactors are clustered (Kyunghyang Shinmun, October 27, 2026). Long deliberation is not new: Saeul 3's operating license was first discussed on December 19, 2025 and granted on December 30 (Newsis), one step in [the seven-stage licensing path](/en/posts/korea-nuclear-licensing-process/).
 
-## 3. Wolsong 2 on November 1, and the seven still waiting
+## 3. Wolsong 2 stops on November 1, and the seven still waiting
 
-Wolsong 2 (700 MW) was licensed in November 1996, and its 30-year license ends on November 1, 2026 (Maeil Shinmun, October 21, 2026). It is a CANDU heavy-water unit, so extension brings major work such as pressure-tube replacement; Maeil Shinmun reported that, because Canadian suppliers need years to deliver and install the parts, the real extended run would be only about six to seven years even with approval.
+Wolsong 2 (700 MW) was licensed in November 1996, and its 30-year license ended on November 1, 2026 (Maeil Shinmun, October 21, 2026). It now cannot restart until continued operation is approved (Kyongbuk Ilbo, November 1, 2026). It is a CANDU heavy-water unit, so extension brings major work such as pressure-tube replacement; Maeil Shinmun reported that, because Canadian suppliers need years to deliver and install the parts, the real extended run would be only about six to seven years even with approval.
 
-The filing is late. KHNP submitted periodic safety reviews for Wolsong 2 to 4 in April 2024 and finished public consultation in May 2025, but had not applied for the license change as of October 21 (Maeil Shinmun). A KHNP official told the paper the economic evaluation is under way and the company plans to file soon.
+The filing came three days before expiry. KHNP submitted periodic safety reviews for Wolsong 2 to 4 in April 2024 and finished public consultation in May 2025, but had not applied for the license change as of October 21 (Maeil Shinmun). A KHNP official told the paper then that the economic evaluation was under way and the company planned to file soon. After a board resolution, KHNP said it applied to the NSSC on October 29 for license changes for Wolsong 2, 3 and 4 (Kyongbuk Ilbo, November 1, 2026). The application must include a radiological environmental report that reflects the public consultation (same report).
+
+One point from a nuclear engineering view: Wolsong 2 did not switch off on November 1. As noted below, it had been down for maintenance since September 2025; what changed at expiry is that finishing the work is no longer enough to restart it without a new license. Kori 2 took 31 months from expiry to approval ([process explainer](/en/posts/korea-reactor-license-renewal/)), so with a filing this close to expiry, an outage measured in years is the realistic planning case.
 
 - **KHNP's reason**: a 2021 economic-evaluation guideline uses the Korea Power Exchange settlement price rather than retail tariffs, and KHNP says heavy-water units cost about 10 percent more to generate than light-water ones, which makes the case hard to show (Maeil Shinmun).
 - **Already in an outage**: Wolsong 2 entered a planned maintenance outage on September 1, 2025 (Global Economic News, September 2, 2025). It has stayed down since, after some pipe supports were found to have been built differently from the design drawings (TBC, March 10, 2026; Callnews24, October 27, 2026). KHNP says the mismatch is not directly safety-related and will not affect the continued-operation process.
@@ -112,10 +114,10 @@ KEPCO KPS (KRX: 051600) does plant maintenance, KEPCO E&C (KRX: 052690) design, 
 
 ## Where this goes next
 
-Four things to watch, as of October 29, 2026. First, whether Kori 3 and 4 clear upgrades, inspections and the NSSC's on-site check in time for the first-half 2027 target; every month of delay comes off the ten years. Second, when KHNP files for Wolsong 2 after its license lapses on November 1.
+Four things to watch, as of November 2, 2026. First, whether Kori 3 and 4 clear upgrades, inspections and the NSSC's on-site check in time for the first-half 2027 target; every month of delay comes off the ten years. Second, whether the Wolsong 2 to 4 review filed on October 29 reaches the commission in the second half of 2027, before Wolsong 3's license also ends in December 2027.
 
 Third, the Hanbit 1 and 2 decision targeted for the first half of 2027, where the multi-unit question may return. Fourth, whether the debate over the expiry-based clock turns into a legal amendment. Delays were already a theme in this year's parliamentary audits, including the October 13 science committee session, summarized in [our Korean audit roundup](/posts/national-audit-2026-nuclear-energy/) (in Korean).
 
 ---
 
-*Sources: Kyunghyang Shinmun on the Kori 3 and 4 approval (Oct. 27, 2026) and the accident-management plan approval (Oct. 15, 2026); Financial News on the Kori 3 and 4 license (Oct. 27, 2026); Cheonji Ilbo (Oct. 27, 2026); Global Economic News on the approval (Oct. 27, 2026) and the Wolsong 2 outage start (Sept. 2, 2025); Eroun on remaining steps (Oct. 28, 2026); Jaekyung Ilbo on KHNP restart plans (Oct. 27, 2026); Callnews24 on idle units (Oct. 27, 2026); Asia Economy Daily on the approval (Oct. 28, 2026) and the Sept. 30 deferral; NewDaily on the seven-year effect (Oct. 28, 2026); Maeil Shinmun on Wolsong 2 (Oct. 21, 2026) and Rep. Hwang Jung-a's data (Sept. 29, 2026); Newsis on Saeul 3 (Dec. 19, 2025); TBC on the Wolsong outages (Mar. 10, 2026); Segye Ilbo (Sept. 30, 2026); Special Economy (Sept. 12, 2026); Korea Economic Daily on Hanbit 2 (Sept. 11, 2026)*
+*Sources: Kyunghyang Shinmun on the Kori 3 and 4 approval (Oct. 27, 2026) and the accident-management plan approval (Oct. 15, 2026); Financial News on the Kori 3 and 4 license (Oct. 27, 2026); Cheonji Ilbo (Oct. 27, 2026); Global Economic News on the approval (Oct. 27, 2026) and the Wolsong 2 outage start (Sept. 2, 2025); Eroun on remaining steps (Oct. 28, 2026); Jaekyung Ilbo on KHNP restart plans (Oct. 27, 2026); Callnews24 on idle units (Oct. 27, 2026); Asia Economy Daily on the approval (Oct. 28, 2026) and the Sept. 30 deferral; NewDaily on the seven-year effect (Oct. 28, 2026); Kyongbuk Ilbo on the Wolsong 2 to 4 application and Wolsong 2 shutdown (Nov. 1, 2026); Maeil Shinmun on Wolsong 2 (Oct. 21, 2026) and Rep. Hwang Jung-a's data (Sept. 29, 2026); Newsis on Saeul 3 (Dec. 19, 2025); TBC on the Wolsong outages (Mar. 10, 2026); Segye Ilbo (Sept. 30, 2026); Special Economy (Sept. 12, 2026); Korea Economic Daily on Hanbit 2 (Sept. 11, 2026)*
