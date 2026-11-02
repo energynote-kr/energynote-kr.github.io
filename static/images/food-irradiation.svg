@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">감자·양파·마늘 발아억제 0.15kGy부터 미국 향신료 살균 30kGy까지 목적별 조사 상한을 Codex 일반 상한 10kGy와 함께 로그 눈금으로 비교한 그림</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="460" fill="#f8faf9"/>
+
+  <text x="20" y="28" font-size="17" font-weight="800" fill="#1f2937">방사선 조사 식품, 목적별 조사량은 얼마나 다를까</text>
+  <text x="20" y="47" font-size="12" fill="#6b7280">각 품목의 허용 상한(흡수선량 kGy, 로그 눈금) · 2026년 11월 기준</text>
+
+  <!-- Codex general limit line: x(10)=610 -->
+  <text x="610" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">Codex 일반 상한 10kGy</text>
+  <line x1="610" y1="88" x2="610" y2="318" stroke="#f5a623" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- scale: x(v) = 290 + 160*(log10 v + 1) -->
+  <!-- row 1: 0.15 -> 318 -->
+  <text x="20" y="111" font-size="13" font-weight="700" fill="#1f2937">감자·양파·마늘 발아억제</text>
+  <text x="20" y="126" font-size="12" fill="#6b7280">한국 식품공전</text>
+  <rect x="290" y="100" width="28" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="324" y="117" font-size="12" font-weight="700" fill="#1f2937">0.15kGy 이하</text>
+
+  <!-- row 2: 0.25 -> 354 -->
+  <text x="20" y="157" font-size="13" font-weight="700" fill="#1f2937">밤</text>
+  <text x="20" y="172" font-size="12" fill="#6b7280">한국 식품공전</text>
+  <rect x="290" y="146" width="64" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="360" y="163" font-size="12" font-weight="700" fill="#1f2937">0.25kGy 이하</text>
+
+  <!-- row 3: 1 -> 450 -->
+  <text x="20" y="203" font-size="13" font-weight="700" fill="#1f2937">성장억제·살충(신선식품 등)</text>
+  <text x="20" y="218" font-size="12" fill="#6b7280">미국 21 CFR 179.26</text>
+  <rect x="290" y="192" width="160" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="444" y="209" text-anchor="end" font-size="12" font-weight="700" style="fill:#fff">1kGy 이하</text>
+
+  <!-- row 4: 4.5~7 -> 554~585 -->
+  <text x="20" y="249" font-size="13" font-weight="700" fill="#1f2937">가금육 살균(비냉동~냉동)</text>
+  <text x="20" y="264" font-size="12" fill="#6b7280">미국 21 CFR 179.26</text>
+  <rect x="290" y="238" width="295" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="579" y="255" text-anchor="end" font-size="12" font-weight="700" style="fill:#fff">4.5~7kGy 이하</text>
+
+  <!-- row 5: 30 -> 686 -->
+  <text x="20" y="295" font-size="13" font-weight="700" fill="#1f2937">향신료 살균</text>
+  <text x="20" y="310" font-size="12" fill="#6b7280">미국 21 CFR 179.26</text>
+  <rect x="290" y="284" width="396" height="24" rx="4" fill="#0b6e4f"/>
+  <text x="680" y="301" text-anchor="end" font-size="12" font-weight="700" style="fill:#fff">30kGy 이하</text>
+
+  <!-- axis -->
+  <line x1="290" y1="320" x2="690" y2="320" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="290" y1="320" x2="290" y2="326" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="450" y1="320" x2="450" y2="326" stroke="#6b7280" stroke-width="1.2"/>
+  <line x1="610" y1="320" x2="610" y2="326" stroke="#6b7280" stroke-width="1.2"/>
+  <text x="290" y="340" text-anchor="middle" font-size="12" fill="#6b7280">0.1</text>
+  <text x="450" y="340" text-anchor="middle" font-size="12" fill="#6b7280">1</text>
+  <text x="610" y="340" text-anchor="middle" font-size="12" fill="#6b7280">10</text>
+  <text x="20" y="340" font-size="12" fill="#6b7280">흡수선량(kGy, 로그 눈금)</text>
+
+  <!-- note box -->
+  <rect x="20" y="356" width="680" height="58" rx="8" fill="#e3f2ec"/>
+  <text x="36" y="379" font-size="12" fill="#1f2937">Gy는 식품 1kg이 흡수한 에너지(1Gy = 1J/kg)로, 방사능(Bq)이나 사람 피폭(Sv) 단위가 아니다</text>
+  <text x="36" y="400" font-size="12" fill="#1f2937">감마선(코발트-60 등), 전자선 10MeV 이하, 엑스선 5MeV 이하(탄탈럼·금 전환 시 7.5MeV)로 에너지 상한</text>
+
+  <text x="20" y="432" font-size="10.5" fill="#6b7280">자료: 식약처 식품공전(고시 제2026-55호),미국 21 CFR 179.26, Codex STAN 106-1983 Rev.1-2003</text>
+  <text x="20" y="447" font-size="10.5" fill="#6b7280">상한값 비교이며 실제 처리 선량은 이보다 낮을 수 있음 · 2026년 11월 기준</text>
+</svg>
