@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">우라늄 농축도 눈금: 천연 0.7%, 원전용 저농축 3~5%, HALEU 5~20% 미만, 20% 기준선, 고농축 20% 이상, 무기용 90% 이상과 각 구간의 용도</title>
+  <rect x="0" y="0" width="720" height="410" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">우라늄 농축도 눈금: 숫자는 위험도가 아니라 용도와 통제의 경계</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">우라늄 속 우라늄-235의 비율 · 구간 폭은 실제 수치에 비례하지 않음</text>
+
+  <!-- 20% 기준선 라벨 -->
+  <text x="440" y="86" font-size="13" font-weight="800" text-anchor="middle" fill="#c27c0e">20% 기준선</text>
+
+  <!-- 막대 구간 -->
+  <rect x="30" y="98" width="105" height="60" fill="#6b7280"/>
+  <text x="82" y="124" font-size="14" font-weight="800" text-anchor="middle" style="fill:#fff">천연 우라늄</text>
+  <text x="82" y="145" font-size="12" text-anchor="middle" style="fill:#fff">0.7%</text>
+
+  <rect x="135" y="98" width="145" height="60" fill="#0b6e4f"/>
+  <text x="207" y="124" font-size="14" font-weight="800" text-anchor="middle" style="fill:#fff">저농축(LEU)</text>
+  <text x="207" y="145" font-size="12" text-anchor="middle" style="fill:#fff">3~5%</text>
+
+  <rect x="280" y="98" width="160" height="60" fill="#e3f2ec" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="360" y="124" font-size="14" font-weight="800" text-anchor="middle" fill="#0b6e4f">HALEU</text>
+  <text x="360" y="145" font-size="12" text-anchor="middle" fill="#1f2937">5% 초과~20% 미만</text>
+
+  <rect x="440" y="98" width="140" height="60" fill="#fde9c4"/>
+  <text x="510" y="124" font-size="14" font-weight="800" text-anchor="middle" fill="#1f2937">고농축(HEU)</text>
+  <text x="510" y="145" font-size="12" text-anchor="middle" fill="#1f2937">20% 이상</text>
+
+  <rect x="580" y="98" width="110" height="60" fill="#f5a623"/>
+  <text x="635" y="124" font-size="14" font-weight="800" text-anchor="middle" fill="#1f2937">무기급</text>
+  <text x="635" y="145" font-size="12" text-anchor="middle" fill="#1f2937">90% 이상</text>
+
+  <!-- 20% 기준선 -->
+  <line x1="440" y1="92" x2="440" y2="242" stroke="#f5a623" stroke-width="3.5"/>
+
+  <!-- 용도 상자 -->
+  <rect x="32" y="170" width="101" height="64" rx="6" fill="#ffffff" stroke="#6b7280"/>
+  <text x="82" y="196" font-size="12" text-anchor="middle" fill="#1f2937">캐낸 그대로</text>
+  <text x="82" y="216" font-size="12" text-anchor="middle" fill="#6b7280">U-238이 99.3%</text>
+
+  <rect x="137" y="170" width="141" height="64" rx="6" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="207" y="196" font-size="12" text-anchor="middle" fill="#1f2937">국내 대형 원전 등</text>
+  <text x="207" y="216" font-size="12" text-anchor="middle" fill="#6b7280">경수로 연료</text>
+
+  <rect x="282" y="170" width="154" height="64" rx="6" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="359" y="196" font-size="12" text-anchor="middle" fill="#1f2937">차세대 원자로 설계</text>
+  <text x="359" y="216" font-size="12" text-anchor="middle" fill="#6b7280">대부분이 요구(DOE)</text>
+
+  <rect x="444" y="170" width="134" height="64" rx="6" fill="#ffffff" stroke="#f5a623"/>
+  <text x="511" y="196" font-size="12" text-anchor="middle" fill="#1f2937">가장 엄격한 통제</text>
+  <text x="511" y="216" font-size="12" text-anchor="middle" fill="#6b7280">일부 연구로 연료</text>
+
+  <rect x="582" y="170" width="106" height="64" rx="6" fill="#ffffff" stroke="#f5a623"/>
+  <text x="635" y="196" font-size="12" text-anchor="middle" fill="#1f2937">핵무기용</text>
+  <text x="635" y="216" font-size="12" text-anchor="middle" fill="#6b7280">전용 시설 필요</text>
+
+  <!-- 설명 띠 -->
+  <rect x="20" y="254" width="680" height="96" rx="8" fill="#e3f2ec"/>
+  <text x="34" y="278" font-size="12.5" fill="#1f2937">· 20%는 물리적 절벽이 아니라 1954년 미국 원자력위원회 정의에서 비롯된 통제선</text>
+  <text x="34" y="302" font-size="12.5" fill="#1f2937">· 상용 원전 연료(약 5% 이하)는 핵폭탄처럼 폭발할 수 없음(WNA)</text>
+  <text x="34" y="326" font-size="12.5" fill="#1f2937">· 일의 단위 SWU: 5% 연료 1kg = 천연 우라늄 약 10.4kg + 약 7.9 SWU(감손 0.25% 기준)</text>
+
+  <text x="20" y="376" font-size="10.5" fill="#6b7280">출처: 미국 NRC·에너지부(DOE) 용어 정의, 세계원자력협회(WNA) 「Uranium Enrichment」·「Safety of Nuclear Power Reactors」,</text>
+  <text x="20" y="392" font-size="10.5" fill="#6b7280">미국 국립학술원 「Reducing the Use of HEU in Civilian Research Reactors」(2016) · 기준 2026년 11월 3일</text>
+</svg>
