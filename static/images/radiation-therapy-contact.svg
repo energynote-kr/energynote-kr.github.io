@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">외부 방사선, 일시 근접치료, 영구 근접치료, 진단 핵의학, 방사성요오드 치료를 몸에 방사성 물질이 남는지와 곁에 있을 때 볼 것으로 비교한 표</title>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">치료 종류별로 몸에 남는가, 곁에서 무엇을 볼 것인가</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">따져 볼 것은 방사선을 쬐었는지가 아니라, 방사성 물질이 몸 안에 남았는지입니다.</text>
+
+  <!-- 머리글 -->
+  <rect x="20" y="68" width="680" height="30" fill="#0b6e4f"/>
+  <text x="32" y="88" font-size="13" font-weight="700" style="fill:#fff">치료·검사</text>
+  <text x="204" y="88" font-size="13" font-weight="700" style="fill:#fff">방사성 물질</text>
+  <text x="356" y="88" font-size="13" font-weight="700" style="fill:#fff">곁에 있을 때 볼 것</text>
+
+  <!-- 행 배경 -->
+  <rect x="20" y="98" width="680" height="70" fill="#ffffff"/>
+  <rect x="20" y="168" width="680" height="70" fill="#f1f5f3"/>
+  <rect x="20" y="238" width="680" height="70" fill="#ffffff"/>
+  <rect x="20" y="308" width="680" height="70" fill="#f1f5f3"/>
+  <rect x="20" y="378" width="680" height="70" fill="#ffffff"/>
+  <rect x="20" y="68" width="680" height="380" fill="none" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- 1. 외부 방사선 -->
+  <text x="32" y="128" font-size="14" font-weight="700" fill="#1f2937">외부 방사선 치료</text>
+  <text x="32" y="148" font-size="12" fill="#6b7280">선형가속기·양성자</text>
+  <rect x="204" y="118" width="138" height="30" rx="6" fill="#0b6e4f"/>
+  <text x="273" y="138" font-size="12.5" font-weight="700" text-anchor="middle" style="fill:#fff">남지 않음</text>
+  <text x="356" y="128" font-size="12.5" fill="#1f2937">아이·임산부 곁에 있어도 된다는 안내(NCI)</text>
+  <text x="356" y="148" font-size="12.5" fill="#1f2937">양성자 빔이 만드는 단수명 핵종은 본문 참고</text>
+
+  <!-- 2. 일시 근접 -->
+  <text x="32" y="198" font-size="14" font-weight="700" fill="#1f2937">일시 삽입 근접치료</text>
+  <text x="32" y="218" font-size="12" fill="#6b7280">선원을 넣었다가 뺌</text>
+  <rect x="204" y="188" width="138" height="30" rx="6" fill="#0b6e4f"/>
+  <text x="273" y="208" font-size="12.5" font-weight="700" text-anchor="middle" style="fill:#fff">뺀 뒤에는 없음</text>
+  <text x="356" y="198" font-size="12.5" fill="#1f2937">선원이 든 동안은 면회가 제한될 수 있습니다</text>
+  <text x="356" y="218" font-size="12.5" fill="#1f2937">뺀 뒤에는 곁에 있어도 된다는 안내(NCI)</text>
+
+  <!-- 3. 영구 근접 -->
+  <text x="32" y="268" font-size="14" font-weight="700" fill="#1f2937">영구 삽입 근접치료</text>
+  <text x="32" y="288" font-size="12" fill="#6b7280">전립선 시드 등</text>
+  <rect x="204" y="258" width="138" height="30" rx="6" fill="#f5a623"/>
+  <text x="273" y="278" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">남음, 점차 약해짐</text>
+  <text x="356" y="268" font-size="12.5" fill="#1f2937">아이를 무릎에 앉히지 않습니다(MSKCC)</text>
+  <text x="356" y="288" font-size="12.5" fill="#1f2937">기간은 시드 종류와 병원 안내 기준입니다</text>
+
+  <!-- 4. 진단 핵의학 -->
+  <text x="32" y="338" font-size="14" font-weight="700" fill="#1f2937">진단 핵의학</text>
+  <text x="32" y="358" font-size="12" fill="#6b7280">PET-CT·골스캔</text>
+  <rect x="204" y="328" width="138" height="30" rx="6" fill="#f5a623"/>
+  <text x="273" y="348" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">잠시 남음</text>
+  <text x="356" y="338" font-size="12.5" fill="#1f2937">대부분 하루 안에 몸에서 빠집니다(MSKCC)</text>
+  <text x="356" y="358" font-size="12.5" fill="#1f2937">접촉 제한, 수유 중단 시간은 병원 안내대로</text>
+
+  <!-- 5. 방사성요오드 -->
+  <text x="32" y="408" font-size="14" font-weight="700" fill="#1f2937">방사성요오드 치료</text>
+  <text x="32" y="428" font-size="12" fill="#6b7280">요오드-131</text>
+  <rect x="204" y="398" width="138" height="30" rx="6" fill="#f5a623"/>
+  <text x="273" y="418" font-size="12.5" font-weight="700" text-anchor="middle" fill="#1f2937">남음, 체액으로 배출</text>
+  <text x="356" y="408" font-size="12.5" fill="#1f2937">아이·임산부 거리, 소변·침·땀, 수유를 봅니다</text>
+  <text x="356" y="428" font-size="12.5" fill="#1f2937">기간은 병원과 투여량마다 다릅니다</text>
+
+  <!-- 출처 -->
+  <text x="20" y="472" font-size="10.5" fill="#6b7280">출처: NCI·ACS·MSKCC 환자 안내, ICRP Publication 98, 국가암정보센터, 서울대병원·강북삼성병원 안내</text>
+  <text x="20" y="490" font-size="10.5" fill="#6b7280">일반 비교이며 실제 기간은 담당 의료진 안내를 따르세요. 2026년 11월 기준</text>
+</svg>
