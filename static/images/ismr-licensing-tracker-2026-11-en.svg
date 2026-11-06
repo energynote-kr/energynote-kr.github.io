@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">Korea's i-SMR design approval track as of November 6, 2026: still at the main review stage, unchanged from October, with a table showing how the deliberation committee, council, promotion committee, Incheon conference, NSSC agenda, pre-review law, regulator staffing and Gijang site changed in a month</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .name { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .lab { font-size: 12px; fill: #374151; }
+    .labg { font-size: 12px; fill: #6b7280; }
+    .now { font-size: 13px; font-weight: 700; fill: #b45309; }
+    .h2 { font-size: 15px; font-weight: 800; fill: #1f2937; }
+    .cell { font-size: 12.5px; fill: #1f2937; }
+    .cellb { font-size: 12.5px; font-weight: 700; fill: #1f2937; }
+    .cellg { font-size: 12.5px; fill: #6b7280; }
+    .src { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+  <text x="24" y="30" class="title">i-SMR design approval track, as of Nov 6, 2026</text>
+  <text x="24" y="49" class="sub">Green = done. Orange = current stage. Ring = planned. Future dates are targets, not commitments.</text>
+
+  <!-- Track -->
+  <line x1="70" y1="118" x2="310" y2="118" stroke="#0b6e4f" stroke-width="5" stroke-linecap="round"/>
+  <line x1="310" y1="118" x2="655" y2="118" stroke="#9ca3af" stroke-width="3" stroke-dasharray="7 5"/>
+  <circle cx="70" cy="118" r="10" fill="#0b6e4f"/>
+  <circle cx="190" cy="118" r="10" fill="#0b6e4f"/>
+  <circle cx="310" cy="118" r="12" fill="#f5a623" stroke="#b45309" stroke-width="2"/>
+  <circle cx="425" cy="118" r="10" fill="#f8faf9" stroke="#6b7280" stroke-width="2.5"/>
+  <circle cx="545" cy="118" r="10" fill="#f8faf9" stroke="#6b7280" stroke-width="2.5"/>
+  <circle cx="665" cy="118" r="10" fill="#f8faf9" stroke="#6b7280" stroke-width="2.5"/>
+
+  <!-- You are here -->
+  <rect x="130" y="60" width="360" height="26" rx="6" fill="#fff4e0" stroke="#b45309" stroke-width="1.5"/>
+  <text x="310" y="78" class="now" text-anchor="middle">You are here: Nov 2026 (same stage as Oct)</text>
+  <path d="M310 86 L310 102" stroke="#b45309" stroke-width="1.5" fill="none"/>
+  <path d="M304 98 L310 106 L316 98 Z" fill="#b45309"/>
+
+  <!-- Stage labels -->
+  <g text-anchor="middle">
+    <text x="70" y="150" class="name">Application</text>
+    <text x="70" y="168" class="lab">Feb 27, 2026</text>
+    <text x="70" y="184" class="labg">Filed with NSSC</text>
+
+    <text x="190" y="150" class="name">Document check</text>
+    <text x="190" y="168" class="lab">Reported Aug 27</text>
+    <text x="190" y="184" class="labg">13 supplements</text>
+
+    <text x="310" y="150" class="name">Main review</text>
+    <text x="310" y="168" class="lab">Docs due Jun 2027</text>
+    <text x="310" y="184" class="lab">Tests due Jun 2028</text>
+
+    <text x="425" y="150" class="name">SDA target</text>
+    <text x="425" y="168" class="lab">2028</text>
+    <text x="425" y="184" class="labg">Little slack</text>
+
+    <text x="545" y="150" class="name">Construction permit</text>
+    <text x="545" y="168" class="lab">Filing about 2029</text>
+    <text x="545" y="184" class="labg">Gijang site picked</text>
+
+    <text x="665" y="150" class="name">First unit</text>
+    <text x="665" y="168" class="lab">2035</text>
+    <text x="665" y="184" class="labg">Target</text>
+  </g>
+
+  <!-- What changed table -->
+  <text x="24" y="218" class="h2">What changed in a month</text>
+  <circle cx="380" cy="213" r="5" fill="#f5a623"/>
+  <text x="390" y="217" class="lab">Changed or newly found</text>
+  <circle cx="548" cy="213" r="5" fill="#6b7280"/>
+  <text x="558" y="217" class="lab">No change confirmed</text>
+
+  <rect x="24" y="226" width="672" height="22" fill="#0b6e4f"/>
+  <text x="48" y="242" class="cellb" style="fill:#fff">Item</text>
+  <text x="160" y="242" class="cellb" style="fill:#fff">October post (Oct 2)</text>
+  <text x="336" y="242" class="cellb" style="fill:#fff">As of Nov 6</text>
+
+  <rect x="24" y="273" width="672" height="25" fill="#eef3f0"/>
+  <rect x="24" y="323" width="672" height="25" fill="#eef3f0"/>
+  <rect x="24" y="373" width="672" height="25" fill="#eef3f0"/>
+  <rect x="24" y="423" width="672" height="25" fill="#eef3f0"/>
+
+  <circle cx="35" cy="260" r="5" fill="#f5a623"/>
+  <text x="48" y="265" class="cellb">Deliberation</text>
+  <text x="160" y="265" class="cellg">Up to 11 members planned</text>
+  <text x="336" y="265" class="cell">Launched Oct 2 with 9; citizen session Dec 11-13</text>
+
+  <circle cx="35" cy="285" r="5" fill="#6b7280"/>
+  <text x="48" y="290" class="cellb">MSIT council</text>
+  <text x="160" y="290" class="cellg">Planned for October</text>
+  <text x="336" y="290" class="cell">Launch or first meeting not confirmed</text>
+
+  <circle cx="35" cy="310" r="5" fill="#6b7280"/>
+  <text x="48" y="315" class="cellb">SMR committee</text>
+  <text x="160" y="315" class="cellg">Planned within 2026</text>
+  <text x="336" y="315" class="cell">Launch not confirmed; Basic Plan due in 2027</text>
+
+  <circle cx="35" cy="335" r="5" fill="#f5a623"/>
+  <text x="48" y="340" class="cellb">Incheon IAEA</text>
+  <text x="160" y="340" class="cellg">Due Oct 27-29</text>
+  <text x="336" y="340" class="cell">Closed; no licensing step changed</text>
+
+  <circle cx="35" cy="360" r="5" fill="#6b7280"/>
+  <text x="48" y="365" class="cellb">NSSC agenda</text>
+  <text x="160" y="365" class="cellg">No SMR item</text>
+  <text x="336" y="365" class="cell">None in coverage of Oct 15 and Oct 27 meetings</text>
+
+  <circle cx="35" cy="385" r="5" fill="#f5a623"/>
+  <text x="48" y="390" class="cellb">Pre-review law</text>
+  <text x="160" y="390" class="cellg">Not in October post</text>
+  <text x="336" y="390" class="cell">Takes effect Nov 20; rules awaiting promulgation</text>
+
+  <circle cx="35" cy="410" r="5" fill="#f5a623"/>
+  <text x="48" y="415" class="cellb">NSSC staffing</text>
+  <text x="160" y="415" class="cellg">Not in October post</text>
+  <text x="336" y="415" class="cell">Audit coverage: SMR unit of 7; chair says 33 needed</text>
+
+  <circle cx="35" cy="435" r="5" fill="#6b7280"/>
+  <text x="48" y="440" class="cellb">Gijang site</text>
+  <text x="160" y="440" class="cellg">No new notice</text>
+  <text x="336" y="440" class="cell">No new notice confirmed</text>
+
+  <text x="24" y="468" class="src">Sources: Korean legislative notice (Nuclear Safety Act rules); MSIT (Oct 1); eToday (Oct 22, Nov 1);</text>
+  <text x="24" y="484" class="src">Sankyung eNews (Oct 15); Hankook Ilbo (Oct 15, 27); NSSC (Aug 27). "Not confirmed" = not found by Nov 6.</text>
+</svg>
