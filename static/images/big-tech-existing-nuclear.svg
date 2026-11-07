@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">빅테크 원전 계약과 재가동·출력증강·신규 SMR의 전력 공급 목표 시점 비교 (2026년 11월 7일 기준)</title>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+
+  <text x="20" y="30" font-size="18" font-weight="700" fill="#1f2937">빅테크 원전 계약, 전력은 언제부터 나오나</text>
+  <text x="20" y="50" font-size="12" fill="#6b7280">막대 시작점은 회사·기관이 밝힌 목표 시점이며 확정 일정이 아닙니다(2026년 11월 7일 기준)</text>
+
+  <!-- 축: x = 300 + (연도-2026)*40 -->
+  <g font-size="12" fill="#6b7280" text-anchor="middle">
+    <text x="300" y="72">2026</text>
+    <text x="380" y="72">2028</text>
+    <text x="460" y="72">2030</text>
+    <text x="540" y="72">2032</text>
+    <text x="620" y="72">2034</text>
+    <text x="697" y="72">2036</text>
+  </g>
+  <g stroke="#d7dce1" stroke-width="1">
+    <line x1="300" y1="78" x2="300" y2="466"/>
+    <line x1="380" y1="78" x2="380" y2="466"/>
+    <line x1="460" y1="78" x2="460" y2="466"/>
+    <line x1="540" y1="78" x2="540" y2="466"/>
+    <line x1="620" y1="78" x2="620" y2="466"/>
+    <line x1="700" y1="78" x2="700" y2="466"/>
+  </g>
+
+  <!-- 묶음 이름 -->
+  <rect x="20" y="84" width="90" height="84" rx="4" fill="#0b6e4f"/>
+  <text x="65" y="122" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">기존 원전</text>
+  <text x="65" y="140" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">PPA</text>
+
+  <rect x="20" y="182" width="90" height="84" rx="4" fill="#f5a623"/>
+  <text x="65" y="229" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">재가동</text>
+
+  <rect x="20" y="280" width="90" height="84" rx="4" fill="#6b7280"/>
+  <text x="65" y="327" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">출력증강</text>
+
+  <rect x="20" y="378" width="90" height="84" rx="4" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/>
+  <text x="65" y="416" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">신규 SMR·</text>
+  <text x="65" y="434" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">선진 원자로</text>
+
+  <!-- 사업 이름 -->
+  <g font-size="12" fill="#1f2937">
+    <text x="118" y="100">메타–비스트라 2,176MW</text>
+    <text x="118" y="130">메타–클린턴 1,121MW</text>
+    <text x="118" y="160">아마존–탈렌 1,920MW</text>
+    <text x="118" y="198">팰리세이즈 약 800MW</text>
+    <text x="118" y="228">크레인(TMI-1) 835MW</text>
+    <text x="118" y="258">듀안 아널드 615MW</text>
+    <text x="118" y="296">구글–콘스텔레이션 890MW</text>
+    <text x="118" y="326">아마존–캘버트 190MW</text>
+    <text x="118" y="356">메타–비스트라 433MW</text>
+    <text x="118" y="394">구글–카이로스 50MW</text>
+    <text x="118" y="424">메타–테라파워 최대 2.8GW</text>
+    <text x="118" y="454">구글–엘리멘틀 1.8GW</text>
+  </g>
+
+  <!-- 기존 원전 PPA -->
+  <rect x="336" y="86" width="364" height="20" fill="#0b6e4f"/>
+  <text x="344" y="100" font-size="12" style="fill:#fff">2026년 말 구매 시작</text>
+  <rect x="358" y="116" width="342" height="20" fill="#0b6e4f"/>
+  <text x="366" y="130" font-size="12" style="fill:#fff">2027년 6월 시작</text>
+  <rect x="300" y="146" width="240" height="20" fill="#a7d3c2"/>
+  <text x="308" y="160" font-size="12" fill="#1f2937">단계적 증량</text>
+  <rect x="540" y="146" width="160" height="20" fill="#0b6e4f"/>
+  <text x="548" y="160" font-size="12" style="fill:#fff">2032년까지 전량</text>
+
+  <!-- 재가동 -->
+  <rect x="348" y="184" width="352" height="20" fill="#f5a623"/>
+  <text x="356" y="198" font-size="12" fill="#1f2937">2027년 3월 판매 목표(빅테크 계약 아님)</text>
+  <rect x="340" y="214" width="360" height="20" fill="#f5a623"/>
+  <text x="348" y="228" font-size="12" fill="#1f2937">2027년 목표(NRC 최종 결정 대기)</text>
+  <rect x="430" y="244" width="270" height="20" fill="#f5a623"/>
+  <text x="438" y="258" font-size="12" fill="#1f2937">늦어도 2029년 1분기 목표</text>
+
+  <!-- 출력증강 -->
+  <rect x="380" y="282" width="160" height="20" fill="#c9cdd3"/>
+  <text x="388" y="296" font-size="12" fill="#1f2937">2028년 첫 물량</text>
+  <rect x="540" y="282" width="160" height="20" fill="#6b7280"/>
+  <text x="548" y="296" font-size="12" style="fill:#fff">2032년까지 전량</text>
+  <rect x="460" y="312" width="80" height="20" fill="#c9cdd3"/>
+  <rect x="540" y="312" width="160" height="20" fill="#6b7280"/>
+  <text x="548" y="326" font-size="12" style="fill:#fff">2030~32년 가동</text>
+  <rect x="336" y="342" width="284" height="20" fill="#c9cdd3"/>
+  <text x="344" y="356" font-size="12" fill="#1f2937">2034년까지 순차 완료</text>
+  <rect x="620" y="342" width="80" height="20" fill="#6b7280"/>
+
+  <!-- 신규 -->
+  <rect x="460" y="380" width="240" height="20" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/>
+  <text x="468" y="394" font-size="12" fill="#1f2937">2030년 목표, 전체 500MW 2035년</text>
+  <rect x="540" y="410" width="160" height="20" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/>
+  <text x="548" y="424" font-size="12" fill="#1f2937">2032년 첫 2기 목표</text>
+  <text x="650" y="454" font-size="12" text-anchor="end" fill="#1f2937">2035년 목표, 원자로 기술 미정</text>
+  <rect x="660" y="440" width="40" height="20" fill="#ffffff" stroke="#6b7280" stroke-dasharray="4 3"/>
+
+  <!-- 범례·출처 -->
+  <text x="20" y="484" font-size="12" fill="#1f2937">연한 막대는 단계적 공급 구간, 점선은 상용화 전 기술에 달린 계획입니다.</text>
+  <text x="20" y="500" font-size="10" fill="#6b7280">자료: Constellation·Vistra·Talen·NextEra·Google 발표, NRC, Nuclear Engineering International(팰리세이즈 2026.10),</text>
+  <text x="20" y="513" font-size="10" fill="#6b7280">Carnegie Endowment 「Beyond the Hype」(2026.6, 신규 SMR 항목은 2026년 3월 집계). MW는 각 계약 발표 기준.</text>
+</svg>
