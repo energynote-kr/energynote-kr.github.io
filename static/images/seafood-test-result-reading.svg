@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">검사표의 세슘 농도 약 1, 5, 100, 1,000Bq/kg인 생선 200g을 먹었을 때 받는 선량이 각각 약 0.0026, 0.013, 0.26, 2.6μSv임을 로그 막대로 보이고, 기준치 생선을 1년 내내 먹어도 약 0.095mSv임을 정리한 그림</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="480" fill="#f8faf9"/>
+
+  <text x="20" y="34" font-size="18" font-weight="800" fill="#1f2937">검사표 숫자를 선량으로: 생선 200g 한 끼 기준</text>
+  <text x="20" y="57" font-size="12" fill="#6b7280">세슘-137 성인 섭취 선량환산계수 1.3×10⁻⁸ Sv/Bq(ICRP 72) 적용 · 선량 막대는 로그 눈금</text>
+
+  <!-- 열 제목 -->
+  <text x="40" y="94" font-size="12.5" font-weight="700" fill="#6b7280">구분</text>
+  <text x="225" y="94" font-size="12.5" font-weight="700" fill="#6b7280" text-anchor="middle">세슘 농도(Bq/kg)</text>
+  <text x="460" y="94" font-size="12.5" font-weight="700" fill="#6b7280">200g 먹으면 받는 선량</text>
+
+  <!-- 행 1: 검출한계 수준 (중심 y=126) -->
+  <text x="40" y="131" font-size="13" fill="#1f2937">검출한계 수준</text>
+  <rect x="170" y="108" width="110" height="36" rx="6" fill="#e3f2ec" stroke="#0b6e4f" stroke-width="1"/>
+  <text x="225" y="131" font-size="15" font-weight="700" fill="#0b6e4f" text-anchor="middle">약 1</text>
+  <line x1="290" y1="126" x2="446" y2="126" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="368" y="118" font-size="11" fill="#6b7280" text-anchor="middle">× 0.2kg × 계수</text>
+  <rect x="460" y="115" width="21" height="22" rx="3" fill="#0b6e4f"/>
+  <text x="489" y="131" font-size="14" font-weight="700" fill="#1f2937">0.0026μSv</text>
+
+  <!-- 행 2: '검출' 예시 (중심 y=178) -->
+  <text x="40" y="183" font-size="13" fill="#1f2937">'검출' 예시</text>
+  <rect x="170" y="160" width="110" height="36" rx="6" fill="#e3f2ec" stroke="#0b6e4f" stroke-width="1"/>
+  <text x="225" y="183" font-size="15" font-weight="700" fill="#0b6e4f" text-anchor="middle">5</text>
+  <line x1="290" y1="178" x2="446" y2="178" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="368" y="170" font-size="11" fill="#6b7280" text-anchor="middle">× 0.2kg × 계수</text>
+  <rect x="460" y="167" width="56" height="22" rx="3" fill="#0b6e4f"/>
+  <text x="524" y="183" font-size="14" font-weight="700" fill="#1f2937">0.013μSv</text>
+
+  <!-- 행 3: 국내 기준치 (중심 y=230) -->
+  <text x="40" y="235" font-size="13" font-weight="700" fill="#1f2937">국내 기준치</text>
+  <rect x="170" y="212" width="110" height="36" rx="6" fill="#f5a623"/>
+  <text x="225" y="235" font-size="15" font-weight="800" fill="#1f2937" text-anchor="middle">100</text>
+  <line x1="290" y1="230" x2="446" y2="230" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="368" y="222" font-size="11" fill="#6b7280" text-anchor="middle">× 0.2kg × 계수</text>
+  <rect x="460" y="219" width="121" height="22" rx="3" fill="#f5a623"/>
+  <text x="589" y="235" font-size="14" font-weight="700" fill="#1f2937">0.26μSv</text>
+
+  <!-- 행 4: Codex 지침 (중심 y=282) -->
+  <text x="40" y="287" font-size="13" fill="#1f2937">Codex 지침</text>
+  <rect x="170" y="264" width="110" height="36" rx="6" fill="#e5e7eb" stroke="#6b7280" stroke-width="1"/>
+  <text x="225" y="287" font-size="15" font-weight="700" fill="#6b7280" text-anchor="middle">1,000</text>
+  <line x1="290" y1="282" x2="446" y2="282" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="368" y="274" font-size="11" fill="#6b7280" text-anchor="middle">× 0.2kg × 계수</text>
+  <rect x="460" y="271" width="171" height="22" rx="3" fill="#6b7280"/>
+  <text x="639" y="287" font-size="14" font-weight="700" fill="#1f2937">2.6μSv</text>
+
+  <!-- 선량 로그 눈금 (0.001μSv = x460, 10배당 50px) -->
+  <line x1="460" y1="308" x2="660" y2="308" stroke="#9ca3af" stroke-width="1"/>
+  <line x1="460" y1="304" x2="460" y2="312" stroke="#9ca3af"/>
+  <line x1="510" y1="304" x2="510" y2="312" stroke="#9ca3af"/>
+  <line x1="560" y1="304" x2="560" y2="312" stroke="#9ca3af"/>
+  <line x1="610" y1="304" x2="610" y2="312" stroke="#9ca3af"/>
+  <line x1="660" y1="304" x2="660" y2="312" stroke="#9ca3af"/>
+  <text x="460" y="325" font-size="10.5" fill="#6b7280" text-anchor="middle">0.001</text>
+  <text x="510" y="325" font-size="10.5" fill="#6b7280" text-anchor="middle">0.01</text>
+  <text x="560" y="325" font-size="10.5" fill="#6b7280" text-anchor="middle">0.1</text>
+  <text x="610" y="325" font-size="10.5" fill="#6b7280" text-anchor="middle">1</text>
+  <text x="660" y="325" font-size="10.5" fill="#6b7280" text-anchor="middle">10μSv</text>
+
+  <!-- 칼륨-40 참고 -->
+  <text x="40" y="350" font-size="12" fill="#6b7280">참고: 몸속 칼륨-40 약 55Bq/kg, 생선 속 천연 칼륨-40 약 100Bq/kg</text>
+  <text x="40" y="367" font-size="12" fill="#6b7280">몸은 칼륨 총량을 일정하게 유지하므로 세슘 농도와 같은 저울에 올리지 않습니다</text>
+
+  <!-- 1년 계산 상자 -->
+  <rect x="20" y="380" width="680" height="58" rx="10" fill="#e3f2ec"/>
+  <text x="40" y="404" font-size="13.5" font-weight="700" fill="#0b6e4f">기준치(100Bq/kg) 생선을 하루 200g씩 1년(73kg) 먹으면 약 0.095mSv</text>
+  <text x="40" y="426" font-size="12" fill="#1f2937">세슘-134로 계산하면 약 0.14mSv · 일반인 선량한도 연 1mSv · 한국인 연간 자연방사선 약 3mSv</text>
+
+  <!-- 출처 -->
+  <text x="20" y="458" font-size="10.5" fill="#6b7280">자료: 식약처 수입식품방사능안전정보, Codex CXS 193, ICRP Publication 72(선량계수), 일본 환경성 기초자료(칼륨-40)</text>
+  <text x="20" y="472" font-size="10.5" fill="#6b7280">선량은 필자 계산(세슘-137 기준, 성인) · 2026년 11월 8일 기준</text>
+</svg>
