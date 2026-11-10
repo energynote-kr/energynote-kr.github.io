@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">주택용 전기요금 고지서 항목별로 누가 언제 정하는지와, 연료비조정단가의 계산값과 실제 적용값 비교</title>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+
+  <text x="20" y="30" font-size="17" font-weight="800" fill="#1f2937">전기요금 고지서, 항목별로 누가·언제 정하나</text>
+  <text x="20" y="50" font-size="12" fill="#6b7280">주택용 기준 · 2026년 4분기(10~12월) 적용 요금 기준</text>
+
+  <!-- 열 머리 -->
+  <text x="32" y="70" font-size="12" font-weight="700" fill="#6b7280">항목</text>
+  <text x="176" y="70" font-size="12" font-weight="700" fill="#6b7280">누가 정하나</text>
+  <text x="430" y="70" font-size="12" font-weight="700" fill="#6b7280">언제 · 지금은</text>
+
+  <!-- 1행: 기본·전력량요금 -->
+  <rect x="20" y="78" width="680" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="78" width="140" height="54" rx="8" fill="#0b6e4f"/>
+  <text x="32" y="110" font-size="14" font-weight="700" style="fill:#fff">기본·전력량요금</text>
+  <text x="176" y="100" font-size="13" fill="#1f2937">한전 약관 → 전기위원회 심의</text>
+  <text x="176" y="120" font-size="13" fill="#1f2937">→ 기후부 장관 인가</text>
+  <text x="430" y="100" font-size="13" fill="#1f2937">정해진 날짜 없이 필요할 때</text>
+  <text x="430" y="120" font-size="13" fill="#1f2937">주택용 마지막 인상: 2023년 5월</text>
+
+  <!-- 2행: 기후환경요금 -->
+  <rect x="20" y="140" width="680" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="140" width="140" height="54" rx="8" fill="#0b6e4f"/>
+  <text x="32" y="172" font-size="14" font-weight="700" style="fill:#fff">기후환경요금</text>
+  <text x="176" y="162" font-size="13" fill="#1f2937">약관에 정한 단가</text>
+  <text x="176" y="182" font-size="13" fill="#1f2937">(바꾸려면 정부 인가)</text>
+  <text x="430" y="162" font-size="13" fill="#1f2937">필요할 때 조정</text>
+  <text x="430" y="182" font-size="13" fill="#1f2937">2026년 4분기: 동결</text>
+
+  <!-- 3행: 연료비조정요금 -->
+  <rect x="20" y="202" width="680" height="54" rx="8" fill="#fff7e8" stroke="#f5a623"/>
+  <rect x="20" y="202" width="140" height="54" rx="8" fill="#f5a623"/>
+  <text x="32" y="234" font-size="14" font-weight="700" fill="#1f2937">연료비조정요금</text>
+  <text x="176" y="224" font-size="13" fill="#1f2937">한전이 직전 3개월 연료비로 계산</text>
+  <text x="176" y="244" font-size="13" fill="#1f2937">→ 정부 검토·통보 (±5원 안)</text>
+  <text x="430" y="224" font-size="13" fill="#1f2937">분기마다, 통상 직전 달 하순</text>
+  <text x="430" y="244" font-size="13" font-weight="700" fill="#1f2937">4분기: 계산 +7.3원 → 적용 +5원</text>
+
+  <!-- 4행: 누진 구간 -->
+  <rect x="20" y="264" width="680" height="54" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="264" width="140" height="54" rx="8" fill="#6b7280"/>
+  <text x="32" y="296" font-size="14" font-weight="700" style="fill:#fff">누진 구간</text>
+  <text x="176" y="286" font-size="13" fill="#1f2937">약관의 3단계 구간</text>
+  <text x="176" y="306" font-size="13" fill="#1f2937">(쓴 양에 따라 자동 적용)</text>
+  <text x="430" y="286" font-size="13" fill="#1f2937">매달 사용량이 결정</text>
+  <text x="430" y="306" font-size="13" fill="#1f2937">7~8월엔 구간을 넓혀 완화</text>
+
+  <!-- 아래 패널: 계산값 vs 적용값 -->
+  <text x="20" y="352" font-size="13" font-weight="800" fill="#1f2937">연료비조정단가, 계산값과 실제 적용값 (원/kWh)</text>
+  <rect x="420" y="342" width="12" height="10" fill="#9ca3af"/>
+  <text x="438" y="352" font-size="12" fill="#1f2937">계산값</text>
+  <rect x="490" y="342" width="12" height="10" fill="#0b6e4f"/>
+  <text x="508" y="352" font-size="12" fill="#1f2937">적용값</text>
+  <line x1="560" y1="347" x2="580" y2="347" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="586" y="352" font-size="12" fill="#1f2937">±5원 범위</text>
+
+  <!-- ±5 범위(5px/원, 0점 x=330) -->
+  <line x1="305" y1="366" x2="305" y2="478" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="355" y1="366" x2="355" y2="478" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="330" y1="366" x2="330" y2="478" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- 2022년 3분기: 계산 +33.6, 적용 +5 -->
+  <text x="20" y="390" font-size="12" font-weight="700" fill="#1f2937">2022년 3분기</text>
+  <rect x="330" y="376" width="168" height="11" fill="#9ca3af"/>
+  <text x="504" y="386" font-size="12" fill="#1f2937">계산 +33.6</text>
+  <rect x="330" y="390" width="25" height="11" fill="#0b6e4f"/>
+  <text x="361" y="400" font-size="12" font-weight="700" fill="#0b6e4f">적용 +5</text>
+
+  <!-- 2026년 1분기: 계산 -13.3, 적용 +5 -->
+  <text x="20" y="426" font-size="12" font-weight="700" fill="#1f2937">2026년 1분기</text>
+  <rect x="263.5" y="412" width="66.5" height="11" fill="#9ca3af"/>
+  <text x="257" y="422" font-size="12" text-anchor="end" fill="#1f2937">계산 −13.3</text>
+  <rect x="330" y="426" width="25" height="11" fill="#0b6e4f"/>
+  <text x="361" y="436" font-size="12" font-weight="700" fill="#0b6e4f">적용 +5</text>
+
+  <!-- 2026년 4분기: 계산 +7.3, 적용 +5 -->
+  <text x="20" y="462" font-size="12" font-weight="700" fill="#1f2937">2026년 4분기</text>
+  <rect x="330" y="448" width="36.5" height="11" fill="#9ca3af"/>
+  <text x="372" y="458" font-size="12" fill="#1f2937">계산 +7.3</text>
+  <rect x="330" y="462" width="25" height="11" fill="#0b6e4f"/>
+  <text x="361" y="472" font-size="12" font-weight="700" fill="#0b6e4f">적용 +5</text>
+
+  <text x="20" y="498" font-size="10.5" fill="#6b7280">출처: 한국전력 분기별 연료비조정단가 발표를 보도한 MTN·SBS Biz(2026.9.21), CEO스코어데일리(2025.12.23),</text>
+  <text x="20" y="512" font-size="10.5" fill="#6b7280">이코노미스트·블록미디어(2022.6.27) · 분기 조정폭은 2022년 3분기에 ±3원→±5원 확대 · 기준일 2026.11.10</text>
+</svg>
