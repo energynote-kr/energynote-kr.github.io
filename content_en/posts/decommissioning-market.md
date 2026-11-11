@@ -1,11 +1,11 @@
 ---
-title: "Nuclear decommissioning market: how big it really is, who pays, and what Korea's first project shows"
+title: "Nuclear decommissioning market size: 4 estimates ($7.5B–$18.5B) compared, and who pays"
 date: 2026-09-05T23:56:00+09:00
-lastmod: 2026-10-19T13:40:00+09:00
-dataAsOf: "2026-10-19"
+lastmod: 2026-11-11T15:00:00+09:00
+dataAsOf: "2026-11-11"
 categories: ["Nuclear & Energy"]
 tags: ["decommissioning", "decommissioning market", "Kori-1", "nuclear industry", "KHNP", "Doosan Enerbility"]
-description: "Nuclear decommissioning market size estimates run from $7.5 billion to $18.5 billion a year. Why they disagree, who pays, who does the work, and Korea's Kori-1."
+description: "Nuclear power reactor decommissioning market size: IMARC, Market.us, GMI and Meticulous put 2025 at $7.5B–$18.5B, growing 4–6.8% a year. Why they differ, who pays, Korea's Kori-1."
 ---
 
 Ask market research firms how big the nuclear decommissioning market is and you get answers between about $7.5 billion and $18.5 billion a year. Same industry, same year. The spread is not sloppiness: the firms are measuring different things.
@@ -21,7 +21,7 @@ This post sorts out those numbers, then follows the money to where it actually c
 
 Here are four widely cited estimates. They are commercial reports, so treat them as rough markers, not measurements.
 
-Published estimates of the global nuclear decommissioning market (as of October 2026):
+Published estimates of the global nuclear decommissioning market (publishers' pages checked November 2026):
 
 | Source | Base-year size | Forecast | Growth |
 |---|---|---|---|
@@ -30,11 +30,11 @@ Published estimates of the global nuclear decommissioning market (as of October 
 | GMI | $9.9 billion (2025) | $19.4 billion by 2035 | 6.8% a year |
 | Meticulous | $18.5 billion (2025) | $30.2 billion by 2036 | 4.6% a year |
 
-GMI is Global Market Insights. Its report covers decommissioning services specifically.
+GMI is Global Market Insights. Its report covers decommissioning services specifically. All four name Europe as the largest regional market, which fits the UK and German numbers in section 2.
 
 ### Why the estimates disagree
 
-- **Scope.** Some reports count only the dismantling of power reactors. Others add research reactors, fuel-cycle plants, waste handling, or bundle "maintenance and decommissioning services" together. That explains most of the gap between $8 billion and $18 billion.
+- **Scope.** Some reports count only the dismantling of power reactors. Others add research reactors, fuel-cycle plants, waste handling, or bundle a "nuclear facility maintenance and decommissioning services" market together. That explains most of the gap between $8 billion and $18 billion.
 - **What gets counted as revenue.** A reactor dismantling runs for ten years or more. Reports differ on whether they book the contract value when it is awarded or spread it across the years of work.
 - **Base year.** A 2024 figure and a 2025 figure are not directly comparable when the market grows several percent a year.
 
@@ -82,7 +82,7 @@ The United States produced a business model the rest of the world watches. Inste
 - **NorthStar** led the consortium that bought Vermont Yankee, and by the end of 2025 about 99% of the site had been demolished.
 - **Holtec** took ownership of Indian Point in New York in 2021 for prompt dismantling.
 
-Holtec's Palisades plant in Michigan shows how quickly the story can turn. Bought in 2022 to be decommissioned, it is now being prepared to restart instead, on the back of new demand for low-carbon power. The restart is not done yet: fuel loading was paused in August 2026 after a fuel assembly tipped inside the reactor.
+Holtec's Palisades plant in Michigan shows how quickly the story can turn. Bought in 2022 to be decommissioned, it is now being prepared to restart instead, on the back of new demand for low-carbon power. The restart is not done yet. Fuel loading began on August 30, 2026, then stalled when an assembly tipped inside the reactor. The NRC approved a one-time recovery method on October 13, and Holtec removed the assembly on October 21. As of November 11 no restart date has been announced.
 
 ## 4. Decommissioning is radiation management, not demolition
 
@@ -107,7 +107,7 @@ Every Korean decommissioning claim will be tested against Kori-1, near Busan. It
 - **The plan after that.** Spent fuel to on-site dry storage by around 2031, decontamination and dismantling of the radiological area by around 2035, and site restoration by 2037.
 - **Cost.** About KRW 1,071.3 billion, roughly $790 million, on KHNP's estimate, paid from its decommissioning reserve.
 
-The item to watch is the dry storage facility. Until the fuel leaves the pool, the reactor building cannot be taken apart, so how quickly that facility is secured is the biggest variable in the 2037 date.
+The item to watch is the dry storage facility. Until the fuel leaves the pool, the reactor building cannot be taken apart, so how quickly that facility is secured is the biggest variable in the 2037 date. According to Korean trade press in October 2026, KHNP plans to apply for the Kori site dry storage licence in December 2026, aiming to operate it in 2031. Wolsong-1's decommissioning plan, filed in June 2024, was still under NSSC review as of November 2026.
 
 ## 6. Korea's "500 trillion won," read correctly
 
@@ -145,4 +145,4 @@ In the United States, BWX Technologies (NYSE: BWXT), long the builder of reactor
 
 ---
 
-*Sources: World Nuclear Association, "Decommissioning Nuclear Facilities" (updated March 2026); IAEA Power Reactor Information System (PRIS), permanent shutdown reactors by country (January 2026); OECD Nuclear Energy Agency, decommissioning cost survey (2016); UK National Audit Office, Department for Energy Security and Net Zero accounts 2024-25 (2025); US NRC decommissioning trust fund data (2024); IMARC Group, Market.us, Global Market Insights and Meticulous Research, nuclear decommissioning market reports (2025–2026); Nuclear Safety and Security Commission (NSSC), decision approving the Kori-1 final decommissioning plan (June 2025); Korea Hydro & Nuclear Power (KHNP), Kori-1 decommissioning plan materials; Doosan Enerbility, announcement of the Kori-1 non-controlled-area decommissioning contract (November 2025); American Nuclear Society (Nuclear News) and US press reporting on the Palisades restart (2026); Korean press reports (2025–2026).*
+*Sources: World Nuclear Association, "Decommissioning Nuclear Facilities" (updated March 2026); IAEA Power Reactor Information System (PRIS), permanent shutdown reactors by country (January 2026); OECD Nuclear Energy Agency, decommissioning cost survey (2016); UK National Audit Office, Department for Energy Security and Net Zero accounts 2024-25 (2025); US NRC decommissioning trust fund data (2024); IMARC Group, Market.us, Global Market Insights and Meticulous Research, nuclear decommissioning market reports (2025–2026); Nuclear Safety and Security Commission (NSSC), decision approving the Kori-1 final decommissioning plan (June 2025); Korea Hydro & Nuclear Power (KHNP), Kori-1 decommissioning plan materials; Doosan Enerbility, announcement of the Kori-1 non-controlled-area decommissioning contract (November 2025); American Nuclear Society (Nuclear News) and US press reporting on the Palisades restart (2026); US NRC, Palisades License Amendment No. 283 (October 2026); Michigan Public, Palisades fuel assembly removal (October 22, 2026); InsightN Power, Kori dry storage licensing schedule (October 2026); Korean press reports (2025–2026).*

@@ -68,7 +68,7 @@
 
   <circle cx="48" cy="392" r="7" fill="#0b6e4f"/>
   <text x="44" y="396" style="font-size:10px; font-weight:800; fill:#fff">3</text>
-  <text x="62" y="396" class="item"><tspan font-weight="700">탑승 시점 조정</tspan> — 국내선 24시간, 국제선 5일 이상 경과 후<tspan x="62" dy="16">임산부·어린이와는 1주 이상 접촉 최소화</tspan></text>
+  <text x="62" y="396" class="item"><tspan font-weight="700">탑승 시점 조정</tspan> — 최소 24시간 뒤, 국제선은 5일 이상 경과 후<tspan x="62" dy="16">치료 후 1주간 임산부·어린이와 접촉 최소화</tspan></text>
 
   <text x="40" y="428" class="small" style="font-size:11.5px">경보는 '오염'이 아니라 '치료 흔적' — 요원이 핵종분석기로 의료용 핵종임을 확인, 확인서가 있으면 설명이 빨라집니다</text>
 
