@@ -1,10 +1,11 @@
 ---
 title: "Designing for 100,000 years: the world's deep repositories, from Onkalo to Korea's Gyeongju"
 date: 2026-09-03T12:30:00+09:00
-dataAsOf: "2026-10-02"
+lastmod: 2026-11-12T15:30:00+09:00
+dataAsOf: "2026-11-12"
 categories: ["Nuclear & Energy"]
 tags: ["Onkalo", "deep geological repository", "high-level waste", "Gyeongju", "Korea"]
-description: "Finland's Onkalo cleared its safety review in Aug 2026; the first spent-fuel repository may open soon. Where Sweden, France, the US, Germany and Korea stand."
+description: "Finland licensed Onkalo in Oct 2026, the first operating licence for a spent-fuel repository; disposal awaits a final inspection. Where Sweden, France, the US, Germany and Korea stand."
 ---
 
 The Great Pyramid of Giza has stood for about 4,600 years, which makes it one of the oldest large structures humans have built. A handful of countries are now building facilities that must stay safe for **more than 100,000 years**: deep geological repositories for high-level radioactive waste, mostly spent nuclear fuel. Engineering a guarantee longer than recorded history is hard enough.
@@ -12,7 +13,7 @@ The Great Pyramid of Giza has stood for about 4,600 years, which makes it one of
 What the scorecard below shows is that the outcomes differ far more by country than by technology.
 
 > **Key takeaways**
-> - Finland's Onkalo passed the regulator's safety review in August 2026 and is one decision away from becoming the world's first operating spent-fuel repository, with Sweden and France following.
+> - Finland's Onkalo received the world's first operating licence for a spent-fuel repository on October 22, 2026; disposal starts only after a final STUK inspection. Sweden and France are following.
 > - The United States' Yucca Mountain and Germany's Gorleben did not stop on the geology. They stopped on public acceptance and politics, which is where the real difficulty of this business sits.
 > - Korea has operated a low- and intermediate-level repository at Gyeongju since 2015, but has no site for spent fuel. A 2025 special act finally created the legal process, with targets of 2050 for interim storage and 2060 for disposal.
 
@@ -28,7 +29,7 @@ The United States' one operating deep repository sits in salt. The rock differs;
 
 Finland is the clear leader. The **Onkalo repository**, built by the waste company Posiva into bedrock about 400 meters below Olkiluoto island on the west coast, is a KBS-3 facility: spent fuel in copper canisters, wrapped in bentonite, placed in granite.
 
-Parliament approved the site in 2001. On **August 10, 2026, STUK, Finland's nuclear regulator, said it saw no obstacle to granting Onkalo an operating licence**. The government's decision is expected in autumn 2026 and is the remaining step before Onkalo can claim the title of the world's first operating spent-fuel repository.
+Parliament approved the site in 2001. On **August 4, 2026, STUK, Finland's nuclear regulator, said it saw no obstacle to granting Onkalo an operating licence**. The Finnish government granted the licence on October 22, 2026, valid to the end of 2070 for up to 6,500 tonnes of uranium in spent fuel. Disposal can begin only after STUK inspects the facility and issues a separate decision; as of November 12, 2026, no start date had been announced.
 
 Finnish experts tend to credit the result less to technology than to **trust in the process**: decades of transparent site investigation, a host municipality that consented, and political consistency that did not keep postponing the decision.
 
@@ -84,7 +85,7 @@ Stage of each national program for high-level waste, as of September 2026.
 
 | Country | Site / rock | Stage |
 |---|---|---|
-| Finland | Onkalo, granite (KBS-3) | STUK saw no obstacle to a licence (Aug 10, 2026); government decision expected autumn 2026 |
+| Finland | Onkalo, granite (KBS-3) | Operating licence granted Oct 22, 2026 (STUK statement Aug 4); disposal awaits STUK's final inspection |
 | Sweden | Forsmark, granite (KBS-3) | Government approval 2022; construction |
 | France | Cigéo, Bure, clay | Licence application under review |
 | Switzerland | Nördlich Lägern, Opalinus Clay | General licence application filed November 2024; referendum expected 2031 |

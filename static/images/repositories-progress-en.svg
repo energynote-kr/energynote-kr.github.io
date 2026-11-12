@@ -21,7 +21,7 @@
   <!-- Finland -->
   <text x="20" y="97" class="label">🇫🇮 Finland Onkalo</text>
   <rect x="190" y="82" width="480" height="22" rx="6" fill="#0b6e4f"/>
-  <text x="660" y="98" class="note" text-anchor="end">Safety review passed 2026 · licence pending</text>
+  <text x="660" y="98" class="note" text-anchor="end">Operating licence Oct 2026 · inspection next</text>
 
   <!-- Sweden -->
   <text x="20" y="142" class="label">🇸🇪 Sweden Forsmark</text>

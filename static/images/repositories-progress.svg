@@ -20,7 +20,7 @@
   <!-- 핀란드 -->
   <text x="20" y="97" class="label">🇫🇮 핀란드 온칼로</text>
   <rect x="190" y="82" width="480" height="22" rx="6" fill="#0b6e4f"/>
-  <text x="480" y="98" class="note">2026 안전심사 통과 · 가동 목전</text>
+  <text x="480" y="98" class="note">2026.10 운영허가 · 최종 검사 남음</text>
 
   <!-- 스웨덴 -->
   <text x="20" y="142" class="label">🇸🇪 스웨덴 포스마크</text>

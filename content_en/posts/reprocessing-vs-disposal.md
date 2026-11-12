@@ -1,6 +1,7 @@
 ---
 title: "Reprocess or bury? The world map of spent-fuel policy, and why Korea can't decide"
 date: 2026-09-03T12:30:00+09:00
+lastmod: 2026-11-12T15:30:00+09:00
 dataAsOf: "2026-09-03"
 categories: ["Nuclear & Energy"]
 tags: ["spent fuel", "reprocessing", "pyroprocessing", "high-level waste"]
@@ -40,7 +41,7 @@ The table below reflects national policy as of September 2026.
 
 The direct-disposal argument is short: reprocessing is expensive and carries proliferation risk, and the technology to bury fuel safely in deep rock already exists. Finland has taken that argument furthest.
 
-On 4 August 2026 STUK, the Finnish regulator, found no safety obstacle to an operating licence for Onkalo; the government's licence decision is the last step, and Posiva aims to be ready to start disposal by the end of 2026. We cover Onkalo and its rivals in [our tour of the world's repositories](/en/posts/world-repositories/).
+On 4 August 2026 STUK, the Finnish regulator, found no safety obstacle to an operating licence for Onkalo; the government granted the operating licence on 22 October 2026, and disposal can begin once STUK has inspected the facility and given a separate go-ahead (no start date announced as of 12 November 2026). We cover Onkalo and its rivals in [our tour of the world's repositories](/en/posts/world-repositories/).
 
 Note what the two camps have in common. France still needs a repository for its vitrified waste; Finland still needs one for its untouched fuel. Reprocessing changes what goes into the ground and how much, not whether a hole in the rock is needed at all.
 

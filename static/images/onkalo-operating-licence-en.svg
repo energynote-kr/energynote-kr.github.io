@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 508" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">The KBS-3 multi-barrier concept used at Onkalo, and Finland's and Korea's spent fuel disposal timelines side by side</title>
+  <rect x="0" y="0" width="720" height="508" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">Onkalo's licence: layered barriers and two timelines</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">Licensed on October 22, 2026; disposal starts only after STUK's final inspection</text>
+
+  <!-- Panel 1: KBS-3 barriers -->
+  <rect x="20" y="70" width="330" height="330" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="36" y="96" font-size="14" font-weight="800" fill="#1f2937">1. KBS-3 barriers (concept)</text>
+
+  <rect x="40" y="114" width="130" height="270" rx="4" fill="#d1d5db"/>
+  <rect x="60" y="134" width="90" height="232" rx="4" fill="#fde7c2"/>
+  <rect x="78" y="154" width="54" height="194" rx="6" fill="#f5a623"/>
+  <rect x="85" y="161" width="40" height="180" rx="3" fill="#6b7280"/>
+  <rect x="91" y="170" width="8" height="162" rx="2" fill="#0b6e4f"/>
+  <rect x="101" y="170" width="8" height="162" rx="2" fill="#0b6e4f"/>
+  <rect x="111" y="170" width="8" height="162" rx="2" fill="#0b6e4f"/>
+
+  <line x1="166" y1="130" x2="186" y2="130" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="128" font-size="13" font-weight="700" fill="#1f2937">4 Crystalline rock</text>
+  <text x="190" y="145" font-size="12" fill="#6b7280">about 400–450 m deep</text>
+
+  <line x1="146" y1="196" x2="186" y2="196" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="194" font-size="13" font-weight="700" fill="#1f2937">3 Bentonite buffer</text>
+  <text x="190" y="211" font-size="12" fill="#6b7280">clay that swells when</text>
+  <text x="190" y="226" font-size="12" fill="#6b7280">wet and seals gaps</text>
+
+  <line x1="129" y1="262" x2="186" y2="262" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="260" font-size="13" font-weight="700" fill="#1f2937">2 Copper shell, 5 cm</text>
+  <text x="190" y="277" font-size="12" fill="#6b7280">stays stable in</text>
+  <text x="190" y="292" font-size="12" fill="#6b7280">oxygen-free water</text>
+
+  <line x1="122" y1="326" x2="186" y2="326" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="324" font-size="13" font-weight="700" fill="#1f2937">1 Cast-iron insert</text>
+  <text x="190" y="341" font-size="12" fill="#6b7280">bears load, holds fuel</text>
+  <text x="190" y="356" font-size="12" fill="#6b7280">(12 assemblies, OL1/2)</text>
+
+  <text x="190" y="384" font-size="12" fill="#0b6e4f">■ Spent fuel</text>
+
+  <!-- Panel 2: timelines -->
+  <rect x="370" y="70" width="330" height="330" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="386" y="96" font-size="14" font-weight="800" fill="#1f2937">2. Finland and Korea</text>
+
+  <text x="386" y="122" font-size="13" font-weight="800" fill="#0b6e4f">Finland</text>
+  <text x="546" y="122" font-size="13" font-weight="800" fill="#b45309">Korea (draft targets)</text>
+  <line x1="536" y1="110" x2="536" y2="388" stroke="#d1d5db" stroke-width="1"/>
+
+  <text x="386" y="146" font-size="12" font-weight="700" fill="#1f2937">1983</text>
+  <text x="386" y="161" font-size="12" fill="#6b7280">Schedule set</text>
+  <text x="386" y="184" font-size="12" font-weight="700" fill="#1f2937">2001</text>
+  <text x="386" y="199" font-size="12" fill="#6b7280">Parliament OKs site</text>
+  <text x="386" y="222" font-size="12" font-weight="700" fill="#1f2937">2015</text>
+  <text x="386" y="237" font-size="12" fill="#6b7280">Construction licence</text>
+  <text x="386" y="260" font-size="12" font-weight="700" fill="#1f2937">Dec 2021</text>
+  <text x="386" y="275" font-size="12" fill="#6b7280">Licence application</text>
+  <text x="386" y="298" font-size="12" font-weight="700" fill="#1f2937">Aug 4, 2026</text>
+  <text x="386" y="313" font-size="12" fill="#6b7280">STUK: no obstacle</text>
+  <rect x="380" y="322" width="148" height="34" rx="4" fill="#0b6e4f"/>
+  <text x="386" y="336" font-size="12" font-weight="700" style="fill:#fff">Oct 22, 2026</text>
+  <text x="386" y="351" font-size="12" style="fill:#fff">Operating licence</text>
+  <text x="386" y="374" font-size="12" font-weight="700" fill="#b45309">Date not set</text>
+  <text x="386" y="389" font-size="12" fill="#6b7280">STUK check, disposal</text>
+
+  <text x="546" y="146" font-size="12" font-weight="700" fill="#1f2937">2025</text>
+  <text x="546" y="161" font-size="12" fill="#6b7280">Special Act</text>
+  <text x="546" y="184" font-size="12" font-weight="700" fill="#1f2937">2027</text>
+  <text x="546" y="199" font-size="12" fill="#6b7280">Call for host towns</text>
+  <text x="546" y="222" font-size="12" font-weight="700" fill="#1f2937">2028–2033</text>
+  <text x="546" y="237" font-size="12" fill="#6b7280">Basic surveys</text>
+  <text x="546" y="260" font-size="12" font-weight="700" fill="#1f2937">By 2037</text>
+  <text x="546" y="275" font-size="12" fill="#6b7280">Detailed surveys</text>
+  <text x="546" y="298" font-size="12" font-weight="700" fill="#1f2937">2038</text>
+  <text x="546" y="313" font-size="12" fill="#6b7280">Site decision</text>
+  <text x="546" y="336" font-size="12" font-weight="700" fill="#1f2937">Before 2050</text>
+  <text x="546" y="351" font-size="12" fill="#6b7280">Interim storage</text>
+  <text x="546" y="374" font-size="12" font-weight="700" fill="#1f2937">Before 2060</text>
+  <text x="546" y="389" font-size="12" fill="#6b7280">Disposal facility</text>
+
+  <rect x="20" y="414" width="680" height="54" rx="10" fill="#0b6e4f"/>
+  <text x="36" y="437" font-size="13" font-weight="700" style="fill:#fff">Licence terms: to end of 2070 · up to 6,500 tU of spent fuel (about 3,300 canisters)</text>
+  <text x="36" y="457" font-size="12" style="fill:#fff">Periodic safety assessment within 10 years · a licence is not the start of disposal</text>
+
+  <text x="20" y="488" font-size="10.5" fill="#6b7280">Sources: Finnish Government and Posiva (Oct 22, 2026), STUK (Aug 4, 2026), World Nuclear News (Oct 23, 2026), Posiva canister data;</text>
+  <text x="20" y="502" font-size="10.5" fill="#6b7280">Korea draft third basic plan (Nov 3, 2026) via Electronic Times and MTN. As of Nov 12, 2026. Left drawing not to scale.</text>
+</svg>
