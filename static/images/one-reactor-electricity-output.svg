@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">원전 1기(1.4GW·1GW)가 이용률 84.6%로 1년에 만드는 전력량과 가구 수 환산, 그리고 최대전력 165GW를 원전 기수로 나누면 안 되는 세 가지 이유</title>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+
+  <text x="20" y="30" font-size="17" font-weight="800" fill="#1f2937">원전 1기는 1년에 전기를 얼마나 만드나</text>
+  <text x="20" y="50" font-size="12" fill="#6b7280">이용률은 2025년 한수원 원전 평균 84.6% 가정 · 1GW는 1,000MW로 단순 계산</text>
+
+  <!-- 열 머리 -->
+  <text x="97" y="74" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">설비용량</text>
+  <text x="272" y="74" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">한 해 시간 × 이용률</text>
+  <text x="447" y="74" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">연간 발전량</text>
+  <text x="622" y="74" font-size="12" font-weight="700" fill="#6b7280" text-anchor="middle">가구 수 환산</text>
+
+  <!-- 1행: 1.4GW -->
+  <rect x="20" y="82" width="155" height="62" rx="8" fill="#0b6e4f"/>
+  <text x="97" y="109" font-size="18" font-weight="800" text-anchor="middle" style="fill:#fff">1.4GW</text>
+  <text x="97" y="130" font-size="12" text-anchor="middle" style="fill:#fff">APR1400급</text>
+  <text x="185" y="118" font-size="16" fill="#6b7280" text-anchor="middle">→</text>
+  <rect x="195" y="82" width="155" height="62" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="272" y="108" font-size="13" fill="#1f2937" text-anchor="middle">× 8,760시간</text>
+  <text x="272" y="128" font-size="13" fill="#1f2937" text-anchor="middle">× 84.6%</text>
+  <text x="360" y="118" font-size="16" fill="#6b7280" text-anchor="middle">→</text>
+  <rect x="370" y="82" width="155" height="62" rx="8" fill="#fff7e8" stroke="#f5a623"/>
+  <text x="447" y="109" font-size="18" font-weight="800" fill="#1f2937" text-anchor="middle">약 10.4TWh</text>
+  <text x="447" y="130" font-size="12" fill="#6b7280" text-anchor="middle">10,375GWh</text>
+  <text x="535" y="118" font-size="16" fill="#6b7280" text-anchor="middle">→</text>
+  <rect x="545" y="82" width="155" height="62" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="622" y="109" font-size="18" font-weight="800" fill="#0b6e4f" text-anchor="middle">약 300만 가구</text>
+  <text x="622" y="130" font-size="12" fill="#6b7280" text-anchor="middle">가구당 월 약 289kWh</text>
+
+  <!-- 2행: 1GW -->
+  <rect x="20" y="154" width="155" height="62" rx="8" fill="#6b7280"/>
+  <text x="97" y="181" font-size="18" font-weight="800" text-anchor="middle" style="fill:#fff">1GW</text>
+  <text x="97" y="202" font-size="12" text-anchor="middle" style="fill:#fff">OPR1000급 대략</text>
+  <text x="185" y="190" font-size="16" fill="#6b7280" text-anchor="middle">→</text>
+  <rect x="195" y="154" width="155" height="62" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="272" y="180" font-size="13" fill="#1f2937" text-anchor="middle">× 8,760시간</text>
+  <text x="272" y="200" font-size="13" fill="#1f2937" text-anchor="middle">× 84.6%</text>
+  <text x="360" y="190" font-size="16" fill="#6b7280" text-anchor="middle">→</text>
+  <rect x="370" y="154" width="155" height="62" rx="8" fill="#fff7e8" stroke="#f5a623"/>
+  <text x="447" y="181" font-size="18" font-weight="800" fill="#1f2937" text-anchor="middle">약 7.4TWh</text>
+  <text x="447" y="202" font-size="12" fill="#6b7280" text-anchor="middle">7,411GWh</text>
+  <text x="535" y="190" font-size="16" fill="#6b7280" text-anchor="middle">→</text>
+  <rect x="545" y="154" width="155" height="62" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="622" y="181" font-size="18" font-weight="800" fill="#0b6e4f" text-anchor="middle">약 214만 가구</text>
+  <text x="622" y="202" font-size="12" fill="#6b7280" text-anchor="middle">같은 가정</text>
+
+  <text x="20" y="240" font-size="12" fill="#1f2937">가구 사용량을 여름철 4인 가구 월 427kWh로 잡으면 1.4GW는 약 202만, 1GW는 약 145만 가구로 줄어듭니다.</text>
+
+  <line x1="20" y1="258" x2="700" y2="258" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- 아래 패널 -->
+  <text x="20" y="284" font-size="15" font-weight="800" fill="#1f2937">'최대전력 165GW ÷ 1.4GW = 118기'가 틀린 질문인 이유</text>
+
+  <rect x="20" y="298" width="216" height="140" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="20" y="298" width="216" height="32" rx="8" fill="#0b6e4f"/>
+  <text x="34" y="319" font-size="14" font-weight="700" style="fill:#fff">① GW와 GWh는 다르다</text>
+  <text x="34" y="352" font-size="12.5" fill="#1f2937">GW: 한순간의 수요 크기</text>
+  <text x="34" y="374" font-size="12.5" fill="#1f2937">GWh: 한 해 동안 쓴 양</text>
+  <text x="34" y="396" font-size="12.5" fill="#1f2937">피크 한 시간을 맞추는 일과</text>
+  <text x="34" y="418" font-size="12.5" fill="#1f2937">1년치 전기를 대는 일은 별개</text>
+
+  <rect x="252" y="298" width="216" height="140" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="252" y="298" width="216" height="32" rx="8" fill="#f5a623"/>
+  <text x="266" y="319" font-size="14" font-weight="700" fill="#1f2937">② 예비율이 붙는다</text>
+  <text x="266" y="352" font-size="12.5" fill="#1f2937">11차 전기본 장기 예비율 22%</text>
+  <text x="266" y="374" font-size="12.5" fill="#1f2937">같은 비율이면 165GW에</text>
+  <text x="266" y="396" font-size="12.5" fill="#1f2937">설비 약 201GW가 필요</text>
+  <text x="266" y="418" font-size="12.5" fill="#1f2937">정비 중인 호기도 늘 있음</text>
+
+  <rect x="484" y="298" width="216" height="140" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="484" y="298" width="216" height="32" rx="8" fill="#6b7280"/>
+  <text x="498" y="319" font-size="14" font-weight="700" style="fill:#fff">③ 피크는 저녁에 온다</text>
+  <text x="498" y="352" font-size="12.5" fill="#1f2937">2026년 여름 최대 95.3GW는</text>
+  <text x="498" y="374" font-size="12.5" fill="#1f2937">8월 7일 오후 7시</text>
+  <text x="498" y="396" font-size="12.5" fill="#1f2937">원전은 하루 내내 같은 출력의</text>
+  <text x="498" y="418" font-size="12.5" fill="#1f2937">기저부하를 맡는 전원</text>
+
+  <text x="20" y="462" font-size="10.5" fill="#6b7280">출처: 한수원 2025년 원전 이용률(2026.1 업무보고 보도) · 한전 2024년 주택용 판매량·사용 가구(이코노미스트 보도)</text>
+  <text x="20" y="477" font-size="10.5" fill="#6b7280">에너지경제연구원 2020 에너지총조사 · 산업부 11차 전기본 실무안(2024.5) · 전력거래소(MTN 보도, 2026.9.19)</text>
+  <text x="20" y="492" font-size="10.5" fill="#6b7280">가구당 월 289kWh = 86,989GWh ÷ 주택용 약 2,512만 가구(한전 집계) ÷ 12 (필자 계산) · 기준일 2026.11.13</text>
+</svg>
