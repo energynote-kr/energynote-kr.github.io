@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 508" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">Cross-section of a TRISO fuel particle with its five layers, and the Long Mott Xe-100 licensing timeline from application to target startup</title>
+  <rect x="0" y="0" width="720" height="508" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">Long Mott Xe-100: one fuel particle, and the licensing steps left</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">The Nov 9, 2026 permit allows building only. Fuel loading and operation need an operating license.</text>
+
+  <!-- Panel 1: TRISO -->
+  <rect x="20" y="70" width="330" height="330" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="36" y="96" font-size="14" font-weight="800" fill="#1f2937">1. TRISO particle (not to scale)</text>
+
+  <circle cx="100" cy="236" r="72" fill="#d1d5db"/>
+  <circle cx="100" cy="236" r="60" fill="#0b6e4f"/>
+  <circle cx="100" cy="236" r="49" fill="#9ca3af"/>
+  <circle cx="100" cy="236" r="39" fill="#e5e7eb"/>
+  <circle cx="100" cy="236" r="24" fill="#f5a623"/>
+
+  <line x1="168" y1="200" x2="186" y2="130" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="128" font-size="13" font-weight="700" fill="#1f2937">5 Outer pyrocarbon</text>
+  <text x="190" y="144" font-size="12" fill="#6b7280">outer shield (OPyC)</text>
+
+  <line x1="156" y1="212" x2="186" y2="180" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="178" font-size="13" font-weight="700" fill="#0b6e4f">4 Silicon carbide</text>
+  <text x="190" y="194" font-size="12" fill="#6b7280">main barrier to</text>
+  <text x="190" y="209" font-size="12" fill="#6b7280">fission products</text>
+
+  <line x1="146" y1="236" x2="186" y2="236" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="234" font-size="13" font-weight="700" fill="#1f2937">3 Inner pyrocarbon</text>
+  <text x="190" y="250" font-size="12" fill="#6b7280">supports SiC (IPyC)</text>
+
+  <line x1="134" y1="254" x2="186" y2="282" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="280" font-size="13" font-weight="700" fill="#1f2937">2 Carbon buffer</text>
+  <text x="190" y="296" font-size="12" fill="#6b7280">room for fission gas</text>
+
+  <line x1="112" y1="252" x2="186" y2="330" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="328" font-size="13" font-weight="700" fill="#b45309">1 Fuel kernel</text>
+  <text x="190" y="344" font-size="12" fill="#6b7280">HALEU, 15.5% U-235</text>
+
+  <text x="36" y="364" font-size="12" fill="#1f2937">Poppy-seed sized; thousands fill one 6 cm pebble.</text>
+  <text x="36" y="382" font-size="12" fill="#1f2937">About 220,000 pebbles circulate in one core.</text>
+
+  <!-- Panel 2: timeline -->
+  <rect x="370" y="70" width="330" height="330" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="386" y="96" font-size="14" font-weight="800" fill="#1f2937">2. Long Mott licensing timeline</text>
+  <line x1="392" y1="112" x2="392" y2="388" stroke="#d1d5db" stroke-width="2"/>
+
+  <circle cx="392" cy="118" r="4" fill="#0b6e4f"/>
+  <text x="404" y="122" font-size="12" font-weight="700" fill="#1f2937">Mar 31, 2025</text>
+  <text x="496" y="122" font-size="12" fill="#6b7280">CP application (Part 50)</text>
+
+  <circle cx="392" cy="148" r="4" fill="#0b6e4f"/>
+  <text x="404" y="152" font-size="12" font-weight="700" fill="#1f2937">May 12, 2025</text>
+  <text x="496" y="152" font-size="12" fill="#6b7280">NRC dockets it</text>
+
+  <circle cx="392" cy="178" r="4" fill="#0b6e4f"/>
+  <text x="404" y="182" font-size="12" font-weight="700" fill="#1f2937">May 2026</text>
+  <text x="496" y="182" font-size="12" fill="#6b7280">EA, no significant impact</text>
+
+  <circle cx="392" cy="208" r="4" fill="#0b6e4f"/>
+  <text x="404" y="212" font-size="12" font-weight="700" fill="#1f2937">Oct 30, 2026</text>
+  <text x="496" y="212" font-size="12" fill="#6b7280">Final safety evaluation</text>
+
+  <rect x="380" y="226" width="308" height="30" rx="5" fill="#0b6e4f"/>
+  <text x="404" y="246" font-size="12" font-weight="700" style="fill:#fff">Nov 9, 2026</text>
+  <text x="496" y="246" font-size="12" font-weight="700" style="fill:#fff">Construction permit</text>
+
+  <line x1="380" y1="272" x2="688" y2="272" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="404" y="290" font-size="12" font-weight="700" fill="#b45309">Still ahead (as of Nov 14, 2026)</text>
+
+  <circle cx="392" cy="312" r="4" fill="#f5a623"/>
+  <text x="404" y="316" font-size="12" font-weight="700" fill="#1f2937">2027</text>
+  <text x="496" y="316" font-size="12" fill="#6b7280">Dow preliminary FID (planned)</text>
+
+  <circle cx="392" cy="342" r="4" fill="#f5a623"/>
+  <text x="404" y="346" font-size="12" font-weight="700" fill="#1f2937">No date yet</text>
+  <text x="496" y="346" font-size="12" fill="#6b7280">Operating license review</text>
+
+  <circle cx="392" cy="372" r="4" fill="#f5a623"/>
+  <text x="404" y="376" font-size="12" font-weight="700" fill="#1f2937">Early 2030s</text>
+  <text x="496" y="376" font-size="12" fill="#6b7280">Target startup, if approved</text>
+
+  <rect x="20" y="414" width="680" height="54" rx="10" fill="#0b6e4f"/>
+  <text x="36" y="437" font-size="13" font-weight="700" style="fill:#fff">One Xe-100: 80 MWe · 200 MWt · helium-cooled, graphite-moderated · 750°C outlet</text>
+  <text x="36" y="457" font-size="12" style="fill:#fff">Four units: process steam and power for Dow's Seadrift site, surplus power to the grid</text>
+
+  <text x="20" y="488" font-size="10.5" fill="#6b7280">Sources: NRC press release 26-083 (Nov 9, 2026), Federal Register (Jun 10, 2025), World Nuclear News (Nov 10, 2026),</text>
+  <text x="20" y="502" font-size="10.5" fill="#6b7280">ANS Nuclear News (Nov 10 and Sep 18, 2026), US DOE TRISO and Xe-100 explainers, X-energy Xe-100 specs. As of Nov 14, 2026.</text>
+</svg>

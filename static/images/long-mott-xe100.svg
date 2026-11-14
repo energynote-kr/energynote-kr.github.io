@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 508" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">TRISO 연료 입자의 다섯 층 구조와 롱모트 Xe-100 건설허가부터 가동 목표까지의 인허가 시간표</title>
+  <rect x="0" y="0" width="720" height="508" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">롱모트 Xe-100: 연료 입자 한 알과 남은 인허가 단계</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">건설허가(2026.11.9)는 짓는 것까지만 허락합니다. 연료 장전과 운전은 운영허가가 따로 필요합니다</text>
+
+  <!-- 패널 1: TRISO -->
+  <rect x="20" y="70" width="330" height="330" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="36" y="96" font-size="14" font-weight="800" fill="#1f2937">① TRISO 입자 단면 (개념도)</text>
+
+  <circle cx="100" cy="236" r="72" fill="#d1d5db"/>
+  <circle cx="100" cy="236" r="60" fill="#0b6e4f"/>
+  <circle cx="100" cy="236" r="49" fill="#9ca3af"/>
+  <circle cx="100" cy="236" r="39" fill="#e5e7eb"/>
+  <circle cx="100" cy="236" r="24" fill="#f5a623"/>
+
+  <!-- 라벨 -->
+  <line x1="168" y1="200" x2="186" y2="130" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="128" font-size="13" font-weight="700" fill="#1f2937">⑤ 외부 열분해탄소</text>
+  <text x="190" y="144" font-size="12" fill="#6b7280">바깥 보호막(OPyC)</text>
+
+  <line x1="156" y1="212" x2="186" y2="180" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="178" font-size="13" font-weight="700" fill="#0b6e4f">④ 탄화규소(SiC)</text>
+  <text x="190" y="194" font-size="12" fill="#6b7280">핵분열생성물을 막는</text>
+  <text x="190" y="209" font-size="12" fill="#6b7280">핵심 방벽</text>
+
+  <line x1="146" y1="236" x2="186" y2="236" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="234" font-size="13" font-weight="700" fill="#1f2937">③ 내부 열분해탄소</text>
+  <text x="190" y="250" font-size="12" fill="#6b7280">SiC 받침층(IPyC)</text>
+
+  <line x1="134" y1="254" x2="186" y2="282" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="280" font-size="13" font-weight="700" fill="#1f2937">② 다공성 탄소 버퍼</text>
+  <text x="190" y="296" font-size="12" fill="#6b7280">기체가 모일 빈 공간</text>
+
+  <line x1="112" y1="252" x2="186" y2="330" stroke="#1f2937" stroke-width="1"/>
+  <text x="190" y="328" font-size="13" font-weight="700" fill="#b45309">① 연료핵</text>
+  <text x="190" y="344" font-size="12" fill="#6b7280">HALEU 15.5%</text>
+
+  <text x="36" y="364" font-size="12" fill="#1f2937">양귀비씨만 한 입자 수천 개 → 지름 6cm 페블 1개</text>
+  <text x="36" y="382" font-size="12" fill="#1f2937">페블 약 22만 개 → 원자로 노심 1기</text>
+
+  <!-- 패널 2: 시간표 -->
+  <rect x="370" y="70" width="330" height="330" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="386" y="96" font-size="14" font-weight="800" fill="#1f2937">② 롱모트 인허가 시간표</text>
+  <line x1="392" y1="112" x2="392" y2="388" stroke="#d1d5db" stroke-width="2"/>
+
+  <circle cx="392" cy="118" r="4" fill="#0b6e4f"/>
+  <text x="404" y="122" font-size="12" font-weight="700" fill="#1f2937">2025.3.31</text>
+  <text x="486" y="122" font-size="12" fill="#6b7280">건설허가 신청(Part 50)</text>
+
+  <circle cx="392" cy="148" r="4" fill="#0b6e4f"/>
+  <text x="404" y="152" font-size="12" font-weight="700" fill="#1f2937">2025.5.12</text>
+  <text x="486" y="152" font-size="12" fill="#6b7280">NRC 심사 착수</text>
+
+  <circle cx="392" cy="178" r="4" fill="#0b6e4f"/>
+  <text x="404" y="182" font-size="12" font-weight="700" fill="#1f2937">2026.5</text>
+  <text x="486" y="182" font-size="12" fill="#6b7280">환경평가, 중대 영향 없음</text>
+
+  <circle cx="392" cy="208" r="4" fill="#0b6e4f"/>
+  <text x="404" y="212" font-size="12" font-weight="700" fill="#1f2937">2026.10.30</text>
+  <text x="486" y="212" font-size="12" fill="#6b7280">최종 안전성평가 보고서</text>
+
+  <rect x="380" y="226" width="308" height="30" rx="5" fill="#0b6e4f"/>
+  <text x="404" y="246" font-size="12" font-weight="700" style="fill:#fff">2026.11.9</text>
+  <text x="486" y="246" font-size="12" font-weight="700" style="fill:#fff">건설허가 발급</text>
+
+  <line x1="380" y1="272" x2="688" y2="272" stroke="#f5a623" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="404" y="290" font-size="12" font-weight="700" fill="#b45309">아직 남은 일 (2026.11.14 기준)</text>
+
+  <circle cx="392" cy="312" r="4" fill="#f5a623"/>
+  <text x="404" y="316" font-size="12" font-weight="700" fill="#1f2937">2027 예정</text>
+  <text x="486" y="316" font-size="12" fill="#6b7280">다우 예비 투자결정</text>
+
+  <circle cx="392" cy="342" r="4" fill="#f5a623"/>
+  <text x="404" y="346" font-size="12" font-weight="700" fill="#1f2937">날짜 미정</text>
+  <text x="486" y="346" font-size="12" fill="#6b7280">운영허가 신청과 심사</text>
+
+  <circle cx="392" cy="372" r="4" fill="#f5a623"/>
+  <text x="404" y="376" font-size="12" font-weight="700" fill="#1f2937">2030년대 초</text>
+  <text x="486" y="376" font-size="12" fill="#6b7280">가동 목표(승인 시)</text>
+
+  <!-- 하단 요약 -->
+  <rect x="20" y="414" width="680" height="54" rx="10" fill="#0b6e4f"/>
+  <text x="36" y="437" font-size="13" font-weight="700" style="fill:#fff">Xe-100 1기: 전기 80MWe · 열 200MWt · 헬륨 냉각, 흑연 감속 · 원자로 출구 750℃</text>
+  <text x="36" y="457" font-size="12" style="fill:#fff">4기가 다우 시드리프트 공장에 고온 증기와 전기를 공급하고 남는 전기는 전력망으로</text>
+
+  <text x="20" y="488" font-size="10.5" fill="#6b7280">자료: NRC 보도자료 26-083(2026.11.9)·연방관보(2025.6.10), World Nuclear News(2026.11.10), ANS Nuclear News(2026.11.10, 9.18),</text>
+  <text x="20" y="502" font-size="10.5" fill="#6b7280">미국 에너지부(DOE) TRISO·Xe-100 해설, X-energy Xe-100 사양. 2026년 11월 14일 기준, 왼쪽 그림은 축척 아님</text>
+</svg>
