@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">Darlington BWRX-300 unit 1 schedule changes and unit 1 versus unit 4 cost estimates</title>
+  <rect x="0" y="0" width="720" height="490" fill="#f8faf9"/>
+  <text x="24" y="34" font-size="19" font-weight="700" fill="#1f2937">Darlington BWRX-300 unit 1: schedule and cost</text>
+  <text x="24" y="56" font-size="12" fill="#6b7280">As of November 16, 2026 · amounts in Canadian dollars</text>
+
+  <text x="24" y="90" font-size="14" font-weight="700" fill="#0b6e4f">1. Schedule: 2028 → 2030 → TBD</text>
+
+  <line x1="60" y1="185" x2="690" y2="185" stroke="#6b7280" stroke-width="2"/>
+  <line x1="412" y1="185" x2="690" y2="185" stroke="#f5a623" stroke-width="5" stroke-dasharray="8 5"/>
+  <g font-size="11" fill="#6b7280" text-anchor="middle">
+    <line x1="120" y1="181" x2="120" y2="189" stroke="#6b7280"/><text x="120" y="202">2022</text>
+    <line x1="240" y1="181" x2="240" y2="189" stroke="#6b7280"/><text x="240" y="202">2024</text>
+    <line x1="360" y1="181" x2="360" y2="189" stroke="#6b7280"/><text x="360" y="202">2026</text>
+    <line x1="480" y1="181" x2="480" y2="189" stroke="#6b7280"/><text x="480" y="202">2028</text>
+    <line x1="600" y1="181" x2="600" y2="189" stroke="#6b7280"/><text x="600" y="202">2030</text>
+  </g>
+
+  <line x1="115" y1="158" x2="115" y2="185" stroke="#0b6e4f"/>
+  <circle cx="115" cy="185" r="6" fill="#0b6e4f"/>
+  <g text-anchor="middle" font-size="12" fill="#1f2937">
+    <text x="115" y="118" font-weight="700">Dec 2021</text>
+    <text x="115" y="134">Design chosen</text>
+    <text x="115" y="150">as early as 2028</text>
+  </g>
+
+  <line x1="165" y1="185" x2="165" y2="213" stroke="#0b6e4f"/>
+  <circle cx="165" cy="185" r="6" fill="#0b6e4f"/>
+  <g text-anchor="middle" font-size="12" fill="#1f2937">
+    <text x="165" y="226" font-weight="700">Fall 2022</text>
+    <text x="165" y="242">Site prep</text>
+  </g>
+
+  <line x1="318" y1="158" x2="318" y2="185" stroke="#0b6e4f"/>
+  <circle cx="318" cy="185" r="6" fill="#0b6e4f"/>
+  <g text-anchor="middle" font-size="12" fill="#1f2937">
+    <text x="300" y="118" font-weight="700">Apr–May 2025</text>
+    <text x="300" y="134">Licence,</text>
+    <text x="300" y="150">unit 1 FID</text>
+  </g>
+
+  <line x1="375" y1="185" x2="375" y2="213" stroke="#0b6e4f"/>
+  <circle cx="375" cy="185" r="6" fill="#0b6e4f"/>
+  <g text-anchor="middle" font-size="12" fill="#1f2937">
+    <text x="360" y="226" font-weight="700">Mar–Apr 2026</text>
+    <text x="360" y="242">Operating licence</text>
+    <text x="360" y="258">applied, basemat</text>
+  </g>
+
+  <line x1="412" y1="142" x2="412" y2="185" stroke="#f5a623"/>
+  <circle cx="412" cy="185" r="7" fill="#f5a623"/>
+  <g text-anchor="middle" font-size="12" fill="#1f2937">
+    <text x="425" y="118" font-weight="700" fill="#b7791f">Nov 10, 2026</text>
+    <text x="425" y="134">Delay disclosed</text>
+  </g>
+
+  <line x1="450" y1="185" x2="450" y2="268" stroke="#f5a623" stroke-dasharray="3 3"/>
+  <circle cx="450" cy="185" r="6" fill="#fff" stroke="#f5a623" stroke-width="2"/>
+  <g text-anchor="middle" font-size="12" fill="#1f2937">
+    <text x="450" y="282" font-weight="700">Mid-2027</text>
+    <text x="450" y="298">Review due</text>
+  </g>
+
+  <text x="565" y="226" font-size="12" font-weight="700" fill="#b7791f" text-anchor="middle">New dates TBD</text>
+
+  <line x1="647" y1="158" x2="647" y2="185" stroke="#6b7280"/>
+  <circle cx="647" cy="185" r="7" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+  <line x1="642" y1="180" x2="652" y2="190" stroke="#6b7280" stroke-width="2"/>
+  <line x1="652" y1="180" x2="642" y2="190" stroke="#6b7280" stroke-width="2"/>
+  <g text-anchor="middle" font-size="12" fill="#6b7280">
+    <text x="640" y="118" font-weight="700">Oct 2030</text>
+    <text x="640" y="134">Old commercial</text>
+    <text x="640" y="150">target dropped</text>
+  </g>
+
+  <text x="24" y="334" font-size="14" font-weight="700" fill="#0b6e4f">2. Cost estimates (as published May 2025)</text>
+
+  <text x="150" y="363" font-size="13" font-weight="700" fill="#1f2937" text-anchor="end">Unit 1</text>
+  <rect x="160" y="345" width="378" height="26" fill="#0b6e4f"/>
+  <rect x="538" y="345" width="99" height="26" fill="#6b7280"/>
+  <text x="172" y="363" font-size="13" style="fill:#fff">Unit 1 itself C$6.1B</text>
+  <text x="546" y="363" font-size="13" style="fill:#fff">Shared 1.6B</text>
+  <text x="645" y="363" font-size="13" font-weight="700" fill="#1f2937">=7.7B</text>
+  <text x="160" y="392" font-size="12" fill="#b7791f">→ Nov 10, 2026, OPG: no longer expects C$7.7B · new estimate due mid-2027</text>
+
+  <text x="150" y="429" font-size="13" font-weight="700" fill="#1f2937" text-anchor="end">Unit 4</text>
+  <rect x="160" y="411" width="254" height="26" fill="#5fa98c"/>
+  <text x="172" y="429" font-size="13" style="fill:#fff">Unit 4 C$4.1B</text>
+  <text x="424" y="429" font-size="12" fill="#1f2937">about 33% below unit 1</text>
+
+  <g font-size="10.5" fill="#6b7280">
+    <text x="24" y="464">Sources: OPG Q3 2026 results (Nov 10, 2026), CNSC licence to construct (Apr 4, 2025), ANS (Jun 5, 2026),</text>
+    <text x="24" y="479">World Nuclear News (Dec 2, 2021; May 2025). Totals incl. interest and contingency; unit 4 via WNN.</text>
+  </g>
+</svg>
