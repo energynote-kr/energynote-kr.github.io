@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">영덕 신규원전 부지 이력과 남은 인허가 단계 타임라인. 2012년 천지원전 예정구역 지정, 2021년 철회, 2025년 11차 전력수급기본계획 반영, 2026년 6월 후보 부지 선정, 2026년 11월 13일 발전사업 허가 의결까지 완료됐고, 예정구역 지정 신청·지정 고시, 실시계획 승인, 원안위 건설허가·운영허가, 2037·2038년 준공이 남아 있음을 표시한 그림</title>
+  <rect x="0" y="0" width="720" height="510" fill="#f8faf9"/>
+
+  <text x="20" y="34" font-size="18" font-weight="800" fill="#1f2937">영덕 신규원전, 어디까지 왔나</text>
+  <text x="20" y="57" font-size="12" fill="#6b7280">부지 이력과 남은 단계 · 2026년 11월 18일 기준 · 예정 일정은 정부·한수원 목표(보도 기준)</text>
+
+  <!-- 범례 -->
+  <circle cx="27" cy="82" r="6" fill="#0b6e4f"/>
+  <text x="39" y="86" font-size="12" fill="#1f2937">지난 일</text>
+  <circle cx="107" cy="82" r="7" fill="#f5a623"/>
+  <text x="120" y="86" font-size="12" fill="#1f2937">이번 결정</text>
+  <circle cx="197" cy="82" r="6" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+  <text x="209" y="86" font-size="12" fill="#1f2937">남은 단계(목표)</text>
+
+  <!-- 세로선 -->
+  <line x1="150" y1="112" x2="150" y2="262" stroke="#0b6e4f" stroke-width="3"/>
+  <line x1="150" y1="262" x2="150" y2="432" stroke="#9ca3af" stroke-width="3" stroke-dasharray="6 5"/>
+
+  <!-- 1 -->
+  <text x="20" y="117" font-size="13" font-weight="700" fill="#1f2937">2012년 9월</text>
+  <circle cx="150" cy="112" r="6" fill="#0b6e4f"/>
+  <text x="172" y="117" font-size="13.5" fill="#1f2937">천지원전 예정구역 지정(지식경제부 고시)</text>
+
+  <!-- 2 -->
+  <text x="20" y="155" font-size="13" font-weight="700" fill="#1f2937">2021년 3월</text>
+  <circle cx="150" cy="150" r="6" fill="#0b6e4f"/>
+  <text x="172" y="155" font-size="13.5" fill="#1f2937">예정구역 지정 철회 의결(전원개발사업추진위원회)</text>
+
+  <!-- 3 -->
+  <text x="20" y="193" font-size="13" font-weight="700" fill="#1f2937">2025년 2월</text>
+  <circle cx="150" cy="188" r="6" fill="#0b6e4f"/>
+  <text x="172" y="193" font-size="13.5" fill="#1f2937">11차 전력수급기본계획에 대형 원전 2기 반영</text>
+
+  <!-- 4 -->
+  <text x="20" y="231" font-size="13" font-weight="700" fill="#1f2937">2026년 6월</text>
+  <circle cx="150" cy="226" r="6" fill="#0b6e4f"/>
+  <text x="172" y="231" font-size="13.5" fill="#1f2937">한수원 부지선정평가위원회, 영덕을 후보 부지로 발표</text>
+
+  <!-- 5 : 이번 결정 -->
+  <rect x="162" y="246" width="540" height="34" rx="6" fill="#fff4e0" stroke="#f5a623" stroke-width="1.5"/>
+  <text x="20" y="269" font-size="13" font-weight="800" fill="#1f2937">2026년 11월 13일</text>
+  <circle cx="150" cy="264" r="8" fill="#f5a623"/>
+  <text x="172" y="269" font-size="14" font-weight="700" fill="#1f2937">전기위원회, 발전사업 허가 원안 의결(전기사업법)</text>
+
+  <!-- 6 -->
+  <text x="20" y="307" font-size="13" font-weight="700" fill="#6b7280">2026년 11월</text>
+  <circle cx="150" cy="302" r="6" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+  <text x="172" y="307" font-size="13.5" fill="#1f2937">한수원, 예정구역 지정 신청(계획)</text>
+
+  <!-- 7 -->
+  <text x="20" y="345" font-size="13" font-weight="700" fill="#6b7280">2027년 3월</text>
+  <circle cx="150" cy="340" r="6" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+  <text x="172" y="345" font-size="13.5" fill="#1f2937">전원개발사업추진위원회 심의, 예정구역 지정·고시(목표)</text>
+
+  <!-- 8 -->
+  <text x="20" y="383" font-size="13" font-weight="700" fill="#6b7280">미정</text>
+  <circle cx="150" cy="378" r="6" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+  <text x="172" y="383" font-size="13.5" fill="#1f2937">실시계획 승인(전원개발촉진법) → 부지 공사</text>
+
+  <!-- 9 -->
+  <text x="20" y="421" font-size="13" font-weight="700" fill="#6b7280">미정</text>
+  <circle cx="150" cy="416" r="6" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+  <text x="172" y="421" font-size="13.5" fill="#1f2937">원안위 건설허가 → 운영허가(원자력안전법)</text>
+
+  <!-- 10 -->
+  <rect x="162" y="436" width="300" height="30" rx="6" fill="#e6f2ee"/>
+  <text x="20" y="456" font-size="13" font-weight="800" fill="#0b6e4f">2037·2038년</text>
+  <circle cx="150" cy="451" r="7" fill="#fff" stroke="#0b6e4f" stroke-width="2.5"/>
+  <line x1="150" y1="432" x2="150" y2="444" stroke="#9ca3af" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="172" y="456" font-size="14" font-weight="700" fill="#0b6e4f">1호기·2호기 준공 목표</text>
+
+  <!-- 출처 -->
+  <text x="20" y="487" font-size="10.5" fill="#6b7280">자료: 산업통상자원부 천지원전 예정구역 지정 철회 보도자료(2021.3.29), 경북매일 보도(2026.11.5·11.15),</text>
+  <text x="20" y="502" font-size="10.5" fill="#6b7280">한국경제 후보 부지 선정 보도(2026.6.17)</text>
+</svg>
