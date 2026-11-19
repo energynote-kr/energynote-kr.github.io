@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">광자 1개의 에너지로 본 전자레인지 마이크로파의 위치: 60Hz부터 감마선까지, 전리 문턱 약 10eV와 비교</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .label { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .value { font-size: 12px; fill: #1f2937; }
+    .tick { font-size: 12px; fill: #6b7280; }
+    .region { font-size: 13px; font-weight: 700; }
+    .src { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+
+  <text x="24" y="34" class="title">전자레인지 마이크로파, 광자 하나의 에너지는 얼마나 작을까</text>
+  <text x="24" y="56" class="sub">광자 에너지 E = h × f · 가로축은 로그 눈금(눈금 한 칸이 1만 배)</text>
+
+  <!-- 영역 배경: x(log E) = 50 + (logE + 14) × 29.09 ; 10eV → 486 -->
+  <rect x="50" y="120" width="436" height="130" fill="#0b6e4f" opacity="0.08"/>
+  <rect x="486" y="120" width="204" height="130" fill="#f5a623" opacity="0.14"/>
+  <text x="268" y="142" class="region" text-anchor="middle" style="fill:#0b6e4f">비전리 방사선 · 원자를 이온화하지 못함</text>
+  <text x="588" y="142" class="region" text-anchor="middle" style="fill:#b45309">전리 방사선</text>
+
+  <!-- 전리 문턱 -->
+  <line x1="486" y1="96" x2="486" y2="258" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="486" y="88" class="label" text-anchor="middle">전리 문턱 약 10eV</text>
+
+  <!-- 축 -->
+  <line x1="50" y1="250" x2="690" y2="250" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="108" y1="250" x2="108" y2="256" stroke="#6b7280"/>
+  <line x1="224" y1="250" x2="224" y2="256" stroke="#6b7280"/>
+  <line x1="341" y1="250" x2="341" y2="256" stroke="#6b7280"/>
+  <line x1="457" y1="250" x2="457" y2="256" stroke="#6b7280"/>
+  <line x1="574" y1="250" x2="574" y2="256" stroke="#6b7280"/>
+  <text x="108" y="272" class="tick" text-anchor="middle">10⁻¹²eV</text>
+  <text x="224" y="272" class="tick" text-anchor="middle">10⁻⁸eV</text>
+  <text x="341" y="272" class="tick" text-anchor="middle">10⁻⁴eV</text>
+  <text x="457" y="272" class="tick" text-anchor="middle">1eV</text>
+  <text x="574" y="272" class="tick" text-anchor="middle">10⁴eV</text>
+
+  <!-- 60Hz -->
+  <circle cx="91" cy="250" r="6" fill="#6b7280"/>
+  <line x1="91" y1="232" x2="91" y2="244" stroke="#6b7280"/>
+  <text x="91" y="206" class="label" text-anchor="middle">60Hz 가정용 전기</text>
+  <text x="104" y="224" class="value" text-anchor="middle">약 2.5×10⁻¹³eV</text>
+
+  <!-- 2.45GHz -->
+  <circle cx="312" cy="250" r="8" fill="#f5a623" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="312" y1="232" x2="312" y2="242" stroke="#1f2937"/>
+  <text x="312" y="206" class="label" text-anchor="middle">전자레인지 2.45GHz</text>
+  <text x="312" y="224" class="value" text-anchor="middle">약 1×10⁻⁵eV</text>
+
+  <!-- 가시광선 -->
+  <circle cx="466" cy="250" r="6" fill="#0b6e4f"/>
+  <text x="466" y="300" class="label" text-anchor="middle">가시광선</text>
+  <text x="466" y="318" class="value" text-anchor="middle">약 1.7~3.3eV</text>
+
+  <!-- 진단 엑스선 -->
+  <circle cx="588" cy="250" r="6" fill="#b45309"/>
+  <line x1="588" y1="232" x2="588" y2="244" stroke="#b45309"/>
+  <text x="588" y="206" class="label" text-anchor="middle">진단 엑스선</text>
+  <text x="588" y="224" class="value" text-anchor="middle">수십 keV</text>
+
+  <!-- 감마선 -->
+  <circle cx="635" cy="250" r="6" fill="#b45309"/>
+  <text x="640" y="300" class="label" text-anchor="middle">감마선(Co-60)</text>
+  <text x="640" y="318" class="value" text-anchor="middle">약 1.2~1.3MeV</text>
+
+  <text x="370" y="346" class="sub" text-anchor="middle">← 광자 1개의 에너지가 작다 · 크다 →</text>
+
+  <rect x="24" y="362" width="672" height="58" rx="8" fill="#0b6e4f"/>
+  <text x="40" y="386" style="font-size:13px; font-weight:700; fill:#fff">2.45GHz 광자 에너지는 전리 문턱의 약 100만분의 1</text>
+  <text x="40" y="408" style="font-size:13px; font-weight:700; fill:#fff">원자핵을 건드리는 MeV 단위와는 약 1,000억 배 차이 · 음식에 방사능이 생길 수 없는 이유</text>
+
+  <text x="24" y="446" class="src">계산: E = h × f, h ≈ 4.136×10⁻¹⁵ eV·s (2.45GHz → 1.01×10⁻⁵eV, 60Hz → 2.48×10⁻¹³eV).</text>
+  <text x="24" y="462" class="src">주파수: 미국 47 CFR 18.301 ISM 2,450MHz(±50MHz). 엑스선·감마선은 대표값(Co-60 감마선 1.17·1.33MeV).</text>
+  <text x="24" y="478" class="src">전리 문턱은 원자·분자에 따라 다른 대략값. 기준 시점 2026년 11월.</text>
+</svg>
