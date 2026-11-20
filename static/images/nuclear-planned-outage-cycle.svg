@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 518" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">원전이 약 18개월 운전한 뒤 계획예방정비로 멈추고 다시 임계에 이르는 주기와, 정비 기간 중 정지부터 전출력 복귀까지 여섯 단계 작업 흐름</title>
+  <rect x="0" y="0" width="720" height="518" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">원전의 한 주기: 운전 → 계획예방정비 → 다시 임계</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">국내 가압경수로는 18개월 안팎마다 연료를 바꾸며 정비 · 법정 정기검사는 직전 검사 후 20개월 이내</text>
+
+  <!-- 타임라인 -->
+  <rect x="20" y="76" width="430" height="44" rx="8" fill="#0b6e4f"/>
+  <text x="235" y="104" font-size="14" font-weight="700" text-anchor="middle" style="fill:#fff">전출력 운전 (한 주기, 약 16~17개월)</text>
+  <rect x="454" y="76" width="86" height="44" rx="8" fill="#f5a623"/>
+  <text x="497" y="104" font-size="14" font-weight="800" text-anchor="middle" fill="#1f2937">정비</text>
+  <rect x="544" y="76" width="156" height="44" rx="8" fill="#0b6e4f" opacity="0.75"/>
+  <text x="622" y="104" font-size="14" font-weight="700" text-anchor="middle" style="fill:#fff">다음 주기</text>
+
+  <text x="20" y="142" font-size="12" fill="#1f2937">연료가 타며(연소도 증가) 냉각수 붕소 농도를 서서히 낮춤</text>
+  <text x="454" y="142" font-size="12" fill="#1f2937">보통 1~3개월</text>
+  <text x="454" y="160" font-size="12" fill="#6b7280">대형 공사·사건은 더 길어짐</text>
+
+  <rect x="20" y="172" width="680" height="34" rx="8" fill="#e3f2ec"/>
+  <text x="34" y="194" font-size="12.5" fill="#1f2937">예) 한울 6호기: 14차 정비 시작 2025.3.18 → 15차 정비 시작 2026.9.30 (간격 18개월 남짓)</text>
+
+  <!-- 정비 기간 작업 흐름 -->
+  <text x="20" y="236" font-size="14" font-weight="800" fill="#1f2937">계획예방정비 기간에 하는 일</text>
+
+  <rect x="20" y="248" width="216" height="76" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="34" y="272" font-size="13.5" font-weight="800" fill="#0b6e4f">1. 출력 감소·정지</text>
+  <text x="34" y="293" font-size="12" fill="#1f2937">냉각·감압, 붕소 농도를</text>
+  <text x="34" y="311" font-size="12" fill="#1f2937">높여 깊은 미임계 유지</text>
+  <polygon points="238,281 246,286 238,291" fill="#6b7280"/>
+
+  <rect x="252" y="248" width="216" height="76" rx="8" fill="#ffffff" stroke="#f5a623" stroke-width="2"/>
+  <text x="266" y="272" font-size="13.5" font-weight="800" fill="#0b6e4f">2. 원자로 개방·연료 교체</text>
+  <text x="266" y="293" font-size="12" fill="#1f2937">다 탄 연료를 빼고 새 연료</text>
+  <text x="266" y="311" font-size="12" fill="#1f2937">장전 (노심의 약 3분의 1 안팎)</text>
+  <polygon points="470,281 478,286 470,291" fill="#6b7280"/>
+
+  <rect x="484" y="248" width="216" height="76" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="498" y="272" font-size="13.5" font-weight="800" fill="#0b6e4f">3. 설비 점검·정비</text>
+  <text x="498" y="293" font-size="12" fill="#1f2937">증기발생기 세관 검사,</text>
+  <text x="498" y="311" font-size="12" fill="#1f2937">터빈·펌프·밸브·전력계통</text>
+
+  <rect x="20" y="340" width="216" height="76" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="34" y="364" font-size="13.5" font-weight="800" fill="#0b6e4f">4. 원안위 정기검사</text>
+  <text x="34" y="385" font-size="12" fill="#1f2937">원자로·냉각·격납·안전계통 등</text>
+  <text x="34" y="403" font-size="12" fill="#1f2937">임계 전 항목부터 검사</text>
+  <polygon points="238,373 246,378 238,383" fill="#6b7280"/>
+
+  <rect x="252" y="340" width="216" height="76" rx="8" fill="#f5a623"/>
+  <text x="266" y="364" font-size="13.5" font-weight="800" fill="#1f2937">5. 임계 허용 → 재임계</text>
+  <text x="266" y="385" font-size="12" fill="#1f2937">붕소 희석·제어봉 인출로</text>
+  <text x="266" y="403" font-size="12" fill="#1f2937">k = 1 복귀, 교체노심 시험</text>
+  <polygon points="470,373 478,378 470,383" fill="#6b7280"/>
+
+  <rect x="484" y="340" width="216" height="76" rx="8" fill="#0b6e4f"/>
+  <text x="498" y="364" font-size="13.5" font-weight="800" style="fill:#fff">6. 출력상승·후속검사</text>
+  <text x="498" y="385" font-size="12" style="fill:#fff">발전 재개 뒤 남은 검사</text>
+  <text x="498" y="403" font-size="12" style="fill:#fff">마치면 정기검사 합격 통지</text>
+
+  <rect x="20" y="430" width="680" height="30" rx="8" fill="#ffffff" stroke="#0b6e4f"/>
+  <text x="34" y="450" font-size="12.5" fill="#1f2937">작업종사자 피폭은 대부분 이 기간에 생김 (국내 원전 2009~2013년 분석)</text>
+
+  <text x="20" y="478" font-size="10.5" fill="#6b7280">출처: 원자력안전법 시행규칙 제19조, 원자력안전위원회 정기검사 보도자료, 세계원자력협회(WNA),</text>
+  <text x="20" y="492" font-size="10.5" fill="#6b7280">한울 6호기 정비 착수 보도(2025.3.18, 2026.9.30), 방사선방어학회지(2015)</text>
+  <text x="20" y="506" font-size="10.5" fill="#6b7280">단계는 일반적 흐름을 단순화한 것 · 기준 2026년 11월 20일</text>
+</svg>
