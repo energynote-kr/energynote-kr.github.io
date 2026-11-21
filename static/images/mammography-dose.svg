@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">유방촬영 2D(양쪽 4장)와 3D 촬영의 유효선량을 자연방사선 하루치, 흉부 엑스레이, 서울-뉴욕 왕복 비행, 한국 자연방사선 1년, 흉부 CT와 로그 눈금으로 비교한 그림</title>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">유방촬영 방사선량, 다른 검사·일상과 비교</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">가로축은 로그 눈금이라 한 칸마다 10배입니다. 막대는 자료별 범위, 점은 대표값(성인)입니다.</text>
+
+  <!-- 세로 눈금선: x = 220 + 115*(log10(mSv)+3) -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="220" y1="72" x2="220" y2="340"/>
+    <line x1="335" y1="72" x2="335" y2="340"/>
+    <line x1="450" y1="72" x2="450" y2="340"/>
+    <line x1="565" y1="72" x2="565" y2="340"/>
+    <line x1="680" y1="72" x2="680" y2="340"/>
+  </g>
+
+  <!-- 1. 2D 유방촬영 0.28~0.5 -->
+  <text x="20" y="92" font-size="13" font-weight="700" fill="#1f2937">유방촬영 2D</text>
+  <text x="20" y="108" font-size="11" fill="#6b7280">양쪽 2방향, 4장</text>
+  <rect x="501" y="85" width="29" height="14" rx="4" fill="#0b6e4f" opacity="0.85"/>
+  <text x="542" y="97" font-size="12" font-weight="700" fill="#0b6e4f">약 0.28~0.5</text>
+
+  <!-- 2. 3D DBT 0.34 -->
+  <text x="20" y="132" font-size="13" font-weight="700" fill="#1f2937">3D 유방촬영 검진</text>
+  <text x="20" y="148" font-size="11" fill="#6b7280">디지털 유방단층합성(DBT)</text>
+  <circle cx="511" cy="128" r="7" fill="#f5a623" stroke="#ffffff" stroke-width="1.5"/>
+  <text x="526" y="133" font-size="12" font-weight="700" fill="#0b6e4f">약 0.34</text>
+
+  <!-- 구분선 -->
+  <line x1="20" y1="160" x2="700" y2="160" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="20" y="178" font-size="12" font-weight="700" fill="#6b7280">비교 기준</text>
+
+  <!-- 3. 자연방사선 하루치 0.008 -->
+  <text x="20" y="202" font-size="13" fill="#1f2937">자연방사선 하루치</text>
+  <circle cx="324" cy="198" r="6" fill="#6b7280"/>
+  <text x="337" y="203" font-size="12" font-weight="700" fill="#374151">약 0.008</text>
+
+  <!-- 4. 흉부 엑스레이 0.1 -->
+  <text x="20" y="236" font-size="13" fill="#1f2937">흉부 엑스레이 1장</text>
+  <circle cx="450" cy="232" r="6" fill="#6b7280"/>
+  <text x="463" y="237" font-size="12" font-weight="700" fill="#374151">약 0.1</text>
+
+  <!-- 5. 서울-뉴욕 왕복 0.1~0.2 -->
+  <text x="20" y="270" font-size="13" fill="#1f2937">서울-뉴욕 왕복 비행</text>
+  <rect x="450" y="260" width="35" height="12" rx="4" fill="#6b7280" opacity="0.7"/>
+  <text x="495" y="271" font-size="12" font-weight="700" fill="#374151">약 0.1~0.2</text>
+
+  <!-- 6. 한국 자연방사선 1년 3 -->
+  <text x="20" y="304" font-size="13" fill="#1f2937">한국 자연방사선 1년</text>
+  <circle cx="620" cy="300" r="6" fill="#6b7280"/>
+  <text x="608" y="305" font-size="12" font-weight="700" fill="#374151" text-anchor="end">약 3</text>
+
+  <!-- 7. 흉부 CT 7 -->
+  <text x="20" y="338" font-size="13" fill="#1f2937">흉부 CT 1회</text>
+  <circle cx="662" cy="332" r="6" fill="#6b7280"/>
+  <text x="650" y="337" font-size="12" font-weight="700" fill="#374151" text-anchor="end">약 7</text>
+
+  <!-- 축 -->
+  <line x1="220" y1="348" x2="680" y2="348" stroke="#6b7280" stroke-width="1"/>
+  <g font-size="12" fill="#374151" text-anchor="middle">
+    <text x="220" y="365">0.001</text>
+    <text x="335" y="365">0.01</text>
+    <text x="450" y="365">0.1</text>
+    <text x="565" y="365">1</text>
+    <text x="680" y="365">10</text>
+  </g>
+  <text x="450" y="384" font-size="12" fill="#6b7280" text-anchor="middle">유효선량(mSv, 로그 눈금: 눈금 한 칸마다 10배)</text>
+
+  <!-- 단위 메모 -->
+  <rect x="20" y="396" width="680" height="50" rx="6" fill="#ffffff" stroke="#0b6e4f" stroke-width="1"/>
+  <text x="34" y="416" font-size="12" font-weight="700" fill="#0b6e4f">단위 메모: 유방촬영 장비는 평균유선선량(MGD, mGy)으로 관리합니다.</text>
+  <text x="34" y="435" font-size="12" fill="#1f2937">한쪽 2장 약 3~4mGy × 유방 조직가중치 0.12 ≈ 유효선량 0.36~0.48mSv (어림 계산)</text>
+
+  <!-- 출처 -->
+  <text x="20" y="464" font-size="10.5" fill="#6b7280">출처: 2D 0.28·3D 0.34 RadiologyInfo(ACR·RSNA, 2025.4 검토), 2D 0.5 미국유방영상학회(SBI)</text>
+  <text x="20" y="479" font-size="10.5" fill="#6b7280">1장 1.5~2mGy Thierry-Chef 외(2012), 조직가중치 ICRP 103(2007). 나머지 비교값은 이 사이트 기준값</text>
+  <text x="20" y="494" font-size="10.5" fill="#6b7280">(한국 자연방사선 연 약 3mSv). 2026년 11월 기준, 실제 선량은 장비·유방 두께·촬영 장수에 따라 다릅니다.</text>
+</svg>
