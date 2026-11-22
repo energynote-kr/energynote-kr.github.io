@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">가압경수로·비등경수로·가압중수로의 계통 비교: 가압경수로와 중수로는 원자로와 터빈 사이에 증기발생기가 있고, 비등경수로는 노심에서 만든 증기가 바로 터빈으로 가며, 각 노형의 연료·감속재·냉각재와 대략의 온도·압력</title>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="520" fill="#f8faf9"/>
+
+  <text x="20" y="32" font-size="18" font-weight="800" fill="#1f2937">원자로 종류 3가지: 증기를 어디서 만드나</text>
+  <text x="20" y="54" font-size="12" fill="#6b7280">원자로 → (증기발생기) → 터빈 · 단순화한 개념도, 온도·압력은 대략값</text>
+
+  <!-- 1. 가압경수로 -->
+  <rect x="20" y="70" width="680" height="126" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="36" y="104" font-size="17" font-weight="800" fill="#0b6e4f">가압경수로</text>
+  <text x="36" y="126" font-size="13" fill="#1f2937">PWR</text>
+  <text x="36" y="148" font-size="12" fill="#6b7280">세계 319기</text>
+
+  <rect x="170" y="84" width="120" height="48" rx="8" fill="#0b6e4f"/>
+  <text x="230" y="113" font-size="14" font-weight="700" text-anchor="middle" style="fill:#fff">원자로</text>
+  <line x1="292" y1="108" x2="326" y2="108" stroke="#6b7280" stroke-width="2" marker-end="url(#ah)"/>
+  <rect x="330" y="84" width="120" height="48" rx="8" fill="#e3f2ec" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="390" y="113" font-size="14" font-weight="700" text-anchor="middle" fill="#0b6e4f">증기발생기</text>
+  <line x1="452" y1="108" x2="486" y2="108" stroke="#6b7280" stroke-width="2" marker-end="url(#ah)"/>
+  <rect x="490" y="84" width="120" height="48" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="550" y="113" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">터빈·발전기</text>
+
+  <text x="230" y="152" font-size="12" text-anchor="middle" fill="#1f2937">약 325℃ · 약 150기압</text>
+  <text x="390" y="152" font-size="12" text-anchor="middle" fill="#1f2937">1차·2차 계통 분리</text>
+  <text x="550" y="152" font-size="12" text-anchor="middle" fill="#1f2937">2차 계통 증기</text>
+  <text x="170" y="180" font-size="12" fill="#1f2937">연료 저농축 우라늄 · 감속재·냉각재 경수(H₂O) · 정지 후 연료 일부 교체</text>
+
+  <!-- 2. 비등경수로 -->
+  <rect x="20" y="206" width="680" height="126" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="36" y="240" font-size="17" font-weight="800" fill="#0b6e4f">비등경수로</text>
+  <text x="36" y="262" font-size="13" fill="#1f2937">BWR</text>
+  <text x="36" y="284" font-size="12" fill="#6b7280">세계 60기</text>
+
+  <rect x="170" y="220" width="120" height="48" rx="8" fill="#0b6e4f"/>
+  <text x="230" y="249" font-size="14" font-weight="700" text-anchor="middle" style="fill:#fff">원자로(끓음)</text>
+  <rect x="330" y="220" width="120" height="48" rx="8" fill="none" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="390" y="236" font-size="12" text-anchor="middle" fill="#6b7280">증기발생기</text>
+  <text x="390" y="252" font-size="12" text-anchor="middle" fill="#6b7280">없음</text>
+  <line x1="292" y1="262" x2="486" y2="262" stroke="#6b7280" stroke-width="2" marker-end="url(#ah)"/>
+  <rect x="490" y="220" width="120" height="48" rx="8" fill="#fff4e0" stroke="#f5a623" stroke-width="2.5"/>
+  <text x="550" y="249" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">터빈·발전기</text>
+
+  <text x="230" y="288" font-size="12" text-anchor="middle" fill="#1f2937">약 285℃ · 약 75기압</text>
+  <text x="390" y="288" font-size="12" text-anchor="middle" fill="#1f2937">노심 증기가 바로 터빈으로</text>
+  <text x="550" y="288" font-size="12" text-anchor="middle" font-weight="700" fill="#b26a00">차폐 필요(N-16)</text>
+  <text x="170" y="316" font-size="12" fill="#1f2937">연료 저농축 우라늄 · 감속재·냉각재 경수(H₂O) · 정지 후 연료 일부 교체</text>
+
+  <!-- 3. 가압중수로 -->
+  <rect x="20" y="342" width="680" height="126" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="36" y="376" font-size="17" font-weight="800" fill="#0b6e4f">가압중수로</text>
+  <text x="36" y="398" font-size="13" fill="#1f2937">PHWR(CANDU)</text>
+  <text x="36" y="420" font-size="12" fill="#6b7280">세계 47기</text>
+
+  <rect x="170" y="356" width="120" height="48" rx="8" fill="#0b6e4f"/>
+  <text x="230" y="377" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">원자로</text>
+  <text x="230" y="395" font-size="12" text-anchor="middle" style="fill:#fff">칼란드리아·압력관</text>
+  <line x1="292" y1="380" x2="326" y2="380" stroke="#6b7280" stroke-width="2" marker-end="url(#ah)"/>
+  <rect x="330" y="356" width="120" height="48" rx="8" fill="#e3f2ec" stroke="#0b6e4f" stroke-width="1.5"/>
+  <text x="390" y="385" font-size="14" font-weight="700" text-anchor="middle" fill="#0b6e4f">증기발생기</text>
+  <line x1="452" y1="380" x2="486" y2="380" stroke="#6b7280" stroke-width="2" marker-end="url(#ah)"/>
+  <rect x="490" y="356" width="120" height="48" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="550" y="385" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">터빈·발전기</text>
+
+  <text x="230" y="424" font-size="12" text-anchor="middle" fill="#1f2937">약 290℃ · 약 100기압</text>
+  <text x="390" y="424" font-size="12" text-anchor="middle" fill="#1f2937">1차·2차 계통 분리</text>
+  <text x="550" y="424" font-size="12" text-anchor="middle" fill="#1f2937">2차 계통 증기</text>
+  <text x="170" y="452" font-size="12" fill="#1f2937">연료 <tspan font-weight="700" fill="#b26a00">천연우라늄</tspan> · 감속재·냉각재 중수(D₂O) · <tspan font-weight="700" fill="#b26a00">운전 중 연료 교체</tspan></text>
+
+  <text x="20" y="492" font-size="10.5" fill="#6b7280">출처: 세계원자력협회(WNA) 「Nuclear Power Reactors」(2026.11.18 갱신) · 기수는 운전 가능(operable) 원전 기준</text>
+  <text x="20" y="508" font-size="10.5" fill="#6b7280">실제 루프 수·기기 배치는 설계마다 다름 · 한국: 가압경수로 23기, 가압중수로 3기(월성 2~4호기, WNA 2026.11.2 갱신)</text>
+</svg>
