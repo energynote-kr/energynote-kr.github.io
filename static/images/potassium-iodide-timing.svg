@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">요오드화칼륨 복용 시점에 따른 갑상선 방호 효과와 WHO 권고 시간 창, 연령별 1회 용량</title>
+  <rect x="0" y="0" width="720" height="460" fill="#f8faf9"/>
+
+  <text x="24" y="36" font-size="19" font-weight="700" fill="#1f2937">요오드화칼륨, 언제 먹느냐가 효과를 가릅니다</text>
+  <text x="24" y="60" font-size="12" fill="#6b7280">방사성요오드 노출 뒤 복용 시점별 갑상선 방호 효과 (부산광역시 갑상샘방호약품 안내)</text>
+
+  <!-- 막대: 100% = 400px, 시작 x=210 -->
+  <line x1="210" y1="76" x2="210" y2="204" stroke="#6b7280" stroke-width="1"/>
+
+  <text x="24" y="99" font-size="14" fill="#1f2937">노출 후 15분 이내</text>
+  <rect x="210" y="82" width="380" height="26" rx="4" fill="#0b6e4f"/>
+  <text x="600" y="100" font-size="14" font-weight="700" fill="#0b6e4f">95% 이상</text>
+
+  <text x="24" y="141" font-size="14" fill="#1f2937">노출 후 2시간 이내</text>
+  <rect x="210" y="124" width="360" height="26" rx="4" fill="#0b6e4f"/>
+  <text x="580" y="142" font-size="14" font-weight="700" fill="#0b6e4f">약 90%</text>
+
+  <text x="24" y="183" font-size="14" fill="#1f2937">노출 후 6시간 이내</text>
+  <rect x="210" y="166" width="200" height="26" rx="4" fill="#f5a623"/>
+  <text x="420" y="184" font-size="14" font-weight="700" fill="#1f2937">50% 이상</text>
+
+  <!-- 시간 창 -->
+  <text x="24" y="240" font-size="15" font-weight="700" fill="#1f2937">WHO가 권하는 복용 시간 창 (노출 시작 기준, 눈금 간격은 일정하지 않음)</text>
+
+  <rect x="40" y="256" width="320" height="34" fill="#0b6e4f"/>
+  <text x="200" y="278" font-size="13" font-weight="700" text-anchor="middle" style="fill:#fff">최적: 노출 24시간 전 이내 ~ 노출 후 2시간</text>
+  <rect x="360" y="256" width="140" height="34" fill="#f5a623"/>
+  <text x="430" y="278" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">8시간까지 합리적</text>
+  <rect x="500" y="256" width="180" height="34" fill="#d1d5db"/>
+  <text x="590" y="278" font-size="13" text-anchor="middle" fill="#1f2937">늦을수록 이득 작아짐</text>
+
+  <line x1="40" y1="250" x2="40" y2="300" stroke="#1f2937" stroke-width="1"/>
+  <line x1="240" y1="250" x2="240" y2="300" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="360" y1="250" x2="360" y2="300" stroke="#1f2937" stroke-width="1"/>
+  <line x1="500" y1="250" x2="500" y2="300" stroke="#1f2937" stroke-width="1"/>
+  <line x1="680" y1="250" x2="680" y2="300" stroke="#1f2937" stroke-width="1"/>
+
+  <text x="40" y="316" font-size="12" text-anchor="middle" fill="#1f2937">-24시간</text>
+  <text x="240" y="316" font-size="12" font-weight="700" text-anchor="middle" fill="#1f2937">노출 시작</text>
+  <text x="360" y="316" font-size="12" text-anchor="middle" fill="#1f2937">+2시간</text>
+  <text x="500" y="316" font-size="12" text-anchor="middle" fill="#1f2937">+8시간</text>
+  <text x="680" y="316" font-size="12" text-anchor="middle" fill="#1f2937">+24시간</text>
+  <text x="680" y="334" font-size="12" text-anchor="end" fill="#6b7280">24시간 넘으면 보호 효과 없음</text>
+
+  <!-- 메모 -->
+  <text x="24" y="362" font-size="13" fill="#1f2937">· 1회 약효는 약 24시간. 막는 것은 방사성요오드의 갑상선 축적뿐(세슘·외부피폭은 못 막음)</text>
+  <text x="24" y="384" font-size="13" fill="#1f2937">· 국내 1회 용량(KI): 12세 이상 130mg, 3~12세 미만 65mg, 1개월~3세 미만 32.5mg, 신생아 16.25mg</text>
+  <text x="24" y="406" font-size="13" fill="#1f2937">· 복용은 방재 당국의 지시가 있을 때만, 신생아·임신부는 원칙적으로 1회</text>
+
+  <text x="24" y="432" font-size="10.5" fill="#6b7280">출처: 부산광역시 「갑상샘 방호 약품」 안내, WHO 「Use of potassium iodide for thyroid protection during nuclear</text>
+  <text x="24" y="448" font-size="10.5" fill="#6b7280">or radiological emergencies」 Q&amp;A, 약학정보원 치오단정130mg 용법·용량 (2026년 11월 23일 확인)</text>
+</svg>
