@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">가압경수로의 열이 1차 계통, 2차 계통, 바닷물로 옮겨 가는 온배수 경로와, 처리·분석·감시를 거치는 액체 방사성폐기물의 별도 경로를 나눠 그린 개념도</title>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+
+  <text x="20" y="34" font-size="18" font-weight="800" fill="#1f2937">온배수의 길과 방사성 액체 배출의 길</text>
+  <text x="20" y="56" font-size="12" fill="#6b7280">1.4GW 가압경수로 예 · 세 물길은 금속 관을 사이에 두고 열만 주고받음</text>
+
+  <!-- 열의 흐름 -->
+  <text x="20" y="88" font-size="14" font-weight="800" fill="#0b6e4f">① 열의 길 (온배수)</text>
+
+  <rect x="20" y="100" width="200" height="90" rx="8" fill="#0b6e4f"/>
+  <text x="120" y="126" font-size="14" font-weight="700" text-anchor="middle" style="fill:#fff">1차 계통</text>
+  <text x="120" y="150" font-size="12" text-anchor="middle" style="fill:#fff">원자로를 도는 물</text>
+  <text x="120" y="172" font-size="12" text-anchor="middle" style="fill:#fff">열출력 약 4GW</text>
+
+  <rect x="260" y="100" width="200" height="90" rx="8" fill="#e3f2ec" stroke="#0b6e4f"/>
+  <text x="360" y="126" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">2차 계통</text>
+  <text x="360" y="150" font-size="12" text-anchor="middle" fill="#1f2937">터빈을 돌리는 증기</text>
+  <text x="360" y="172" font-size="12" text-anchor="middle" fill="#1f2937">전기 약 1.4GW</text>
+
+  <rect x="500" y="100" width="200" height="90" rx="8" fill="#f5a623"/>
+  <text x="600" y="126" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">바닷물 (복수기 냉각)</text>
+  <text x="600" y="150" font-size="12" text-anchor="middle" fill="#1f2937">폐열 2.5GW 안팎</text>
+  <text x="600" y="172" font-size="12" text-anchor="middle" fill="#1f2937">약 7도 올라 바다로</text>
+
+  <line x1="222" y1="145" x2="248" y2="145" stroke="#6b7280" stroke-width="3"/>
+  <polygon points="248,139 258,145 248,151" fill="#6b7280"/>
+  <line x1="462" y1="145" x2="488" y2="145" stroke="#6b7280" stroke-width="3"/>
+  <polygon points="488,139 498,145 488,151" fill="#6b7280"/>
+  <text x="240" y="210" font-size="12" text-anchor="middle" fill="#6b7280">증기발생기</text>
+  <text x="480" y="210" font-size="12" text-anchor="middle" fill="#6b7280">복수기</text>
+
+  <!-- 유량 계산 -->
+  <rect x="20" y="226" width="440" height="56" rx="8" fill="#ffffff" stroke="#f5a623"/>
+  <text x="34" y="249" font-size="13" font-weight="700" fill="#1f2937">2,500MW ÷ (4MJ × 7도) ≈ 초당 90톤 안팎</text>
+  <text x="34" y="270" font-size="12" fill="#6b7280">필자 어림 · 바닷물 1톤을 1도 올리는 데 약 4MJ</text>
+
+  <!-- 배수구 -->
+  <line x1="600" y1="192" x2="600" y2="322" stroke="#f5a623" stroke-width="4"/>
+  <polygon points="592,322 600,334 608,322" fill="#f5a623"/>
+  <rect x="500" y="336" width="200" height="90" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="600" y="362" font-size="14" font-weight="700" text-anchor="middle" fill="#1f2937">배수구 → 바다</text>
+  <text x="600" y="386" font-size="12" text-anchor="middle" fill="#1f2937">온도와 방사능은</text>
+  <text x="600" y="406" font-size="12" text-anchor="middle" fill="#1f2937">따로 따질 문제</text>
+
+  <!-- 액체 방사성폐기물 -->
+  <text x="20" y="322" font-size="14" font-weight="800" fill="#0b6e4f">② 방사성 액체의 길 (별도 계통)</text>
+
+  <rect x="20" y="336" width="134" height="90" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="87" y="368" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">폐액 발생</text>
+  <text x="87" y="392" font-size="12" text-anchor="middle" fill="#1f2937">1차 계통·정비</text>
+
+  <rect x="178" y="336" width="134" height="90" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="245" y="368" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">처리·시료 분석</text>
+  <text x="245" y="392" font-size="12" text-anchor="middle" fill="#1f2937">여과 등</text>
+
+  <rect x="336" y="336" width="124" height="90" rx="8" fill="#ffffff" stroke="#6b7280"/>
+  <text x="398" y="368" font-size="13" font-weight="700" text-anchor="middle" fill="#1f2937">감시·희석</text>
+  <text x="398" y="392" font-size="12" text-anchor="middle" fill="#1f2937">경보 또는 자동 차단</text>
+
+  <line x1="156" y1="381" x2="168" y2="381" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="168,376 176,381 168,386" fill="#6b7280"/>
+  <line x1="314" y1="381" x2="326" y2="381" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="326,376 334,381 326,386" fill="#6b7280"/>
+  <line x1="462" y1="381" x2="488" y2="381" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 3"/>
+  <polygon points="488,375 498,381 488,387" fill="#6b7280"/>
+
+  <text x="20" y="448" font-size="12" fill="#1f2937">점선: 부지 설계에 따라 냉각수와 만나 같은 출구로 나갈 수 있음</text>
+
+  <text x="20" y="472" font-size="10.5" fill="#6b7280">출처: WNA, 원자력안전위원회고시 제2023-11호, 영국 환경청(2013) · 유량은 필자 계산</text>
+  <text x="20" y="488" font-size="10.5" fill="#6b7280">실제 배치를 단순화한 개념도 · 기준 2026년 11월 24일</text>
+</svg>
