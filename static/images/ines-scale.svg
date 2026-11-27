@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">국제원자력사건등급(INES) 0~7등급을 계단식 막대로 나타내고, 4~7등급 사고와 1~3등급 사건의 구분, 등급별 판정 기준과 대표 사례를 정리한 그림</title>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+  <text x="20" y="34" font-size="20" font-weight="700" fill="#1f2937">원전 사고 등급(INES): 0~7등급의 기준과 대표 사례</text>
+  <text x="20" y="58" font-size="13" fill="#6b7280">위로 한 칸 오를 때마다 심각도가 약 10배가 되도록 설계한 로그 척도</text>
+
+  <!-- column headers -->
+  <g font-size="12" font-weight="700" fill="#1f2937">
+    <text x="60" y="86">등급</text>
+    <text x="266" y="86">이름 · 판정 기준</text>
+    <text x="452" y="86">대표 사례</text>
+  </g>
+  <line x1="20" y1="91" x2="700" y2="91" stroke="#d1d5db" stroke-width="1"/>
+
+  <!-- brackets -->
+  <g stroke="#1f2937" stroke-width="1.5" fill="none">
+    <polyline points="54,98 48,98 48,244 54,244"/>
+    <polyline points="54,258 48,258 48,364 54,364"/>
+  </g>
+  <text x="34" y="171" font-size="13" font-weight="700" fill="#b45309" text-anchor="middle" transform="rotate(-90 34 171)">사고 (4~7등급)</text>
+  <text x="34" y="311" font-size="12" font-weight="700" fill="#0b6e4f" text-anchor="middle" transform="rotate(-90 34 311)">사건 (1~3등급)</text>
+
+  <!-- bars: row top = 96 + 40*i, width = 36 + 22*level -->
+  <rect x="60" y="96" width="190" height="30" rx="3" fill="#f5a623"/>
+  <rect x="60" y="136" width="168" height="30" rx="3" fill="#f5a623"/>
+  <rect x="60" y="176" width="146" height="30" rx="3" fill="#f5a623"/>
+  <rect x="60" y="216" width="124" height="30" rx="3" fill="#f5a623"/>
+  <rect x="60" y="256" width="102" height="30" rx="3" fill="#0b6e4f"/>
+  <rect x="60" y="296" width="80" height="30" rx="3" fill="#0b6e4f"/>
+  <rect x="60" y="336" width="58" height="30" rx="3" fill="#0b6e4f"/>
+  <rect x="60" y="376" width="36" height="30" rx="3" fill="#9ca3af"/>
+
+  <g font-size="16" font-weight="700">
+    <text x="70" y="117" fill="#1f2937">7</text>
+    <text x="70" y="157" fill="#1f2937">6</text>
+    <text x="70" y="197" fill="#1f2937">5</text>
+    <text x="70" y="237" fill="#1f2937">4</text>
+    <text x="70" y="277" style="fill:#fff">3</text>
+    <text x="70" y="317" style="fill:#fff">2</text>
+    <text x="70" y="357" style="fill:#fff">1</text>
+    <text x="70" y="397" style="fill:#fff">0</text>
+  </g>
+
+  <!-- names (y = top + 14) and criteria (y = top + 28) -->
+  <g font-size="14" font-weight="700" fill="#1f2937">
+    <text x="266" y="110">대형 사고</text>
+    <text x="266" y="150">심각한 사고</text>
+    <text x="266" y="190">광범위한 영향의 사고</text>
+    <text x="266" y="230">국지적 영향의 사고</text>
+    <text x="266" y="270">심각한 사건</text>
+    <text x="266" y="310">사건</text>
+    <text x="266" y="350">이상</text>
+    <text x="266" y="390">등급 이하</text>
+  </g>
+  <g font-size="11" fill="#6b7280">
+    <text x="266" y="124">수만 TBq 초과 방출</text>
+    <text x="266" y="164">수천~수만 TBq 방출</text>
+    <text x="266" y="204">수백~수천 TBq 방출</text>
+    <text x="266" y="244">수십~수백 TBq 또는 사망</text>
+    <text x="266" y="284">종사자 연간한도 10배 초과 등</text>
+    <text x="266" y="324">일반인 10mSv 초과 피폭 등</text>
+    <text x="266" y="364">심층방어 저하</text>
+    <text x="266" y="404">안전상 의미 없음</text>
+  </g>
+
+  <!-- examples (y = top + 14), notes (y = top + 28) -->
+  <g font-size="12" fill="#1f2937">
+    <text x="452" y="110">체르노빌(1986) · 후쿠시마(2011)</text>
+    <text x="452" y="150">키시팀(1957) 고준위 폐기물 탱크 폭발</text>
+    <text x="452" y="190">윈즈케일(1957) · 스리마일(1979)</text>
+    <text x="452" y="230">도카이무라 JCO 임계사고(1999)</text>
+    <text x="452" y="270">반데요스, 스페인(1989) 화재</text>
+    <text x="452" y="310">고리1호기(2012) · 한빛1호기(2019)</text>
+    <text x="452" y="350">안전설비의 경미한 문제 등</text>
+    <text x="452" y="390">국내 2016~2025년 63건</text>
+  </g>
+  <g font-size="11" fill="#6b7280">
+    <text x="452" y="124">후쿠시마 방출량은 체르노빌의 약 10%</text>
+    <text x="452" y="204">스리마일은 방출이 아닌 노심 손상 기준</text>
+    <text x="452" y="244">작업자 사망</text>
+    <text x="452" y="324">국내 최고 등급(누적 4건)</text>
+    <text x="452" y="364">국내 2016~2025년 16건</text>
+  </g>
+
+  <line x1="20" y1="416" x2="700" y2="416" stroke="#d1d5db" stroke-width="1"/>
+  <text x="20" y="436" font-size="12" fill="#1f2937">4~7등급 방출량은 요오드-131로 환산한 대기 방출량입니다(1TBq = 1조 Bq).</text>
+  <text x="20" y="454" font-size="12" fill="#1f2937">안전과 무관한 사건은 척도에 올리지 않습니다(등급 외, out of scale).</text>
+  <text x="20" y="476" font-size="11" fill="#6b7280">자료: IAEA INES 사용자 매뉴얼 2008년판(2009 발행) · IAEA INES 안내 자료, 일본 원자력안전·보안원(2011.4.12),</text>
+  <text x="20" y="492" font-size="11" fill="#6b7280">한국원자력안전기술원 원전안전운영정보시스템(OPIS, 2026년 11월 27일 조회). 국내 건수는 시운전 중 사건 포함.</text>
+</svg>
