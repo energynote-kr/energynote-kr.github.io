@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="t" font-family="Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+  <title id="t">광자 1개의 에너지로 본 MRI 전파의 위치: 1.5T·3T MRI 전파, 전자레인지, 가시광선, 자외선, 진단 X선, 감마선을 이온화 문턱 약 10eV와 비교</title>
+  <style>
+    .title { font-size: 18px; font-weight: 800; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .label { font-size: 13px; font-weight: 700; fill: #1f2937; }
+    .value { font-size: 12px; fill: #1f2937; }
+    .tick { font-size: 12px; fill: #6b7280; }
+    .region { font-size: 13px; font-weight: 700; }
+    .src { font-size: 10.5px; fill: #6b7280; }
+  </style>
+  <rect x="0" y="0" width="720" height="500" fill="#f8faf9"/>
+
+  <text x="24" y="34" class="title">MRI 전파와 X선, 광자 하나의 에너지는 얼마나 다를까</text>
+  <text x="24" y="56" class="sub">광자 에너지 E = h × f · 가로축은 로그 눈금(눈금 한 칸이 100배)</text>
+
+  <!-- x(E) = 60 + (log10 E + 8) × 40 ; 1eV → 380, 10eV → 420 -->
+  <rect x="60" y="112" width="360" height="148" fill="#0b6e4f" opacity="0.08"/>
+  <rect x="420" y="112" width="240" height="148" fill="#f5a623" opacity="0.14"/>
+  <text x="240" y="134" class="region" text-anchor="middle" style="fill:#0b6e4f">비전리 · 원자를 이온화하지 못함</text>
+  <text x="560" y="134" class="region" text-anchor="middle" style="fill:#b45309">전리 방사선</text>
+
+  <!-- 이온화 문턱 -->
+  <line x1="420" y1="100" x2="420" y2="268" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="420" y="92" class="label" text-anchor="middle">이온화 문턱 약 10eV대</text>
+
+  <!-- 축 -->
+  <line x1="60" y1="260" x2="660" y2="260" stroke="#6b7280" stroke-width="1.5"/>
+  <g stroke="#6b7280">
+    <line x1="60" y1="260" x2="60" y2="266"/>
+    <line x1="140" y1="260" x2="140" y2="266"/>
+    <line x1="220" y1="260" x2="220" y2="266"/>
+    <line x1="300" y1="260" x2="300" y2="266"/>
+    <line x1="380" y1="260" x2="380" y2="266"/>
+    <line x1="460" y1="260" x2="460" y2="266"/>
+    <line x1="540" y1="260" x2="540" y2="266"/>
+    <line x1="620" y1="260" x2="620" y2="266"/>
+  </g>
+  <text x="60" y="282" class="tick" text-anchor="middle">10⁻⁸</text>
+  <text x="140" y="282" class="tick" text-anchor="middle">10⁻⁶</text>
+  <text x="220" y="282" class="tick" text-anchor="middle">10⁻⁴</text>
+  <text x="300" y="282" class="tick" text-anchor="middle">10⁻²</text>
+  <text x="388" y="282" class="tick" text-anchor="end">1eV</text>
+  <text x="460" y="282" class="tick" text-anchor="middle">10²</text>
+  <text x="540" y="282" class="tick" text-anchor="middle">10⁴</text>
+  <text x="618" y="282" class="tick" text-anchor="end">10⁶</text>
+
+  <!-- MRI 1.5T~3T: 2.6e-7 ~ 5.3e-7 eV → x 117 ~ 129 -->
+  <rect x="115" y="252" width="16" height="16" rx="4" fill="#f5a623" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="123" y1="228" x2="123" y2="250" stroke="#1f2937"/>
+  <text x="123" y="172" class="label" text-anchor="middle">MRI 전파</text>
+  <text x="123" y="190" class="value" text-anchor="middle">1.5T 64MHz · 3T 128MHz</text>
+  <text x="123" y="208" class="value" text-anchor="middle">약 2.6~5.3×10⁻⁷eV</text>
+
+  <!-- 전자레인지 2.45GHz: 1e-5 eV → x 180 -->
+  <circle cx="180" cy="260" r="6" fill="#6b7280"/>
+  <line x1="180" y1="268" x2="180" y2="296" stroke="#6b7280"/>
+  <text x="180" y="314" class="label" text-anchor="middle">전자레인지 2.45GHz</text>
+  <text x="180" y="332" class="value" text-anchor="middle">약 1×10⁻⁵eV</text>
+
+  <!-- 가시광선 1.7~3.3 eV → x 389 ~ 401 -->
+  <rect x="389" y="255" width="12" height="10" fill="#0b6e4f"/>
+  <line x1="398" y1="266" x2="398" y2="296" stroke="#0b6e4f"/>
+  <text x="398" y="314" class="label" text-anchor="middle">가시광선</text>
+  <text x="398" y="332" class="value" text-anchor="middle">약 1.7~3.3eV</text>
+
+  <!-- 자외선 3.1~12.4 eV → x 400 ~ 424 -->
+  <rect x="401" y="255" width="23" height="10" fill="#6b7280"/>
+  <line x1="470" y1="228" x2="420" y2="254" stroke="#6b7280"/>
+  <text x="470" y="190" class="label" text-anchor="middle">자외선</text>
+  <text x="470" y="208" class="value" text-anchor="middle">약 3~12eV</text>
+
+  <!-- 진단 X선 20~150 keV → x 532 ~ 567 -->
+  <rect x="532" y="255" width="35" height="10" fill="#b45309"/>
+  <line x1="560" y1="228" x2="550" y2="254" stroke="#b45309"/>
+  <text x="575" y="172" class="label" text-anchor="middle">진단 X선</text>
+  <text x="575" y="190" class="value" text-anchor="middle">(CT 포함)</text>
+  <text x="575" y="208" class="value" text-anchor="middle">수십 keV</text>
+
+  <!-- 감마선 Co-60 1.17/1.33 MeV → x 624 -->
+  <circle cx="624" cy="260" r="6" fill="#b45309"/>
+  <line x1="624" y1="268" x2="624" y2="296" stroke="#b45309"/>
+  <text x="620" y="314" class="label" text-anchor="middle">감마선(Co-60)</text>
+  <text x="620" y="332" class="value" text-anchor="middle">약 1.2~1.3MeV</text>
+
+  <text x="360" y="360" class="sub" text-anchor="middle">← 광자 1개의 에너지가 작다 · 크다 →</text>
+
+  <rect x="24" y="374" width="672" height="60" rx="8" fill="#0b6e4f"/>
+  <text x="40" y="399" style="font-size:13px; font-weight:700; fill:#fff">MRI 전파 광자의 에너지는 이온화 문턱의 약 2천만~4천만분의 1</text>
+  <text x="40" y="421" style="font-size:13px; font-weight:700; fill:#fff">진단 X선 광자는 MRI 광자보다 수백억~수천억 배 크다 · MRI가 DNA를 이온화하지 못하는 이유</text>
+
+  <text x="24" y="456" class="src">계산: E = h × f, h ≈ 4.136×10⁻¹⁵ eV·s, 양성자 공명 주파수 약 42.58MHz/T(NIST CODATA). 1.5T → 63.9MHz, 3T → 127.7MHz.</text>
+  <text x="24" y="472" class="src">자외선은 파장 100~400nm 범위, 진단 X선은 대략 20~150keV, Co-60 감마선 1.17·1.33MeV. 이온화 문턱은 원자·분자마다 다른 대략값.</text>
+  <text x="24" y="488" class="src">필자 계산 · 기준 시점 2026년 11월.</text>
+</svg>
